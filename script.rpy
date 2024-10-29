@@ -3,31 +3,21 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
+define raden = Character("Raden")
+define santo = Character("Santo")
+define sekar = Character("Sekar")
+define aisyah = Character("Aisyah")
+define lo1 = Character("LO 1")
+define lo2 = Character("LO 2")
+define lo3 = Character("LO 3")
+define npc1 = Character("NPC 1")
+define npc2 = Character("NPC 2")
+define npc3 = Character("NPC 3")
 
 # The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
+    jump scene1
 
     return
