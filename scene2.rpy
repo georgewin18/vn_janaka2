@@ -1,5 +1,5 @@
 label scene2:
-    
+
     raden "Mana ya, Oh?!"
 
     raden "Aisyah!!!"
