@@ -1,31 +1,33 @@
+label scene2:
+    
+    raden "Mana ya, Oh?!"
 
+    raden "Aisyah!!!"
 
+    aisyah "Iya......siapa ya??"
 
+    raden "Ha..."
 
-raden "Mana ya, Oh?!"
+    aisyah "Hmm??"
 
-raden "Aisyah!!!"
+    raden "Tunggu tunggu, jangan bilang kamu lupa...?"
 
-aisyah "Iya......siapa ya??"
+    aisyah "iyaa....??"
 
-raden "Ha..."
+    raden "(Hau!!(suara kesakitan) jadi ini rasanya terlupakan....)"
 
-aisyah "Hmm??"
+    raden "Beneran lupa ya....kita kan pernah ketemu di kampus sebulan kemarin pas lagi ambil jas almet."
 
-raden "Tunggu tunggu, jangan bilang kamu lupa...?"
+    aisyah "Ya-yang mana ya, aku ketemu banyak orang pas ngambil jas jadi aku ga inget semuanya."
 
-aisyah "iyaa....??"
+    raden "yah, mau gimana lagi. Aku emang bukan orang yang mencolok, lain kali aku bakal pake topi koboi biar mencolok AHAHAHHHAA"
 
-raden "(Hau!!(suara kesakitan) jadi ini rasanya terlupakan....)"
+    aisyah "he-hehe-he...??(ketawa keheranan)"
 
-raden "Beneran lupa ya....kita kan pernah ketemu di kampus sebulan kemarin pas lagi ambil jas almet."
+    raden "Oke lah, biarkan aku memperkenalkan diri AKU-"
 
-aisyah "Ya-yang mana ya, aku ketemu banyak orang pas ngambil jas jadi aku ga inget semuanya."
+    "*Buakl!!!--"
 
-raden "yah, mau gimana lagi. Aku emang bukan orang yang mencolok, lain kali aku bakal pake topi koboi biar mencolok AHAHAHHHAA"
+    jump scene3
 
-aisyah "he-hehe-he...??(ketawa keheranan)"
-
-raden "Oke lah, biarkan aku memperkenalkan diri AKU-"
-
-"*Buakl!!!--"
+    return
