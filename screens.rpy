@@ -4,7 +4,6 @@
 
 init offset = -1
 
-
 ################################################################################
 ## Styles
 ################################################################################
@@ -136,13 +135,13 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/textbox.png", xalign=0.5, yalign=1.8)
 
 style namebox:
-    xpos gui.name_xpos
+    xpos 400
     xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
+    xsize 270
+    ypos -75
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -150,7 +149,11 @@ style namebox:
 
 style say_label:
     properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
+    font "fonts/Poppins-Bold.ttf"
+    color "#ffffff"
+    outlines [ (absolute(4), "#3a72cd", 0, 0) ]
+    size 34
+    xalign 0.5
     yalign 0.5
 
 style say_dialogue:
@@ -158,7 +161,7 @@ style say_dialogue:
 
     xpos gui.dialogue_xpos
     xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
+    ypos 20
 
     adjust_spacing False
 
@@ -242,21 +245,24 @@ screen quick_menu():
     zorder 100
 
     if quick_menu:
-
+        add "gui/quickmenu.png" align (0.5, 1.01)
+        
         hbox:
+            spacing 40
             style_prefix "quick"
+            yoffset -10
 
             xalign 0.5
             yalign 1.0
 
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            #textbutton _("Q.Save") action QuickSave()
+            textbutton _("Load") action QuickLoad()
+            #textbutton _("Prefs") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -286,28 +292,31 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
-
     vbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+        if renpy.get_screen('main_menu'):
+            xalign 0.93
+            yalign 0.8
+        else:
+            xpos 75
+            yalign 0.5
 
         spacing gui.navigation_spacing
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("Start") action Start() text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            textbutton _("History") action ShowMenu("history") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Save") action ShowMenu("save") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-        textbutton _("Load") action ShowMenu("load")
+        textbutton _("Load") action ShowMenu("load") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Preferences") action ShowMenu("preferences") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
         if _in_replay:
 
@@ -315,24 +324,41 @@ screen navigation():
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("Main Menu") action MainMenu() text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-        textbutton _("About") action ShowMenu("about")
+        textbutton _("About") action ShowMenu("about") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            textbutton _("Help") action ShowMenu("help") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
         if renpy.variant("pc"):
 
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit") action Quit(confirm=not main_menu) text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
+
+style nav_main_menu is gui_button_text
+style nav_game_menu is gui_button_text
+
+style nav_main_menu:
+    properties gui.button_properties("navigation_button")
+    idle_color "#ffffff"
+    selected_color "#ffc2c2"
+    outlines [ (absolute(4), "#ff5eb6", 0, 0) ]
+    xalign 1.0
+
+style nav_game_menu:
+    properties gui.button_properties("navigation_button")
+    idle_color "#ffffff"
+    selected_color "#ffc2c2"
+    outlines [ (absolute(4), "#ff5eb6", 0, 0) ]
+    xalign 0.0
 
 style navigation_button:
     size_group "navigation"
@@ -354,6 +380,7 @@ screen main_menu():
     tag menu
 
     add gui.main_menu_background
+    add "images/cover.png" zoom 0.55 ypos 200
 
     ## This empty frame darkens the main menu.
     frame:
@@ -385,7 +412,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    #background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
@@ -478,8 +505,6 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
         action Return()
 
-    label title
-
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
 
@@ -495,7 +520,7 @@ style game_menu_label is gui_label
 style game_menu_label_text is gui_label_text
 
 style return_button is navigation_button
-style return_button_text is navigation_button_text
+style return_button_text is nav_game_menu
 
 style game_menu_outer_frame:
     bottom_padding 45
@@ -531,9 +556,10 @@ style game_menu_label_text:
     yalign 0.5
 
 style return_button:
-    xpos gui.navigation_xpos
+    xpos 75
     yalign 1.0
-    yoffset -45
+    yoffset -80
+    
 
 
 ## About screen ################################################################
@@ -1301,34 +1327,40 @@ style notify_text:
 
 screen nvl(dialogue, items=None):
 
-    window:
-        style "nvl_window"
+    #### ADD THIS TO MAKE THE PHONE WORK!! :) ###
+    if nvl_mode == "phone":
+        use PhoneDialogue(dialogue, items)
+    else:
+    ####
+    ## Indent the rest of the screen
+        window:
+            style "nvl_window"
 
-        has vbox:
-            spacing gui.nvl_spacing
+            has vbox:
+                spacing gui.nvl_spacing
 
-        ## Displays dialogue in either a vpgrid or the vbox.
-        if gui.nvl_height:
+            ## Displays dialogue in either a vpgrid or the vbox.
+            if gui.nvl_height:
 
-            vpgrid:
-                cols 1
-                yinitial 1.0
+                vpgrid:
+                    cols 1
+                    yinitial 1.0
+
+                    use nvl_dialogue(dialogue)
+
+            else:
 
                 use nvl_dialogue(dialogue)
 
-        else:
+            ## Displays the menu, if given. The menu may be displayed incorrectly if
+            ## config.narrator_menu is set to True, as it is above.
+            for i in items:
 
-            use nvl_dialogue(dialogue)
+                textbutton i.caption:
+                    action i.action
+                    style "nvl_button"
 
-        ## Displays the menu, if given. The menu may be displayed incorrectly if
-        ## config.narrator_menu is set to True.
-        for i in items:
-
-            textbutton i.caption:
-                action i.action
-                style "nvl_button"
-
-    add SideImage() xalign 0.0 yalign 1.0
+        add SideImage() xalign 0.0 yalign 1.0
 
 
 screen nvl_dialogue(dialogue):
