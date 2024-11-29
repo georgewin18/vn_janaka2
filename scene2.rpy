@@ -1,32 +1,16 @@
 label scene2:
+    scene bg kamar_raden with dissolve:
+        zoom 0.5
 
-    raden "Mana ya, Oh?!"
+    "Hampir saja kelupaan, sepertinya kalian belum mengenal diriku"
 
-    raden "Aisyah!!!"
+    raden "Kenalin namaku Raden Praditya Wicaksono, Biasa dikenal sebagai Raden"
 
-    aisyah "Iya......siapa ya??"
+    raden "Baru-baru ini aku menjadi mahasiswa di PENS, Politeknik Elektronika Negeri Surabaya. Sebenarnya, aku awalnya berpikir untuk langsung lanjut kerja saja"
 
-    raden "Ha..."
+    raden "tapi teman tongkronganku selalu berkata kalau aku harus kuliah untuk mendapat karir yang lebih bagus. Dia juga yang merekomendasikan untuk masuk ke PENS"
 
-    aisyah "Hmm??"
-
-    raden "Tunggu tunggu, jangan bilang kamu lupa...?"
-
-    aisyah "iyaa....??"
-
-    raden "(Hau!!(suara kesakitan) jadi ini rasanya terlupakan....)"
-
-    raden "Beneran lupa ya....kita kan pernah ketemu di kampus sebulan kemarin pas lagi ambil jas almet."
-
-    aisyah "Ya-yang mana ya, aku ketemu banyak orang pas ngambil jas jadi aku ga inget semuanya."
-
-    raden "yah, mau gimana lagi. Aku emang bukan orang yang mencolok, lain kali aku bakal pake topi koboi biar mencolok AHAHAHHHAA"
-
-    aisyah "he-hehe-he...??(ketawa keheranan)"
-
-    raden "Oke lah, biarkan aku memperkenalkan diri AKU-"
-
-    "*Buakl!!!--"
+    raden "Yang membuat ku berakhir melakukan tes SNBT di sini. Dan lulus sebagai Mahasiswa {b}Departemen Teknik Elektro{/b}"
 
     jump scene3
 
