@@ -8,6 +8,8 @@ label scene4:
     show sekar jas_teriak:
         zoom 1.15 xalign 0.7 yalign 0.03
 
+    play music sekar_bgm fadein 1.0
+
     voice "audio/vo/sekar/pkkmb1_ayo_baris.flac"
     sekar "\"Aldebaran! Ayo berbaris dua banjar.\""
 
@@ -61,6 +63,8 @@ label scene4:
     "Daripada menunda waktu lebih lama, kak Sekar langsung menyuruh kami untuk sholat. Dengan serentak, kami membubarkan barisan untuk sholat."
 
     hide sekar with dissolve
+
+    stop music fadeout 2.0
 
     scene black with dissolve
     with Pause(0.2)

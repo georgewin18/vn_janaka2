@@ -21,6 +21,10 @@ define rna = Character("Raden & Aisyah")
 
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 
+define audio.raden_bgm = "audio/bgm/raden.flac"
+define audio.aisyah_bgm = "audio/bgm/aisyah_sweet.flac"
+define audio.sekar_bgm = "audio/bgm/sekar.flac"
+define audio.fania_bgm = "audio/bgm/fania_energic.flac"
 
 # The game starts here.
 

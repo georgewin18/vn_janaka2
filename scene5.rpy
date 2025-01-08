@@ -19,7 +19,9 @@ label scene5:
 
         show aisyah kemeja_bicara with dissolve:
                 zoom 0.3 xalign 0.85 yalign 6.0
-                
+
+        play music aisyah_bgm fadein 1.0
+
         raden "\"Kamu sudah shalat?\""
 
         voice "audio/vo/aisyah/pkkmb9_aku_halangan.mp3"
@@ -57,6 +59,8 @@ label scene5:
         "Begitu terang hingga terasa menyilaukan\""
 
         "Aku penasaran, seperti apa bayangan yang tersembunyi di balik cahaya itu?"
+
+        stop music fadeout 2.0
 
         scene black with dissolve
         with Pause(0.2)

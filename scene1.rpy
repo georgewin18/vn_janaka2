@@ -44,16 +44,18 @@ label scene1:
 
     "Hampir saja kelupaan, sepertinya kalian belum mengenal diriku"
 
+    play music raden_bgm fadein 1.0
+
     show raden biasa with dissolve:
         zoom 0.2 xalign 0.5 yalign 0.0
 
-    raden "Kenalin namaku Raden Praditya Wicaksono, Biasa dikenal sebagai Raden"
+    raden "\"Kenalin namaku Raden Praditya Wicaksono, Biasa dikenal sebagai Raden\""
 
-    raden "Baru-baru ini aku menjadi mahasiswa di PENS, Politeknik Elektronika Negeri Surabaya. Sebenarnya, aku awalnya berpikir untuk langsung lanjut kerja saja"
+    raden "\"Baru-baru ini aku menjadi mahasiswa di PENS, Politeknik Elektronika Negeri Surabaya. Sebenarnya, aku awalnya berpikir untuk langsung lanjut kerja saja\""
 
-    raden "tapi teman tongkronganku selalu berkata kalau aku harus kuliah untuk mendapat karir yang lebih bagus. Dia juga yang merekomendasikan untuk masuk ke PENS"
+    raden "\"tapi teman tongkronganku selalu berkata kalau aku harus kuliah untuk mendapat karir yang lebih bagus. Dia juga yang merekomendasikan untuk masuk ke PENS\""
 
-    raden "Yang membuat ku berakhir melakukan tes SNBT di sini. Dan lulus sebagai Mahasiswa {b}Departemen Teknik Elektro{/b}"
+    raden "\"Yang membuat ku berakhir melakukan tes SNBT di sini. Dan lulus sebagai Mahasiswa {b}Departemen Teknik Elektro{/b}\""
 
     jump scene2
 

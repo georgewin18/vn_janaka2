@@ -19,7 +19,7 @@ label scene3:
 
     show black with dissolve
 
-    "\"Seseorang mencubit lengan bajuku dengan pelan dan membangunkanku\""
+    "Seseorang mencubit lengan bajuku dengan pelan dan membangunkanku"
 
     scene bg auditorium with dissolve:
         zoom 0.5
@@ -31,7 +31,7 @@ label scene3:
     with dissolve
     
     voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.mp3"
-    aisyah "Raden, jangan tidur dong"
+    aisyah "\"Raden, jangan tidur dong\""
 
     menu:
         "A-aku ga tidur kok!":
@@ -43,23 +43,23 @@ label scene3:
 
 label scene4_choice1:
     voice "audio/vo/aisyah/pkkmb7-1_hmmm.mp3"
-    aisyah "HMMM?!!"
+    aisyah "\"HMMM?!!\""
 
     jump scene4_after_choice
 
 label scene4_choice2:
     voice "audio/vo/aisyah/pkkmb7-2_hah.mp3"
-    aisyah "Hah.."
+    aisyah "\"Hah..\""
 
     jump scene4_after_choice
 
 label scene4_after_choice:
     voice "audio/vo/aisyah/pkkmb8_ayo_catet.mp3"
-    aisyah "Ayo catet juga materinya"
+    aisyah "\"Ayo catet juga materinya\""
 
-    raden "I-iya, makasih Aisyah"
+    raden "\"I-iya, makasih Aisyah\""
 
-    "\"Aku memperhatikan materi tersebut dengan seksama dan mencatat poin-poin penting dari materi yang ada\""
+    "Aku memperhatikan materi tersebut dengan seksama dan mencatat poin-poin penting dari materi yang ada"
 
     # show sekar jas_bicara at Transform(matrixcolor=(silhouette)):
     #     zoom 0.78 xalign 0.1 yalign -0.2
@@ -130,6 +130,8 @@ label scene4_after_choice:
     # "Tanpa pikir panjang aku langsung menuju ke arah yang ditunjukkan oleh si panitia. Dan menemukan toiletnya."
     # "Cuci muka telah kulakukan dan perasaaan segar kembali memenuhi diriku. Aku langsung menuju auditorium."
     # "Sesampainya di auditorium, tidak ada banyak yang terjadi. Hanya ada banyak materi yang dibagikan. Yang membuatku semakin mengantuk."
+
+    stop music fadeout 2.0
 
     scene black with dissolve
     with Pause(0.2)
