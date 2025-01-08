@@ -11,6 +11,8 @@ label scene6:
                 zoom 1.1 xalign 0.5
         with dissolve
 
+        play music fania_bgm fadein 1.0
+
         anon "Ahhh, akhirnya selesai juga!"
 
         raden "Iya, capek banget."
@@ -48,6 +50,8 @@ label scene6:
 
         scene black with dissolve
         with Pause(0.3)
+
+        stop music fadeout 2.0
 
         $ quick_menu = False
         centered "{i}To be continued...{/i}"
