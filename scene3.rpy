@@ -1,92 +1,135 @@
 label scene3:
-# [Scene 3]
-# Latar : Gerbang Masuk PENS, depan parkiran D3, lapmer, di dalam Pascasarjana, Pascasarjana lantai 6, dan di depan Auditorium.
-# Karakter: Raden, Santo, dan Aisyah
-    scene bg lapmer with dissolve:
+    # [Scene 3]
+    # Latar: Dalam Auditorium
+    # Karakter: Raden, Aisyah, Sekar, dan Tessa
+    scene bg auditorium with dissolve:
         zoom 0.5
 
-    "Pukul 05.55, aku akhirnya sampai di depan kampus. Aku terdiam sejenak dan berpikir"
+    show raden biasa with dissolve:
+        zoom 0.2 xalign 0.5 yalign 0.0
 
-    raden "Tidak kusangka aku benar benar menjadi seorang Mahasiswa."
+    "Di dalam Auditorium sangatlah penuh. Kurasa, sudah lebih dari 100 anak yang telah masuk ke ruangan ini."
+    
+    "Aku mencari tempat duduk yang kosong di sekitar teman satu region. Sayangnya, semuanya penuh kecuali dua kursi kosong yang barisan ketiga dari depan. Mau tidak mau aku dan Aisyah duduk disana."
+    
+    "Jam menunjukkan pukul 06.30. Layar di depan kami mulai memainkan video latar belakang berdirinya PENS."
+    
+    #nanti diubah narasinya
+    "Sayangnya, video yang diputar hanya tentang itu terus sampai beberapa waktu kemudian. Hal ini membuatku mengantuk karena kebosanan. Lama kelamaan mataku terasa sangat berat. Yang membuat diriku akhirnya tertidur."
 
-    "Suasana di kampus sangatlah ramai dan penuh semangat dan antrian registrasi terlihat sangat ramai. Terlihat sangat banyak mahasiswa yang sangat antusias. Aku pun pergi untuk mengantri, antrian terlihat sangatlah panjang."
-    "Meskipun antrian sudah dibagi menjadi empat Banjar. Untungnya, para panitia terlihat sangat terorganisir yang membuat situasinya tetap terkendali. Kemudian aku mendengar seseorang yang mengeluh dibelakangku."
+    show black with dissolve
 
-    anon "Hmmmmm, ini antrinya lama banget sih," # keluh suara dari belakangku. (Aisyah sedikit kesal)
+    "\"Seseorang mencubit lengan bajuku dengan pelan dan membangunkanku\""
 
-    show aisyah kemeja_bingung at Transform(matrixcolor=(silhouette)):
-        zoom 0.26 xalign 0.5 yalign 0.8
+    scene bg auditorium with dissolve:
+        zoom 0.5
+
+    show raden biasa:
+        zoom 0.2 xalign 0.12 yalign 0.0
+    show aisyah kemeja_penasaran:
+        zoom 0.3 xalign 0.85 yalign 6.0
     with dissolve
-
-    "Aku menoleh ke belakang dan melihat seorang perempuan berkerudung." 
     
-    show aisyah kemeja_bingung with dissolve:
-        zoom 0.26 xalign 0.5 yalign 0.8
+    voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.mp3"
+    aisyah "Raden, jangan tidur dong"
 
-    "Ekspresi wajahnya terlihat kesal."
+    menu:
+        "A-aku ga tidur kok!":
+            jump scene4_choice1
+        "E-eh, waduh maaf!":
+            jump scene4_choice2
+
+    return
+
+label scene4_choice1:
+    voice "audio/vo/aisyah/pkkmb7-1_hmmm.mp3"
+    aisyah "HMMM?!!"
+
+    jump scene4_after_choice
+
+label scene4_choice2:
+    voice "audio/vo/aisyah/pkkmb7-2_hah.mp3"
+    aisyah "Hah.."
+
+    jump scene4_after_choice
+
+label scene4_after_choice:
+    voice "audio/vo/aisyah/pkkmb8_ayo_catet.mp3"
+    aisyah "Ayo catet juga materinya"
+
+    raden "I-iya, makasih Aisyah"
+
+    "\"Aku memperhatikan materi tersebut dengan seksama dan mencatat poin-poin penting dari materi yang ada\""
+
+    # show sekar jas_bicara at Transform(matrixcolor=(silhouette)):
+    #     zoom 0.78 xalign 0.1 yalign -0.2
+    # with dissolve
+
+    # lo1 "Kamu"
+
+    # show aisyah kemeja_gugup with dissolve:
+    #     zoom 0.25 xalign 0.8 yalign 0.8
+
+    # aisyah "Den, bangun den!" # (Aisyah panik)
+
+    # "Mendengar suara Aisyah, aku sontak terbangun dari tidurku. Aku melihat Aisyah yang menatapku dengan muka panik, dan seorang LO yang memperhatikanku dengan muka yang terlihat agak kesal."
     
-    "Terlihat dari name card yang dia pakai, sepertinya dia berada dalam satu region yang sama denganku."
+    # show sekar jas_bicara with dissolve:
+    #     zoom 0.78 xalign 0.1 yalign -0.2
+
+    # "LO tersebut mempunyai kulit kecoklatan, dengan rambut unik berwarna hijau. LO itu pun bertanya."
+
+    # hide aisyah with dissolve
+
+    # show sekar jas_bicara with moveinleft:
+    #     zoom 0.78 xalign 0.5 yalign -0.2
+
+    # lo1 "Tidurnya enak?" # (Sekar marah)
     
-    "Aku pun mencoba untuk berbicara dengannya."
-
-    raden "Halo." # ucapku. (Raden gugup)
+    # raden "Maaf kak!" # (Raden malu)
     
-    anon "Hah?" # jawab perempuan tersebut, mukanya berkerut menunjukkan kekesalannya. (Siluet Aisyah)
-
-    "Melihat ulang wajahnya, membuatku berpikir akan seseorang yang pernah ku kenal." # Aku berpikir sejenak
-
-    raden "{i}Hmm, muka putih nan cantik, berkerudung, dan rasanya wajahnya sangatlah familiar. Apakah aku pernah bertemu dengannya?{/i}" # (Raden berpikir) ujarku dalam hati.
-
-    "Aku masih berpikir. Sampai ketika, perempuan tersebut berbicara."
-
-    show aisyah kemeja_bicara with dissolve:
-        zoom 0.26 xalign 0.5 yalign 0.8
-
-    aisyah "Eh, Raden?" # ucap wanita tersebut. (Aisyah terkejut)
-
-    raden "Waduh, tau namaku dari mana kak?." # ucapku dengan kebingungan. (Raden bingung)
-
-    "Disaat itulah aku akhirnya mengingat siapa perempuan yang ada didepan ku ini. Dia adalah Aisyah seorang mahasiswi yang kutemui ketika mengambil jas almamater beberapa Minggu yang lalu. Kami pun berbincang ringan selama antrian bergerak maju."
+    # lo1 "Kemarin nggak tidur kah?" # (Sekar marah)
     
-    "Aisyah sekarang tampak lebih santai dan tidak menunjukkan kekesalannya lagi, dan percakapan juga bisa membuat waktu terasa lebih cepat."
-
-    "Akhirnya, tibalah giliranku di meja registrasi."
+    # raden "Maaf kak, karena terlalu semangat menunggu hari PKKMB jadinya saya tidur terlalu malam." # (Raden malu)
     
-    hide aisyah with dissolve
-
-    "Seorang panitia dengan senyum ramah menyambutku."
-
-    lo1 "Halo, atas nama..? NRP?"
-
-    raden "Raden, dengan NRP …." # jawabku.
-
-    "Setelah registrasi, aku langsung pergi untuk pengecekan barang dan menunggu Aisyah untuk berangkat menuju ke . Disana seorang Panitia bertanya kepada kami."
-
-    lo2 "Region apa dik?" # tanya kakak tersebut.
-    raden "Region {b}Aldebaran{/b}, kak" # jawabku.
-    lo2 "Aldebaran, itu ada di galaksi Bima Sakti. Berarti, nanti kalian naik tangga terus sampai lantai 6 ya!"
-    raden "Apa?? Lantai 6??" # sontak diriku kaget. (Raden kaget)
-    lo2 "Hahaha, terimalah nasib kalian dan tetap semangat" # kata kakak Panitia tersebut sambil tersenyum. (Panitia senyum)
-
-    "Tidak ada hal yang bisa ku ributkan. Meskipun begitu, berpikir untuk naik menuju lantai 6 saja sudah membuatku malas. Aku pun mencoba untuk mengobrol dengan Aisyah sembari menaiki tangga ini."
-
-    # Singkat cerita. Kami akhirnya sampai di lantai 6. 
-    raden "{i}Ternyata, tidak secapek yang kupikir.{/i}" # ujarku dalam hati.
-
-    scene bg depan_auditorium with dissolve:
-        zoom 0.5
-
-    "Kami berdiri di tempat untuk beberapa saat. Sampai ketika, seorang kakak panitia yang menjaga di sekitar sini bertanya kepada kami."
-
-    lo3 "Region apa dik?" # tanya panitia tersebut.
-
-    sekelompok "Kami dari region Aldebaran kak." # ucap kami secara bersamaan.
+    # lo1 "Yasudah, pergi cuci muka dulu sana." # (Sekar marah)
     
-    lo3 "Aldebaran?, kalau gitu langsung saja menuju ruangan Auditorium ya!, disana kamu bisa melihat panitia di sana yang menunggu di depan ruangan. Itu adalah ruangan kalian." # jawab kakak panitia tersebut.
-    
-    sekelompok "Terimakasih kak."
+    # raden "Baik, kak." # (Raden malu)
 
-    "Meskipun rasa lelah ini masih terasa. Kami langsung saja menuju ruangan tersebut, dengan pikiran kalau kita bisa langsung duduk setelah memasuki ruangan."
+    # hide sekar with dissolve
+
+    # "Mau tidak mau aku berdiri dari kursiku, dan pergi keluar ruangan. Tiba-tiba aku kepikiran, kalau aku lupa untuk bertanya arah menuju ke toilet. Untungnya di depan ruangan juga ada Panitia yang menjaga."
+    
+    # "Panitia yang menjaga di luar ada dua. Satu adalah pria dengan tubuh kekar dengan wajah yang galak dan satunya adalah seorang perempuan berambut merah dengan ujung rambutnya berwarna hitam."
+    
+    # "Ekspresi yang ditunjukkan perempuan tersebut juga lebih rileks dibandingkan dengan panitia pria satunya."
+    
+    # "Akupun menuju panitia tersebut, dan bertanya kepadanya."
+
+    # raden "Permisi kak." # (Raden neutral)
+
+    # "Tiba-tiba wajah agak kesal terlihat dari si panitia tersebut. Kemudian dia berkata."
+
+    # show tessa normal with dissolve:
+    #     zoom 0.27 xalign 0.5 yalign 1.5
+
+    # lo2 "Apa?" # (Tessa marah)
+
+    # raden "{i}Kenapa kakak ini tiba-tiba marah????{/i}" # (Raden bingung) ujarku dalam hati.
+
+    # raden "Permisi kak, saya mau bertanya arah ke toilet dimana?" # (Raden panik)
+
+    # "Melihat reaksi Raden, panitia tersebut menunjukkan senyuman. Dia kemudian berkata."
+
+    # lo2 "Hahahaha, tidak perlu panik. Aku hanya bercanda sedikit. Untuk toilet kamu langsung saja ke lurus ke arah sana. Jika kamu memperhatikan dengan benar, kamu pasti akan menemukan toilet tersebut." # (Tessa tertawa)
+    
+    # raden "Baik, kak. Terimakasih" # (Raden neutral)
+
+    # hide tessa with dissolve
+
+    # "Tanpa pikir panjang aku langsung menuju ke arah yang ditunjukkan oleh si panitia. Dan menemukan toiletnya."
+    # "Cuci muka telah kulakukan dan perasaaan segar kembali memenuhi diriku. Aku langsung menuju auditorium."
+    # "Sesampainya di auditorium, tidak ada banyak yang terjadi. Hanya ada banyak materi yang dibagikan. Yang membuatku semakin mengantuk."
 
     scene black with dissolve
     with Pause(0.2)

@@ -1,65 +1,62 @@
 label scene5:
-        show bg auditorium:
-                zoom 0.5 
+        scene bg masjid:
+                zoom 0.5
         with dissolve
 
-        "Adzan telah terdengar. Waktu ISHOMA telah dimulai. Aku yang mengantuk sedari tadi, mulai merasa semangat lagi. LO region ku mulai memanggil anggota region untuk berkumpul."
+        show raden biasa with dissolve:
+                zoom 0.2 xalign 0.5 yalign 0.0
 
-        show sekar jas_teriak:
-                anchor (-0.45, -0.1) zoom 0.7  
+        raden "\"Alhamdulillah!\""
 
-        lo "Aldebaran! Ayo berbaris dua banjar."
+        "Syukurlah aku masih sempat ikut shalat berjamaah di bagian pertama. Sekarang masih ada sedikit waktu untuk beristirahat."
 
-        "Sebagai mahasiswa yang baik, tentu saja aku langsung mengikuti arahannya."
+        "Aku merenggangkan tubuh sambil memandang sekeliling. Sebuah senyuman tipis muncul di wajahku, merasa lega karena akhirnya aku bisa menempuh kuliah di kampus yang bagus."
+        
+        "Saat itu, mataku berhenti pada Aisyah yang sedang duduk di taman depan masjid."
 
-        "Ketika aku tidak sengaja melihat ke arah LO. Aku menyadari kalau panitia perempuan yang membangunkanku tadi pagi adalah LO ku yang bernama kak Sekar."
+        show raden biasa with moveinright:
+                zoom 0.2 xalign 0.12 yalign 0.0
 
-        "Kak Sekar langsung menyuruh kami untuk berhitung dari banjar kiri terlebih dahulu. Jika ada yang kurang, Kak Sekar akan menyuruh kami untuk mengulang hitungan dari awal."
+        show aisyah kemeja_bicara with dissolve:
+                zoom 0.3 xalign 0.85 yalign 6.0
+                
+        raden "\"Kamu sudah shalat?\""
 
-        "Untungnya, semuanya sudah kondusif, jadi tidak ada perhitungan ulang dan kita langsung diarahkan menuju ke masjid."
+        voice "audio/vo/aisyah/pkkmb9_aku_halangan.mp3"
+        aisyah "\"Aku halangan hari ini\""
 
-        "Ketika kita turun, entah kenapa kita menggunakan tangga darurat dan bukan tangga biasa. Kurasa, hal ini tidak perlu dipertanyakan. Jadi aku hanya diam mengikuti arahan Kak Sekar."
+        "Ngomong apa sih aku ini? Seharusnya bisa lebih mengerti. Oke, sekarang coba buat suasana jadi lebih santai supaya nggak canggung"
 
-        show bg masjid:
-                zoom 0.5 
-        with dissolve
+        raden "\"Ehh... errmmm...\""
 
-        raden "\"Akhirnya sampai juga di masjid, jika aku disuruh lebih lama menunggu di dalam tangga darurat pasti sudah pingsan aku.\" Ujarku dalam hati."
+        voice "audio/vo/aisyah/pkkmb10_kenapa.mp3"
+        aisyah "\"Kenapa?\""
 
-        show sekar jas_teriak:
-                anchor (-0.45, -0.1) zoom 0.7
+        raden "\"Uh.. enggak, cuman... jika tidak shalat, kenapa capek-capek turun? Belum lagi nanti naiknya\""
 
-        sekar "Aldebaran berhenti terlebih dahulu! Mari berhitung dimulai dari banjar sebelah kiri saya!"
+        show aisyah kemeja_senyum
 
-        "Kukira tidak akan ada masalah yang terjadi. Sayangnya, perkiraanku salah, ketika perhitungan selesai, ada dua anggota region yang menghilang. Terlihat muka kak Sekar menjadi sedikit lebih kesal."
+        voice "audio/vo/aisyah/pkkmb11_haha.mp3"
+        aisyah "\"Hahaha..\""
 
-        show sekar jas_teriak:
-                anchor (-0.45, -0.1) zoom 0.7
+        raden "\"Malah ketawa\""
 
-        sekar "Ayo berhitung sekali lagi!"
+        voice "audio/vo/aisyah/pkkmb12_enggak_apa.mp3"
+        aisyah "\"Enggak apa.. nyari udara segar aja\""
 
-        "Tentu saja, kita memulai perhitungan sekali-lagi, dengan harapan kalau perhitungan kami yang sebelumnya salah."
+        raden "\"Beneran?\""
 
-        "Tapi, masalah tidak bisa dihindari, hasil perhitungan masih sama. Hal ini membuat kita menunda waktu ISHOMA."
+        voice "audio/vo/aisyah/pkkmb13_hmm.mp3"
+        "..."
 
-        "Dari jauh, terlihat dua anak yang lari menuju ke barisan ini. Mereka sampai ke sini dengan meminta maaf ke kak Sekar"
+        voice "audio/vo/aisyah/pkkmb14_semoga.mp3"
+        aisyah "\"Semoga kuliah kita nanti lancar ya!\""
 
-        Region "Maaf kak, di atas tadi kami tiba-tiba kebelet kencing."
+        "Gadis yang aneh. Sejak pertama kali bertemu, Aisyah selalu bersikap baik padaku. Dia seperti cahaya yang menyinari orang-orang disekitarnya\""
 
-        show sekar jas_teriak:
-                anchor (-0.45, -0.1) zoom 0.7
+        "Begitu terang hingga terasa menyilaukan\""
 
-        sekar "Kan sudah kubilang untuk ke toilet terlebih dahulu ketika di ruangan tadi."
-
-        hide sekar jas_teriak with dissolve
-
-        Region "Iya kak, lain kali nggak bakal kami ulangi."
-
-        "Daripada menunda waktu lebih lama, kak Sekar langsung menyuruh kami untuk sholat. Dengan serentak, kami membubarkan barisan untuk sholat."
-
-        "(Setelah sholat)"
-
-        "Semua berjalan lancar, tidak ada masalah lagi dan kami kembali ke Auditorium untuk melanjutkan PKKMB"
+        "Aku penasaran, seperti apa bayangan yang tersembunyi di balik cahaya itu?"
 
         scene black with dissolve
         with Pause(0.2)
