@@ -1,16 +1,14 @@
 label scene6:
+        show bg lap_futsal:
+                zoom 0.5 
+        with dissolve
 
         "Waktu terasa berlalu begitu cepat. Hari pertama PKKMB sudah hampir selesai. Setelah Auditorium, para mahasiswa baru diminta menuju Lapangan Basket."
 
         "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
 
-
-        show bg lap_futsal:
-                zoom 0.5 
-        with dissolve
-
         show fania kemeja_bicara at Transform(matrixcolor=(silhouette)):
-                anchor (-0.45, -0.05) zoom 0.7 
+                zoom 1.1 xalign 0.5
         with dissolve
 
         anon "Ahhh, akhirnya selesai juga!"
@@ -20,11 +18,8 @@ label scene6:
         hide fania kemeja_bicara with dissolve
 
         show fania kemeja_bicara:
-                anchor (-0.45, -0.05) zoom 0.7 
+                zoom 1.1 xalign 0.5
         with dissolve
-
-        show fania kemeja_bicara:
-                anchor (-0.45, -0.05) zoom 0.7 
         anon "Duh.. Bikin kaget aja."
 
         raden "Hahaha, maaf ya."
