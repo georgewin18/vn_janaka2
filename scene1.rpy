@@ -42,6 +42,19 @@ label scene1:
 
     "Setelah menjawab pesan dari Santo, aku langsung menaruh ponsel tersebut di atas meja dan bersiap untuk mengawali masa kampusku"
 
+    "Hampir saja kelupaan, sepertinya kalian belum mengenal diriku"
+
+    show raden biasa with dissolve:
+        zoom 0.2 xalign 0.5 yalign 0.0
+
+    raden "Kenalin namaku Raden Praditya Wicaksono, Biasa dikenal sebagai Raden"
+
+    raden "Baru-baru ini aku menjadi mahasiswa di PENS, Politeknik Elektronika Negeri Surabaya. Sebenarnya, aku awalnya berpikir untuk langsung lanjut kerja saja"
+
+    raden "tapi teman tongkronganku selalu berkata kalau aku harus kuliah untuk mendapat karir yang lebih bagus. Dia juga yang merekomendasikan untuk masuk ke PENS"
+
+    raden "Yang membuat ku berakhir melakukan tes SNBT di sini. Dan lulus sebagai Mahasiswa {b}Departemen Teknik Elektro{/b}"
+
     jump scene2
 
     return
