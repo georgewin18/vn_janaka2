@@ -7,8 +7,10 @@ label scene6:
 
         "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
 
+        show raden biasa:
+                zoom 0.23 yalign 0.1 xalign 0.0
         show fania kemeja_bicara at Transform(matrixcolor=(silhouette)):
-                zoom 1.1 xalign 0.5
+                zoom 1.12 xalign 2.4
         with dissolve
 
         play music fania_bgm fadein 1.0
@@ -20,8 +22,9 @@ label scene6:
         hide fania kemeja_bicara with dissolve
 
         show fania kemeja_bicara:
-                zoom 1.1 xalign 0.5
+                zoom 1.12 xalign 2.4
         with dissolve
+         
         anon "Duh.. Bikin kaget aja."
 
         raden "Hahaha, maaf ya."
@@ -42,6 +45,9 @@ label scene6:
 
         hide fania kemeja_bicara with dissolve
 
+        show raden with moveinleft:
+                xalign 0.5
+
         "Perempuan itu pergi begitu saja tanpa memberi kesempatan untuk sekadar berkenalan."
 
         raden "Yasudahlah.. aku juga harus segera kumpul lalu pulang."
@@ -53,8 +59,6 @@ label scene6:
 
         stop music fadeout 2.0
 
-        $ quick_menu = False
-        centered "{i}To be continued...{/i}"
-        with Pause(1)
+        jump prolog_day4_scene1
 
         return
