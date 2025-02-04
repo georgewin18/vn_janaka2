@@ -142,7 +142,7 @@ screen nvl_phonetext(dialogue):
                             
 
                             if d.who == MC_Name :
-                                color "#FFF"
+                                color "#000"
                                 text_align 1.0
                                 xpos -580
                             else:
