@@ -3,6 +3,7 @@
 ################################################################################
 
 init offset = -1
+default quick_menu_is_open = False
 
 ################################################################################
 ## Styles
@@ -138,11 +139,11 @@ style window:
     background Image("gui/textbox.png", xalign=0.5, yalign=1.8)
 
 style namebox:
-    xpos 400
+    xpos 250
     xanchor gui.name_xalign
-    xsize 270
-    ypos -75
-    ysize gui.namebox_height
+    xsize 375
+    ypos -140
+    ysize 100
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
@@ -151,9 +152,10 @@ style say_label:
     properties gui.text_properties("name", accent=True)
     font "fonts/Poppins-Bold.ttf"
     color "#ffffff"
-    outlines [ (absolute(4), "#3a72cd", 0, 0) ]
-    size 34
-    xalign 0.5
+    outlines [ (absolute(2), "#3a72cd", 0, 0) ]
+    size 32
+    xoffset 50
+    xalign 0.0
     yalign 0.5
 
 style say_dialogue:
@@ -161,7 +163,9 @@ style say_dialogue:
 
     xpos gui.dialogue_xpos
     xsize gui.dialogue_width
-    ypos 20
+    ypos 0
+
+    outlines [ (absolute(1), "#000000", 0, 0) ]
 
     adjust_spacing False
 
@@ -245,24 +249,50 @@ screen quick_menu():
     zorder 100
 
     if quick_menu:
-        add "gui/quickmenu.png" align (0.5, 1.01)
+        button:
+            style "quick_menu_button"
+
+            action ([SetVariable("quick_menu_is_open", not quick_menu_is_open),
+                    SelectedIf(quick_menu_is_open)
+            ])
+
+    use quick_menu_options
+
+        #add "gui/quickmenu.png" align (0.5, 1.01)
         
-        hbox:
-            spacing 40
-            style_prefix "quick"
-            yoffset -10
+        #hbox:
+            #spacing 40
+            #style_prefix "quick"
+            #yoffset -10
 
-            xalign 0.5
-            yalign 1.0
+            #xalign 0.5
+            #yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
+            #textbutton _("Back") action Rollback()
+            #textbutton _("History") action ShowMenu('history')
             #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Auto") action Preference("auto-forward", "toggle")
+            #textbutton _("Save") action ShowMenu('save')
+            #textbutton _("Q.Save") action QuickSave()
+            #textbutton _("Load") action QuickLoad()
+            #textbutton _("Prefs") action ShowMenu('preferences')
+
+screen quick_menu_options():
+    if quick_menu_is_open:
+        add "gui/button/quick_menu_options.png" align (-0.02, -0.15)
+        add "gui/button/close_quick_menu.png" align (0.012, 0.032)
+
+        vbox:
+            style_prefix "quick"
+
+            xalign 0.015
+            yalign 0.12
+
+            textbutton _("Settings") action ShowMenu('preferences')
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            #textbutton _("Q.Save") action QuickSave()
             textbutton _("Load") action QuickLoad()
-            #textbutton _("Prefs") action ShowMenu('preferences')
+            #textbutton _("Back") action Rollback()
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -271,6 +301,11 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
+
+style quick_menu_button:
+    child "gui/button/quick_menu_button.png"
+    xpos -50
+    ypos -40
 
 style quick_button is default
 style quick_button_text is button_text
@@ -316,7 +351,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-        textbutton _("Preferences") action ShowMenu("preferences") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
+        textbutton _("Settings") action ShowMenu("preferences") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
         if _in_replay:
 
@@ -326,18 +361,20 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu() text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-        textbutton _("About") action ShowMenu("about") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
+        if main_menu:
+            textbutton _("About") action ShowMenu("about") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("Help") action ShowMenu("help") text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
-        if renpy.variant("pc"):
+        if main_menu:
+            if renpy.variant("pc"):
 
-            ## The quit button is banned on iOS and unnecessary on Android and
-            ## Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu) text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
+                ## The quit button is banned on iOS and unnecessary on Android and
+                ## Web.
+                textbutton _("Quit") action Quit(confirm=not main_menu) text_style ("nav_main_menu" if renpy.get_screen("main_menu") else "nav_game_menu")
 
 
 style navigation_button is gui_button
@@ -557,8 +594,8 @@ style game_menu_label_text:
 
 style return_button:
     xpos 75
-    yalign 1.0
-    yoffset -80
+    yalign 0.75
+    yoffset 90
     
 
 
@@ -1422,6 +1459,7 @@ style nvl_dialogue:
     xsize gui.nvl_text_width
     min_width gui.nvl_text_width
     textalign gui.nvl_text_xalign
+    outlines [ (absolute(0), "#000000", 0, 0) ]
     layout ("subtitle" if gui.nvl_text_xalign else "tex")
 
 style nvl_thought:
