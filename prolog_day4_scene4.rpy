@@ -7,6 +7,8 @@ define prolog_day4_choice2_4_done = False
 label prolog_day4_scene4:
     scene bg lap_futsal with dissolve:
         zoom 0.5
+
+    play music raden_bgm fadein 1.0
     
     show raden biasa with dissolve:
         zoom 0.23 yalign 0.1 xalign 0.5 
@@ -26,12 +28,16 @@ label prolog_day4_scene4_choice1_1:
 
     "Aku melihat panggung kecil di ujung lapangan, tempat beberapa UKM menampilkan pertunjukkan untuk menarik perhatian."
 
+    stop music fadeout 2.0
+    play music aisyah_bgm fadein 1.0
+
     show aisyah kemeja_bicara:
         zoom 0.34 yalign -1.0 xalign 0.9
     show raden:
         xalign 0.0
     with moveinright 
 
+    voice "audio/vo/aisyah/prolog4/prolog4_4_gimana_den.flac"
     aisyah "\"Gimana, den? Udah gak apa-apa?\""
 
     raden "\"Udah, kok. Berkat Kak Sekar,\""
@@ -40,34 +46,46 @@ label prolog_day4_scene4_choice1_1:
 
     show aisyah kemeja_bertekad with dissolve
 
+    voice "audio/vo/aisyah/prolog4/prolog4_5_aku_udah_keliling.flac"
     aisyah "\"Aku tadi keliling, dan sepertinya aku udah fix mau join {b}ROBOHOLIC{/b}\""
 
     raden "\"ROBOLOHIC? itu UKM apa?\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_6_ukm_robotik.flac"
     aisyah "\"UKM robotik\""
 
+    voice sustain
     aisyah "\"Mereka fokus ke pengembangan robot - mulai dari desain mekanik, programming, nanti juga bisa direkrut sama tim robotik PENS\""
 
+    voice sustain
     aisyah "\"nanti bisa ikut lomba-lomba tingkat nasional dan internasional.\""
 
     raden "\"Wah, keren banget! Pasti seru kalau bisa ikut lomba juga, ya\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_7_iya_aku_pengen.flac"
     aisyah "\"Iya! Aku pengen banget ikut kompetisi robotik...\""
 
+    voice sustain
     aisyah "\"Bayangin kalau kita bisa menang dan wakilin kampus, pasti pengalaman luar biasa.\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_8_aku_dari_sma.flac"
     aisyah "\"Aku dari SMA memang udah suka hal-hal berbau teknologi. Pas tadi liat demo mereka, aku langsung tertarik.\""
 
+    voice sustain
     aisyah "\"Mereka bikin robot kecil yang bisa jalan otomatis lewat sensor. Terus ada juga robot untuk kompetisi sepak bola robot.\""
 
     raden "\"Kayaknya itu cocok banget buat kamu. Kalau kamu udah yakin, ya daftar aja. Kamu pasti cocok di sana.\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_9_iya_aku_daftar.flac"
     aisyah "\"Iya, aku bakal daftar nanti, kamu juga keliling sana.\""
 
     #hide aisyah
     hide aisyah with dissolve
     show raden with moveinleft:
         xalign 0.5
+    
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     "Aku mengangguk, berpisah dengan Aisyah. Aku berjalan perlahan di antara stan-stan yang ada. Suasana UKM Expo ini benar-benar ramai."
 
@@ -92,11 +110,15 @@ label prolog_day4_scene4_choice1_1:
     #show raden & fania
     raden "\"Fania?\""
 
+    stop music fadeout 2.0
+    play music fania_bgm fadein 1.0
+
     show raden biasa with moveinright:
         xalign 0.0
     show fania kemeja_biasa with dissolve:
         zoom 1.12 xalign 2.4 
 
+    voice "audio/vo/fania/prolog4/prolog4_1_oh_raden.flac"
     fania "\"Oh, Raden,\""
 
     raden "\"Kamu juga suka budaya Jepang?\""
@@ -105,22 +127,27 @@ label prolog_day4_scene4_choice1_1:
 
     show fania kemeja_bicara
 
+    voice "audio/vo/fania/prolog4/prolog4_2_lumayan.flac"
     fania "\"Lumayan, aku nonton beberapa anime.\""
 
     raden "\"Jadi, kamu tertarik buat gabung ke JANAKA?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_3_mungkin.flac"
     fania "\"Mungkin, mereka punya banyak kegiatan menarik. Katanya ada workshop cosplay dan kegiatan menarik lain.\""
 
     raden "\"Serius? Kalau nonton anime bareng atau bikin cosplay juga ada gak?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_4_ada.flac"
     fania "\"Ada. Mereka bahkan punya kelas buat ngajarin bikin kostum cosplay, menurutku cukup menarik sih.\""
 
     raden "\"Kamu suka cosplay ya?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_5_nggak_sering.flac"
     fania "\"Gak sering sih, tapi aku pernah sesekali.\""
 
     raden "\"Pasti keren, tuh,\""
 
+    voice "audio/vo/fania/prolog4/prolog4_6_kamu_sendiri.flac"
     fania "\"Kamu sendiri? Mau daftar di sini juga?\""
 
     raden "\"Mungkin ya, Aku suka banget nonton anime. tapi aku pengen liat-liat booth lain dulu deh.\""
@@ -129,12 +156,16 @@ label prolog_day4_scene4_choice1_1:
 
     raden "\"Fania, aku lihat-lihat booth lain ya\""
 
+    voice "audio/vo/fania/prolog4/prolog4_7_ok.flac"
     fania "\"ok\""
 
     #hide fania
     hide fania with dissolve
     show raden with moveinleft:
         xalign 0.5
+
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     "Setelah berpamitan dengan Fania di stan JANAKA, aku melanjutkan eksplorasi ke area UKM Expo yang semakin ramai."
 
@@ -154,30 +185,40 @@ label prolog_day4_scene4_choice1_1:
     show tessa normal with dissolve:
         zoom 0.39 yalign -0.25 xalign 0.95
 
+    stop music fadeout 2.0
+    play music tessa_bgm fadein 1.0
+
     raden "\"Permisi, Kak Tessa?\""
 
+    voice "audio/vo/tessa/prolog4/prolog4_1_oh_kamu.flac"
     tessa "\"Oh, kamu. Ada apa?\""
 
     raden "\"Kakak juga di UKM Taekwondo, ya?\""
 
+    voice "audio/vo/tessa/prolog4/prolog4_2_iya_aku_pelatih.flac"
     tessa "\"Iya, aku pelatih junior di sini. Kenapa? Mau daftar?\""
 
     raden "\"Mungkin sih kak. Dari tadi liat demi nya, saya jadi tertarik. Dulu saya suka bela diri, tapi berhenti karena gak sempat latihan.\""
 
     raden "\"Jadi, kalau ikut UKM ini, kegiatannya apa aja, Kak?\""
 
+    voice "audio/vo/tessa/prolog4/prolog4_3_kami_ada_latihan.flac"
     tessa "\"Kami ada latihan rutin setiap minggu. Selain itu, ada kelas untuk tingkat pemula, seminar tentang bela diri, dan tentu saja kompetisi. Biasanya kami juga ikut kejuaraan tingkat kampus sampai nasional.\""
 
     "Aku membaca brosur yang dia tunjukkan. Foto-foto kegiatan mereka terlihat keren, terutama yang menunjukkan anggota tim membawa piala di kejuaraan"
 
     raden "Hmm, mungkin aku pikir-pikir dulu, Kak. Tapi serius, ini kelihatan seru."
 
+    voice "audio/vo/tessa/prolog4/prolog4_4_yaudah.flac"
     tessa "\"Ya udah. Kalau kamu mau tanya-tanya lagi, balik ke sini aja.\""
 
     #hide tessa
     hide tessa with dissolve
     show raden with moveinleft:
         xalign 0.5
+    
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     "Setelah meninggalkan booth Taekwondo, aku terus berjalan menyusuri area UKM Expo. Suasananya masih ramai, dengan mahasiswa baru yang antusias mengeksplorasi berbagai pilihan UKM"
 
@@ -194,6 +235,9 @@ label prolog_day4_scene4_choice1_1:
         xalign 0.0
     show santo kemeja_biasa with dissolve:
         zoom 1.15 yalign 0.08 xalign 2.7
+
+    stop music fadeout 2.0
+    play music santo_bgm fadein 1.0
 
     raden "\"Santo!?\""
 
@@ -216,6 +260,9 @@ label prolog_day4_scene4_choice1_1:
     santo "\"Oke, Den\""
 
     hide santo with dissolve
+
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     jump prolog_day4_scene5
 
@@ -272,6 +319,10 @@ label prolog_day4_scene4_choice2_1:
         xalign 0.0
     with moveinright
 
+    stop music fadeout 2.0
+    play music aisyah_bgm fadein 1.0
+    
+    voice "audio/vo/aisyah/prolog4/prolog4_4_gimana_den.flac"
     aisyah "\"Gimana, den? Udah gak apa-apa?\""
 
     raden "\"Udah, kok. Berkat Kak Sekar,\""
@@ -280,33 +331,45 @@ label prolog_day4_scene4_choice2_1:
 
     show aisyah kemeja_bertekad with dissolve
 
+    voice "audio/vo/aisyah/prolog4/prolog4_5_aku_udah_keliling.flac"
     aisyah "\"Aku tadi keliling, dan sepertinya aku udah fix mau join {b}ROBOHOLIC{/b}\""
 
     raden "\"ROBOLOHIC? itu UKM apa?\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_6_ukm_robotik.flac"
     aisyah "\"UKM robotik\""
 
+    voice sustain
     aisyah "\"Mereka fokus ke pengembangan robot - mulai dari desain mekanik, programming, nanti juga bisa direkrut sama tim robotik PENS\""
 
+    voice sustain
     aisyah "\"nanti bisa ikut lomba-lomba tingkat nasional dan internasional.\""
 
     raden "\"Wah, keren banget! Pasti seru kalau bisa ikut lomba juga, ya\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_7_iya_aku_pengen.flac"
     aisyah "\"Iya! Aku pengen banget ikut kompetisi robotik...\""
 
+    voice sustain
     aisyah "\"Bayangin kalau kita bisa menang dan wakilin kampus, pasti pengalaman luar biasa.\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_8_aku_dari_sma.flac"
     aisyah "\"Aku dari SMA memang udah suka hal-hal berbau teknologi. Pas tadi liat demo mereka, aku langsung tertarik.\""
 
+    voice sustain
     aisyah "\"Mereka bikin robot kecil yang bisa jalan otomatis lewat sensor. Terus ada juga robot untuk kompetisi sepak bola robot.\""
 
     raden "\"Kayaknya itu cocok banget buat kamu. Kalau kamu udah yakin, ya daftar aja. Kamu pasti cocok di sana.\""
 
+    voice "audio/vo/aisyah/prolog4/prolog4_9_iya_aku_daftar.flac"
     aisyah "\"Iya, aku bakal daftar nanti, kamu juga keliling sana.\""
 
     "Aku mengangguk, berpisah dengan Aisyah."
     #hide aisyah
     hide aisyah with dissolve
+
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     $ prolog_day4_choice2_1_done = True
 
@@ -332,8 +395,12 @@ label prolog_day4_scene4_choice2_2:
     show fania kemeja_biasa with dissolve:
         zoom 1.12 xalign 2.4 
 
+    stop music fadeout 2.0
+    play music fania_bgm fadein 1.0
+
     raden "\"Fania?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_1_oh_raden.flac"
     fania "\"Oh, Raden,\""
 
     raden "\"Kamu juga suka budaya Jepang?\""
@@ -342,22 +409,27 @@ label prolog_day4_scene4_choice2_2:
 
     show fania kemeja_bicara
 
+    voice "audio/vo/fania/prolog4/prolog4_2_lumayan.flac"
     fania "\"Lumayan, aku nonton beberapa anime.\""
 
     raden "\"Jadi, kamu tertarik buat gabung ke JANAKA?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_3_mungkin.flac"
     fania "\"Mungkin, mereka punya banyak kegiatan menarik. Katanya ada workshop cosplay dan kegiatan menarik lain.\""
 
     raden "\"Serius? Kalau nonton anime bareng atau bikin cosplay juga ada gak?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_4_ada.flac"
     fania "\"Ada. Mereka bahkan punya kelas buat ngajarin bikin kostum cosplay, menurutku cukup menarik sih.\""
 
     raden "\"Kamu suka cosplay ya?\""
 
+    voice "audio/vo/fania/prolog4/prolog4_5_nggak_sering.flac"
     fania "\"Gak sering sih, tapi aku pernah sesekali.\""
 
     raden "\"Pasti keren, tuh,\""
 
+    voice "audio/vo/fania/prolog4/prolog4_6_kamu_sendiri.flac"
     fania "\"Kamu sendiri? Mau daftar di sini juga?\""
 
     raden "\"Mungkin ya, Aku suka banget nonton anime. tapi aku pengen liat-liat booth lain dulu deh.\""
@@ -366,10 +438,14 @@ label prolog_day4_scene4_choice2_2:
 
     raden "\"Fania, aku lihat-lihat booth lain ya\""
 
+    voice "audio/vo/fania/prolog4/prolog4_7_ok.flac"
     fania "\"ok\""
 
     #hide fania
     hide fania with dissolve
+
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     "Setelah berpamitan dengan Fania di stan JANAKA, aku melanjutkan eksplorasi ke area UKM Expo yang semakin ramai."
 
@@ -389,28 +465,38 @@ label prolog_day4_scene4_choice2_3:
     show tessa normal with dissolve:
         zoom 0.39 yalign -0.25 xalign 0.95
 
+    stop music fadeout 2.0
+    play music tessa_bgm fadein 1.0
+
     raden "\"Permisi, Kak Tessa?\""
 
+    voice "audio/vo/tessa/prolog4/prolog4_1_oh_kamu.flac"
     tessa "\"Oh, kamu. Ada apa?\""
 
     raden "\"Kakak juga di UKM Taekwondo, ya?\""
 
+    voice "audio/vo/tessa/prolog4/prolog4_2_iya_aku_pelatih.flac"
     tessa "\"Iya, aku pelatih junior di sini. Kenapa? Mau daftar?\""
 
     raden "\"Mungkin sih kak. Dari tadi liat demi nya, saya jadi tertarik. Dulu saya suka bela diri, tapi berhenti karena gak sempat latihan.\""
 
     raden "\"Jadi, kalau ikut UKM ini, kegiatannya apa aja, Kak?\""
 
+    voice "audio/vo/tessa/prolog4/prolog4_3_kami_ada_latihan.flac"
     tessa "\"Kami ada latihan rutin setiap minggu. Selain itu, ada kelas untuk tingkat pemula, seminar tentang bela diri, dan tentu saja kompetisi. Biasanya kami juga ikut kejuaraan tingkat kampus sampai nasional.\""
 
     "Aku membaca brosur yang dia tunjukkan. Foto-foto kegiatan mereka terlihat keren, terutama yang menunjukkan anggota tim membawa piala di kejuaraan"
 
     raden "Hmm, mungkin aku pikir-pikir dulu, Kak. Tapi serius, ini kelihatan seru."
 
+    voice "audio/vo/tessa/prolog4/prolog4_4_yaudah.flac"
     tessa "\"Ya udah. Kalau kamu mau tanya-tanya lagi, balik ke sini aja.\""
 
     #hide tessa
     hide tessa with dissolve
+
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
 
     $ prolog_day4_choice2_3_done = True
 
@@ -429,6 +515,9 @@ label prolog_day4_scene4_choice2_4:
         xalign 0.0
     show santo kemeja_biasa with dissolve:
         zoom 1.15 yalign 0.08 xalign 2.7
+
+    stop music fadeout 2.0
+    play music santo_bgm fadein 1.0
 
     raden "\"Santo!?\""
 
@@ -450,6 +539,9 @@ label prolog_day4_scene4_choice2_4:
     #hide santo
     hide santo with dissolve
     
+    stop music fadeout 2.0
+    play music raden_bgm fadein 1.0
+
     $ prolog_day4_choice2_4_done = True
 
     if (prolog_day4_choice2_1_done == True and prolog_day4_choice2_2_done == True and prolog_day4_choice2_3_done == True and prolog_day4_choice2_4_done == True):

@@ -28,6 +28,8 @@ label prolog_day4_scene5:
 
     "Aku yakin teman-teman lainnya juga merasakan hal yang sama. Dengan ini, semuanya resmi selesai. Sekarang kita merupakan bagian dari-"
 
+    stop music fadeout 2.0
+
     anon "\"{size=+10}PENS!!{/size}\""
 
     anon "\"{size=+10}JOSS!!{/size}\"" with vpunch

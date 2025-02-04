@@ -13,6 +13,8 @@ label prolog_day4_scene1:
 
     #suasana sedikit dramatis
 
+    play music dramatic fadein 1.0
+
     "Aku berdiri di antara ratusan mahasiswa baru lainnnya di Lapangan Merah. Seragam putih hitam yang dikenakan semua peserta membuat suasana terlihat formal dan teratur"
 
     "Tapi kali ini kami semua disuruh mempersiapkahn jas almamater yang sudah kami terima beberapa minggu lalu, Aku dengan gugup menggenggamnya dengan erat"
@@ -28,6 +30,8 @@ label prolog_day4_scene1:
         zoom 0.23 yalign 0.1 xalign 0.5
 
     "Aku dengan bangga mengenakannya, dengan ini aku sudah resmi menjadi mahasiswa PENS. Dan dengan itu sang Rektor meninggalkan lapangan dengan rombongan senat akademik."
+
+    stop music fadeout 2.0
 
     jump prolog_day4_scene2
 

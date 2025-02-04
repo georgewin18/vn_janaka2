@@ -1,6 +1,3 @@
-define raden = Character("Raden")
-define santo = Character("Santo")
-
 define raden_nvl = Character("Raden", kind=nvl, callback=Phone_SendSound)
 define santo_nvl = Character("Santo", kind=nvl, callback=Phone_ReceiveSound)
 
