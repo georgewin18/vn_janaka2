@@ -1,5 +1,5 @@
 label prolog2_scene3:
-    #Parkiran D3
+    #bg gamg
     scene bg lap_futsal:
         zoom 0.5
     #Suasana Netral in Home
@@ -39,14 +39,15 @@ label prolog2_scene3:
     aisyah "Benar-benar gak bertanggung jawab!"#balas Aisyah. Aku bisa melihat api imajiner membara dibelakang tubuhnya. Itu mengerikan. Aku cukup yakin jika dia bertemu dengan anggota lain dari Region Santo, dia akan menghajar mereka saat ini juga.
 
     #Fania muncul dingin
-    show raden biasa with moveinright:
-        zoom 0.2 xalign -0.25 yalign 0.0
-    show santo kemeja_biasa with moveinleft:
-        zoom 1.0 xalign 2.25 yalign 0.006
-    show aisyah kemeja_bicara with moveinright:
-        zoom 0.3 xalign 0.25 yalign 6.0
+    show raden:
+        xalign -0.25
+    show santo:
+        xalign 2.25
+    show aisyah:
+        xalign 0.25
     show fania jas_biasa:
         zoom 1.1 xalign 1.4 yalign 0.0
+    with moveinright
 
     show fania kemeja_bicara
     fania "Yang lain gk datang ya?, terus dua orang itu?"#Fania melihat kami, lalu bertanya kepada Santo  
