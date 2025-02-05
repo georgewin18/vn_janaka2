@@ -17,7 +17,7 @@ label chapter3_fania_scene2:
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign 0.5 yalign 0.06
 
-    fania "Jadi gimana kabar Tina, dia jadi dateng gak?"
+    fania "\"Jadi gimana kabar Tina, dia jadi dateng gak?\""
 
     "Sasa, yang masih bermain HP dan menghubungi Tina, sementara Fania telah mencari jurnal untuk diringkas di laptopnya."
 
@@ -31,7 +31,7 @@ label chapter3_fania_scene2:
 
     fania "\"Pacar? Kenapa malah minta bantuan perempuan dan bukan teman laki-laki yang lebih mampu secara fisik?\" (dalam hati)"
 
-    fania "Kalau begitu, ayo kita mulai dulu deh."
+    fania "\"Kalau begitu, ayo kita mulai dulu deh.\""
 
     "Fania mulai meringkas tiap bab di dalam buku dan mengambil setiap poin penting di dalamnya."
 
@@ -39,7 +39,7 @@ label chapter3_fania_scene2:
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign 0.5 yalign 0.06
 
-    fania "Kamu gak ngerjain?"
+    fania "\"Kamu gak ngerjain?\""
 
     "\“Gak apa-apa, deadline-nya masih lima hari lagi, Masih punya banyak waktu kita. Yakin deh, paling juga dosennya gak bakalan baca.\”"
 
@@ -49,7 +49,7 @@ label chapter3_fania_scene2:
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign 0.5 yalign 0.06
 
-    fania "... Huh…"
+    fania "\"... Huh…\""
 
     "Fania hanya bisa menghela nafas dengan ketidak bertanggung jawabnya temannya itu."
     
@@ -58,15 +58,15 @@ label chapter3_fania_scene2:
     #fania dingin
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign 0.5 yalign 0.06
-    fania "Itu kesalahan berpikir."
+    fania "\"Itu kesalahan berpikir.\""
 
-    fania "Dosen itu bukan orang yang cuma bisa meluluskan murid kayak guru sekolah umum yang dibawahnya. Mereka itu orang yang terbaik di bidangnya yang berpengalaman dan tahu karakter mahasiswa"
+    fania "\"Dosen itu bukan orang yang cuma bisa meluluskan murid kayak guru sekolah umum yang dibawahnya. Mereka itu orang yang terbaik di bidangnya yang berpengalaman dan tahu karakter mahasiswa\""
 
-    fania "Kalau kamu bilang begitu, kamu terlalu meremehkan dosen."
+    fania "\"Kalau kamu bilang begitu, kamu terlalu meremehkan dosen.\""
 
     "\"Yah, kalau begitu tinggal minta bantuan AI kayak METAL dan chatGaBuT.\""
 
-    fania "Tapi kan nanti kelihatan kalau itu buatan AI"
+    fania "\"Tapi kan nanti kelihatan kalau itu buatan AI\""
 
     "\"Tinggal di revisi sama AI-nya aja terus-terusan sampai gak kelihatan buatan AI dong. Itu lebih cepet dan gampang daripada ngerjain sendiri dan malah dianggap pakai AI.\""
 
@@ -76,7 +76,7 @@ label chapter3_fania_scene2:
 
     "\"Udahlah Fan, pakai cara yang gampang aja.\""
 
-    "Hasilnya juga gak jauh beda kok, dan kalau kamu mau, ada kok cara pake AI yang lebih minimal untuk perbaikin typo doang."
+    "\"Hasilnya juga gak jauh beda kok, dan kalau kamu mau, ada kok cara pake AI yang lebih minimal untuk perbaikin typo doang.\""
 
     #backsound agak intens
 
@@ -86,9 +86,9 @@ label chapter3_fania_scene2:
     show fania kemeja_biasa at shake:
         zoom 1.1 xalign 0.5 yalign 0.06
 
-    fania "Mana mungkin aku pakai cara instan kayak gitu yang malah bikin aku bodoh. Aku gak mau pakai cara mudah buat bikin tugasku."
+    fania "\"Mana mungkin aku pakai cara instan kayak gitu yang malah bikin aku bodoh. Aku gak mau pakai cara mudah buat bikin tugasku.\""
 
-    fania "Lagian, kerja cepat bukan berarti kamu paham sama apa yang ada di dalam tugasmu ‘kan? Kalau kamu mau pakai cara yang bisa bikin sel otakku berkurang itu, kamu pakai sendiri aja, dan aku tahu soal yang terakhir,"
+    fania "\"Lagian, kerja cepat bukan berarti kamu paham sama apa yang ada di dalam tugasmu ‘kan? Kalau kamu mau pakai cara yang bisa bikin sel otakku berkurang itu, kamu pakai sendiri aja, dan aku tahu soal yang terakhir,\""
     
     "Fania meninggikan suaranya, cukup untuk membuat orang asing di bangku samping menoleh ke arah Fania"
 

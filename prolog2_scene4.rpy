@@ -25,29 +25,28 @@ label prolog2_scene4_after_choice1:
         xalign 0.2
     with moveinright
 
-    raden "Fania!"
+    raden "\"Fania!\""
 
     #fania dingin
-
-    fania "Ya?"
+    fania "\"Ya?\""
 
     #raden canggung
-    raden "ummmm…. nama ku Raden… haha…."
+    raden "\"Ummm…. namaku Raden… haha….\""
 
-    fania "Iya, aku udah liat dari nametag mu"
+    fania "\"Iya, aku udah liat dari nametagmu.\""
 
     #raden gugup
-    raden "Gini…. Fania… kamu…"
+    raden "\"Gini…. Fania… kamu…\""
 
     #fania gugup
-    "Fania melihatku dengan bingung, menunggu ku untuk melanjutkan kalimat ku"
+    "Fania melihatku dengan bingung, menungguku untuk melanjutkan kalimatku."
 
-    raden "Kamu terlihat berbeda"
+    raden "\"Kamu terlihat berbeda.\""
 
     #fania terkejut
-    "Fania terlihat kaget mendengar nya dan hanya berdiri diam."
+    "Fania terlihat kaget mendengarnya dan hanya berdiri diam."
 
-    raden "Gini… kemarin.. kan kamu keliatan kayak rileks banget gitu… dan sekarang ku liat kamu sekarang.. kek kaku banget gitu, kayak kamu nahan sesuatu… jadi aku cuman pengen bilang… menurutku... aku lebih suka kamu yang kemarin…"
+    raden "\"Gini… kemarin kan kamu keliatan kayak rileks banget gitu… dan sekarang kulihat kamu sekarang.. kek kaku banget gitu, kayak kamu nahan sesuatu… jadi aku cuman pengen bilang… menurutku... aku lebih suka kamu yang kemarin…\""
 
     "Raden menggaruk pipinya dengan canggung."
 
@@ -56,7 +55,7 @@ label prolog2_scene4_after_choice1:
 
     "Fania membalikkan badan perlahan, memperlihatkan punggungnya. Dia menoleh sebentar ke belakang, terlihat ragu, tapi akhirnya bibirnya bergerak."
 
-    fania "*********"#bipp suara sensor
+    fania "\"*********\"" #bipp suara sensor
 
     "Suaranya sangat pelan, nyaris seperti gumaman yang hanya bisa didengar angin. Aku mencoba memahami apa yang dia katakan, tapi terlalu samar untuk dimengerti."
 
@@ -66,8 +65,7 @@ label prolog2_scene4_after_choice1:
 
     "Aku juga kenapa..? Kenapa aku tiba-tiba bilang begitu ke dia..?"
 
-    "Aku tidak mengerti…"
+    raden "\"Aku tidak mengerti…\""
 
     show black with dissolve
     jump prolog2_scene5
-
