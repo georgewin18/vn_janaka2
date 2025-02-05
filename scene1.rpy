@@ -1,37 +1,58 @@
+define raden_nvl = Character("Raden", kind=nvl, callback=Phone_SendSound)
+define santo_nvl = Character("Santo", kind=nvl, callback=Phone_ReceiveSound)
+
+define config.adv_nvl_transition = None
+define config.nvl_adv_transition = Dissolve(0.3)
+
 label scene1:
+    scene bg kamar_raden with dissolve:
+        zoom 0.5
 
-    "raden’s berbicara dengan santo"
+    "Ponselku berdering keras di samping tempat tidur, memecah kesunyian yang masih menyelimuti kamar. Aku menggerakkan tangan, masih setengah terlelap, meraba-raba ponsel di meja kecil di sampingku"
 
-    raden "To, Kamu udah di kampus belom??"
+    "Dengan jari yang agak gemetar, aku menekan tombol di layar, dan suara tajam itu pun berhenti, mengembalikan kesunyian di kamar ini. Kusandarkan ponsel di atas dada, mecoba merasakan ketenangan subuh yang sangat sunyi"
 
-    santo "Udah bro, ini lagi nyariin regionku. Pada kemana coba ini manusia-manusia"
+    "Di luar jendela, cahaya masih samar, langit berwarna biru tua, seakan masih malu-malu mengakuti kehadiran pagi. Embun di kaca berkilauan lembut, tapi udara masih terasa dingin, hampir menusuk kulit"
 
-    raden "Beneran?! Aku cuma bercanda padahal, baru jam setengah 5 gini ngapain ke kampus?"
+    "Aku menghela napas dan membuka ponsel, berharap bisa benar-benar terbangun"
 
-    santo "tau tuh, baru masuk ke kampus juga langsung jadi ketua region, males banget"
+    "Seperti kebiasaanku setiap pagi, kubuka Wangsap dan memeriksa pesan-pesan yang masuk"
 
-    raden "Yaudah, aku mau makan dulu baru otw. Tungguin nanti ketemuan di parkiran."
+    "Ada pesan dari {b}Santo{/b}"
+    
+    "Santo ini adalah temanku yang kukenal melalui gtup PKKMB"
 
-    santo "Okok!!"
+    santo_nvl "P"
+    santo_nvl "P"
+    santo_nvl "Raden"
+    raden_nvl "Ada apa?"
+    santo_nvl "Kemarin kamu bilang punya topi abu-abu lebih kan?"
+    raden_nvl "Iya, mau kamu beli kah?"
+    santo_nvl "Iyanih, kemarin kamu bilang 20 ribu doang kan?"
+    raden_nvl "Sayangnya udah kujual ke teman region ku"
+    santo_nvl "Waduh, mati aku"
+    santo_nvl "PKKMB nanti aku lupa ga ada topi abu-abu"
+    santo_nvl "😭😭"
+    raden_nvl "Hanya bisa mendoakan yang terbaik untuk masa depanmu to"
+    santo_nvl "Iya den, makasih udah jawab"
+    raden_nvl "👍"
 
-    "Mereka pun pergi ke parkiran"
-    # Ke kampus -> Parkiran scene
-    # (sfx kendaraan dan keramaian)
+    "Setelah menjawab pesan dari Santo, aku langsung menaruh ponsel tersebut di atas meja dan bersiap untuk mengawali masa kampusku"
 
-    raden "baru jam 5 juga dah padet banget ni kampus. Si santo mana lagi ini, katanya ketemuan depan parkiran"
+    "Hampir saja kelupaan, sepertinya kalian belum mengenal diriku"
 
-    lo1 "Region ini...Region ini...Region ini..."
+    play music raden_bgm fadein 1.0
 
-    lo2 "Region ****(regionnya raden)"
+    show raden biasa with dissolve:
+        zoom 0.2 xalign 0.5 yalign 0.0
 
-    sekar "Region ****!! segera berkumpul di lapangan merah sekarang"
+    raden "\"Kenalin namaku Raden Praditya Wicaksono, Biasa dikenal sebagai Raden\""
 
-    raden "Wih, dah dipanggil panggil. Biarin lah si santo"
+    raden "\"Baru-baru ini aku menjadi mahasiswa di PENS, Politeknik Elektronika Negeri Surabaya. Sebenarnya, aku awalnya berpikir untuk langsung lanjut kerja saja\""
 
-    raden "Oke lah, biarkan aku memperkenalkan diri AKU-"
+    raden "\"tapi teman tongkronganku selalu berkata kalau aku harus kuliah untuk mendapat karir yang lebih bagus. Dia juga yang merekomendasikan untuk masuk ke PENS\""
 
-    "Mereka berkumpul di lapangan merah"
-    # parkiran -> Lapmer
+    raden "\"Yang membuat ku berakhir melakukan tes SNBT di sini. Dan lulus sebagai Mahasiswa {b}Departemen Teknik Elektro{/b}\""
 
     jump scene2
 
