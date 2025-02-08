@@ -311,8 +311,6 @@ label chapter4_sekar_scene2_choice3_1:
 
     centered "Hari itu, aku tidak hanya melihat sisi lain dari Kak Sekar, tetapi juga merasakan hubungan yang lebih dalam. Seperti ada sesuatu yang tak terucap, namun terasa nyata."
 
-    stop music fadeout 2.0
-
     jump chapter4_sekar_good_ending
 
 label chapter4_sekar_scene2_choice3_2:
