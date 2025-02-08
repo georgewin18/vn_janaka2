@@ -738,15 +738,15 @@ screen file_slots(title):
 
                     textbutton _(">") action FilePageNext()
 
-                if config.has_sync:
-                    if CurrentScreenName() == "save":
-                        textbutton _("Upload Sync"):
-                            action UploadSync()
-                            xalign 0.5
-                    else:
-                        textbutton _("Download Sync"):
-                            action DownloadSync()
-                            xalign 0.5
+                # if config.has_sync:
+                #     if CurrentScreenName() == "save":
+                #         textbutton _("Upload Sync"):
+                #             action UploadSync()
+                #             xalign 0.5
+                #     else:
+                #         textbutton _("Download Sync"):
+                #             action DownloadSync()
+                #             xalign 0.5
 
 
 style page_label is gui_label
