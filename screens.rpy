@@ -291,7 +291,7 @@ screen quick_menu_options():
             textbutton _("Settings") action ShowMenu('preferences')
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            textbutton _("Load") action QuickLoad()
+            textbutton _("Load") action ShowMenu('load')
             #textbutton _("Back") action Rollback()
 
 
