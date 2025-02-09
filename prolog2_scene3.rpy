@@ -4,7 +4,7 @@ label prolog2_scene3:
         zoom 0.5
     #Suasana Netral in Home
     #Raden, Santo, Aisyah hilang
-    #Fania muncul dingin    
+    #Fania muncul dingin 
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign 0.5 yalign 0.0
 

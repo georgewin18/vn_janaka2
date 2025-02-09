@@ -18,7 +18,7 @@ label prolog2_scene4:
             jump prolog2_scene4_after_choice1
 
 label prolog2_scene4_after_choice1:
-    #Suasana Cool dan sedikit romantis
+    #Suasana Cool dan sedikit romantiss
 
     "Meskipun agak ragu-ragu aku akhirnya menghampiri Fania dan memanggilnya."
     show raden:

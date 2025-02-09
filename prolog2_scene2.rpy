@@ -21,7 +21,7 @@ label prolog2_scene2:
 
     "Aku masuk ke dalam auditorium dan memeriksa sekeliling mencari Region-ku."
 
-    #Sekar muncul tegas
+    #Sekar muncul tegass
     show sekar jas_teriak with dissolve:
         zoom 1.0 xalign 0.5 yalign 0.0
 

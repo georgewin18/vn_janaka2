@@ -12,7 +12,7 @@ label prolog2_scene1:
 
     "Sama seperti kemarin, barang-barang milik kami dan atribut pakaian diperiksa untuk menjaga ketertiban. Oleh para kakak koordinator."
 
-    raden "Aku gak sabar buat materi hari ini!" #gumamku.
+    raden "Aku gak sabar buat materi hari ini!" #gumamku..
 
     "Aku tersenyum dan menantikan materi dengan bersemangat."
 
