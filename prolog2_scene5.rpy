@@ -16,7 +16,7 @@ label prolog2_scene5:
 
     santo "Bentar lagi mau pulang, capek deh, pengen segera rebahan, tapi besok masih masuk pagi lagi"
 
-    #Raden senyum
+    #Raden senyumm
     show raden senyum sadar
 
     raden "Santo, kupikir kamu tipe orang yang mageran."
