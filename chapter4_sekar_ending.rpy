@@ -19,6 +19,11 @@ label chapter4_sekar_good_ending:
 
     "Sembari berpikir, rasa kantuk mulai menyelimuti diriku, yang dilanjutkan dengan aku menutup mata, untuk mengakhiri hari ini."
 
+    jump chapter5_tessa_scene1
+
+    scene black with dissolve
+    with Pause(0.3)
+
     return
 
 label chapter4_sekar_neutral_ending:
@@ -30,6 +35,11 @@ label chapter4_sekar_neutral_ending:
     "Aku menaruh barang-barangku, dan mulai menata kasurku. Ketika aku berbaring di kasur aku mulai berpikir tentang masa-masa perkuliahanku"
 
     "Sembari berpikir, rasa kantuk mulai menyelimuti diriku, yang dilanjutkan dengan aku menutup mata, untuk mengakhiri hari ini."
+
+    jump chapter5_tessa_scene1
+    
+    scene black with dissolve
+    with Pause(0.3)
 
     return
 
@@ -53,4 +63,9 @@ label chapter4_sekar_bad_ending:
 
     stop music fadeout 2.0
 
+    scene black with dissolve
+    with Pause(0.3)
+
+    jump chapter5_tessa_scene1
+    
     return
