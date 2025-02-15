@@ -28,17 +28,22 @@ label prolog_day3_scene3:
 
     "Akupun menuju panitia tersebut, dan bertanya kepadanya."
     
+    stop music fadeout 2.0
+
     show raden with moveinleft:
         xalign -0.2
     
     show tessa normal with dissolve:
         zoom 0.39 xalign 1.0 yalign -0.25
     
-    show raden ngomong with dissolve
+    show raden ngomong
     
     raden "\"Permisi kak.\""
     
+    play music tessa_bgm fadein 1.0
+
     #ekspresi tessa bicara dan marah tidak ada
+    voice "audio/vo/tessa/prolog3/prolog3_1_apa.flac"
     lo "\"Apa?\""#tessa kesal
     
     show raden capek with dissolve
@@ -48,6 +53,7 @@ label prolog_day3_scene3:
 
     raden "\"Permisi kak, saya mau bertanya arah ke toilet dimana?\""
 
+    voice "audio/vo/tessa/prolog3/prolog3_2_toilet.flac"
     lo "\"Toilet? Langsung aja lurus ke arah sana. Kalau kamu perhatikan dengan benar, pasti akan ketemu.\""
     
     show raden biasa with dissolve
@@ -89,6 +95,7 @@ label prolog_day3_scene3:
             
             show raden ngomong with dissolve
 
+            voice "audio/vo/tessa/prolog3/prolog3_3_apa_lagi.flac"
             lo "\"Ada apa lagi?\""
             
             show raden capek with dissolve
@@ -104,6 +111,7 @@ label prolog_day3_scene3:
             
             raden "\"Maaf, Kak. Saya masih kurang paham tadi toilet nya di sebelah mana…. Bisa tolong tunjukkan lagi arahnya?\""
 
+    voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.flac"
     lo "\"Ya ampun… Kamu ini dibilangin tadi, lurus aja! Perhatikan baik-baik!\""
     
     show tessa normal with moveinright:
@@ -125,19 +133,22 @@ label prolog_day3_scene3:
     
     #raden terkejut
     show raden ngomong
-    with dissolve
     
     "Namun dia tiba-tiba berjalan mendahuluiku."
 
+    voice "audio/vo/tessa/prolog3/prolog3_5_sudahlah.flac"
     lo "\"Sudahlah, ikut aku. Kalau gak, nanti malah kamu hilang.\""
     
-    show raden biasa with dissolve
+    show raden biasa
 
     "Aku mengikutinya dalam diam. Langkahnya cepat dan mantap, seperti seseorang yang terbiasa menyelesaikan tugas tanpa keraguan."
     
     "Kami berjalan tanpa sepatah kata, sementara suasana di antara kami terasa canggung dan hening."
     
     show tessa at flip with dissolve
+
+    pause 1
+
     show tessa at flipback with dissolve
     
     "Sesekali, dia melirik ke belakang untuk memastikan aku masih mengikutinya, tetapi tidak berkata apa-apa. "
@@ -148,6 +159,7 @@ label prolog_day3_scene3:
     
     show tessa at flip with dissolve
 
+    voice "audio/vo/tessa/prolog3/prolog3_6_nah_ini.flac"
     lo "\"Nah, ini. Lain kali buka matanya lebih lebar, ya,\""
     
     "Dia menunjuk pintu toilet dengan sedikit sentakan tangan."
