@@ -37,6 +37,8 @@ label scene1:
     santo_nvl "Iya den, makasih udah jawab"
     raden_nvl "👍"
 
+    nvl clear
+
     "Setelah menjawab pesan dari Santo, aku langsung menaruh ponsel tersebut di atas meja dan bersiap untuk mengawali masa kampusku"
 
     "Hampir saja kelupaan, sepertinya kalian belum mengenal diriku"
