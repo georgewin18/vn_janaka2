@@ -6,6 +6,8 @@ label chapter3_fania_scene1:
     scene bg lapmer with dissolve:
         zoom 0.5
 
+    play music campus fadein 1.0
+
     "\"Sebagai evaluasi, kalian akan dapat tugas kelompok untuk membuat ringkasan jurnal dan buku yang sesuai dengan topik yang sudah pernah dibahas. Per-individu harus punya satu jurnal dan satu buku, jadi satu kelompok akan meringkas dan membahas tiga jurnal dan tiga buku.\""
 
     "\"Deadline pengerjaannya adalah satu minggu, seperti biasanya ya. Buat kelompoknya, akan saya acak.\""

@@ -65,6 +65,6 @@ label scene6:
 
         stop music fadeout 2.0
 
-        jump prolog_day4_scene1
+        jump prolog_day2_scene1
 
         return

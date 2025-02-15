@@ -15,6 +15,8 @@ label prolog_day3_scene5:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
+    play music raden_bgm fadein 1.0
+
     show raden biasa with dissolve:
         zoom 0.23 xalign 0.5 yalign 0.1
 
@@ -25,22 +27,22 @@ label prolog_day3_scene5:
     hide raden with dissolve
 
     raden_nvl "\"Santo, gimana penugasan kelompok hari ini? Apakah lancar?\""
-
     santo_nvl "\"Aman, den. Setelah ku bilangin ke LO ku, langsung tugas hari ini dikerjakan tanpa kendala.\""
-
     raden_nvl "\"Baguslah kalau begitu, semoga tetep lancar.\""
-
     santo_nvl "\"Iya den, dan juga terimakasih sudah membantu kemarin ya.\""
-
     raden_nvl "\"Aman aja itu mah, sebagai gantinya, lain kali traktir aku makan saja.\""
-
     santo_nvl "\"Ok den 👍🏻\""
+
+    nvl clear
     
     show raden biasa with dissolve:
         zoom 0.23 xalign 0.5 yalign 0.1
 
     "Sekarang waktunya istirahat dan menunggu apa yang akan terjadi esok."
     
+    stop music fadeout 2.0
+
     #prolog_day4_scene1
+    jump prolog_day4_scene1
 
     return

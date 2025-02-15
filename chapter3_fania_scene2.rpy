@@ -27,6 +27,8 @@ label chapter3_fania_scene2:
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign 0.5 yalign 0.06
 
+    stop music fadeout 2.0
+
     "Jawaban Sasa membuat Fania mengerutkan keningnya."
 
     fania "\"Pacar? Kenapa malah minta bantuan perempuan dan bukan teman laki-laki yang lebih mampu secara fisik?\" (dalam hati)"
@@ -81,10 +83,12 @@ label chapter3_fania_scene2:
     #backsound agak intens
 
     #layar bergetar
-    scene bg depan_auditorium at shake:
+    scene bg depan_auditorium with hpunch:
         zoom 0.5
-    show fania kemeja_biasa at shake:
+    show fania kemeja_biasa at hpunch:
         zoom 1.1 xalign 0.5 yalign 0.06
+
+    play music intense fadein 1.0
 
     fania "\"Mana mungkin aku pakai cara instan kayak gitu yang malah bikin aku bodoh. Aku gak mau pakai cara mudah buat bikin tugasku.\""
 
@@ -99,4 +103,5 @@ label chapter3_fania_scene2:
     "Fania hanya menatap ke arah Sasa tanpa mengatakan apapun untuk sesaat dan pergi."
 
     show black with dissolve
+
     jump chapter3_fania_scene3
