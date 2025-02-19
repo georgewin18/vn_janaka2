@@ -25,42 +25,37 @@ label prolog_day3_scene2:
     "Memasuki Auditorium, aku melihat kursi di sebelah Aisyah masih kosong, dan pergi duduk sebelahnya."
     
     show raden ngomong
-    with dissolve
 
     raden "\"Pagi Aisyah.\""
     
     show raden biasa
-    with dissolve
 
+    voice "audio/vo/aisyah/prolog3/prolog3_1_eh_raden.flac"
     aisyah "\"Eh, Raden? Terlambat kamu?\""
     
     show raden ngomong
-    with dissolve
 
     raden "\"Iyanih, ketiduran aku.\""
     
     show raden biasa
-    with dissolve
 
+    voice "audio/vo/aisyah/prolog3/prolog3_2_nggak_hanya_terlambat.flac"
     aisyah "\"Gak hanya terlambat, ada barang yang ketinggalan juga ya?\""
    
     show raden bingung
-    with dissolve
 
     raden "\"Kok tau??\""
     
     show aisyah kemeja_bingung
-    with dissolve
 
+    voice "audio/vo/aisyah/prolog3/prolog3_3_keliatan_banget.flac"
     aisyah "\"Kelihatan banget itu, kamu pakai pita hitam.\""
     
     show raden ngomong
-    with dissolve
 
     raden "\"Hehe..\""
     
     show aisyah kemeja_bicara
-    with dissolve
 
     "Kami membahas beberapa hal, dari kenapa aku terlambat sampai perasaan apa saja yang kami alami pada dua hari PKKMB. Percakapan berjalan beberapa lama, sampai orang yang duduk di belakangku, menyebut namaku"
     
@@ -79,66 +74,60 @@ label prolog_day3_scene2:
 
     "Aku pun menoleh, kulihat Santo duduk di belakang ku. Kelopak mata nya terlihat menghitam, sepertinya dia juga merasa kelelahan karena mengerjakan tugasnya kemarin."
     
-    show raden ngomong with dissolve
+    show raden ngomong
 
     raden "\"Santo?\""
     
     show raden biasa
     show santo kemeja_bicara
-    with dissolve
 
     santo "\"Gimana den? Masih sehat kan?\""
     
     show raden ngomong
     show santo kemeja_biasa
-    with dissolve
 
     raden "\"Alhamdulillah, masih sehat. Meskipun masih terasa mengantuk sih.\""
     
     show raden biasa
     show santo kemeja_bicara
-    with dissolve
 
     santo "\"Btw, makasih ya den, telah membantu kami kemarin.\""
     
     show raden ngomong
     show santo kemeja_biasa
-    with dissolve
 
     raden "\"Hehe, aman. Jika kalian butuh bantuan lagi, panggil saja aku.\""
     
     show raden biasa
-    with dissolve
     
+    voice "audio/vo/aisyah/prolog3/prolog3_4_kalian_juga_bisa.flac"
     aisyah "\"Kalian juga bisa panggil aku, jika butuh bantuan.\""
     
     show santo kemeja_bicara
-    with dissolve
 
     santo "\"Iya den, syah. Tapi ini masalah region kami, jadi nanti akan ku omongin ke LO ku untuk membahas masalah ini kedepannya.\""
     
     show santo kemeja_biasa
-    with dissolve
 
     "Aku dan Aisyah menggangguk dan aku memberi nya jari jempol."
     
     show raden ngomong
     show santo kemeja_bicara
-    with dissolve
 
     "Percakapan kami dengan Santo berjalan cukup lama, terkadang Aisyah juga mengikuti pembicaraan."
     
     show raden biasa
     show santo kemeja_biasa
-    with dissolve
     
     "Sampai akhirnya, pembawa materi datang dan aku berhenti bicara."
     
-    show raden capek with dissolve
+    show raden capek
     
     hide aisyah
     hide santo
     with dissolve
+
+    stop music fadeout 2.0
     
     scene black with dissolve
     with Pause(0.2)
@@ -146,7 +135,11 @@ label prolog_day3_scene2:
     "Aku mencoba fokus saja kepada materi dengan teliti dan mencatat poin poin penting yang diberikan, tapi aku masih merasa mengantuk akibat mengerjakan tugas kemarin. Lama kelamaan mataku terasa sangat berat. Yang membuat diriku akhirnya tertidur."
 
     sekar "\"....Mu.\""
+    
+    voice "audio/vo/sekar/prolog3/prolog3_1_hey_kamu.flac"
     sekar "\"Kamu!\""
+    
+    voice "audio/vo/aisyah/prolog3/prolog3_5_den_bangun.flac"
     aisyah "\"Den, bangun den!\""
     
     scene bg auditorium:
@@ -164,17 +157,22 @@ label prolog_day3_scene2:
 
     "Mendengar suara Aisyah, aku sontak terbangun dari tidurku. Aku melihat Aisyah yang menatapku dengan muka panik, dan LO region ku Kak Sekar yang memperhatikanku dengan muka yang terlihat agak kesal."
 
+    voice "audio/vo/sekar/prolog3/prolog3_2_tidurnya_enak.flac"
     sekar "\"Tidurnya enak?\""
     
+    play music intense fadein 1.0
+
     show raden capek with dissolve
     #show raden malu with dissolve
 
     raden "\"Maaf kak!\""
 
+    voice "audio/vo/sekar/prolog3/prolog3_3_kemarin_ga_tidur.flac"
     sekar "\"Kemarin nggak tidur kah?\""
 
     raden "\"Maaf kak, gara gara tugas kemarin saya jadi tidur terlalu malam.\""
 
+    voice "audio/vo/sekar/prolog3/prolog3_4_yaudah.flac"
     sekar "\"Yasudah, pergi cuci muka dulu sana.\""
     
     raden "\"Baik, kak.\""

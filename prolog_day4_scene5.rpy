@@ -40,6 +40,6 @@ label prolog_day4_scene5:
 
     centered "Perjalanan yang sebenarnya masih baru dimulai."
 
-    jump chapter4_sekar_scene1
+    jump chapter3_fania_scene1
 
     return
