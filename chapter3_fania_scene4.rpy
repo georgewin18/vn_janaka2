@@ -5,6 +5,7 @@ label chapter3_fania_scene4:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
+    play music campus fadein 1.0
     #raden santo netral
     show raden biasa with dissolve:
         zoom 0.2 xalign 0.2 yalign 0.0
@@ -37,6 +38,8 @@ label chapter3_fania_scene4:
 
             santo "\"Nanti ngomong aja kalau aku yang nyuruh\""
 
+            stop music fadeout 2.0
+
             jump chapter3_fania_scene4_afterchoice1
         
         "Cek mereka dulu, kayaknya ada sesuatu.":
@@ -61,6 +64,8 @@ label chapter3_fania_scene4:
             "\"Tapi melihat ekspresi Fania yang berubah mengkerut kesal, sepertinya itu adalah sebuah kesalahan untuk menghampiri mereka.\""
             #affection turun
             
+            stop music fadeout 2.0
+
             jump chapter3_fania_scene4_afterchoice1
 
 label chapter3_fania_scene4_afterchoice1:
@@ -126,6 +131,7 @@ label chapter3_fania_scene4_afterchoice1:
             jump chapter3_fania_scene4_afterchoice2
 
 label chapter3_fania_scene4_afterchoice2:
+    play music intense fadein 1.0
     #fania kesal
     show fania jas_bicara
     fania "\"Kalau kalian punya waktu buat diskusi, minimal jangan ganggu orang ngerjain tugas.\""
@@ -143,10 +149,14 @@ label chapter3_fania_scene4_afterchoice2:
             show fania kemeja_biasa
             fania "\"Tapi aku gak minta bantuan,\""
 
+            stop music fadeout 2.0
+
             raden "\"Sh, sh. Abaikan detailnya.\""
 
             #affection naik
             #Backsound Suasana sedikit dramatis
+
+            play music dramatic fadein 1.0 
 
             santo "\"Jadi kamu mau bantuin Fania sekarang? tugas kita gimana?\""
 
@@ -185,8 +195,12 @@ label chapter3_fania_scene4_afterchoice2:
 
             "Melihat mereka semua, sayang sekali jika aku tidak membantu. Pada akhirnya, aku tidak bisa menahan diri dan mengikuti arus."
 
+            stop music fadeout 2.0
+
             show raden biasa
             raden "\"Oke deh, aku bakalan bantu juga!\""
+
+            play music dramatic fadein 1.0
 
             jump chapter3_fania_scene4_afterchoice3
 
@@ -285,11 +299,15 @@ label chapter3_fania_scene4_afterchoice3:
 
             raden "\"Jadi, kasih aja mereka waktu. Kalau gagal, yaudah, at least kamu udah berusaha sebaik mungkin. Slow aja, dunia nggak akan runtuh cuma karena kamu kasih orang kesempatan, kok!\""
 
+            stop music fadeout 2.0
+
             "Aku berhenti, mengakhiri pidato bijak ku dan memandang Fania."
 
             #Backsound sedikit romantis
             #(Moment) Fania yang tertawa
             #scene bg with dissolve
+
+            play music romantic fadein 1.0
 
             "Tawa halusnya terdengar seperti lonceng yang dihembuskan oleh angin lembut, berpadu dengan senyum yang memancarkan kehangatan seperti siraman mentari pagi."
 
@@ -352,13 +370,16 @@ label chapter3_fania_scene4_afterchoice3:
             fania "\"Kami udah baikan.\""
 
             scene black with dissolve
-            
+
+            stop music fadeout 2.0            
+
             "Seminggu selanjutnya"
 
             #kelasd4
             show bg lap_futsal with dissolve:
                 zoom 0.5
             #Backsound Netral suasana kampus
+            play music campus fadein 1.0
 
             #SFX Orang berbincang
 
@@ -373,7 +394,10 @@ label chapter3_fania_scene4_afterchoice3:
             "Baguslah kalau begitu."
 
             show black with dissolve
+
+            stop music fadeout 2.0
             #"CHAPTER 3 (Arc Fania) Ending 1 (+20% affection)."
+            jump chapter4_sekar_scene1
 
         "Buat Fania mengandalkan kita":
             show raden senyum sadar
@@ -381,7 +405,7 @@ label chapter3_fania_scene4_afterchoice3:
 
             aisyah "\"Fania, gimana kalau kamu coba bicara sama teman-teman kelompokmu dan mencoba berbaikan. Pada akhirnya, semua orang punya kekurangan, dan kuyakin mereka juga punya\""
 
-            aisyah '\"“Dan kalau mereka tidak menghasilkan apapun, kamu tetap bisa laporkan ke dosen untuk evaluasi lanjutan!\"'
+            aisyah '\"Dan kalau mereka tidak menghasilkan apapun, kamu tetap bisa laporkan ke dosen untuk evaluasi lanjutan!\"'
 
             #fania tersenyum
             show fania kemeja_biasa
@@ -393,6 +417,8 @@ label chapter3_fania_scene4_afterchoice3:
             aisyah "\"Baguslah kalau begitu.\""
 
             show black with dissolve
+
+            stop music fadeout 2.0
             #Transisi menghitam
 
             #"Neutral Ending"
@@ -402,6 +428,7 @@ label chapter3_fania_scene4_afterchoice3:
             #Kelas Raden
 
             #Backsound Netral suasana kampus
+            play music campus fadein 1.0
 
             #SFX Orang berbincang
 
@@ -417,21 +444,6 @@ label chapter3_fania_scene4_afterchoice3:
 
             show black with dissolve
 
+            stop music fadeout 2.0
             #CHAPTER 3 (Arc Fania) Ending 2 (+0 affection).
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-    
+            jump chapter4_sekar_scene1

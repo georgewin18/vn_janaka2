@@ -4,7 +4,6 @@ label chapter3_fania_scene3:
         zoom 0.5
 
     #bgm netral in kampus
-
     #fania dingin
     show fania kemeja_biasa with dissolve:
         zoom 1.1 xalign -1.0 yalign 0.06 
@@ -14,7 +13,7 @@ label chapter3_fania_scene3:
     show aisyah kemeja_gugup with dissolve:
         zoom 0.34 yalign -1.0 xalign 0.9
 
-    aisyah "\"Fa– hmm, mendingan jangan deh.\""
+    aisyah "\"Fa- hmm, mendingan jangan deh.\""
 
     "Aisyah menghentikan niatnya untuk memanggil Fania, melihat dia begitu fokus dan penuh konsentrasi."
 
@@ -43,4 +42,7 @@ label chapter3_fania_scene3:
     aisyah "\"Kayaknya kebanyakan deh kalau cuma buat tugas.\""
 
     show black with dissolve
+
+    stop music fadeout 2.0
+
     jump chapter3_fania_scene4
