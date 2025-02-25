@@ -258,9 +258,11 @@ label pensasi_fania_afterchoice2:
 
     "Fania menoleh ke arahku dan melambaikan tangannya. Aku mendekatinya dan mendapatkan sebuah pertanyaan yang mengejutkan."
 
+    fania "\"Kamu mau jadi gitarisku?\""
+
     #raden kaget
     show raden bingung
-    raden "\"Kamu mau jadi gitarisku?\""
+    raden "\"Hah!? Gitaris?!\""
 
     fania "\"Iya. Gimana?\""
 
