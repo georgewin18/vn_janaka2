@@ -21,6 +21,8 @@ define Region = Character("Teman Region")
 define rna = Character("Raden & Aisyah")
 define dosen = Character("Dosen")
 define bima = Character("Bima")
+define abdi = Character("Abdi")
+define dio = Character("Dio")
 
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 

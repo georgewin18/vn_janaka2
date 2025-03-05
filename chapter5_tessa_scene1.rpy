@@ -46,11 +46,13 @@ label chapter5_tessa_scene1_choice1_1:
     raden_nvl "Halah to, ayooooo"
     santo_nvl "Ogah, mendirng rebahan terus lanjut ngegame"
 
+    nvl clear
+
     "Pesan dari Santo langsung memicu keributan di grup." 
     
     "Berbagai anggota kelas mencoba membujuknya. Akhirnya, setelah perdebatan singkat dan desakan dari beberapa teman, Santo menyerah dan memutuskan untuk ikut kelas"
 
-    stop musci fadeout 2.0
+    stop music fadeout 2.0
 
     scene black with dissolve
     with Pause(0.3)
@@ -100,6 +102,8 @@ label chapter5_tessa_scene1_choice1_2:
     santo_nvl "Aku juga sama, ditahan sama kasur dan game ku"
     raden_nvl "Wah mantap, terbaik!"
     santo_nvl "Bener, terbaik!"
+
+    nvl clear
 
     "Melihat percakapan itu, gtup kelas langsung heboh dengan komentar dan bujukan agar kami tetap ikut kelas. Keramaian ini rupanya berhasil melunakkan hati Raden dan Santo."
 

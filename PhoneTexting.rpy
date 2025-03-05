@@ -3,6 +3,8 @@
 define nvl_mode = "phone"  ##Allow the NVL mode to become a phone conversation
 define MC_Name = "Raden" ##The name of the main character, used to place them on the screen
 define Santo = "Santo"
+define Aisyah = "Aisyah"
+define Fania = "Fania"
 
 init -1 python:
     phone_position_x = 0.5
@@ -106,6 +108,12 @@ screen nvl_phonetext(dialogue):
 
                     elif d.who == Santo:
                         $ message_icon = "santo_icon.png"
+                    
+                    # elif d.who == Aisyah:
+                    #     $ message_icon = ""
+
+                    # elif d.who == Fania:
+                    #     $ message_icon = ""
 
                     else:
                         $ message_icon = "phone_received_icon.png"
