@@ -1,4 +1,4 @@
-label scene3:
+label prolog_day1_scene3:
     # [Scene 3]
     # Latar: Dalam Auditorium
     # Karakter: Raden, Aisyah, Sekar, dan Tessa
@@ -136,7 +136,7 @@ label scene4_after_choice:
     scene black with dissolve
     with Pause(0.2)
 
-    jump scene4
+    jump prolog_day1_scene4
 
     return
 

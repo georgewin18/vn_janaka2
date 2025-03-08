@@ -1,4 +1,4 @@
-label scene4:
+label prolog_day1_scene4:
     show bg auditorium:
             zoom 0.5 
     with dissolve
@@ -69,6 +69,6 @@ label scene4:
     scene black with dissolve
     with Pause(0.2)
 
-    jump scene5
+    jump prolog_day1_scene5
 
     return

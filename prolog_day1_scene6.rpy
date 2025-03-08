@@ -1,4 +1,4 @@
-label scene6:
+label prolog_day1_scene6:
         show bg lap_futsal:
                 zoom 0.5 
         with dissolve

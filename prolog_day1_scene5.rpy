@@ -1,4 +1,4 @@
-label scene5:
+label prolog_day1_scene5:
         scene bg masjid:
                 zoom 0.5
         with dissolve
@@ -65,6 +65,6 @@ label scene5:
         scene black with dissolve
         with Pause(0.2)
 
-        jump scene6
+        jump prolog_day1_scene6
 
         return

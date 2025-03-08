@@ -1,4 +1,4 @@
-label scene2:
+label prolog_day1_scene2:
 # [Scene 2]
 # Latar : Gerbang Masuk PENS, depan parkiran D3, lapmer, di dalam Pascasarjana, Pascasarjana lantai 6, dan di depan Auditorium.
 # Karakter: Raden, Santo, dan Aisyah
@@ -148,6 +148,6 @@ label scene3_after_choice:
     scene black with dissolve
     with Pause(0.2)    
 
-    jump scene3
+    jump prolog_day1_scene3
 
     return

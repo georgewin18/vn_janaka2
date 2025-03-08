@@ -4,7 +4,7 @@ define santo_nvl = Character("Santo", kind=nvl, callback=Phone_ReceiveSound)
 define config.adv_nvl_transition = None
 define config.nvl_adv_transition = Dissolve(0.3)
 
-label scene1:
+label prolog_day1_scene1:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
@@ -56,6 +56,6 @@ label scene1:
 
     raden "\"Yang membuat ku berakhir melakukan tes SNBT di sini. Dan lulus sebagai Mahasiswa {b}Departemen Teknik Elektro{/b}\""
 
-    jump scene2
+    jump prolog_day1_scene2
 
     return
