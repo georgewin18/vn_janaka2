@@ -14,8 +14,8 @@ label chapter3_fania_scene2:
 
     "Fania dan Sasa telah berada di dalam perpustakaan gedung Pascasarjana menyiapkan buku di atas meja yang sesuai dengan topik yang akan dibahas dan siap untuk mulai mereview dan meringkas."
 
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_dingin with dissolve:
+        zoom 1.15 xalign 0.5 yalign -0.02
 
     fania "\"Jadi gimana kabar Tina, dia jadi dateng gak?\""
 
@@ -24,22 +24,20 @@ label chapter3_fania_scene2:
     "\"Katanya dia ada urusan mendadak buat bantuin pacarnya pindahan.\”"
 
     #fania kesal
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_kesal with dissolve
 
     stop music fadeout 2.0
 
     "Jawaban Sasa membuat Fania mengerutkan keningnya."
 
-    fania "\"Pacar? Kenapa malah minta bantuan perempuan dan bukan teman laki-laki yang lebih mampu secara fisik?\" (dalam hati)"
+    fania "{i}Pacar? Kenapa malah minta bantuan perempuan dan bukan teman laki-laki yang lebih mampu secara fisik?{/i}"
 
     fania "\"Kalau begitu, ayo kita mulai dulu deh.\""
 
     "Fania mulai meringkas tiap bab di dalam buku dan mengambil setiap poin penting di dalamnya."
 
     #fania bingung
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_bingung with dissolve
 
     fania "\"Kamu gak ngerjain?\""
 
@@ -48,8 +46,13 @@ label chapter3_fania_scene2:
     "Sasa membalas dengan santai dan tanpa beban sembari terus bermain dan menggulir halaman TokTok nya"
 
     #fania menghela nafas
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_menghelanapas
+    pause 0.3
+
+    show fania casual_menghelanapas_ada_asap with dissolve
+    pause 0.3
+
+    show fania casual_menghelanapas with dissolve
 
     fania "\"... Huh…\""
 
@@ -58,8 +61,7 @@ label chapter3_fania_scene2:
     "Padahal, ini adalah bentuk evaluasi dari dosen kepada mahasiswa untuk menunjukkan seberapa kompeten mahasiswa dalam mengambil kesimpulan, mencari tahu informasi, dan membuat ringkasan yang masih sesuai dengan topik di dalam buku dan jurnal yang berhubungan dengan mata kuliah mereka."
 
     #fania dingin
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_dingin with dissolve
     fania "\"Itu kesalahan berpikir.\""
 
     fania "\"Dosen itu bukan orang yang cuma bisa meluluskan murid kayak guru sekolah umum yang dibawahnya. Mereka itu orang yang terbaik di bidangnya yang berpengalaman dan tahu karakter mahasiswa\""
@@ -76,17 +78,12 @@ label chapter3_fania_scene2:
 
     "\"Udahlah Fan, pakai cara yang gampang aja.\""
 
-    "\"Udahlah Fan, pakai cara yang gampang aja.\""
-
     "\"Hasilnya juga gak jauh beda kok, dan kalau kamu mau, ada kok cara pake AI yang lebih minimal untuk perbaikin typo doang.\""
 
     #backsound agak intens
 
     #layar bergetar
-    scene bg depan_auditorium with hpunch:
-        zoom 0.5
-    show fania kemeja_biasa at hpunch:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_kesal with hpunch
 
     play music intense fadein 1.0
 

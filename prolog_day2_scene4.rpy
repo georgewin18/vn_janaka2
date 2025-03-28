@@ -1,14 +1,14 @@
 label prolog_day2_scene4:
     #bg gang
-    scene bg lap_futsal:
+    scene bg lap_futsal with dissolve:
         zoom 0.5
 
-    show raden biasa:
-        zoom 0.2 xalign -0.2 yalign 0.0
+    show raden kemeja_biasa with dissolve:
+        zoom 0.48 xalign 0.0 yalign 0.1
     "Saat itu, aku tiba-tiba berhenti, mengingat pertemuanku dengan Fania kemarin. Fania yang saat itu terlihat begitu santai terasa sangat berbeda dari yang sekarang. Ini mengganggu pikiranku, serasa ingin menghampirinya."
 
-    show fania kemeja_biasa:
-        xalign 1.5 yalign 0.0
+    show fania kemeja_dingin with dissolve:
+        zoom 1.15 xalign 1.1 yalign -0.02
 
     menu:
         "Hampiri dia":
@@ -25,6 +25,7 @@ label prolog2_scene4_after_choice1:
         xalign 0.2
     with moveinright
 
+    show raden kemeja_tersenyum
     raden "\"Fania!\""
 
     #fania dingin
@@ -33,12 +34,16 @@ label prolog2_scene4_after_choice1:
     fania "\"Ya?\""
 
     #raden canggung
+    show raden kemeja_gugup
     raden "\"ummmm…. nama ku Raden… haha….\""
 
+    show raden kemeja_canggung
     voice "audio/vo/fania/prolog2/prolog2_6_iya_aku_udah_liat.flac"
     fania "\"Iya, aku udah liat dari nametag mu\""
 
     #raden gugup
+    show raden kemeja_gugup
+
     raden "\"Gini…. Fania… kamu…\""
 
     #fania gugup

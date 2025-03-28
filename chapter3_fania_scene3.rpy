@@ -5,13 +5,13 @@ label chapter3_fania_scene3:
 
     #bgm netral in kampus
     #fania dingin
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign -1.0 yalign 0.06 
+    show fania casual_dingin with dissolve:
+        zoom 1.15 xalign 0.0 yalign -0.02 
 
     "Aisyah masuk ke perpustakaan dan melihat tiga buah buku yang sama-sama dibuka dengan laptop Fania yang juga membuka tiga buah artikel jurnal."
 
     show aisyah kemeja_gugup with dissolve:
-        zoom 0.34 yalign -1.0 xalign 0.9
+        zoom 0.35 xalign 0.9 yalign -0.7
 
     aisyah "\"Fa- hmm, mendingan jangan deh.\""
 
@@ -19,8 +19,6 @@ label chapter3_fania_scene3:
 
     show aisyah:
         xalign 0.7
-    show fania:
-        xalign -0.5
     with moveinright
     
     "Aisyah mendekati Fania dan membuat Fania menyadarinya."

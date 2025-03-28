@@ -3,23 +3,33 @@ label chapter5_tessa_good_ending:
 
     raden "{i}apa aku akan dihantam?!{/i}"
 
+    show raden kasual_panik
+    stop music fadeout 2.0
+
     tessa "\"{size=+10}AAAAAAAAA!!!!{/size}\"" with vpunch
     
     "Aku terkejut dan hampir melompat setelah mendengar teriakan Kak Tessa. Tetapi sebelum aku bisa bereaksi, Tessa langsung bersembunyi di belakangku sambil memegang bajuku erat-erat."
 
     "Tubuhku dia goyangkan ke kiri dan ke kanan tanpa henti"
 
+    play music tessa_bgm fadein 1.0
+    show raden kasual_pusing
+
     raden "\"K..kk..kak, a..aa..ada apa, jangan digoyangkan terus mabuk a..aku jadinya\""
 
     tessa "\"T-tidak ada...\""
 
-    tessa "\"Cima halusinasi... mungkin...\""
+    tessa "\"Cuma halusinasi... mungkin...\""
 
     "Dia akhirnya berhenti menggoyangkan tubuhku, membiarkan aku menarik napas lega. Dengan hati hati, aku menatap ke depan, mencoba mencari tahu apa yang membuatnya panik."
+
+    show raden kasual_menghela_napas with dissolve
 
     raden "\"Sepertinya nggak ada apa-apa deh,\""
 
     tessa "\"Hhhuffttt-\""
+
+    show raden kasual_serius
 
     raden "\"Tunggu...\""
 
@@ -28,6 +38,8 @@ label chapter5_tessa_good_ending:
     "Sebelum aku sempat menyelesaikan kalimatku, Kak Tessa kembali menggoyangkan tubuhku."
 
     tessa "\"HIIIIKKKK-\"" with hpunch
+
+    show raden kasual_pusing
 
     raden "\"m...bak, s..top, m..abuk, a..kuuu\"" with hpunch
 
@@ -41,25 +53,37 @@ label chapter5_tessa_good_ending:
 
     tessa "\"Kau gak apa??\""
 
+    show raden kasual_menghela_napas with dissolve
+
     raden "\"Iya\""
 
     tessa "\"Baguslah\""
 
     tessa "\"Ngomong-ngomong... dasar wibu\""
 
+    show raden kasual_penasaran
+
     raden "\"Huh?!\""
+
+    show raden kasual_tersenyum with dissolve
 
     raden "\"Eh... hehehehe,\""
 
     tessa "\"Dasar wibu,\""
 
+    show raden kasual_kesal
+    stop music fadeout 2.0
+
     raden "\"Aku nggak sewibu itu, woii!\""
 
     #SPECIAL MOMENT
-    
+    play music romantic fadein 1.0
+
     "Dia mendekatkan wajahnya sedikit, menatapku denagn ekspresi dingin."
 
     "Tapi kali ini, aku memperhatikan rona merah di pipinya yang tak biasa dia sembunyikan."
+
+    show raden kasual_bingung
 
     raden "\"Hmmmm...\""
 
@@ -69,7 +93,11 @@ label chapter5_tessa_good_ending:
 
     "Aku langsung menoleh, terkejut dengan pengakuannya"
 
+    show raden kasual_tersenyum
+
     raden "\"Oh... jadi mbak takut tikus?\""
+
+    show raden kasual_biasa
 
     tessa "\"Diam!\""
 
@@ -87,6 +115,8 @@ label chapter5_tessa_good_ending:
     
     tessa "\"..imut\""
 
+    show raden kasual_gugup
+
     raden "\"Huh?! I-itu... i-itu cuma...\""
 
     tessa "\"Jangan bilang apa-apa,\""
@@ -97,25 +127,37 @@ label chapter5_tessa_good_ending:
 
     "Dia berusaha menjaga ekspresi datarnya, tapi rona merah di wajahnya justru semakin kentara. Aku hanya bisa menatapnya, setengah bingung, setengah terhibur."
 
+    show raden kasual_canggung
+
     raden "\"Baiklah, deal,\""
 
     "Kami melanjutkan perjalanan menuju tempat parkir. Meski malam itu dingin, suasana di antara kami terasa jauh lebih ringan."
 
+    show raden kasual_biasa
+
     "Aku tersenyum kecil, sadar ada sisi lain dari Tessa yang baru saja aku lihat."
+
+    stop music fadeout 2.0
 
     scene black with dissolve
     with Pause(0.3)
+
+    jump pensasi_canon
 
     return
 
 label chapter5_tessa_neutral_ending:
     "Kemudian kami berdua pun lanjut jalan bareng karena satu jalan. Aku mulai membuka HPku, dan terkejut ternyata sudah jam 8.30"
 
-    raden "\"waduhm cepetnya\""
+    raden "\"waduh cepetnya\""
+
+    show raden kasual_tersenyum
 
     raden "\"Kak, saya pamit dulu ya\""
     
     tessa "\"Oke\""
+
+    show raden kasual_ceria
 
     raden "\"Oh iya, sebelum itu aku mau bilang lega rasanya tahu bahwa Kak Tessa ternyata tidak semenakutkan itu\""
 
@@ -125,5 +167,7 @@ label chapter5_tessa_neutral_ending:
 
     scene black with dissolve
     with Pause(0.3)
+
+    jump pensasi_canon
 
     return
