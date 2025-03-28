@@ -376,7 +376,7 @@ label pembukaan_pensasi:
 
     menu:
         "Menyapa Sekar":#sekar route
-            jump pensasi_sekar
+            jump pensasi_sekar_scene1
 
         "Menunggu Aisyah dan Fania":
             "Aku memutuskan mencari tempat duduk untuk menunggu Aisyah dan Fania datang. Suasana di sekitar masih cukup ramai, tapi aku berhasil menemukan bangku kosong di dekat jendela."
@@ -395,7 +395,7 @@ label pembukaan_pensasi:
             jump pembukaan_pensasi_afterchoice1
 
         "Pergi menyapa Tessa sebentar":#tessa route
-            jump pensasi_tessa
+            jump pensasi_tessa_scene1
 
 label pembukaan_pensasi_afterchoice1:
     #Pasca lt 6 zoom out
@@ -549,4 +549,5 @@ label pembukaan_pensasi_afterchoice2:
 
             "Kami menuju ke Auditorium dengan langkah cepat, Aisyah tampak antusias, sementara aku agak ragu. Tapi, siapa tahu aku bisa mendapatkan sesuatu yang menarik dari acara ini."
 
-            jump pensasi_aisyah
+            "{i}jump route aisyah{/i}"
+            #jump pensasi_aisyah
