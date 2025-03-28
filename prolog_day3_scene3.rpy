@@ -12,16 +12,16 @@ label prolog_day3_scene3:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.23 xalign 0.5 yalign 0.1
-    
+    show raden kemeja_capek with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
+
     "Mau tidak mau aku berdiri dari kursi ku, dan pergi keluar ruangan."
     
-    show raden bingung with dissolve
+    show raden kemeja_bingung with dissolve
     
     "Tiba-tiba aku kepikiran, kalau aku lupa untuk bertanya arah menuju ke toilet."
     
-    show raden biasa with dissolve
+    show raden kemeja_biasa2 with dissolve
 
     "Untung nya di depan ruangan juga ada Panitia yang menjaga. Panitia yang menjaga di luar ada dua. Satu adalah pria dengan tubuh kekar dengan wajah yang galak dan satunya adalah seorang perempuan berambut merah dengan ujung rambutnya berwarna hitam."
     "Ekspresi yang ditunjukkan perempuan tersebut juga lebih rileks dibandingkan dengan panitia pria satunya."
@@ -36,7 +36,7 @@ label prolog_day3_scene3:
     show tessa normal with dissolve:
         zoom 0.39 xalign 1.0 yalign -0.25
     
-    show raden ngomong
+    show raden kemeja_tersenyum
     
     raden "\"Permisi kak.\""
     
@@ -46,7 +46,7 @@ label prolog_day3_scene3:
     voice "audio/vo/tessa/prolog3/prolog3_1_apa.flac"
     lo "\"Apa?\""#tessa kesal
     
-    show raden capek with dissolve
+    show raden kemeja_gugup with dissolve
     #show raden gugup with dissolve
     
     "{i}Kenapa kakak ini tiba-tiba marah?{/i}"
@@ -56,17 +56,17 @@ label prolog_day3_scene3:
     voice "audio/vo/tessa/prolog3/prolog3_2_toilet.flac"
     lo "\"Toilet? Langsung aja lurus ke arah sana. Kalau kamu perhatikan dengan benar, pasti akan ketemu.\""
     
-    show raden biasa with dissolve
+    show raden kemeja_biasa2 with dissolve
 
     "Aku tidak mendengarkan nya dengan baik karena tadi sedang panik, Tapi kakak panitia itu sudah kelihatan cukup kesal, aku takut akan dimarahi jika memintanya untuk mengulang."
     
-    show raden bingung with dissolve
+    show raden kemeja_bingung with dissolve
 
     "{i}Tadi kayaknya dia bilangnya lurus aja ya?{/i}"
 
     menu:
         "Gk usah tanya lagi deh, harusnya tinggal lurus saja pasti kelihatan nanti.":
-            show raden biasa
+            show raden kemeja_biasa2
             with dissolve
             
             raden "\"Baik kak. Terimakasih\""
@@ -77,11 +77,11 @@ label prolog_day3_scene3:
 
             "Aku berjalan lurus sesuai yang dikatakan oleh panitia tadi. Dengan langkah penuh harapan, aku menyusuri lorong-lorong yang tampak seragam. Namun, setelah beberapa menit berjalan, aku tidak juga menemukan keberadaan toilet."
             
-            show raden bingung with dissolve
+            show raden kemeja_bingung with dissolve
 
             "{i}Kok gak ada ya? Harusnya tadi aku tanya saja ke panitia tadi…{/i}"
             
-            show raden capek with dissolve
+            show raden kemeja_capek with dissolve
 
             "Akhirnya, dengan sedikit ragu, aku memutuskan untuk kembali ke ruangan tempat dua panitia tadi berjaga. Tidak ada pilihan lain selain bertanya lagi pada perempuan dengan rambut merah gradasi itu. Meski hatiku sedikit gentar, teringat responnya yang dingin sebelumnya."
 
@@ -93,19 +93,21 @@ label prolog_day3_scene3:
             show tessa normal with dissolve:
                 zoom 0.39 xalign 0.95 yalign -0.25
             
-            show raden ngomong with dissolve
+            show raden kemeja_gugup with dissolve
 
             voice "audio/vo/tessa/prolog3/prolog3_3_apa_lagi.flac"
             lo "\"Ada apa lagi?\""
             
-            show raden capek with dissolve
+            show raden kemeja_canggung with dissolve
             
             "Aku menggaruk belakang kepala sambil tersenyum kaku."
             
+            show raden kemeja_gugup
+
             raden "\"Maaf, Kak. Saya masih belum bisa menemukan toiletnya… Bisa tolong tunjukkan lagi arahnya?\""
 
         "Lebih baik tanya aja deh, daripada tersesat nanti.":
-            show raden capek with dissolve
+            show raden kemeja canggung with dissolve
             
             "Aku menggaruk belakang kepala sambil tersenyum kaku."
             
@@ -121,7 +123,7 @@ label prolog_day3_scene3:
     with dissolve
     
     #raden gugup
-    show raden biasa at flip with dissolve
+    show raden kemeja_biasa2 at flip with dissolve
     
     "Aku hanya bisa mengangguk, sembari perlahan melangkah pergi"
     
@@ -132,14 +134,14 @@ label prolog_day3_scene3:
         xalign 0.0
     
     #raden terkejut
-    show raden ngomong
+    show raden kemeja_kaget
     
     "Namun dia tiba-tiba berjalan mendahuluiku."
 
     voice "audio/vo/tessa/prolog3/prolog3_5_sudahlah.flac"
     lo "\"Sudahlah, ikut aku. Kalau gak, nanti malah kamu hilang.\""
     
-    show raden biasa
+    show raden kemeja_biasa2
 
     "Aku mengikutinya dalam diam. Langkahnya cepat dan mantap, seperti seseorang yang terbiasa menyelesaikan tugas tanpa keraguan."
     
