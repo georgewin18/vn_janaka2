@@ -8,13 +8,16 @@ label chapter5_tessa_scene4:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden biasa:
-        zoom 0.23 yalign 0.1 xalign 0.0
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
     show santo kemeja_biasa:
         zoom 1.15 yalign 0.08 xalign 2.7
     with dissolve
     
     "Kami berdua mulai menonton anime bersama. Di tengah-tengah adegan yang seru, tiba-tiba seseorang memanggil-"
+
+    stop music fadeout 2.0
+    show raden kasual_canggung
 
     anon "\"WOI, KALIAN!\"" with vpunch
 
@@ -41,6 +44,7 @@ label chapter5_tessa_scene4:
 
     #hide santo
     hide santo with MoveTransition(0.2, leave=outleft)
+    show raden kasual_gugup
 
     menu:
         "Pingsan aja lah":
@@ -76,17 +80,27 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Huhh...\""
 
+    show raden kasual_canggung
+
     tessa "\"Kenapa hah?\""
+
+    show raden kasual_gugup
 
     raden "\"Ngg-nggak ada... mohon maaf,\""
 
     raden "\"Aku nggak ngapa-ngapain. Tolong jangan ganggu aku kak...\""
 
+    show raden kasual_canggung
+
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
+    show raden kasual_gugup
+
     raden "\"E.. enggak tau\""
+
+    play music tessa_bgm fadein 1.0
 
     tessa "\"Gitu kenapa takut? Nyapa doang.\""
 
@@ -95,6 +109,8 @@ label chapter5_tessa_scene4_choice4_2:
     raden "\"Kak Tessa... aku tahu suara kakak memang biasanya galak, walaupun nggak marah,\""
 
     raden "\"Tapi kali ini... suara kakak beneran bikin aku merinding, seriusan\""
+
+    show raden kasual_canggung
 
     tessa "\"Beda gimana?\""
 
@@ -120,15 +136,21 @@ label chapter5_tessa_scene4_choice4_2:
 
     pause 1.0
 
+    show raden kasual_biasa2
+
     raden "\"Dipikir-pikir Kak Tessa keren sih... tapi... juga menakutkan...\""
 
-    tessa "\"Ya, tapi sekarang ini aku gak marak kok.\""
+    tessa "\"Ya, tapi sekarang ini aku gak marah kok.\""
 
     tessa "\"Suaraku memang jadi lebih keras soalnya tenggorokanku lagi sakit.\""
+
+    show raden kasual_tersenyum
 
     raden "\"Btw makasih ya kak, udah bantu kita waktu itu\""
 
     tessa "\"Iya, sama-sama\""
+
+    show raden kasual_biasa
 
     "Mendengar jawaban Tessa, aku pun tenang tapi agak bingung kemudian hanya menganggukkan kepala, kemudian aku pun pamit ingin pulang, dan akhirnya kami berjalan ke parkiran bersama."
 
@@ -136,8 +158,8 @@ label chapter5_tessa_scene4_choice4_2:
     scene bg lap_futsal with dissolve:
         zoom 0.5
 
-    show raden biasa:
-        zoom 0.23 yalign 0.1 xalign 0.0
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
     show tessa normal:
         zoom 0.39 yalign -0.25 xalign 0.95
     with dissolve
@@ -163,8 +185,8 @@ label chapter5_tessa_scene4_choice4_3:
     scene bg lap_futsal with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_capek with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "Setelah kabur dari Tessa yang ada di kantin, aku pun menarik napas dan menenangkan diri."
 
@@ -177,10 +199,14 @@ label chapter5_tessa_scene4_choice4_3:
     show tessa normal with dissolve:
         zoom 0.39 yalign -0.25 xalign 0.95
 
+    show raden kasual_panik
+
     #show tessa
     raden "\"AAAAAAAAAA\"" with vpunch
 
     tessa "\"Apaan?\""
+
+    show raden kasual_gugup
 
     raden "\"Kukira hantu...\""
 
@@ -196,9 +222,13 @@ label chapter5_tessa_scene4_choice4_3:
 
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
+    show raden kasual_canggung
+
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
     raden "\"E.. enggak tau\""
+
+    play music tessa_bgm fadein 1.0
 
     tessa "\"Gitu kenapa takut? Nyapa doang.\""
 
@@ -232,9 +262,11 @@ label chapter5_tessa_scene4_choice4_3:
 
     pause 1.0
 
+    show raden kasual_biasa2
+
     raden "\"Dipikir-pikir Kak Tessa keren sih... tapi... juga menakutkan...\""
 
-    tessa "\"Ya, tapi sekarang ini aku gak marak kok.\""
+    tessa "\"Ya, tapi sekarang ini aku gak marah kok.\""
 
     tessa "\"Suaraku memang jadi lebih keras soalnya tenggorokanku lagi sakit.\""
 
@@ -257,17 +289,26 @@ label chapter5_tessa_scene4_choice4_3:
     return
 
 label chapter5_tessa_scene4_choice4_2_1:
+    stop music fadeout 2.0
+    show raden kasual_gugup
+
     raden "\"Ka-Kak Tessa, b.. ba.. bagaimana, kalau at.. atau mau tidak kita jadi teman..?\""
 
     "Di jalan yang sunyi dan di bawah tiang lampu jalan yang bersinar, Kak Tessa yang mendengar ucapanku tersenyum dan mulai tertawa bahagia."
 
+    play music romantic2 fadein 1.0
+
     tessa "\"hahahahahahaha, ku kira ada apa ternyata cuma itu, hahahahaha\""
+
+    show raden kasual_kesal
 
     raden "\"Oiii, kenapa jadi ketawa sih\""
 
     tessa "\"hahaha, kau itu lhoo..\""
 
     tessa "\"bisa-bisanya ngomong gitu.\""
+
+    show raden kasual_gugup
 
     raden "\"ma...mau bagaimana lagi, a..aku gugup tau...\""
 
@@ -288,15 +329,20 @@ label chapter5_tessa_scene4_choice4_2_1:
     return 
 
 label chapter5_tessa_scene4_choice4_2_1_1:
+    show raden kasual_biasa2
     raden "\"Bener kok, cuman terkejut melihat kakak yang...\""
 
     raden "\"...lumayan imut\""
 
     "Tessa terkejut dan wajahnya langsung memerah seperti tomat."
 
+    show raden kasual_panik
+
     raden "{i}Kenapa kalimat barusan keluar dari mulutku?! Astaga, habislah aku! Wahai bumi dan langit, tolong lindungi aku yang sudah pasrah ini!{/i}"
 
     "Saat sudah mempersiapkan jiwa dan raga untuk dihantam, ternyata Tesas hanya melewatiku begitu saja tanpa berkata apa-apa. Aku yang berdiri di tempatm bengong sesaat."
+
+    show raden kasual_penasaran
 
     raden "{i}Lho? Kok dia nggak marah?{/i}"
 
@@ -316,6 +362,8 @@ label chapter5_tessa_scene4_choice4_2_1_2:
     raden "\"Iya, beneran! Soalnya lagi bingung mau makan nasi goreng atau mie...\""
 
     tessa "\"Dasar aneh,\""
+
+    show raden kasual_canggung
 
     "Aku yang melihat itu merasa lega, tapi sekaligus bingung."
 
