@@ -41,8 +41,56 @@ define audio.romantic2 = "audio/bgm/romantic2.flac"
 
 # The game starts here.
 
+label splashscreen:
+    scene blank with Pause(1)
+
+    show logo with dissolve:
+        zoom 0.4 truecenter
+    with Pause(2)
+
+    scene blank with dissolve
+    with Pause(1)
+
+    return
+
 label start:
 
-    jump scene1
+    ## this section only for testing
+    
+    menu:
+        "prolog day 1":
+            jump prolog_day1_scene1
+        "prolog day 2":
+            jump prolog_day2_scene1
+        "prolog day 3":
+            jump prolog_day3_scene1
+        "prolog day 4":
+            jump prolog_day4_scene1
+        "character chapter":
+            menu:
+                "chapter 3: fania":
+                    jump chapter3_fania_scene1
+                "chapter 4: sekar":
+                    jump chapter4_sekar_scene1
+                "chapter 5: tessa":
+                    jump chapter5_tessa_scene1
+                "pensasi":
+                    menu:
+                        "pensasi canon":
+                            jump pensasi_canon
+                        "pensasi aisyah":
+                            jump pensasi_aisyah_scene1
+                        "pensasi fania":
+                            jump pensasi_fania
+                        "pensasi sekar":
+                            jump pensasi_sekar_scene1
+                        "pensasi tessa":
+                            jump pensasi_tessa_scene1
+                        "from the start":
+                            jump prolog_day1_scene1
+
+    ## only for testing
+    
+    #jump prolog_day1_scene1
 
     return
