@@ -10,8 +10,8 @@ label prolog_day4_scene4:
 
     play music raden_bgm fadein 1.0
     
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5 
+    show raden kemeja_biasa with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "Setibanya di area UKM Expo, aku berpisah dengan Kak Sekar, di mana aku menemukan Aisyah"
 
@@ -32,7 +32,7 @@ label prolog_day4_scene4_choice1_1:
     play music aisyah_bgm fadein 1.0
 
     show aisyah kemeja_bicara:
-        zoom 0.34 yalign -1.0 xalign 0.9
+        zoom 0.35 xalign 0.9 yalign -0.7
     show raden:
         xalign 0.0
     with moveinright 
@@ -95,7 +95,7 @@ label prolog_day4_scene4_choice1_1:
     
     "Poster anime, replika pedang katana, lampion khas Jepang, dan bahkan satu sudut stan dipenuhi figur karakter anime terkenal. Di atasnya, terpampang spanduk besar bertuliskan: {b}JANAKA{/b} - Japanese Nakama"
  
-    show raden bingung with dissolve
+    show raden kemeja_bingung with dissolve
 
     raden "{i}JANAKA?{/i}"
 
@@ -106,17 +106,18 @@ label prolog_day4_scene4_choice1_1:
     "Sebagai penggemar anime, aku langsung merasa tertarik"
 
     "Saat aku berjalan lebih dekat, mataku menangkap sosok yang familiar di antara kerumunan. Rambut merah yang khas itu langsung kukenali."
-
+    
+    show raden kemeja_tersenyum
     #show raden & fania
     raden "\"Fania?\""
 
     stop music fadeout 2.0
     play music fania_bgm fadein 1.0
 
-    show raden biasa with moveinright:
+    show raden kemeja_biasa with moveinright:
         xalign 0.0
-    show fania kemeja_biasa with dissolve:
-        zoom 1.12 xalign 2.4 
+    show fania kemeja_senyum_normal with dissolve:
+        zoom 1.15 xalign 1.0 yalign -0.02
 
     voice "audio/vo/fania/prolog4/prolog4_1_oh_raden.flac"
     fania "\"Oh, Raden,\""
@@ -124,8 +125,6 @@ label prolog_day4_scene4_choice1_1:
     raden "\"Kamu juga suka budaya Jepang?\""
 
     fania "\"...\""
-
-    show fania kemeja_bicara
 
     voice "audio/vo/fania/prolog4/prolog4_2_lumayan.flac"
     fania "\"Lumayan, aku nonton beberapa anime.\""
@@ -234,7 +233,7 @@ label prolog_day4_scene4_choice1_1:
     show raden with moveinright:
         xalign 0.0
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom 1.15 xalign 2.7 yalign 0.08
 
     stop music fadeout 2.0
     play music santo_bgm fadein 1.0
@@ -314,7 +313,7 @@ label prolog_day4_scene4_choice2:
 label prolog_day4_scene4_choice2_1:
     #show aisyah
     show aisyah kemeja_bicara:
-        zoom 0.34 yalign -1.0 xalign 0.9
+        zoom 0.35 xalign 0.9 yalign -0.7
     show raden:
         xalign 0.0
     with moveinright
@@ -379,6 +378,8 @@ label prolog_day4_scene4_choice2_1:
         jump prolog_day4_scene4_choice2
 
 label prolog_day4_scene4_choice2_2:
+    show raden kemeja_bingung with dissolve
+    
     raden "{i}JANAKA?{/i}"
 
     "Stan itu terlihat ramai. Beberapa mahasiswa baru berkumpul, berbicara dengan anggota UKM yang menjelaskan kegiatan mereka."
@@ -390,13 +391,15 @@ label prolog_day4_scene4_choice2_2:
     "Saat aku berjalan lebih dekat, mataku menangkap sosok yang familiar di antara kerumunan. Rambut merah yang khas itu langsung kukenali."
 
     #show raden & fania
-    show raden biasa with moveinright:
+    show raden kemeja_biasa with moveinright:
         xalign 0.0
-    show fania kemeja_biasa with dissolve:
-        zoom 1.12 xalign 2.4 
+    show fania kemeja_senyum_normal with dissolve:
+        zoom 1.15 xalign 1.0 yalign -0.02
 
     stop music fadeout 2.0
     play music fania_bgm fadein 1.0
+
+    show raden kemeja_tersenyum
 
     raden "\"Fania?\""
 
@@ -406,8 +409,6 @@ label prolog_day4_scene4_choice2_2:
     raden "\"Kamu juga suka budaya Jepang?\""
 
     fania "\"...\""
-
-    show fania kemeja_bicara
 
     voice "audio/vo/fania/prolog4/prolog4_2_lumayan.flac"
     fania "\"Lumayan, aku nonton beberapa anime.\""
@@ -514,7 +515,7 @@ label prolog_day4_scene4_choice2_4:
     show raden with moveinright:
         xalign 0.0
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom 1.15 xalign 2.7 yalign 0.08
 
     stop music fadeout 2.0
     play music santo_bgm fadein 1.0

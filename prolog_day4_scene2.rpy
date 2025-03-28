@@ -9,8 +9,8 @@ label prolog_day4_scene2:
 
     play music raden_bgm fadein 1.0
 
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kemeja_biasa with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "Setelah prosesi pengukuhan selesai, panitia memberi instruksi agar semua sekelompok berbaris dua banjar. Aku segera mencari posisi bersama kelompokku."
 
@@ -27,15 +27,15 @@ label prolog_day4_scene2:
     "{i}Bruk!{/i}" with vpunch
 
     show aisyah kemeja_gugup with dissolve:
-        zoom 0.34 yalign -1.0 xalign 0.9
+        zoom 0.35 xalign 1.0 yalign -0.7
 
     play music intense fadein 1.0
 
     voice "audio/vo/aisyah/prolog4/prolog4_1_den_kamu_gapapa.flac"
     aisyah "\"Den! kamu gapapa?!\""
 
-    show raden capek with moveinbottom:
-        zoom 0.23 yalign 0.1 xalign 0.0
+    show raden kemeja_gugup with moveinbottom:
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     voice "audio/vo/aisyah/prolog4/prolog4_2_aduh_gimana_sih.flac"
     aisyah "\"Aduh, gimana sih jalannya?\""
@@ -44,8 +44,8 @@ label prolog_day4_scene2:
         xalign -0.2
     show aisyah:
         xalign 0.55
-    show sekar jas_teriak:
-        zoom 1.15 xalign 3.6 yalign 0.03
+    show sekar jas_khawatir:
+        zoom 1.15 xalign 1.1 yalign 0.05
     with moveinright
 
     voice "audio/vo/sekar/prolog4/prolog4_1_raden_kamu.flac"
@@ -66,6 +66,8 @@ label prolog_day4_scene2:
     voice "audio/vo/aisyah/prolog4/prolog4_3_tapi_kak.flac"
     aisyah "Tapi kak, Raden gimana?"
 
+    show sekar jas_tegas
+
     voice "audio/vo/sekar/prolog4/prolog4_4_tenang.flac"
     sekar "\"Tenang, ku pastikan dia baik-baik saja\""
 
@@ -73,14 +75,14 @@ label prolog_day4_scene2:
     show raden:
         xalign 0.0
     show sekar:
-        xalign 2.5
+        xalign 1.0
     with moveinright
 
     "Akhirnya kelompok kami melanjutkan perjalanan, sementara aku tetap duduk di pinggi halan bersama Kak Sekar."
 
     "Dia memeriksa lututku dengan cermat. Namun saat dia melihat lututku yang berdarah, wajahnya mendadak berubah."
 
-    show sekar jas_normal with dissolve
+    show sekar jas_gugup with dissolve
     #sekar gugup
     "Tatapan tegasnya seketika memudar, berganti dengan raut bingung dan gugup. Dia tampak menahan diri tetapi tangannya sedikit gemetar."
 
@@ -89,9 +91,9 @@ label prolog_day4_scene2:
     voice "audio/vo/sekar/prolog4/prolog4_5_eh_ini_darah.flac"
     sekar "\"Eh... ini, darahnya...\""
 
-    show raden bingung with dissolve
-
     raden "\"Kak, ga apa-apa?\""
+
+    show sekar jas_ragu
 
     voice "audio/vo/sekar/prolog4/prolog4_6_eh_gapapa.flac"
     sekar "\"Eh... gapapa kok. Aku... aku cuma gak tahan liat darah...\""
@@ -112,7 +114,7 @@ label prolog_day4_scene2_choice1:
     stop music fadeout 2.0
     play music sekar_bgm fadein 1.0
 
-    show raden biasa with dissolve
+    show raden kemeja_biasa with dissolve
 
     "Aku merasa sedikit bersalah sudah membuatnya harus menghadapi rasa takut ini, tetapi aku juga kagum pada usahanya untuk tetap membantu."
 
@@ -129,10 +131,11 @@ label prolog_day4_scene2_choice2:
     stop music fadeout 2.0
     play music sekar_bgm fadein 1.0
 
-    show raden biasa with dissolve
+    show raden kemeja_biasa with dissolve
 
     raden "\"Kak, gak apa-apa kalau aku yang urus sendiri?\""
 
+    show sekar jas_tegas
     voice "audio/vo/sekar/prolog4/prolog4_8_enggak.flac"
     sekar "\"Enggak, enggak. Ini tanggung jawabku. Kamu tenang aja\""
 
@@ -149,6 +152,7 @@ label prolog_day4_scene2_choice2:
 
     raden "\"Lihat... Gampang, kan?\""
 
+    show sekar jas_biasa
     voice "audio/vo/sekar/prolog4/prolog4_10_iya_maaf_ya.flac"
     sekar "\"Iya... maaf ya, Raden. Padahal... Aku ini LO yang harusnya membantu kalian, tapi malah begini...\""
 
@@ -156,6 +160,7 @@ label prolog_day4_scene2_after_choice:
     
     raden "\"Gak masalah, Kak. Justru aku baru tahu Kakak ini manusia juga, ternyata bisa gugup,\""
 
+    show sekar jas_ceria
     "Kak Sekar tersenyum anggun, senyumnya terasa hangat, memancarkan kharisma yang membuatku terdiam sejenak dalam kekaguman."
 
     "Lalu dia tertawa kecil, dan wajahnya mulai kembali ke ekspresi tenang."

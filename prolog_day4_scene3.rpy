@@ -6,10 +6,10 @@ label prolog_day4_scene3:
         zoom 0.5
     
     #show raden & sekar
-    show raden biasa:
-        zoom 0.23 yalign 0.1 xalign 0.0
-    show sekar jas_normal:
-        zoom 1.15 yalign 0.03 xalign 2.5
+    show raden kemeja_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show sekar jas_biasa:
+        zoom 1.15 xalign 1.0 yalign 0.05
     with dissolve
 
     raden "\"Kak, aku bisa lanjut sendiri ke expo,\""
@@ -19,7 +19,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_12_tidak_boleh.flac"
     sekar "Tidak boleh, aku harus ikut mengantar. Kalau nanti ada apa-apa di tengah jalan, aku yang bertanggung jawab."
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     "Kami berjalan pelan menuju area UKM Expo, tetapi pikiranku terus mengingat momen tadi."
 
@@ -40,7 +40,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_13_disana_semua_ukm.flac"
     sekar "\"Di sana, semua UKM bakal pamerin kegiatan mereka. Intinya buat ngenalin diri dan ngajak kalian para mahasiswa baru untuk bergabung.\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"Kak Sekar sendiri ikut UKM apa?\""
 
@@ -49,7 +49,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_14_aku_e2c.flac"
     sekar "\"Aku di {b}E2C{/b}\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"E2C..? itu... UKM apa, Kak?\""
 
@@ -64,7 +64,7 @@ label prolog_day4_scene3:
     voice sustain
     sekar "\"Nah, Kalau pengen improve skill Bahasa Inggris, itu tempatnya.\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"Wah, keren juga kak. Jadi Kaka sering ikut lomba gitu?\""
 
@@ -73,7 +73,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_16_lumayan.flac"
     sekar "\"Lumayan. Aku dulu pernah ikut lomba debat sama speech contest. Belum sampai menang tingkat internasional sih, tapi beberapa kali menang tingkat nasional.\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"Kakak hebat banget, bisa ikut lomba kayak gitu. Pasti susah ya, Kak?\""
 
@@ -82,7 +82,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_17_seru_kok.flac"
     sekar "\"Malah seru kok. Bisa ketemu orang baru, diskusi, bahkan jalan-jalan keluar kota.\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"Kayaknya E2C menarik juga, ya.\""
 
@@ -91,7 +91,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_18_tertarik_gabung.flac"
     sekar "\"Tertarik gabung?\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"Gak tahu, kak. Tapi saya pengen cari UKM yang bisa bikin saya berkembang juga. Jadi mungkin nanti mampu ke stan E2C.\""
 
@@ -100,7 +100,7 @@ label prolog_day4_scene3:
     voice "audio/vo/sekar/prolog4/prolog4_19_boleh_banget.flac"
     sekar "\"Boleh banget. Tapi jangan asal pilih UKM, ya. Cari yang benar-benar sesuai sama minat kamu. Jangan cuma ikut-ikutan\""
 
-    show sekar jas_normal
+    show sekar jas_biasa
 
     raden "\"Iya, Kak. Makasih sarannya.\""
 
