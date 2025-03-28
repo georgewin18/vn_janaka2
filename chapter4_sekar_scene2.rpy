@@ -5,8 +5,8 @@ label chapter4_sekar_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa2 with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     play music campus fadein 1.0
 
@@ -22,11 +22,15 @@ label chapter4_sekar_scene2:
 
         santo "\"Kok bisa gitu sampe telat den\""
 
+        show raden kasual_kesal
+
         raden "\"Ih diem deh! Suka banget ngetawain penderitaan temen sendiri!\""
 
         raden "\"Tadi padahal udah bangun loh! Cuman tadi mau tidur lagi bentar malah kebablasan...\""
 
         santo "\"Salahmu sendiri, udah tau bentar lagi mau kuliah malah tidur lagi\""
+
+        show raden kasual_menghela_napas
 
         raden "\"Dah lah, ga akan kulakuin lagi...\""
     
@@ -53,8 +57,8 @@ label chapter4_sekar_scene2:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
     
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa2 with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "\"Hmmm, beli Ayam Malay enak nih. Tapi yang ngantri banyak banget\""
 
@@ -73,7 +77,7 @@ label chapter4_sekar_scene2:
     show raden with moveinright:
         xalign 0.0
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom 1.15 xalign 2.7 yalign 0.08
 
     "Kami basa-basi seperti biasanya, sampai di tengah-tengah ada Kak Sekar yang mendatangi kami."
 
@@ -82,8 +86,8 @@ label chapter4_sekar_scene2:
         xalign -0.2
     show santo:
         xalign 0.8
-    show sekar jas_bicara:
-        zoom 1.15 xalign 3.6 yalign 0.03
+    show sekar kemeja_bicara:
+        zoom 1.15 xalign 1.1 yalign 0.05
     with moveinright
 
     voice "audio/vo/sekar/chapter4/chapter4_1_3_halo.flac"
@@ -110,7 +114,7 @@ label chapter4_sekar_scene2:
 
     "Setelah itu keheningan menyelimuti pembicaraan"
 
-    show sekar jas_normal
+    show sekar kemeja_biasa
 
     raden "{i}Enaknya ngomongin apa ya...{/i}"
 
@@ -124,7 +128,7 @@ label chapter4_sekar_scene2:
     return
 
 label chapter4_sekar_scene2_choice2_1:
-    show raden ngomong
+    show raden kasual_tersenyum
 
     raden "\"Nasib tugasmu gimana to? Dah banyak yang selesai?\""
 
@@ -132,7 +136,7 @@ label chapter4_sekar_scene2_choice2_1:
 
     santo "\"Masih setengah sih, nggak mau menumpuk banyak tugas. Kalau terlalu numpuk bakal sangat merepotkan\""
 
-    show raden capek
+    show raden kasual_capek
 
     raden "\"Rajin banget, tugasku masih numpuk banyak nih...\""
 
@@ -140,28 +144,28 @@ label chapter4_sekar_scene2_choice2_1:
 
     raden "\"Niatnya sih pengen, aku juga sebenarnya nggak mau tugas terlalu numpuk. Tapi, rasa malas ini terlalu luar biasa...\""
 
-    show sekar jas_bicara
+    show sekar kemeja_bingung
 
     voice "audio/vo/sekar/chapter4/chapter4_2_1_kenapa.flac"
     sekar "\"Kenapa nggak kamu kerjakan aja den?\""
 
     raden "\"Ugghh, terlalu malas kak...\""
 
-    show sekar jas_teriak
+    show sekar kemeja_teriak
 
     voice "audio/vo/sekar/chapter4/chapter4_2_2_kalo_ditunda.flac"
     sekar "\"Kalo ditunda terus nanti kamu semakin malas loh\""
 
     raden "\"Iya sih kak. Tapi hari ini aku lagi malas banget, jadi besok aja\""
 
-    show sekar jas_normal
+    show sekar kemeja_ragu
 
     "Melihat sifatku yang terlalu malas, kak Sekar tidak tau lagi harus berkata apa, jadi dia mempertanyakan alasan dia duduk di sini"
 
     jump chapter4_sekar_scene3
 
 label chapter4_sekar_scene2_choice2_2:
-    show raden ngomong
+    show raden kasual_tersenyum
 
     raden "\"Kalian nonton anime kah?\""
 
@@ -175,7 +179,7 @@ label chapter4_sekar_scene2_choice2_2:
 
     raden "\"Kelas! sama To, aku juga suka Mecha\""
 
-    show sekar jas_bicara
+    show sekar kemeja_bicara
 
     voice "audio/vo/sekar/chapter4/chapter4_2_3_kalau_aku.flac"
     sekar "\"Kalau aku sukanya Slice of Life, animenya bikin hati adem. Jadi enak ditontonnya\""
