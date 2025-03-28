@@ -3,8 +3,8 @@ label prolog_day1_scene5:
                 zoom 0.5
         with dissolve
 
-        show raden biasa with dissolve:
-                zoom 0.2 xalign 0.5 yalign 0.0
+        show raden kemeja_ceria with dissolve:
+                zoom 0.48 xalign 0.5 yalign 0.1
 
         raden "\"Alhamdulillah!\""
 
@@ -14,25 +14,33 @@ label prolog_day1_scene5:
         
         "Saat itu, mataku berhenti pada Aisyah yang sedang duduk di taman depan masjid."
 
-        show raden biasa with moveinright:
-                zoom 0.2 xalign 0.12 yalign 0.0
+        show raden kemeja_biasa with moveinright:
+                zoom 0.48 xalign 0.0 yalign 0.1
 
         show aisyah kemeja_bicara with dissolve:
-                zoom 0.3 xalign 0.85 yalign 6.0
+                zoom 0.35 xalign 0.85 yalign -0.7
 
         play music aisyah_bgm fadein 1.0
 
+        show raden kemeja_tersenyum
+
         raden "\"Kamu sudah shalat?\""
+
+        show raden kemeja_biasa
 
         voice "audio/vo/aisyah/pkkmb9_aku_halangan.mp3"
         aisyah "\"Aku halangan hari ini\""
 
+        show raden kemeja_canggung
+        
         "Ngomong apa sih aku ini? Seharusnya bisa lebih mengerti. Oke, sekarang coba buat suasana jadi lebih santai supaya nggak canggung"
 
         raden "\"Ehh... errmmm...\""
 
         voice "audio/vo/aisyah/pkkmb10_kenapa.mp3"
         aisyah "\"Kenapa?\""
+
+        show raden kemeja_gugup
 
         raden "\"Uh.. enggak, cuman... jika tidak shalat, kenapa capek-capek turun? Belum lagi nanti naiknya\""
 
@@ -41,10 +49,14 @@ label prolog_day1_scene5:
         voice "audio/vo/aisyah/pkkmb11_haha.mp3"
         aisyah "\"Hahaha..\""
 
+        show raden kemeja_biasa
+
         raden "\"Malah ketawa\""
 
         voice "audio/vo/aisyah/pkkmb12_enggak_apa.mp3"
         aisyah "\"Enggak apa.. nyari udara segar aja\""
+
+        show raden kemeja_serius
 
         raden "\"Beneran?\""
 

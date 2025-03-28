@@ -5,8 +5,8 @@ label prolog_day1_scene2:
     scene bg lapmer with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.5 yalign 0.0
+    show raden kemeja_biasa2 with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "Pukul 05.55, aku akhirnya sampai di depan kampus. Aku terdiam sejenak dan berpikir"
 
@@ -20,17 +20,19 @@ label prolog_day1_scene2:
     voice "audio/vo/aisyah/pkkmb1_antriannya_lama.mp3"
     anon "\"Hmmmmm, ini antrinya lama banget sih,\"" # keluh suara dari belakangku. (Aisyah sedikit kesal)
 
-    show raden biasa with moveinleft:
-        zoom 0.2 xalign 0.9 yalign 0.0
+    voice sustain
+
+    show raden kemeja_biasa2 with moveinleft:
+        zoom 0.48 xalign 1.0 yalign 0.1
 
     show aisyah kemeja_bingung at Transform(matrixcolor=(silhouette)):
-        zoom 0.3 xalign 0.2 yalign 6.0
+        zoom 0.35 xalign 0.2 yalign -0.7
     with dissolve
 
     "Aku menoleh ke belakang dan melihat seorang perempuan berkerudung." 
 
     show aisyah kemeja_bingung with dissolve:
-        zoom 0.3 xalign 0.2 yalign 6.0
+        zoom 0.35 xalign 0.2 yalign -0.7
 
     play music aisyah_bgm fadein 1.0
 
@@ -40,10 +42,14 @@ label prolog_day1_scene2:
     
     "Aku pun mencoba untuk berbicara dengannya."
 
+    show raden kemeja_gugup
+
     raden "\"Halo.\"" # ucapku. (Raden gugup)
     
     voice "audio/vo/aisyah/pkkmb2_hah.mp3"
     anon "\"Hah?\"" # jawab perempuan tersebut, mukanya berkerut menunjukkan kekesalannya. (Siluet Aisyah)
+
+    show raden kemeja_bingung
 
     "Melihat ulang wajahnya, membuatku berpikir akan seseorang yang pernah ku kenal." # Aku berpikir sejenak
 
@@ -58,10 +64,18 @@ label prolog_day1_scene2:
 
     menu:
         "Waduh, tau namaku dari mana kak?":
+            show raden kemeja_gugup
+
             jump scene3_choice1
         "Owh, Aisyah ya":
+            show raden kemeja_biasa
+
+            aisyah "\"Hai!!\""
+
             jump scene3_after_choice
         "Owh, Fania ya":
+            show raden kemeja_biasa
+
             jump scene3_choice3
 
     return
@@ -97,6 +111,10 @@ label scene3_after_choice:
 
     stop music fadeout 2.0
 
+    hide aisyah with dissolve
+    show raden kemeja_biasa2 with moveinright:
+        zoom 0.48 xalign 0.5 yalign 0.1
+
     "Akhirnya, tibalah giliranku di meja registrasi."
 
     play music raden_bgm fadein 1.0
@@ -105,15 +123,25 @@ label scene3_after_choice:
 
     lo1 "\"Halo, atas nama..? NRP?\""
 
+    show raden kemeja_tersenyum
+
     raden "\"Raden, dengan NRP...\"" # jawabku.
+
+    show raden kemeja_biasa2
 
     "Setelah registrasi, aku langsung pergi untuk pengecekan barang dan menunggu Aisyah untuk berangkat menuju ke . Disana seorang Panitia bertanya kepada kami."
 
     lo2 "\"Region apa dik?\"" # tanya kakak tersebut.
+
+    show raden kemeja_tersenyum
+
     raden "\"Region {b}Aldebaran{/b}, kak\"" # jawabku.
+
+    show raden kemeja_biasa2
+
     lo2 "\"Aldebaran, itu ada di galaksi Bima Sakti. Berarti, nanti kalian naik tangga terus sampai lantai 6 ya!\""
     
-    show raden capek
+    show raden kemeja_panik
     
     raden "\"{size=+10}Apa?? Lantai 6??{/size}\"" with vpunch # sontak diriku kaget. (Raden kaget)
     lo2 "\"Hahaha, terimalah nasib kalian dan tetap semangat\"" # kata kakak Panitia tersebut sambil tersenyum. (Panitia senyum)
@@ -126,10 +154,10 @@ label scene3_after_choice:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden biasa:
-        zoom 0.2 xalign 0.9 yalign 0.0
+    show raden kemeja_biasa:
+        zoom 0.48 xalign 1.0 yalign 0.1
     show aisyah kemeja_bicara:
-        zoom 0.3 xalign 0.2 yalign 6.0
+        zoom 0.35 xalign 0.2 yalign -0.7
     with dissolve
 
     "Kami berdiri di tempat untuk beberapa saat. Sampai ketika, seorang kakak panitia yang menjaga di sekitar sini bertanya kepada kami."
@@ -141,7 +169,11 @@ label scene3_after_choice:
     
     lo3 "\"Aldebaran?, kalau gitu langsung saja menuju ruangan Auditorium ya!, disana kamu bisa melihat panitia di sana yang menunggu di depan ruangan. Itu adalah ruangan kalian.\"" # jawab kakak panitia tersebut.
     
+    show raden kemeja_tersenyum
+
     raden "\"Terimakasih kak.\""
+
+    show raden kemeja_biasa
 
     "Meskipun rasa lelah ini masih terasa. Kami langsung saja menuju ruangan tersebut, dengan pikiran kalau kita bisa langsung duduk setelah memasuki ruangan."
 

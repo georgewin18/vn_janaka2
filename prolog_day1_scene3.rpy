@@ -5,8 +5,8 @@ label prolog_day1_scene3:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.5 yalign 0.0
+    show raden kemeja_capek with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "Di dalam Auditorium sangatlah penuh. Kurasa, sudah lebih dari 100 anak yang telah masuk ke ruangan ini."
     
@@ -15,6 +15,9 @@ label prolog_day1_scene3:
     "Jam menunjukkan pukul 06.30. Layar di depan kami mulai memainkan video latar belakang berdirinya PENS."
     
     #nanti diubah narasinya
+
+    show raden kemeja_menghela_napas with dissolve
+
     "Sayangnya, video yang diputar hanya tentang itu terus sampai beberapa waktu kemudian. Hal ini membuatku mengantuk karena kebosanan. Lama kelamaan mataku terasa sangat berat. Yang membuat diriku akhirnya tertidur."
 
     show black with dissolve
@@ -24,14 +27,16 @@ label prolog_day1_scene3:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden biasa:
-        zoom 0.2 xalign 0.12 yalign 0.0
+    show raden kemeja_menghela_napas:
+        zoom 0.48 xalign 0.0 yalign 0.1
     show aisyah kemeja_penasaran:
-        zoom 0.3 xalign 0.85 yalign 6.0
+        zoom 0.35 xalign 0.85 yalign -0.7
     with dissolve
     
     voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.mp3"
     aisyah "\"Raden, jangan tidur dong\""
+
+    show raden kemeja_gugup with dissolve
 
     menu:
         "A-aku ga tidur kok!":
@@ -54,12 +59,18 @@ label scene4_choice2:
     jump scene4_after_choice
 
 label scene4_after_choice:
+    show raden kemeja_canggung
+
     voice "audio/vo/aisyah/pkkmb8_ayo_catet.mp3"
     aisyah "\"Ayo catet juga materinya\""
+
+    show raden kemeja_gugup
 
     raden "\"I-iya, makasih Aisyah\""
 
     "Aku memperhatikan materi tersebut dengan seksama dan mencatat poin-poin penting dari materi yang ada"
+
+    show raden kemeja_canggung
 
     # show sekar jas_bicara at Transform(matrixcolor=(silhouette)):
     #     zoom 0.78 xalign 0.1 yalign -0.2

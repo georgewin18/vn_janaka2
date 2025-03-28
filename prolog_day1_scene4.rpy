@@ -6,14 +6,14 @@ label prolog_day1_scene4:
     "Adzan telah terdengar. Waktu ISHOMA telah dimulai. LO Region ku ada 2, yang pertama laki-laki bernama kak Ryan, dan yang satunya perempuan bernama kak Sekar. Dia mulai memanggil anggota region untuk berkumpul"
 
     show sekar jas_teriak:
-        zoom 1.15 xalign 0.7 yalign 0.03
+        zoom 1.15 xalign 0.5 yalign 0.05
 
     play music sekar_bgm fadein 1.0
 
     voice "audio/vo/sekar/pkkmb1_ayo_baris.flac"
     sekar "\"Aldebaran! Ayo berbaris dua banjar.\""
 
-    show sekar jas_normal
+    show sekar jas_tegas
 
     "Sebagai mahasiswa yang baik, tentu saja aku langsung mengikuti arahannya."
 
@@ -34,7 +34,7 @@ label prolog_day1_scene4:
     voice "audio/vo/sekar/pkkmb2_berhenti.flac"
     sekar "\"Aldebaran berhenti terlebih dahulu! Mari berhitung dimulai dari banjar sebelah kiri saya!\""
 
-    show sekar jas_normal
+    show sekar jas_tegas
 
     "Kukira tidak akan ada masalah yang terjadi. Sayangnya, perkiraanku salah, ketika perhitungan selesai, ada dua anggota region yang menghilang. Terlihat muka kak Sekar menjadi sedikit lebih kesal."
 
@@ -43,7 +43,7 @@ label prolog_day1_scene4:
     voice "audio/vo/sekar/pkkmb3_berhitung_lagi.flac"
     sekar "\"Ayo berhitung sekali lagi!\""
 
-    show sekar jas_normal
+    show sekar jas_tegas
 
     "Tentu saja, kita memulai perhitungan sekali-lagi, dengan harapan kalau perhitungan kami yang sebelumnya salah."
 
