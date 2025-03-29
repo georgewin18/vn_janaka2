@@ -32,8 +32,8 @@ label chapter5_tessa_scene1_choice1_1:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
-    show raden biasa with moveinbottom:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa with moveinbottom:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "\"wah bentar lagi matkul, siap-siap dulu aja\""
 
@@ -44,7 +44,7 @@ label chapter5_tessa_scene1_choice1_1:
     raden_nvl "Oke, otw"
     santo_nvl "Aku malas endak bisa ikut"
     raden_nvl "Halah to, ayooooo"
-    santo_nvl "Ogah, mendirng rebahan terus lanjut ngegame"
+    santo_nvl "Ogah, mending rebahan terus lanjut ngegame"
 
     nvl clear
 
@@ -63,8 +63,8 @@ label chapter5_tessa_scene1_choice1_1:
 
     play music campus fadein 1.0
 
-    show raden biasa with moveinleft:
-        zoom 0.23 yalign 0.1 xalign 0.0
+    show raden kasual_biasa with moveinleft:
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     "Ketika aku sampai di depan kampus dan keluar parkiran, aku melihat Santo yang tampak sedikti ogah-ogahan. Aku menghampirinya dan menyapanya dengan senyum lebar."
 
@@ -85,8 +85,8 @@ label chapter5_tessa_scene1_choice1_2:
     scene bg kamar_raden with dissolve:
         zoom 0.5    
 
-    show raden biasa with moveinbottom:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_menghela_napas with moveinbottom:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "{i}bentar lagi ada matkul, mau ikut, tapi... ahh, malas{/i}"
 
@@ -120,13 +120,14 @@ label chapter5_tessa_scene1_choice1_2:
     scene bg lapmer with dissolve:
         zoom 0.5
 
-    show raden biasa with moveinleft:
-        zoom 0.23 yalign 0.1 xalign 0.0
+    show raden kasual_capek with moveinleft:
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     "Ketika aku sampai di depan kampus dan keluar parkiran, aku melihat Santo yang tampak sedikit ogah-ogahan. Aku menghampirinya dan menyapanya"
 
     show santo kemeja_biasa with dissolve:
         zoom 1.15 yalign 0.08 xalign 2.7
+    show raden kasual_hehe
 
     raden "\"Lihat tuh, akhirnya lo ikut juga, hahaha\""
 
@@ -145,6 +146,8 @@ label chapter5_tessa_scene1_choice1_2:
     raden "\"Kalau gitu, aku pulang dulu ya\""
 
     santo "\"Oi, jangan langsung pergi!\""
+
+    show raden kasual_panik
 
     santo "\"Mari kita hadapi penderitaan ini bersama\""
 

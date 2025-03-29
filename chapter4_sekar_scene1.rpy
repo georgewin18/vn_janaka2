@@ -21,8 +21,8 @@ label chapter4_sekar_scene1:
 
     "Aku ambil ponselku dan terlihat jam masih menunjukkan pukul 5.30 pagi. Tidur siang yang \'sebentar\' ternyata berubah menjadi tidur semalaman."
 
-    show raden biasa with moveinbottom:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa2 with moveinbottom:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "\"Nggak nyangka udah jam segini.\""
 
@@ -54,8 +54,8 @@ label chapter4_sekar_scene1_choice1_1:
     scene bg lap_futsal with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa2 with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "Dalam perjalanan menuju kampus, Aku tidak sengaja bertemu dengan seseorang yang terlihat mendorong motornya yang mogok."
 
@@ -84,8 +84,8 @@ label chapter4_sekar_scene1_choice1_2:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
-    show raden biasa with moveinbottom:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa2 with moveinbottom:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "\"Aakkhh, enak banget tidurnya\""
 
@@ -94,7 +94,7 @@ label chapter4_sekar_scene1_choice1_2:
     #terkejut
     raden "\"Hmm?\""
 
-    show raden capek
+    show raden kasual_panik
 
     raden "\"{size=+10}?????, Welahdalah, udah jam 8.30, terlambat ni aku{/size}\"" with vpunch
 
@@ -104,14 +104,16 @@ label chapter4_sekar_scene1_choice1_2:
     scene bg auditorium with dissolve:
         zoom 0.5
     
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_gugup with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     "aku mengetuk pintu"
 
     #play knock sfx
 
     raden "\"Assalamualaikum, Pak. Permisi\""
+
+    show raden kasual_canggung
 
     "Tidak ada jawaban dari dosen untuk membuka pintu, Aku menunggu sampai ada respon."
 
@@ -121,11 +123,13 @@ label chapter4_sekar_scene1_choice1_2:
 
     play music intense fadein 1.0
 
-    show raden sedih with dissolve
+    show raden kasual_gugup with dissolve
 
     raden "\"Eh, maaf Pak, karena tidak ada jawaban. Saya kira diperbolehkan masuk\""
 
     dosen "\"Lain kali, jika saya masih belum memberi instruksi masuk ruangan, jangan masuk ruangan\""
+
+    show raden kasual_sedih
 
     raden "\"Iya Pak, maaf\""
 
@@ -148,9 +152,9 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     #show sekar
     show raden:
-        xalign 0.0
-    show sekar jas_normal at Transform(matrixcolor=(silhouette)):
-        zoom 1.15 xalign 2.5 yalign 0.03
+        xalign -0.1
+    show sekar kemeja_biasa at Transform(matrixcolor=(silhouette)):
+        zoom 1.15 xalign 1.0 yalign 0.05
     with moveinright
 
     raden "\"Lah, itu Kak Sekar?\""
@@ -160,8 +164,8 @@ label chapter4_sekar_scene1_choice1_1_1:
     raden "\"Kak Sekar?\""
 
     hide sekar with dissolve
-    show sekar jas_normal with dissolve:
-        zoom 1.15 xalign 2.5 yalign 0.03
+    show sekar kemeja_biasa with dissolve:
+        zoom 1.15 xalign 1.0 yalign 0.05
 
     play music sekar_bgm fadein 1.0
 
@@ -169,7 +173,7 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     raden "\"Mau kudorong sampai Pom Bensin terdekat Kak?\""
 
-    show sekar jas_bicara
+    show sekar kemeja_senyum
 
     voice "audio/vo/sekar/chapter4/chapter4_1_1_eh_raden.flac"
     sekar "\"Eh, Raden? Kebetulan banget, iya nih bensinku habis di tengah perjalanan untuk membeli barang-barang ini,\""
@@ -211,8 +215,8 @@ label chapter4_sekar_scene1_choice1_1_1:
     scene bg lapmer with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     play music campus fadein 1.0
 
@@ -227,15 +231,17 @@ label chapter4_sekar_scene1_choice1_1_1:
     show raden with moveinright:
         xalign 0.0
     show santo kemeja_bicara with MoveTransition(0.2, enter=fromright):
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom 1.15 xalign 2.7 yalign 0.08
 
-    show raden capek
+    show raden kasual_panik
 
     play music comedic fadein 1.0
 
     santo "{size=+10}Raden!!{size=+10}" with vpunch
 
     raden "\"{size=+10}?!?!?!?!?{size=+10}\""
+
+    show raden kasual_kaget
 
     raden "\"Yaelah Santo, hampir tewas aku\""
 
@@ -245,15 +251,19 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     santo "\"Iya deh, iya. Ngomong-ngomong, lagi ngelamunin apa kamu?\""
 
+    show raden kasual_biasa2
+    
     raden "\"gpp\""
 
     santo "\"Hmm, mencurigakan. Jangan-jangan cewek nih ya\""
+
+    show raden kasual_kaget
 
     raden "\"Dah dibilang bukan apa-apa\""
 
     santo "\"Iya, maaf maaf\""
 
-    show raden biasa
+    show raden kasual_biasa2
 
     raden "\"Kalau nggak ada hal yang penting, aku langsung pergi ke kelasku yak\""
 
@@ -284,8 +294,8 @@ label chapter4_sekar_scene1_choice1_1_2:
     scene bg lapmer with dissolve:
         zoom 0.5
     
-    show raden biasa with dissolve:
-        zoom 0.23 yalign 0.1 xalign 0.5
+    show raden kasual_biasa2 with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "Akhirnya sampai juga"
 

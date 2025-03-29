@@ -3,8 +3,8 @@ label chapter5_tessa_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
     
-    show raden biasa:
-        zoom 0.23 yalign 0.1 xalign 0.0
+    show raden kasual_biasa2:
+        zoom 0.48 xalign 0.0 yalign 0.1
     show santo kemeja_biasa:
         zoom 1.15 yalign 0.08 xalign 2.7
     with dissolve
@@ -41,6 +41,8 @@ label chapter5_tessa_scene2_choice2_2:
 
     santo "\"lima?\""
 
+    show raden kasual_kaget
+
     raden "\"SATU AJA WOI!\""
 
     santo "\"Nggak mau ahh, beli aja sendiri\""
@@ -51,7 +53,7 @@ label chapter5_tessa_scene2_choice2_2:
 
     raden "\"WOII, DUIT KUUU\"" with vpunch
 
-    "Aku pun mengejar Santoi yang membawa uangku lalu kami berdua pun berhenti pas di kantin"
+    "Aku pun mengejar Santo yang membawa uangku lalu kami berdua pun berhenti pas di kantin"
 
     jump chapter5_tessa_scene3
 

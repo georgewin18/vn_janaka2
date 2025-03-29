@@ -16,8 +16,8 @@ label chapter3_fania_scene1:
 
     "\"Jadi apa ada yang punya pendapat? Kalau ada pertanyaan, boleh dibicarakan. Terutama Fania, soalnya kami berdua juga sudah lumayan kenal sejak SMA.\""
 
-    show fania kemeja_biasa with dissolve:
-        zoom 1.1 xalign 0.5 yalign 0.06
+    show fania casual_dingin with dissolve:
+        zoom 1.15 xalign 0.5 yalign -0.02
 
     fania "\"Oke\""
 

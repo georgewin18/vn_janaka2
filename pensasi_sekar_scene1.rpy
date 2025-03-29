@@ -1,5 +1,6 @@
 define raden_nvl = Character("Raden", kind=nvl, callback=Phone_SendSound)
 define aisyah_nvl = Character("Aisyah", kind=nvl, callback=Phone_ReceiveSound)
+define from_sekar_route = False
 
 label pensasi_sekar_scene1:
     scene bg depan_auditorium with dissolve:
@@ -32,8 +33,9 @@ label pensasi_sekar_scene1:
                 "Menyapa Tessa":
                     jump pensasi_tessa_scene1
                 "Menunggu Aisyah":
-                    "Jump ke route aisyah"
+                    $ from_sekar_route = True
                     #Jump
+                    jump pensasi_aisyah_scene2
     return
 
 label pensasi_sekar_scene1_choice1_1:
