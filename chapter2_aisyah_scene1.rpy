@@ -1,3 +1,5 @@
+define chapter2_aisyah_scene1_choice1_choosen = False
+
 label chapter2_aisyah_scene1:
   
     scene black with dissolve
@@ -16,16 +18,16 @@ label chapter2_aisyah_scene1:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
-    show raden bingung with dissolve:
-        zoom 0.23 xalign 0.5 yalign 0.1
+    show raden kasual_panik with dissolve:
+        zoom 0.54 xalign 0.5 yalign 0.05
     
     raden "\"Waduh telat nih bisa-bisa aku!\""
 
     scene bg lorong_kampus with dissolve:
         zoom 0.5
 
-    show raden capek with dissolve:
-        zoom 0.23 xalign 0.5 yalign 0.1
+    show raden kemeja_capek with dissolve:
+        zoom 0.54 xalign 0.5 yalign 0.05
 
     raden "\"Kenapa kelasnya harus jauh sekali sih hari ini!?\""
 
@@ -47,17 +49,19 @@ label chapter2_aisyah_scene1:
     scene bg lorong_kampus with dissolve:
         zoom 0.5
 
-    show raden capek with dissolve:
-        zoom 0.23 xalign 0.5 yalign 0.1
+    show raden kemeja_pusing with dissolve:
+        zoom 0.54 xalign 0.5 yalign 0.05
 
     show raden with moveinleft:
-        xalign -0.2
+        xalign 0.0
     
     "Sebuah benturan menghentikan langkahku. Aku oleng ke belakang, dan saat itu juga terdengar suara benda jatuh berserakan di lantai."
     
     raden "\"Aduh!\""
     
     #raden malu
+
+    show raden kemeja_canggung with dissolve
     
     "Seruku spontan. Aku melihat ke arah orang yang kutabrak. Wajahku langsung memanas."
     
@@ -71,6 +75,8 @@ label chapter2_aisyah_scene1:
     aisyah "\"Raden?! Lihat-lihat dong kalau jalan!\""
     
     #raden panik
+
+    show raden kemeja_gugup with dissolve
     
     raden "\"Eh, maaf, maaf banget! Aku nggak sengaja. Aku buru-buru soalnya…\""
     
@@ -116,16 +122,16 @@ label chapter2_aisyah_scene1:
                 xalign 0.5
             
             #bg kelas d4
+            scene bg kelas_d4 with dissolve:
+                zoom 0.5
             
             #raden gugup
-            show raden biasa
+            show raden kemeja_gugup with dissolve:
+                zoom 0.54 xalign 0.5 yalign 0.05
             
             "Sesampainya di kelas, Dosen sudah datang dan mengajar, aku di suruh menunggu di luar sebentar, sampai akhirnya setelah diperbolehkan masuk kelas, aku di tegur dan tidak boleh sampai mengulangi nya lagi."
-            
-            scene black with dissolve
-            with Pause(0.2)
 
-            jump chapter2_aisyah_scene1_choice1_1
+            $ chapter2_aisyah_scene1_choice1_choosen = True
 
         "Langsung Menuju Kelas":
             raden "\"Eh, maaf banget Aisyah, lagi buru-buru—\""
@@ -138,29 +144,32 @@ label chapter2_aisyah_scene1:
             
             show raden with moveinright:
                 xalign 0.5
+
+            scene bg kelas_d4 with dissolve:
+                zoom 0.5
             
-            show raden biasa
+            show raden kemeja_biasa2 with dissolve:
+                zoom 0.54 xalign 0.5 yalign 0.05
             
             "Untung nya sesampai di kelas, dosen nya juga baru datang. Aku menghela nafas lega."
+
+            show raden kemeja_menghela_napas with dissolve
+
+            show raden kemeja_menghela_napas_asap with dissolve
             
             "Selamat…"
             
-            scene black with dissolve
-            with Pause(0.2)
-            
-            jump chapter2_aisyah_scene1_choice1_2
+    scene black with dissolve
+    with Pause(0.2)
 
-    return
-
-label chapter2_aisyah_scene1_choice1_1:
     scene bg kantin with dissolve:
         zoom 0.5
 
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.0 yalign 0.0
+    show raden kemeja_biasa with dissolve:
+        zoom 0.54 xalign 0.0 yalign 0.05
 
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 xalign 2.0 yalign 0.08
+        zoom 1.35 xalign -5.0 yalign 0.08
 
     raden "\"Akhirnya waktu istirahat juga.\""
 
@@ -170,60 +179,7 @@ label chapter2_aisyah_scene1_choice1_1:
 
     raden "\"Santo, ku nyamperin Aisyah dulu, ya?\""
     
-    show santo jahil
-
-    santo "\"Ini masih awal Kuliah lo, udah naksir cewek aja nih!\""
-
-    raden "\"Nggak gitu woy, pagi tadi aku sempat buat salah sama dia.\""
-
-    santo "\"Walah yaudah, samperin sana. Aku cari tempat duduk dulu aja\""
-
-    raden "\"Oke oke, ty.\""
-
-    hide santo
-    
-    "Akhirnya aku mendekati Aisyah, yang baru saja memesan makanan."
-
-    show aisyah kemeja_bicara with dissolve:
-        zoom 0.2 xalign 0.8 yalign 0.0
-
-    raden "\"Aisyah...\""
-
-    aisyah "\"Kenapa, Den?\""
-
-    raden "\"Maaf ya tadi pagi.\""
-
-    aisyah "\"Udah nggak apa, kan kamu dah bantu tadi.\""
-
-    aisyah "\"Terus gimana kelasnya? Aman?\""
-
-    raden "\"Yah…, telat sih.\""
-    
-    aisyah "\"Lah, terus?\""
-
-    raden "\"..Cuma perlu ngurus ke BAAK kok nanti.\""
-
-    jump chapter2_aisyah_scene2
-
-label chapter2_aisyah_scene1_choice1_2:
-    scene bg kantin with dissolve:
-        zoom 0.5
-
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.0 yalign 0.0
-
-    show santo kemeja_biasa with dissolve:
-        zoom 1.15 xalign 2.0 yalign 0.08
-
-    raden "\"Akhirnya waktu istirahat juga.\""
-
-    "Setelah kelas yang melelahkan—apalagi tadi sempat terlambat, akhirnya aku membeli makan di kantin bersama Santo."
-    
-    "Sampai tak sengaja kulihat Aisyah yang melintas tepat di depan kami. Mungkin aku harus meminta maaf lagi atas peristiwa tadi pagi?"
-
-    raden "\"Santo, ku nyamperin Aisyah dulu, ya?\""
-    
-    show santo jahil
+    #show santo jahil
 
     santo "\"Ini masih awal Kuliah lo, udah naksir cewek aja nih!\""
 
@@ -245,18 +201,30 @@ label chapter2_aisyah_scene1_choice1_2:
     aisyah "\"Kenapa, Den?\""
 
     raden "\"Maaf ya tadi pagi.\""
+
+    if (chapter2_aisyah_scene1_choice1_choosen == True):
+        aisyah "\"Udah nggak apa, kan kamu dah bantu tadi.\""
+
+        aisyah "\"Terus gimana kelasnya? Aman?\""
+
+        raden "\"Yah…, telat sih.\""
     
-    "Aisyah menghela nafas, mencoba bersabar."
+        aisyah "\"Lah, terus?\""
 
-    aisyah "\"Lain kali hati-hati, dong\""
+        raden "\"..Cuma perlu ngurus ke BAAK kok nanti.\""
 
-    aisyah "\"Emangnya kamu buru-buru kenapa, sih\""
+    else:
+        "Aisyah menghela nafas, mencoba bersabar."
 
-    raden "\"Mepet kelas sih tadi.\""
+        aisyah "\"Lain kali hati-hati, dong\""
+
+        aisyah "\"Emangnya kamu buru-buru kenapa, sih\""
+
+        raden "\"Mepet kelas sih tadi.\""
     
-    aisyah "\"Terus gimana kelasnya? Aman?\""
+        aisyah "\"Terus gimana kelasnya? Aman?\""
 
-    raden "\"Aman sih, akhirnya.\""
+        raden "\"Aman sih, akhirnya.\""
 
     jump chapter2_aisyah_scene2
 

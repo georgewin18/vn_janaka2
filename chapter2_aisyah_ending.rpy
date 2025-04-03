@@ -1,58 +1,40 @@
-label good_ending_choice1:
-    #Raden serius
+label chapter2_aisyah_bad_ending:
+    #suasana dramatis sedih
 
-    raden "\"Aisyah, Apa yang kamu pikirin sampai mencoba melawan mereka sendirian?!\""
+    show aisyah kemeja_gugup
 
-    "Dia menggelengkan kepala ringan, dan tersenyum tipis padaku."
+    aisyah "\"Aku cuma…\""
 
-    aisyah "\"Engga kok, aku percaya kamu pasti datang buat bantu.\""
+    "Dia terdiam. Aku nggak tahu apa dia merasa bersalah atau cuma malas berdebat."
 
-    "Aku terkejut dengan kepercayaannya, tapi aku tahu dia tetap salah."
+    show raden kemeja_menghela_napas
+    with Pause(1.0)
+    show raden kemeja_menghela_napas_asap with dissolve
+    "Aku menarik nafas yang panjang sekali lagi."
 
-    raden "\"Tapi kan kamu bisa nunggu aku sampai dulu!\""
+    show raden kemeja_serius
+    raden "\"Yaudah, biar ku antar nya ke kos mu.\""
 
-    #Aisyah gugup
+    "Aku menaiki motor ku, dan menatapnya, berharap dia segera naik."
 
-    aisyah "\"Aku… mana mungkin aku bisa diam, Den. Mereka…\""
+    aisyah "\"Yaudah deh..\""
 
-    "Aisyah menghindari tatapan ku, aku melihat dia mengepalkan tangannya, ragu untuk melanjutkan."
+    scene bg perjalanan_pulang with dissolve
 
-    "Lalu akhirnya dia berdiri dan menatapku dengan tegas."
+    "Di perjalanan, kami tak bertukar kata kecuali Aisyah yang menjelaskan arah pulang. Selain itu, hanya suara mesin motor dan angin malam yang menemani. Bahkan, sampai aku menurunkannya di depan gang, Aisyah hanya menganggukkan kepala sebelum berjalan pergi."
+    
+    scene black with dissolve
+    with Pause(0.2)
 
-    #Aisyah serius
+    jump chapter3_fania_scene1
 
-    aisyah "\"Mereka hampir menyakiti dia! Aku gak mungkin cuma diam dan liat itu terjadi..\""
+label chapter2_aisyah_good_ending:
+    #Special moment
+    #suasana agak romantis
 
-    #Raden sedih
-
-    raden "\"Kamu harus lebih peduli sama dirimu sendiri. Gimana kalau aku tidak datang tepat waktu— aku…\""
-
-    menu:
-        "Menuju Good Ending":
-            jump good_ending
-
-label good_ending_choice2:
-    raden "Raden serius"
-
-    raden "\"Aisyah, yang kamu lakukan tadi sangat ceroboh!\""
-
-    raden "Raden sedih"
-
-    raden "\"...Kalau aku tidak datang tepat waktu—tidak tahu, Aku khawatir ama kamu!!\""
-
-    aisyah "Aisyah terkejut"
-
-    "Aisyah sesaat terkejut dengan ucapanku. Aku tahu, perempuan seperti dia sebenarnya sadar akan kesalahannya ini."
-
-    menu:
-        "Menuju Good Ending":
-            jump good_ending
-
-label good_ending:
-    scene romantis_malam with dissolve:
-        zoom 0.5
-
-    aisyah "Aisyah memegang tangannya yang lemas karena terluka, dan tersenyum hangat."
+    show aisyah kemeja_senyum
+    show raden kemeja_biasa2
+    "Aisyah memegang tangannya yang lemas karena terluka, dan tersenyum hangat."
 
     "Mata nya seperti sedang mengingat kembali masa lalu nya dan apa saja yang telah ia lalui hari ini. Dan seperti nya dia sudah menemukan jawaban yang telah ia cari sejak lama."
 
@@ -60,13 +42,15 @@ label good_ending:
 
     aisyah "\"Bisa nggak kamu anterin aku pulang, Den?\""
 
+    show raden kemeja_kaget
     raden "\"Eh?!\""
 
     "Suaraku meninggi tanpa sadar, karena jujur saja, aku tidak menyangka dia akan meminta hal itu."
 
+    show raden kemeja_gugup
     raden "\"Kenapa?\""
 
-    raden "Aku menggaruk belakang kepalaku, masih mencoba mencerna situasinya."
+    "Aku menggaruk belakang kepalaku, masih mencoba mencerna situasinya."
 
     aisyah "\"Nggak nyangka aja. Kamu minta duluan.\""
 
@@ -76,21 +60,29 @@ label good_ending:
 
     aisyah "\"Kita kan juga bukan sekadar kenalan sekarang.\""
 
+    show raden kemeja_bingung
     raden "\"Maksudnya?\""
 
     aisyah "Dia menunduk sedikit, lalu menghela napas sebelum berbicara lagi."
 
     aisyah "\"Den, kalau lain kali aku ada masalah lagi, kamu mau bantu aku lagi, kan?\""
 
+    show raden kemeja_tersenyum
     raden "\"Bilang aja, aku pasti bantu.\""
 
+    show raden kemeja_biasa
     aisyah "\"Gitu ya... Makasih, Den...\""
 
     "Dia tersenyum kecil, wajahnya tampak lega, hampir seperti bisikan, tapi cukup untuk membuatku merasa bahwa dia benar-benar tulus."
 
     aisyah "\"Ayo, kita pulang.\""
 
-    scene putih with dissolve:
-        zoom 0.5
+    #Transisi putih
 
-    "Saat Aisyah naik ke motorku dan duduk di belakang, aku menyalakan mesin dan mulai melaju perlahan. Jalanan malam yang sepi terasa lebih hangat dengan kehadirannya di belakangku. Sesekali aku mendengar suaranya mengarahkan jalan, dan meskipun dia terkadang keras kepala, aku tahu Aisyah adalah seseorang yang penting bagiku. Aku akan selalu ada untuknya, tak peduli apa pun yang terjadi."
+    scene bg perjalanan_pulang with dissolve
+
+    "Saat Aisyah naik ke motorku dan duduk di belakang, aku menyalakan mesin dan mulai melaju perlahan. Jalanan malam yang sepi terasa lebih hangat dengan kehadirannya di belakangku."
+
+    "Sesekali aku mendengar suaranya mengarahkan jalan, dan meskipun dia terkadang keras kepala, aku tahu Aisyah adalah seseorang yang penting bagiku. Aku akan selalu ada untuknya, tak peduli apa pun yang terjadi."
+
+    jump chapter3_fania_scene1
