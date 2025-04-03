@@ -22,7 +22,7 @@ label prolog_day2_scene2:
 
     #Sekar muncul tegass
     show sekar jas_teriak with dissolve:
-        zoom 1.25 xalign 0.5 yalign 0.05
+        zoom 1.15 xalign 0.5 yalign 0.05
 
     sekar "\"Aldebaran… Aldebaran…\"" #Suara LO kami dari Aldebaran terdengar jelas, itu si kakak berambut hijau, kak Sekar.
 

@@ -9,7 +9,7 @@ label prolog_day1_scene6:
 
         show raden kemeja_biasa2:
                 zoom 0.48 xalign 0.0 yalign 0.1
-        show fania jas_senyum_normal at Transform(matrixcolor=(silhouette)):
+        show fania kemeja_senyum_normal at Transform(matrixcolor=(silhouette)):
                 zoom 1.15 xalign 1.1 yalign -0.02
         with dissolve
 
@@ -22,7 +22,7 @@ label prolog_day1_scene6:
 
         hide fania with dissolve
 
-        show fania jas_senyum_normal:
+        show fania kemeja_senyum_normal:
                 zoom 1.15 xalign 1.1 yalign -0.02
         with dissolve
         
