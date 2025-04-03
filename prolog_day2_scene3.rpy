@@ -74,7 +74,7 @@ label prolog_day2_scene3:
 
     voice "audio/vo/fania/prolog2/prolog2_2_lalu_kelompok_kalian.flac"
     $ renpy.show("fania kemeja_dingin", zorder=5)
-    fania "\"Lalu kelompok kalian sendii?\""#Tanya Fania.
+    fania "\"Lalu kelompok kalian sendiri?\""#Tanya Fania.
 
     raden "\"Udah aman kok\""#jawabku dengan anggukan dan jempol terangkat.
     
@@ -89,7 +89,7 @@ label prolog_day2_scene3:
     #Raden, Aisyah canggung
     show santo kemeja_biasa
     show raden kemeja_tersenyum
-    show aisyah kemeja_canggung
+    show aisyah kemeja_bicara
     "Akhirnya, kami berempat bekerja sama menyelesaikan tugas. Komunikasi kami awalnya terasa canggung, terutama saat berbicara dengan Fania, karena dia hanya menjawab singkat dan padat. Namun, meski hampir tengah malam, kami berhasil menyelesaikan semuanya."
 
     #Raden, Aisyah senyum
