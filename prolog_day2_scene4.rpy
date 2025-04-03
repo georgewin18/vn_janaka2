@@ -1,3 +1,8 @@
+init:
+    transform pan_up:
+        yalign 1.0
+        linear 5.0 yalign 0.2
+
 label prolog_day2_scene4:
     #bg gang
     scene bg lap_futsal with dissolve:
@@ -64,7 +69,20 @@ label prolog2_scene4_after_choice1:
     scene bg lap_futsal with dissolve:
         zoom 0.5
 
+    scene blank with dissolve
+
     play music romantic fadein 1.0
+
+    show fania_prolog at pan_up:
+        zoom 1.5 xalign 0.45
+    with dissolve
+    
+    pause 4.0
+
+    scene fania_prolog with dissolve:
+        zoom 0.75
+
+    pause 1.5
 
     "Fania membalikkan badan perlahan, memperlihatkan punggungnya. Dia menoleh sebentar ke belakang, terlihat ragu, tapi akhirnya bibirnya bergerak."
 
@@ -80,8 +98,8 @@ label prolog2_scene4_after_choice1:
 
     "Aku tidak mengerti…"
 
-    show black with dissolve
-
     stop music fadeout 2.0
+
+    show black with dissolve
     
     jump prolog_day2_scene5

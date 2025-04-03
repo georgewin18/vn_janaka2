@@ -107,7 +107,7 @@ label prolog_day3_scene3:
             raden "\"Maaf, Kak. Saya masih belum bisa menemukan toiletnya… Bisa tolong tunjukkan lagi arahnya?\""
 
         "Lebih baik tanya aja deh, daripada tersesat nanti.":
-            show raden kemeja canggung with dissolve
+            show raden kemeja_gugup with dissolve
             
             "Aku menggaruk belakang kepala sambil tersenyum kaku."
             

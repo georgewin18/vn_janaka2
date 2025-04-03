@@ -95,6 +95,7 @@ label chapter3_fania_scene4_afterchoice1:
     raden "\"Aisyah, ini Fania yang ngambil semua bukunya?\""
 
     $ renpy.show("aisyah kemeja_gugup", zorder=1)
+    voice "audio/vo/aisyah/chapter3/chapter3_5_iya.flac"
     aisyah "\"Iya, dia lagi ngerjain tugas katanya,\""
 
     "Jawabannya itu membuatku dan Santo mau tidak mau melongo dengan jumlahnya."
@@ -106,6 +107,7 @@ label chapter3_fania_scene4_afterchoice1:
     show raden kasual_serius
     "Aku memandang buku-buku yang dibaca Fania. Teknik multitasking yang luar biasa."
 
+    voice "audio/vo/aisyah/chapter3/chapter3_6_kayaknya.flac"
     aisyah "\"Kayaknya itu bukan tugas individu deh, Den.\""
 
     "Aisyah menjawab dengan khawatir. Dan aku setuju pada Aisyah."
@@ -136,9 +138,11 @@ label chapter3_fania_scene4_afterchoice2:
 
     show raden kasual_serius
     $ renpy.show("fania casual_kesal", zorder=1) 
+    voice "audio/vo/fania/chapter3/chapter3_14_kalo_kalian.flac"
     fania "\"Kalau kalian punya waktu buat diskusi, minimal jangan ganggu orang ngerjain tugas.\""
 
     $ renpy.show("aisyah kemeja_gugup", zorder=2)
+    voice "audio/vo/aisyah/chapter3/chapter3_7_fania.flac"
     aisyah "\"Fania, biar ku bantu!\""
 
     "Aisyah langsung berkata, menyela Fania dari memarahiku."
@@ -149,6 +153,7 @@ label chapter3_fania_scene4_afterchoice2:
 
             #fania dingin
             $ renpy.show("fania casual_dingin", zorder=2) 
+            voice "audio/vo/fania/chapter3/chapter3_15_tapi_aku.flac"
             fania "\"Tapi aku gak minta bantuan,\""
 
             stop music fadeout 2.0
@@ -213,12 +218,14 @@ label chapter3_fania_scene4_afterchoice3:
     #Backsound Suasana sedikit dramatis
 
     $ renpy.show("fania casual_dingin", zorder=2) 
+    voice "audio/vo/fania/chapter3/chapter3_16_kenapa_kalian.flac"
     fania "\"Kenapa kalian pada bantu, padahal aku gak minta?\""
 
     show aisyah kemeja_senyum
     "Aisyah menatap Fania dengan senyuman, tetapi ada ketegasan dalam nada suaranya."
 
     $ renpy.show("aisyah kemeja_senyum", zorder=3)
+    voice "audio/vo/aisyah/chapter3/chapter3_8_karena.flac"
     aisyah "\"Karena kami gak mungkin diam aja lihat kamu kerja kayak gini, Fan. Kita teman kan?\""
 
     "Fania kembali menatap layar laptopnya, mengetik beberapa baris lagi tanpa menanggapi. Tapi gerakannya sedikit melambat, seperti memikirkan jawaban."
@@ -230,6 +237,7 @@ label chapter3_fania_scene4_afterchoice3:
     #fania menghela nafas
     $ renpy.show("fania casual_menghelanapas", zorder=3)
     pause 0.3
+    voice "audio/vo/fania/chapter3/chapter3_17_menghela.flac"
     show fania casual_menghelanapas_ada_asap with dissolve
     pause 0.3
     show fania casual_menghelanapas with dissolve
@@ -238,15 +246,18 @@ label chapter3_fania_scene4_afterchoice3:
 
     #fania senyum
     show fania casual_senyum_normal_biasa
+    voice "audio/vo/fania/chapter3/chapter3_18_makasih.flac"
     fania "\"Makasih, Aisyah, Santo, Raden.\""
 
     show fania casual_dingin
+    voice "audio/vo/fania/chapter3/chapter3_19_sebenarnya.flac"
     fania "\"Sebenarnya, aku ada masalah sama anggota kelompokku…\""
 
     "Fania bercerita kepada kami, tentang masalah yang dia hadapi."
 
     "Masalah internal yang diakibatkan hanya karena seseorang memiliki urusan pribadi dan cekcok yang berakhir pada pertengkaran Fania dan salah satu rekan di kelompoknya."
 
+    voice "audio/vo/fania/chapter3/chapter3_20_jadi.flac"
     fania "\"… Jadi kupikir, mending ngerjain sendiri aja, daripada sama rekan yang gak jelas kabarnya,\""
 
     "Cerita yang Fania beritahukan kepada kita bertiga menjelaskan bahwa sifatnya itu ada bukan tanpa alasan. Dia telah kehilangan kepercayaannya pada orang lain."
@@ -268,13 +279,16 @@ label chapter3_fania_scene4_afterchoice3:
             show raden kasual_biasa
             #fania sedih
             show fania casual_sedih with dissolve
+            voice "audio/vo/fania/chapter3/chapter3_21_nggak_segampang_itu.flac"
             fania "\"Gak segampang itu Den.\""
 
+            voice "audio/vo/fania/chapter3/chapter3_22_santo.flac"
             fania "\"Santo, Kamu inget satu orang yang dari DTMK di kelompok kita selain aku?\""
 
             $ renpy.show("santo kemeja_biasa", zorder=3)
             santo "\"Iya.\""
 
+            voice "audio/vo/fania/chapter3/chapter3_23_sifatnya.flac"
             fania "\"Sifatnya masih sama-sama tidak bertanggungjawab.\""
 
             #Di bagian ini juga aku bingung masukin aisyah gak, di script sih gak ada suruh tamppilin jadi kupake lokai bertiga ajh
@@ -290,6 +304,7 @@ label chapter3_fania_scene4_afterchoice3:
 
             #fania gugup
             show fania casual_dingin
+            voice "audio/vo/fania/chapter3/chapter3_24_nggak_lah.flac"
             fania "\"Enggaklah, jelas-jelas kalian kesini buat belajar.\""
 
             raden "\"Menurutmu semua orang juga sama kayak kita atau orang yang kamu sebutin?\""
@@ -338,6 +353,7 @@ label chapter3_fania_scene4_afterchoice3:
             raden "\"Kalian sialan, orang bicara malah diketawain.\""
 
             show fania casual_senyum_normal_biasa
+            voice "audio/vo/fania/chapter3/chapter3_25_oklah.flac"
             fania "\"Ok lah, Den.\""
 
             #(Moment) Fania yang tersenyum dengan cool
@@ -345,12 +361,14 @@ label chapter3_fania_scene4_afterchoice3:
 
             "Fania tersenyum dengan cool, ada sesuatu dalam dirinya yang membuatku semakin terpesona. Caranya menatapku—penuh keyakinan, tapi juga penuh penghargaan—seolah mengatakan kalau dia benar-benar mendengarkan setiap kata yang keluar dari mulutku."
 
+            voice "audio/vo/fania/chapter3/chapter3_26_akan_kulakukan.flac"
             fania "\"Akan ku lakuin sesuai saranmu. Rasanya gak mungkin deh mengabaikan temanku yang udah berkorban untuk mengatakan semua itu.\""
 
             show raden kasual_biasa
             raden "\"Kalau begitu, ayo lakuin sekarang!\""
 
             show fania casual_terkejut
+            voice "audio/vo/fania/chapter3/chapter3_27_sekarang.flac"
             fania "\"Sekarang?\""
 
             raden "\"Semakin banyak ditunda bakalan semakin susah nanti. Mendingan sekarang aja.\""
@@ -358,8 +376,10 @@ label chapter3_fania_scene4_afterchoice3:
             raden "\"Karena sejatinya, ini adalah tugas kelompok, bukan tugas individu, jadi, akan lebih baik dan maksimal kalau kalian sendiri yang ngerjain, kan? Dan, kalau bukan sekarang, kapan lagi?\""
 
             show fania casual_dingin
+            voice "audio/vo/fania/chapter3/chapter3_28_iya_sih.flac"
             fania "\"Iya sih..\""
 
+            voice "audio/vo/fania/chapter3/chapter3_29_aku_call.flac"
             fania "\"Aku {i}call{i} sekarang.\""
 
             "Ada sesuatu tentang cara dia mengambil keputusan, tentang caranya menatap dengan keyakinan, yang membuatku tidak bisa berpaling."
@@ -388,6 +408,7 @@ label chapter3_fania_scene4_afterchoice3:
             #fania tersenyum
             show fania casual_senyum_normal_biasa:
                 zoom 1.15 xalign 0.5 yalign -0.02
+            voice "audio/vo/fania/chapter3/chapter3_30_kami_udah_baikkan.flac"
             fania "\"Kami udah baikan.\""
 
             scene black with dissolve
@@ -427,15 +448,19 @@ label chapter3_fania_scene4_afterchoice3:
             raden "\"Kalau begitu, kamu tinggal andalin aja kita sebagai temanmu!\""
 
             $ renpy.show("aisyah kemeja_senyum", zorder=4)
+            voice "audio/vo/aisyah/chapter3/chapter3_9_fania.flac"
             aisyah "\"Fania, gimana kalau kamu coba bicara sama teman-teman kelompokmu dan mencoba berbaikan. Pada akhirnya, semua orang punya kekurangan, dan kuyakin mereka juga punya\""
 
+            voice "audio/vo/aisyah/chapter3/chapter3_10_dan.flac"
             aisyah '\"Dan kalau mereka tidak menghasilkan apapun, kamu tetap bisa laporkan ke dosen untuk evaluasi lanjutan!\"'
 
             #fania tersenyum
             $ renpy.show("fania casual_senyum_normal_biasa", zorder=4)
+            voice "audio/vo/fania/chapter3/chapter3_31_makasih_aisyah.flac"
             fania "\"Makasih, Aisyah. Aku bakalan coba hubungi mereka nanti setelah ini selesai.\""
 
             $ renpy.show("aisyah kemeja_senyum", zorder=4)
+            voice "audio/vo/aisyah/chapter3/chapter3_11_baguslah.flac"
             aisyah "\"Baguslah kalau begitu.\""
 
             scene black with dissolve
