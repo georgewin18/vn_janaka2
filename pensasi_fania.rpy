@@ -275,7 +275,16 @@ label pensasi_fania_afterchoice2:
             raden "\"Oke.\""
 
             #Special moment start
-            scene bg masjid
+            scene fania_pensasi at pan_up:
+                zoom 1.5 xalign 0.45
+            with dissolve
+
+            pause 4.0
+
+            scene fania_pensasi with dissolve:
+                zoom 0.75
+
+            pause 1.5
 
             "Jantungku berdegup kencang saat tanganku bergetar dengan gugup memegang gitar."
 
@@ -307,7 +316,18 @@ label pensasi_fania_afterchoice2:
 
             #special moment end
 
+            show black with dissolve
+
             #fania terrawa kecil
+
+            scene bg masjid with dissolve:
+                zoom 0.5
+
+            show raden kasual_biasa:
+                zoom 0.48 xalign 0.0 yalign 0.1
+            show fania casual_senyum_normal_biasa:
+                zoom 1.15 xalign 1.0 yalign -0.02
+            with dissolve
 
             fania "\"Pfftt, hahaha… padahal gak bisa gitar tapi kamu sok banget. Jadi kelihatan lucu,\""
 
@@ -336,7 +356,16 @@ label pensasi_fania_afterchoice2:
 
             #special moment start
 
-            scene bg masjid
+            scene fania_pensasi at pan_up:
+                zoom 1.5 xalign 0.45
+            with dissolve
+
+            pause 4.0
+
+            scene fania_pensasi with dissolve:
+                zoom 0.75
+
+            pause 1.5
 
             "Sifatnya yang tenang dan elegan berubah, membuatnya terdengar seperti anak kecil ketika dia sangat bersemangat."
 
@@ -357,6 +386,8 @@ label pensasi_fania_afterchoice2:
             $ pensasi_fania_choice3_1_choosen = False
 
             #spesial moment end
+
+            show black with dissolve
 
             jump pensasi_fania_afterchoice3
 
@@ -429,6 +460,8 @@ label pensasi_fania_afterchoice3:
 
             fania "\"… Boleh deh, lain kali.\""
 
+            show black with dissolve
+
             #END
 
         "Lumayan lah.":
@@ -441,5 +474,7 @@ label pensasi_fania_afterchoice3:
             raden "\"Boleh deh, kalau begitu, ayo jalan bareng lagi lain kali.\""
 
             fania "\"Oke!\""
+
+            show black with dissolve
 
             #END
