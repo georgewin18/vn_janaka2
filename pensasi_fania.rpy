@@ -10,10 +10,10 @@ label pensasi_fania:
 
     "Kami berjalan keluar gedung pascasarjana, udara segar langsung menyapa wajah kami setelah beberapa jam berada di dalam keramaian."
 
-    show raden biasa:
-        zoom 0.2 xalign 0.2 yalign 0.0
-    show fania kemeja_biasa:
-        zoom 1.1 xalign 1.55 yalign 0.06
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show fania casual_senyum_normal_biasa:
+        zoom 1.15 xalign 1.0 yalign -0.02
     with dissolve
     
     raden "\"Ramai banget ya di dalam.\""
@@ -21,15 +21,15 @@ label pensasi_fania:
     fania "\"Namanya juga event tahunan.\""
 
     #fania senyum
-    show fania kemeja_biasa
+    show fania casual_senyum_ceria
 
     fania "\"Rame banget ya hari ini!\""
 
-    show raden biasa 
+    show raden kasual_biasa2
     raden "\"Iya, ternyata pameran kampus bisa seramai ini.\""
 
     #fania gugup
-    show fania kemeja_biasa 
+    show fania casual_gugup
     fania "\"Den?\""
 
     raden "\"Ya?\""
@@ -47,14 +47,14 @@ label pensasi_fania:
             "Ketimbang mendengarkan hal-hal membosankan, aku yakin bakalan ketemu hal-hal yang menyenangkan di luar auditorium."
 
             #fania senyum
-            show fania kemeja_biasa
+            show fania casual_senyum_ceria
             fania "\"Sama dong, aku juga..\""
             $ pensasi_fania_choice1_1_choosen = True
 
             jump pensasi_fania_afterchoice1
 
         "Pengen aja sih.":
-            show raden senyum sadar
+            show raden kasual_tersenyum
             raden "\"Yah… pengen aja sih, emangnya gak boleh?\""
 
             fania "\"Gak boleh gimana? Ya udah kalau begitu.\""
@@ -74,37 +74,37 @@ label pensasi_fania:
 label pensasi_fania_afterchoice1:
 
     #raden senyum ceria
-    show raden senyum sadar
+    show raden kasual_tersenyum
     raden "\"btw Lihat itu Fania! ada yang naik Go-kart!\""
 
     #fania senyum ceria
-    show fania kemeja_biasa
+    show fania casual_senyum_ceria
 
     fania "\"Waah..\""
 
     fania "\"Tapi kok bisa ada Go-Kart?\""
 
-    show raden biasa
+    show raden kasual_biasa
     
     raden "\"Ya mungkin hemat energi gitu atau—\""
 
     #raden kaget
-    show raden bingung
+    show raden kasual_kaget
 
     raden "\"Lah, ada mobil juga?!\""
 
     #fania bingung
-    show fania kemeja_biasa
+    show fania casual_bingung
     fania "\"Buset Mahasiswa PENS sepuh semua isinya.\""
 
     fania "\"Eh, kita boleh naik juga gak sih?\""
 
-    if(pensasi_fania_choice1_1_choosen == True):
+    if(pensasi_fania_choice1_1_choosen == True): #btw di sini narator bilang wajah fania berubah senang, tapi di perintah gak ada suruh ubah ekspresi jadi mending ditambah kah?
         "Wajah Fania langsung berubah ceria, matanya berbinar penuh semangat. Ia tampak semakin hidup dan bersemangat."
     else:
         "Wajah Fania langsung berubah ceria. Syukurlah, sepertinya pikirannya berhasil teralihkan."
-
-    show raden biasa
+    show fania casual_senyum_ceria
+    show raden kasual_biasa2
 
     raden "\"Harusnya boleh. Coba mampir ke boothnya.\""
 
@@ -131,10 +131,10 @@ label pensasi_fania_choice_mobil:
 
         "Mobil tersebut menggunakan tenaga listrik sebagai sumber energinya dan telah meraih beberapa penghargaan dalam kompetisi bergengsi."
 
-        show raden biasa:
-            zoom 0.2 xalign 0.2 yalign 0.0
-        show fania kemeja_biasa:
-            zoom 1.1 xalign 1.55 yalign 0.06
+        show raden kasual_biasa:
+            zoom 0.48 xalign 0.0 yalign 0.1
+        show fania casual_senyum_normal_biasa:
+            zoom 1.15 xalign 1.0 yalign -0.02
         with dissolve
 
         raden "\"Kelihatannya pada antre naik mobil deh semuanya.\""
@@ -185,7 +185,7 @@ label pensasi_fania_choice_gokart:
         raden "\"Mau cobain Go-kart?\""
 
         #fania senyum
-        show fania kemeja_biasa
+        show fania casual_senyum_ceria
 
         fania "\"Kayaknya seru.\""
 
@@ -195,10 +195,10 @@ label pensasi_fania_choice_gokart:
         
         "Namun, ketika kami tiba di arena, tempat itu sudah penuh dengan antrean panjang orang-orang yang tak sabar menunggu giliran mereka."
 
-        show raden biasa:
-            zoom 0.2 xalign 0.2 yalign 0.0
-        show fania kemeja_biasa:
-            zoom 1.1 xalign 1.55 yalign 0.06
+        show raden kasual_biasa:
+            zoom 0.48 xalign 0.0 yalign 0.1
+        show fania casual_senyum_normal_biasa:
+            zoom 1.15 xalign 1.0 yalign -0.02
         with dissolve
 
         raden "\"Kayaknya kita gak bisa naik deh.\""
@@ -241,10 +241,10 @@ label pensasi_fania_afterchoice2:
     scene bg masjid:
         zoom 0.5
 
-    show raden biasa:
-        zoom 0.2 xalign 0.2 yalign 0.0
-    show fania kemeja_biasa:
-        zoom 1.1 xalign 1.55 yalign 0.06
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show fania casual_senyum_normal_biasa:
+        zoom 1.15 xalign 1.0 yalign -0.02
     with dissolve
     fania "\"Haahh capek juga ya, muter-muter doang.\""
 
@@ -261,7 +261,7 @@ label pensasi_fania_afterchoice2:
     fania "\"Kamu mau jadi gitarisku?\""
 
     #raden kaget
-    show raden bingung
+    show raden kasual_kaget
     raden "\"Hah!? Gitaris?!\""
 
     fania "\"Iya. Gimana?\""
@@ -365,10 +365,10 @@ label pensasi_fania_afterchoice3:
     #depan pasca
     scene bg masjid with dissolve:
         zoom 0.5
-    show raden biasa:
-        zoom 0.2 xalign 0.2 yalign 0.0
-    show fania kemeja_biasa:
-        zoom 1.1 xalign 1.55 yalign 0.06
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show fania casual_senyum_normal_biasa:
+        zoom 1.15 xalign 1.0 yalign -0.02
     with dissolve
     fania "\"Ha… rasanya capek banget\""
 
@@ -389,7 +389,7 @@ label pensasi_fania_afterchoice3:
         "Fania tertawa mendengar komentarku."
     else:
         #fania senyum ceria
-        show fania kemeja_biasa
+        show fania casual_senyum_normal_biasa
         fania "\"Sayang sih kamu gak ikut tadi. Aku yakin bakalan lebih seru kalau kamu ikut tadi.\""
 
         raden "\"Yah kalau begitu aku bakalan latihan main gitar biar kita bisa duet lain kali,\""
@@ -398,7 +398,7 @@ label pensasi_fania_afterchoice3:
 
     
     #fania senyum
-    show fania kemeja_biasa
+    show fania casual_senyum_ceria
 
     fania "\"Den, gimana hari ini? seru banget kan?\""
 
@@ -423,7 +423,7 @@ label pensasi_fania_afterchoice3:
             "Tetapi aku tertawa kecil melihat Fania yang bertingkah malu-malu"
 
             #raden senyum hehe
-            show raden senyum sadar
+            show raden kasual_hehe
 
             raden "\"Kalau begitu, gimana jawabanmu?\""
 
