@@ -22,7 +22,7 @@ label pensasi_canon:
     "Aku tersenyum lega sambil meregangkan badan."
 
     show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.2 yalign 0.1
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     raden "\"Akhirnya kelar juga semua ujian teori,\""
 
@@ -94,12 +94,12 @@ label pensasi_canon:
     "Sambil berjalan pergi juga, aku melanjutkan chat untuk merencanakan pertemuan untuk acara besok. terlalu fokus dengan HP hingga nyaris menabrak seseorang—"
 
     show sekar kemeja_biasa with dissolve:
-        zoom 1.15 xalign 1.1 yalign 0.05
+        zoom 1.15 xalign 0.9 yalign 0.05
 
     sekar "\"Uh..\""
 
     show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.2 yalign 0.1
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     raden "\"Oh maaf Kak—\""
 
