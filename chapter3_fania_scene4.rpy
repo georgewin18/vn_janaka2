@@ -13,9 +13,9 @@ label chapter3_fania_scene4:
     play music campus fadein 1.0
     #raden santo netral
     show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom 0.54 xalign -0.2 yalign 0.05
     show santo kemeja_biasa:
-        zoom 1.15 xalign 2.7 yalign 0.08
+        zoom 1.35 xalign -3.5 yalign 0.08
     with dissolve
 
     "Aku dan Santo melihat Aisyah dan Fania di perpustakaan."
@@ -67,15 +67,15 @@ label chapter3_fania_scene4:
 label chapter3_fania_scene4_afterchoice1:
 
     show raden:
-        xalign -0.5
+        xalign -0.75
     show santo:
-        xalign -0.25
+        xalign 1.2
     with moveinright
 
     show aisyah kemeja_gugup:
-        zoom 0.35 xalign 0.78 yalign -0.7
+        zoom 0.4 xalign 0.9 yalign -0.3
     show fania casual_dingin:
-        zoom 1.15 xalign 1.45 yalign -0.02
+        zoom 1.35 xalign 1.9 yalign 0.03
     with dissolve
 
     if (chapter3_fania_scene4_choice1_2_choosen == True):

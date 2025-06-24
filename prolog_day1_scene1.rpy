@@ -8,6 +8,8 @@ label prolog_day1_scene1:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
+    $ quick_menu_bottom = True
+
     "Ponselku berdering keras di samping tempat tidur, memecah kesunyian yang masih menyelimuti kamar. Aku menggerakkan tangan, masih setengah terlelap, meraba-raba ponsel di meja kecil di sampingku"
 
     "Dengan jari yang agak gemetar, aku menekan tombol di layar, dan suara tajam itu pun berhenti, mengembalikan kesunyian di kamar ini. Kusandarkan ponsel di atas dada, mecoba merasakan ketenangan subuh yang sangat sunyi"

@@ -1,3 +1,12 @@
+init:
+    transform pan_left:
+        xalign 1.0
+        linear 5.0 xalign 0.5
+
+    transform pan_right:
+        xalign 0.0
+        linear 4.5 xalign 0.5
+
 label pensasi_aisyah_scene4:
     #depan pasca
     scene bg lapmer with dissolve:
@@ -5,19 +14,59 @@ label pensasi_aisyah_scene4:
 
     "Waktu sudah menunjukkan sekitar pukul satu siang ketika kami melangkah keluar dari masjid. Udara siang yang panas langsung menyambut, membuat bayangan kami tampak jelas di jalanan kampus."
 
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show aisyah kemeja_bicara:
+        zoom 0.35 xalign 0.95 yalign -0.7
+    with dissolve
+
     aisyah "\"Sekarang mau kemana?\""
+
+    show raden kasual_tersenyum
 
     raden "\"Kalau begitu ke booth robotik gimana?\""
 
+    show raden kasual_biasa
+
     aisyah "\"Boleh sih, tapi bukannya kamu udah di lantai 1 tadi?\""
+
+    show raden kasual_tersenyum
 
     raden "\"Tadi kan rame, belum sempat eksplor banget di sana.\""
 
     aisyah "\"Yaudah, ayok!\""
 
+    show raden kasual_biasa
+    show aisyah kemeja_senyum with dissolve
+
+    stop music fadeout 2.0
+
     "Dia langsung berjalan cepat melewatiku, wajahnya berbinar-binar. Antusiasmenya terasa menular, membuatku ikut mempercepat langkah agar tidak tertinggal."
 
     ## SPECIAL MOMENT
+
+    play music aisyah_bgm fadein 1.0
+
+    scene blank with dissolve
+
+    show aisyah_pensasi at pan_left:
+        zoom 1.5
+    with dissolve
+
+    pause 3.0
+
+    hide aisyah_pensasi
+
+    show aisyah_pensasi at pan_right:
+        zoom 1.0
+    with dissolve
+
+    pause 2.0
+
+    scene aisyah_pensasi with dissolve:
+        zoom 0.75
+
+    pause 1.5
 
     aisyah "\"Waahh! Keren!\""
 
@@ -97,6 +146,8 @@ label pensasi_aisyah_scene4:
             "Tawa kami terus mengisi udara, seolah keramaian di sekitar tidak lagi terasa."
 
             "Momen sederhana ini, dengan canda yang ringan, membuatku merasa lebih dekat dengannya."
+
+    stop music fadeout 2.0
 
     jump pensasi_aisyah_ending
 

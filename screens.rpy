@@ -279,16 +279,17 @@ screen quick_menu():
 
 screen quick_menu_options():
     if quick_menu_is_open:
-        add "gui/button/quick_menu_options.png" align (-0.02, -0.15)
-        add "gui/button/close_quick_menu.png" align (0.012, 0.032)
+        add "gui/button/quick_menu_options.png" align (1.02, -0.15)
+        add "gui/button/close_quick_menu.png" align (0.988, 0.032)
 
         vbox:
             style_prefix "quick"
 
-            xalign 0.015
+            xalign 0.975
             yalign 0.12
 
-            textbutton _("Settings") action ShowMenu('preferences')
+            #textbutton _("Settings") action ShowMenu('preferences')
+            textbutton _("History") action ShowMenu('history')
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Load") action ShowMenu('load')
@@ -297,14 +298,35 @@ screen quick_menu_options():
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
+
+screen quick_menu_bottom():
+    zorder 100
+
+    if quick_menu_bottom:
+        add "gui/quick_menu_bottom.png" align (0.5, 1.0)
+
+        hbox:
+            spacing 50
+            style_prefix "bottom_quick_menu"
+
+            xalign 0.5
+            yalign 0.992
+
+            textbutton _("History") action ShowMenu('history')
+            textbutton _("Auto") action Preference("auto-forward", "toggle")
+            textbutton _("Save") action ShowMenu('save')
+            textbutton _("Load") action ShowMenu('load')
+
 init python:
     config.overlay_screens.append("quick_menu")
+    config.overlay_screens.append("quick_menu_bottom")
 
 default quick_menu = True
+default quick_menu_bottom = True
 
 style quick_menu_button:
     child "gui/button/quick_menu_button.png"
-    xpos -50
+    xpos 1800
     ypos -40
 
 style quick_button is default
@@ -316,6 +338,16 @@ style quick_button:
 style quick_button_text:
     properties gui.text_properties("quick_button")
 
+style bottom_quick_menu_button is default
+style bottom_quick_menu_button_text is button_text
+
+style bottom_quick_menu_button:
+    properties gui.button_properties("quick_button")
+
+style bottom_quick_menu_button_text:
+    properties gui.text_properties("quick_button")
+    idle_color gui.accent_color
+    size 32
 
 ################################################################################
 ## Main and Game Menu Screens

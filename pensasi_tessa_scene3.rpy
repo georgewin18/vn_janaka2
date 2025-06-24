@@ -1,21 +1,33 @@
 label pensasi_tessa_scene3:
+    show raden kasual_canggung
+
     "Dia menatapku sebentar, lalu merogoh kantongnya dan mengeluarkan sebuah kaleng minuman dingin."
 
     dio "\"Nih\""
 
+    show raden kasual_bingung
+
     "Aku menatap minuman itu dengan bingung."
+
+    show raden kasual_gugup with dissolve
 
     raden "\"Eh? Buat aku kak?\""
 
     dio "\"Ya buat siapa lagi?!\""
 
+    show raden kasual_canggung
+
     dio "\"Gua udah denger dari Tessa, tadi lo juga udah kerja keras. Anggap aja bonus.\""
 
     "Aku ragu-ragu sebelum akhirnya menerimanya. Saat kaleng dingin itu menyentuh tanganku, aku bisa merasakan betapa segarnya setelah bekerja keras seharian."
 
+    show raden kasual_biasa with dissolve
+    
     raden "\"Makasih kak\""
 
-    "Aku hendar membuka minumannya ketika Kak Dio tiba-tiba berdehem kecil."
+    "Aku hendak membuka minumannya ketika Kak Dio tiba-tiba berdehem kecil."
+
+    show raden kasual_biasa2
 
     dio "\"Eh, soal yang masalah rokok dulu itu...\""
 
@@ -28,6 +40,11 @@ label pensasi_tessa_scene3:
     "Kak Dio mendengus, lalu meneguk minumannya"
 
     dio "\"Bagus,\""
+
+    show raden with moveinright:
+        xalign 0.0
+    show tessa normal with dissolve:
+        zoom 0.39 yalign -0.25 xalign 0.95
 
     "Saat itu, aku melirik ke arah Kak Tessa yang duduk tak jauh dari kami. Dia tidak ikut campur, hanya duduk sambil tersenyum tipis, memandangi interaksi kami dengan ekspresi puas."
 
@@ -42,13 +59,19 @@ label pensasi_tessa_scene3:
     return
 
 label pensasi_tessa_scene3_choice3_1:
+    show raden kasual_biasa
+
     raden "\"Fyuhh... kalau gitu aku balik ya kak\""
 
     tessa "\"Terima kasih ya udah bantu\""
 
+    show raden kasual_tersenyum
+
     raden "\"Aman kak, udah biasa teman menolong teman\""
 
     tessa "\"Oke, hati-hati ya\""
+
+    show raden kasual_ceria
 
     raden "\"Oke, makasih, bye\""
 
@@ -60,15 +83,39 @@ label pensasi_tessa_scene3_choice3_1:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
+    show aisyah kemeja_penasaran:
+        zoom 0.35 xalign 0.2 yalign -0.7
+    show fania casual_bingung:
+        zoom 1.15 xalign 1.0 yalign -0.02
+    with dissolve
+
     "Aku melihat Aisyah dan Fania sedang berdebat di salah satu booth."
 
     "Suasana di antara mereka tegang. Mereka hanya berdiri diam beberapa detik, dan menatap satui sama lain, sampai akhirnya Aisyah menghela nafas dan memecah keheningan"
 
+    show fania casual_dingin
+
     aisyah "\"Udahlah jangan terlalu dibawa serius.. nanti juga tahu mana yang terbaik\""
+
+    show fania casual_menghelanapas with dissolve
+    pause 0.3
+    show fania casual_menghelanapas_ada_asap with dissolve
+    pause 0.3
+    show fania casual_menghelanapas with dissolve
 
     "Fania hanya mengela nafas kecil, memilih mengalihkan pandangannya ke booth lain."
 
+    show raden kasual_canggung:
+        zoom 0.48 xalign -0.3 yalign 0.1
+    show aisyah:
+        xalign 0.5
+    show fania:
+        xalign 1.2
+    with moveinleft
+
     "Aku mendekati mereka dengan hati-hati, mencoba membaca situasi yang sedang berlangsung. Wajah Aisyah tampak tegang meski ia sudah berusaha menutupinya dengan senyumannya yang dipaksakan."
+
+    show fania casual_dingin with dissolve
 
     "Fania di sisi lain, terlihat santai seperti biasa, tapi caranya menghindari kontak mata dengan Aisyah menunjukkan ada sesuatu yang menganjal di pikirannya."
 
@@ -79,6 +126,8 @@ label pensasi_tessa_scene3_choice3_1:
     "Aisyah mengangguk,"
 
     "{i}Waduh kayaknya aku baru saja melewatkan masalah serius nih{/i}"
+
+    show aisyah kemeja_bicara with dissolve
 
     aisyah "\"Urusan pentingnya udah beres den?\""
 
@@ -91,13 +140,19 @@ label pensasi_tessa_scene3_choice3_1:
 label pensasi_tessa_scene3_choice3_2:
     tessa "\"Makasih ya udah bantu\""
 
+    show raden kasual_ceria
+
     raden "\"Aman kak, aku suka menolong kok\""
     
     tessa "\"Begitu ya, bukan karena pernah kabur dulu\""
 
+    show raden kasual_capek
+
     raden "\"Katanya jangan dibahas lagi..\""
 
     tessa "\"Hehehehe\""
+
+    show raden kasual_tersenyum
 
     raden "\"kak Tessa, ikut liat-liat booth yang lain yuk\""
 
@@ -117,6 +172,8 @@ label pensasi_tessa_scene3_choice3_2:
 
     dio "\"Atau lebih tepatnya... Lo mau ngedate sama bocah ini?\""
 
+    show raden kasual_panik with dissolve
+    
     "Aku langsung tersedak udara" with vpunch
 
     raden "\"Hah?! Bukan gitu, Kak!\""
@@ -131,9 +188,13 @@ label pensasi_tessa_scene3_choice3_2:
 
     tessa "\"Yaudah, ayo jalan\""
 
+    show raden kasual_canggung
+
     raden "\"Oke kak\""
 
-    "Saat kami mulai melangakn pergi, aku sempat melirik ke arah Kak Dio yang hanya menyeringai kecil sambil melambaikan tangannya"
+    "Saat kami mulai melangkah pergi, aku sempat melirik ke arah Kak Dio yang hanya menyeringai kecil sambil melambaikan tangannya"
+
+    stop music fadeout 2.0
 
     jump pensasi_tessa_scene4
 
