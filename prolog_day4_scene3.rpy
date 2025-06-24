@@ -7,9 +7,9 @@ label prolog_day4_scene3:
     
     #show raden & sekar
     show raden kemeja_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom 0.54 xalign -0.2 yalign 0.05
     show sekar jas_biasa:
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom 1.25 xalign 1.0 yalign 0.05
     with dissolve
 
     raden "\"Kak, aku bisa lanjut sendiri ke expo,\""
