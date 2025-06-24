@@ -10,12 +10,26 @@ label pensasi_tessa_scene2:
     aisyah_nvl "Kalo emang sepenting itu gpp sih"
     raden_nvl "Maaf ya"
 
+    nvl clear
+
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
+    show raden kasual_biasa:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show tessa normal:
+        zoom 0.39 yalign -0.25 xalign 0.95
+    with dissolve
+
     tessa "\"Sudah selesai kah chat nya? Kumulai ya\""
 
+    play music campus fadein 1.0
+
+    show raden kasual_tersenyum
+
     raden "\"Iya kak, udah, cuma ngabarin temen sebentar tadi\""
+
+    show raden kasual_biasa
 
     "Kak Tessa mulai menjelaskan konsep game yang sedang dipamerkan supaya aku tidak bingung."
 
@@ -27,7 +41,15 @@ label pensasi_tessa_scene2:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
+    show raden kasual_capek:
+        zoom 0.48 xalign 0.0 yalign 0.1
+    show tessa normal:
+        zoom 0.39 yalign -0.25 xalign 0.95
+    with dissolve
+
     tessa "\"Sejauh ini sudah paham kah?\""
+
+    show raden kasual_menghela_napas
 
     raden "\"Ehhhh...\""
 
@@ -35,11 +57,17 @@ label pensasi_tessa_scene2:
 
     tessa "\"Jadi dengan dan pahami oke!\""
 
-    "Setelah Kak Tessa menjelaskan ulang, aku pun muali memahami- atau setidaknya bisa menjelaskan kembali ke orang lain."
+    show raden kasual_biasa
+
+    "Setelah Kak Tessa menjelaskan ulang, aku pun mulai memahami- atau setidaknya bisa menjelaskan kembali ke orang lain."
 
     tessa "\"Gimana? Dah paham?\"" 
 
+    show raden kasual_tersenyum
+
     raden "\"Dah paham kok\""
+
+    show raden kasual_biasa
 
     tessa "\"Baguslah, awas nanti kau kebingungan dan lihat aku terus untuk minta pertolongan\""
 
@@ -49,9 +77,11 @@ label pensasi_tessa_scene2:
 
     "Awalnya hanya beberapa orang yang mampir sekedar melihat-lihat, tapi semakin lama, jumlahnya semakin bertambah hingga mulai membentuk kerumunan kecil."
 
-    "Kami pun segera beraksi. Aku muali menjelaskan apa yang sudah kupelajari dari Kak Tessa, berusaha terlihat meyakinkan di depan para pengunjung. Meski awalnya gugup, aku perlahan muali merasa percaya diri."
+    "Kami pun segera beraksi. Aku mulai menjelaskan apa yang sudah kupelajari dari Kak Tessa, berusaha terlihat meyakinkan di depan para pengunjung. Meski awalnya gugup, aku perlahan mulai merasa percaya diri."
 
-    "Berkali-kali aku harus menjelaskan hal yang sama, dan Kak Tessa terlihat semakin sibut menjawab pertanyaan-pertanyaan yang lebih teknis."
+    "Berkali-kali aku harus menjelaskan hal yang sama, dan Kak Tessa terlihat semakin sibuk menjawab pertanyaan-pertanyaan yang lebih teknis."
+
+    show raden kasual_canggung with dissolve
 
     "Saat aku hampir menyerah karena merasa ngos-ngosan, tiba-tiba seorang teman Kak Tessa datang."
 
@@ -67,19 +97,30 @@ label pensasi_tessa_scene2:
 
     "Kak Dio segera bergabung untuk membantu kami melayani pengunjung."
 
+    show raden kasual_biasa
+
     "Aku bernafas lega, membiarkan Kak Dio menjawab- dan di luar dugaan, penjelasannya sangat meyakinkan"
 
     "Kak Dio melanjutkan dengan gestur tangan yang mantap, mejelaskan mekanik gameplay dengan percaya diri. Setiap pertanyaan dari pengunjung dia jawab tanpa ragu, bahkan lebih detail dari yang pernah Kak Tessa jelaskan kepadaku."
 
-    "Dengan tambahan tenaga baru, suasana di booth perlahan mulai terkendali. aku dan Kak Tessa akhirnya bisa sedikti bernafas lega setelah sebelumnya hampir kewalahan."
+    "Dengan tambahan tenaga baru, suasana di booth perlahan mulai terkendali. Aku dan Kak Tessa akhirnya bisa sedikit bernafas lega setelah sebelumnya hampir kewalahan."
 
     "Setelah beberapa menit berlalu, kerumunan di booth mulai berkurang dan kami akhirnya bisa beristirahat."
+
+    hide raden
+    hide tessa
+    with dissolve
 
     "Aku masih sedikit terkejut dengan bagaimana Kak Dio mengendalikan situasi tadi. orang yang awalnya kupikir cuma senior menyebalkan ternyata bisa menjelaskan game ini lebih baik dari siapa pun."
 
     "Saat aku masih memikirkan hal itu, tiba-tiba Kak Dio mendatangiku."
 
+    show raden kasual_canggung with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
+
     dio "\"Oi, Raden kan nama lu?\""
+
+    show raden kasual_gugup
 
     raden "\"Eh? Iya kak...\""
 
