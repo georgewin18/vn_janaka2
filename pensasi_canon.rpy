@@ -21,8 +21,8 @@ label pensasi_canon:
 
     "Aku tersenyum lega sambil meregangkan badan."
 
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.2 yalign 0.0
+    show raden kasual_biasa with dissolve:
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     raden "\"Akhirnya kelar juga semua ujian teori,\""
 
@@ -93,24 +93,25 @@ label pensasi_canon:
 
     "Sambil berjalan pergi juga, aku melanjutkan chat untuk merencanakan pertemuan untuk acara besok. terlalu fokus dengan HP hingga nyaris menabrak seseorang—"
 
-    show sekar jas_normal with dissolve:
-        zoom 1.15 xalign 2.5 yalign 0.03
+    show sekar kemeja_biasa with dissolve:
+        zoom 1.15 xalign 0.9 yalign 0.05
 
     sekar "\"Uh..\""
 
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.2 yalign 0.0
+    show raden kasual_biasa with dissolve:
+        zoom 0.48 xalign 0.0 yalign 0.1
 
     raden "\"Oh maaf Kak—\""
 
     #raden kaget
-    show raden bingung
+    show raden kasual_kaget
     raden "\"Kak Sekar?!!\""
 
+    show sekar kemeja_lelah_kantung_mata
     sekar "\"Oh. Raden ya..\"" #Sekar (kantung mata) lelah  (nada perlahan, kecapekan.)
 
     #raden gugup
-    show raden biasa
+    show raden kasual_biasa
 
     "Ekspresi Kak Sekar terlihat berbeda hari ini. Biasanya, dia selalu tampil tegas dan penuh semangat. Namun, kali ini matanya tampak lebih lelah, dengan raut wajah yang menunjukkan tanda-tanda kurang tidur."
     
@@ -138,7 +139,7 @@ label pensasi_canon:
 
             raden "\"Oh, Pantes. Jangan maksain diri, Semangat ya Kak Sekar.\""
 
-            show sekar jas_bicara
+            show sekar kemeja_lelah_kantung_mata
             #Sekar (kantung mata) senyum 
             "Dia tersenyum lemah sambil mengangguk lagi."
 
@@ -160,7 +161,7 @@ label pensasi_canon:
             raden "\"Oh, Pantes. Jangan maksain diri, Semangat ya Kak Sekar.\""
 
             #Sekar (kantung mata) senyum
-            show sekar jas_normal
+            show sekar kemeja_lelah_kantung_mata
 
             "Dia hanya tersenyum lemah singkat sebelum langsung berbalik, langkahnya cepat menuruni tangga."
 
@@ -184,8 +185,8 @@ label pensasi_canon_afterchoice1:
 
     "Setelah meletakkan tas di loker, aku langsung menghampiri mereka."
 
-    show raden biasa with dissolve:
-        zoom 0.2 xalign 0.5 yalign 0.0
+    show raden kasual_biasa with dissolve:
+        zoom 0.48 xalign 0.5 yalign 0.1
 
     raden "\"Udah dari tadi, ya?\""
 
@@ -193,13 +194,15 @@ label pensasi_canon_afterchoice1:
 
     #Aisyah Serius, Fania Kesal Muncul
     show raden with moveinright:
-        xalign 0.0
+        xalign -0.25
 
     show aisyah kemeja_gugup:
-        zoom 0.34 yalign -1.0 xalign 0.95
+        zoom 0.35 yalign -0.7 xalign 1.15
 
-    show fania kemeja_biasa:
-        zoom 1.1 xalign 0.7 yalign 0.06
+    show fania casual_kesal:
+        zoom 1.15 xalign 0.6 yalign -0.02
+
+    with dissolve
 
     fania "\"Dari pagi aku mah,\""
 
@@ -212,8 +215,17 @@ label pensasi_canon_afterchoice1:
     fania "\"Sebenarnya ada kelas pagi, tapi di cancel... terus habis ini ada kelas juga,\""
 
     #(menghela nafas) 
+    show fania casual_menghelanapas
+    pause 0.3
+
+    show fania casual_menghelanapas_ada_asap with dissolve
+    pause 0.3
+
+    show fania casual_menghelanapas with dissolve
     
     "Fania menghela napas berat. Ekspresinya tampak lesu."
+
+    show fania casual_kesal
 
     #(Suara meninggi sedikit) 
     
@@ -227,13 +239,15 @@ label pensasi_canon_afterchoice1:
     aisyah "\"Fan..! suaramu kekencengan,\""
 
     #fania canggung
-    show fania kemeja_biasa
+    show fania casual_canggung
     fania "\"Ah, sorry!\""
 
     "Fania langsung menurunkan nada suaranya, memasang wajah kesal."
 
+    show fania casual_kesal
+
     #raden canggung
-    show raden senyum sadar
+    show raden kasual_canggung
     raden "\"Hahaha…\""
 
     "Aku tertawa kecil melihat reaksinya."
@@ -269,7 +283,8 @@ label pensasi_canon_afterchoice1:
 
     aisyah "\"Suka-suka dosen lah..\""
 
-    show fania kemeja_biasa
+    #fania biasa
+    show fania casual_senyum_normal_biasa
 
     fania "\"Aku juga ada yang tugas buat UAS.\""
 
@@ -406,14 +421,14 @@ label pembukaan_pensasi_afterchoice1:
 
     "Begitu pintu terbuka, dua wajah familiar muncul—Aisyah dengan senyumnya yang canggung, dan Fania yang memasang ekspresi santai seperti biasa."
 
-    show raden biasa:
-        zoom 0.2 xalign 0.0 yalign 0.0
+    show raden kasual_biasa:
+        zoom 0.48 xalign -0.25 yalign 0.1
 
     show aisyah kemeja_gugup:
-        zoom 0.34 yalign -1.0 xalign 0.95
+        zoom 0.34 yalign -1.0 xalign 1.15
 
-    show fania kemeja_biasa:
-        zoom 1.1 xalign 0.7 yalign 0.06
+    show fania casual_senyum_normal_biasa:
+        zoom 1.15 xalign 0.6 yalign -0.02
 
     with dissolve
 
@@ -444,7 +459,7 @@ label pembukaan_pensasi_afterchoice1:
     aisyah "\"Boring? Ini kan soal uang, Fan. Bisnis itu soal gimana kamu dapet profit!\""
     #(Aisyah nada suaranya naik sedikit)
 
-    show fania kemeja_biasa
+    show fania casual_senyum_normal_biasa
     fania "\"Nggak semuanya soal duit, Ais. Kalau nggak enjoy, mending nggak usah.\""
 
     fania "\"Yang penting passion dan kesenangan.\""
@@ -475,6 +490,7 @@ label pembukaan_pensasi_afterchoice1:
             "Fania menghela napas, jelas kurang setuju dengan pendapatku."
 
             #fania kesal
+            show fania casual_kesal
             fania "\"Jadi kamu lebih milih kerja yang nggak kamu suka asal dapet duit, gitu?\""
 
             raden "\"Bukan soal suka atau nggak suka, tapi gimana kita bisa cari keseimbangan.\""
@@ -550,4 +566,4 @@ label pembukaan_pensasi_afterchoice2:
             "Kami menuju ke Auditorium dengan langkah cepat, Aisyah tampak antusias, sementara aku agak ragu. Tapi, siapa tahu aku bisa mendapatkan sesuatu yang menarik dari acara ini."
 
             "{i}jump route aisyah{/i}"
-            #jump pensasi_aisyah
+            jump pensasi_aisyah_scene1z
