@@ -189,26 +189,26 @@ label prolog_day4_scene4_choice1_1:
 
     raden "\"Permisi, Kak Tessa?\""
 
-    voice "audio/vo/tessa/prolog4/prolog4_1_oh_kamu.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_1_oh_kamu.mp3"
     tessa "\"Oh, kamu. Ada apa?\""
 
     raden "\"Kakak juga di UKM Taekwondo, ya?\""
 
-    voice "audio/vo/tessa/prolog4/prolog4_2_iya_aku_pelatih.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_2_iya_aku_pelatih.mp3"
     tessa "\"Iya, aku pelatih junior di sini. Kenapa? Mau daftar?\""
 
     raden "\"Mungkin sih kak. Dari tadi liat demi nya, saya jadi tertarik. Dulu saya suka bela diri, tapi berhenti karena gak sempat latihan.\""
 
     raden "\"Jadi, kalau ikut UKM ini, kegiatannya apa aja, Kak?\""
 
-    voice "audio/vo/tessa/prolog4/prolog4_3_kami_ada_latihan.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_3_kami_ada_latihan.mp3"
     tessa "\"Kami ada latihan rutin setiap minggu. Selain itu, ada kelas untuk tingkat pemula, seminar tentang bela diri, dan tentu saja kompetisi. Biasanya kami juga ikut kejuaraan tingkat kampus sampai nasional.\""
 
     "Aku membaca brosur yang dia tunjukkan. Foto-foto kegiatan mereka terlihat keren, terutama yang menunjukkan anggota tim membawa piala di kejuaraan"
 
     raden "Hmm, mungkin aku pikir-pikir dulu, Kak. Tapi serius, ini kelihatan seru."
 
-    voice "audio/vo/tessa/prolog4/prolog4_4_yaudah.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_4_yaudah.mp3"
     tessa "\"Ya udah. Kalau kamu mau tanya-tanya lagi, balik ke sini aja.\""
 
     #hide tessa
@@ -471,26 +471,26 @@ label prolog_day4_scene4_choice2_3:
 
     raden "\"Permisi, Kak Tessa?\""
 
-    voice "audio/vo/tessa/prolog4/prolog4_1_oh_kamu.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_1_oh_kamu.mp3"
     tessa "\"Oh, kamu. Ada apa?\""
 
     raden "\"Kakak juga di UKM Taekwondo, ya?\""
 
-    voice "audio/vo/tessa/prolog4/prolog4_2_iya_aku_pelatih.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_2_iya_aku_pelatih.mp3"
     tessa "\"Iya, aku pelatih junior di sini. Kenapa? Mau daftar?\""
 
     raden "\"Mungkin sih kak. Dari tadi liat demi nya, saya jadi tertarik. Dulu saya suka bela diri, tapi berhenti karena gak sempat latihan.\""
 
     raden "\"Jadi, kalau ikut UKM ini, kegiatannya apa aja, Kak?\""
 
-    voice "audio/vo/tessa/prolog4/prolog4_3_kami_ada_latihan.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_3_kami_ada_latihan.mp3"
     tessa "\"Kami ada latihan rutin setiap minggu. Selain itu, ada kelas untuk tingkat pemula, seminar tentang bela diri, dan tentu saja kompetisi. Biasanya kami juga ikut kejuaraan tingkat kampus sampai nasional.\""
 
     "Aku membaca brosur yang dia tunjukkan. Foto-foto kegiatan mereka terlihat keren, terutama yang menunjukkan anggota tim membawa piala di kejuaraan"
 
     raden "Hmm, mungkin aku pikir-pikir dulu, Kak. Tapi serius, ini kelihatan seru."
 
-    voice "audio/vo/tessa/prolog4/prolog4_4_yaudah.flac"
+    voice "audio/vo/tessa/prolog4/prolog4_4_yaudah.mp3"
     tessa "\"Ya udah. Kalau kamu mau tanya-tanya lagi, balik ke sini aja.\""
 
     #hide tessa
