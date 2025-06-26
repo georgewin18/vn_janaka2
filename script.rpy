@@ -54,7 +54,7 @@ label splashscreen:
     return
 
 label start:
-    $ quick_menu_bottom = False
+    $ quick_menu_bottom = True
     ## this section only for testing
     
     menu:
