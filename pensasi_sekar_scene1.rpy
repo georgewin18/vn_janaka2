@@ -21,6 +21,7 @@ label pensasi_sekar_scene1:
     show sekar jas_tegas with dissolve:
         zoom 1.15 xalign 0.5 yalign 0.05
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_udah.flac"
     sekar "\"Udah tenang dulu, kita pikirin solusi terbaiknya\""
 
     "Mendengar hal ini, aku terpikirkan apakah aku lanjut pergi ke sana atau pergi ke tempat lain saja."
@@ -61,6 +62,7 @@ label pensasi_sekar_scene1_choice1_1:
 
     show sekar jas_senyum
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_1_oh_raden.flac"
     sekar "\"Oh, Raden.\""
 
     show sekar jas_biasa
@@ -70,25 +72,32 @@ label pensasi_sekar_scene1_choice1_1:
 
     show sekar jas_ragu
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_2_iya_nih.flac"
     sekar "\"Iya nih den, MC yang seharusnya datang dari tadi, ternyata kecelakaan, dan baru konfirmasi ke kita.\'"
 
     show raden kasual_canggung
 
     raden "\"Waduh, orangnya nggak apa-apa kak?\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_3_orangnya.flac"
     sekar "\"Orangnya nggak terluka sih, tapi motornya itu yang rusak.\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_4_jadi.flac"
     sekar "\"Jadi sekarang ada yang menjemput dia, tapi lokasinya masih jauh dari PENS.\""
 
     raden "\"Untuk penggantinya sudah ada belum kak?\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_5_untuk.flac"
     sekar "\"Untuk sekarang sih belum ada\""
 
     show raden kasual_bingung
 
     raden "\"Dari para panitia nggak ada yang bisa kak?\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_6_sayangnya.flac"
     sekar "\"Sayangnya sih, semuanya sudah dikasih perannya masing-masing.\""
+
+    voice sustain
 
     sekar "\"Kalau ada yang ninggalin tugas bakal susah deh\""
 
@@ -96,6 +105,7 @@ label pensasi_sekar_scene1_choice1_1:
 
     show sekar jas_senyum_lebar with dissolve
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_7_raden.flac"
     sekar "\"Raden, dari gaya bicaramu, kamu bisa public speaking kan?\""
 
     show raden kasual_tersenyum
@@ -105,6 +115,7 @@ label pensasi_sekar_scene1_choice1_1:
     show raden kasual_biasa
     show sekar jas_bicara
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_8_mau_coba.flac"
     sekar "\"Mau coba jadi MC nggak den?\""
 
     show raden kasual_capek
@@ -113,6 +124,7 @@ label pensasi_sekar_scene1_choice1_1:
 
     show sekar jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_9_gimana.flac"
     sekar "\"Gimana den? Sekalian nambah pengalaman\""
 
     "Mendengar pertanyaan itu membuatku berpikir."
@@ -121,10 +133,12 @@ label pensasi_sekar_scene1_choice1_1:
 
     "{i}Enaknya bantu apa nggak nih?{/i}"
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_10_jadi.flac"
     sekar "\"Jadi gimana den?\""
 
     show sekar jas_senyum
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_11_sama_nanti.flac"
     sekar "\"Sama nanti ku kasih hadiah spesial den, tawaran ini cuma bakalan terjadi sekali doang loh\""
 
     menu:
@@ -139,6 +153,7 @@ label pensasi_sekar_scene1_choice1_1:
 
             show sekar jas_ragu
 
+            voice "audio/vo/sekar/pensasi/pensasi_1_1_2_1_yasudah.flac"
             sekar "\"Yasudah kalau begitu\""
 
             show raden kasual_biasa2
@@ -147,6 +162,7 @@ label pensasi_sekar_scene1_choice1_1:
 
             show sekar jas_biasa
 
+            voice "audio/vo/sekar/pensasi/pensasi_1_1_2_2_iya.flac"
             sekar "\"Iya den\""
 
             stop music fadeout 2.0
@@ -164,6 +180,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     show sekar jas_ceria
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_1_1_sip.flac"
     sekar "\"Sip, sudah kuduga\""
 
     show raden kasual_biasa
@@ -172,6 +189,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     show sekar jas_bicara
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_1_2_untuk.flac"
     sekar "\"Untuk masalah seperti itu dibahas nanti aja den. Kita harus nyiapin pakaian yang harus kamu pakai dan lainnya.\""
 
     "Sambil berjalan mengikuti Kak Sekar aku membuka ponselku dan melakukan chatting dengan Aisyah"
@@ -193,6 +211,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     "Ketika aku menutup ponselku, tanpa sadar ada Kak Sekar di sampingku sambil melihat chat ku dengan Aisyah"
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_1_3_udahan.flac"
     sekar "\"Udahan ngechat nya den?\""
 
     show raden kasual_panik
@@ -201,6 +220,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     show sekar jas_bingung
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_1_4_kenapa.flac"
     sekar "\"Kenapa den?\""
 
     show raden kasual_gugup
@@ -209,6 +229,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     show sekar jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_1_1_1_5_yaudah.flac"
     sekar "\"Yaudah ayo, percepan jalannya\""
 
     show raden kasual_biasa2
