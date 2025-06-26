@@ -43,7 +43,7 @@ label prolog_day3_scene3:
     play music tessa_bgm fadein 1.0
 
     #ekspresi tessa bicara dan marah tidak ada
-    voice "audio/vo/tessa/prolog3/prolog3_1_apa.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_1_apa.mp3"
     lo "\"Apa?\""#tessa kesal
     
     show raden kemeja_gugup with dissolve
@@ -53,7 +53,7 @@ label prolog_day3_scene3:
 
     raden "\"Permisi kak, saya mau bertanya arah ke toilet dimana?\""
 
-    voice "audio/vo/tessa/prolog3/prolog3_2_toilet.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_2_toilet.mp3"
     lo "\"Toilet? Langsung aja lurus ke arah sana. Kalau kamu perhatikan dengan benar, pasti akan ketemu.\""
     
     show raden kemeja_biasa2 with dissolve
@@ -95,7 +95,7 @@ label prolog_day3_scene3:
             
             show raden kemeja_gugup with dissolve
 
-            voice "audio/vo/tessa/prolog3/prolog3_3_apa_lagi.flac"
+            voice "audio/vo/tessa/prolog3/prolog3_3_apa_lagi.mp3"
             lo "\"Ada apa lagi?\""
             
             show raden kemeja_canggung with dissolve
@@ -113,7 +113,7 @@ label prolog_day3_scene3:
             
             raden "\"Maaf, Kak. Saya masih kurang paham tadi toilet nya di sebelah mana…. Bisa tolong tunjukkan lagi arahnya?\""
 
-    voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.mp3"
     lo "\"Ya ampun… Kamu ini dibilangin tadi, lurus aja! Perhatikan baik-baik!\""
     
     show tessa normal with moveinright:
@@ -138,7 +138,7 @@ label prolog_day3_scene3:
     
     "Namun dia tiba-tiba berjalan mendahuluiku."
 
-    voice "audio/vo/tessa/prolog3/prolog3_5_sudahlah.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_5_sudahlah.mp3"
     lo "\"Sudahlah, ikut aku. Kalau gak, nanti malah kamu hilang.\""
     
     show raden kemeja_biasa2
@@ -161,7 +161,7 @@ label prolog_day3_scene3:
     
     show tessa at flip with dissolve
 
-    voice "audio/vo/tessa/prolog3/prolog3_6_nah_ini.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_6_nah_ini.mp3"
     lo "\"Nah, ini. Lain kali buka matanya lebih lebar, ya,\""
     
     "Dia menunjuk pintu toilet dengan sedikit sentakan tangan."

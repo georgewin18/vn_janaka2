@@ -46,7 +46,7 @@ label prolog_day3_scene4:
     
     "Dia mengangguk ringan, lalu berkata dengan nada sedikit lebih lembut, meski wajahnya masih terlihat serius."
 
-    voice "audio/vo/tessa/prolog3/prolog3_7_aku_cuma_mau_nanya.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_7_aku_cuma_mau_nanya.mp3"
     lo "\"Aku cuma mau nanya sesuatu. Menurutmu, aku kelihatan seram, ya?\""#Tessa Netral
 
     # show raden kemeja_gugup with dissolve
@@ -61,12 +61,12 @@ label prolog_day3_scene4:
     
     "Dia menghela napas panjang, seperti seseorang yang sudah mendengar jawaban itu terlalu sering."
     
-    voice "audio/vo/tessa/prolog3/prolog3_8_hahh_iya.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_8_hahh_iya.mp3"
     lo "\"Iya, orang sering bilang begitu. Aku gak pernah maksud bikin orang takut. Tapi, ya… emang gini cara aku ngomong.\""
 
     "Dia mengusap rambutnya yang berwarna merah-hitam, tampak sedikit frustasi."
 
-    voice "audio/vo/tessa/prolog3/prolog3_9_kadang.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_9_kadang.mp3"
     lo "\"Kadang, aku cuma pengen kasih arahan yang jelas, tapi malah bikin orang salah paham. Padahal cuma berniat bantu kalian.\""
     
     "Aku tersenyum, merasa memahami apa yang dia maksud."
@@ -79,10 +79,10 @@ label prolog_day3_scene4:
 
     "Dia melirikku, lalu mengangguk pelan."
 
-    voice "audio/vo/tessa/prolog3/prolog3_10_bagus.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_10_bagus.mp3"
     lo "\"Bagus kalau kamu paham. Tapi jangan takut sama panitia lain juga, ya. Kami semua di sini buat bantu kalian.\""
 
-    voice "audio/vo/tessa/prolog3/prolog3_11_namaku_tessa.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_11_namaku_tessa.mp3"
     tessa "\"Oh iya, namaku Tessa. Kalau ada apa-apa, bilang aja. Jangan sungkan.\""
     
     # show raden kemeja_tersenyum
@@ -95,7 +95,7 @@ label prolog_day3_scene4:
     
     # show raden kemeja_biasa
 
-    voice "audio/vo/tessa/prolog3/prolog3_12_santai_aja.flac"
+    voice "audio/vo/tessa/prolog3/prolog3_12_santai_aja.mp3"
     tessa "\"Santai aja. Sekarang balik ke ruangan, jangan sampai kelompokmu kehilangan satu anggotanya lagi gara-gara kamu nyasar.\""
     
     #raden tertawa
