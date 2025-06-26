@@ -19,6 +19,7 @@ label chapter5_tessa_scene4:
     stop music fadeout 2.0
     show raden kasual_canggung
 
+    voice "audio/vo/tessa/chapter5/chapter5_1_woi.flac"
     anon "\"WOI, KALIAN!\"" with vpunch
 
     "Aku dan Santo pun langsung terkejut dan badan kami gemetar." 
@@ -74,6 +75,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     "Wajahnya yang serius berubah ketika dia menghela napas"
     
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_malah_kabur.flac"
     tessa "\"Haahh.. malah kabur orangnya\""
 
     "Aku menelan ludah, mecoba mengatur kata-kata yang mau keluar dari mulutku."
@@ -82,6 +84,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     show raden kasual_canggung
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_2_kenapa.flac"
     tessa "\"Kenapa hah?\""
 
     show raden kasual_gugup
@@ -94,6 +97,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_3_ganggu_kamu.flac"
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
     show raden kasual_gugup
@@ -102,6 +106,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     play music tessa_bgm fadein 1.0
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_4_gitu.flac"
     tessa "\"Gitu kenapa takut? Nyapa doang.\""
 
     pause 1.0
@@ -112,26 +117,33 @@ label chapter5_tessa_scene4_choice4_2:
 
     show raden kasual_canggung
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_5_beda_gimana.flac"
     tessa "\"Beda gimana?\""
 
     raden "\"Suara Kak Tessa tadi kayak... benar-benar marah. Jadi keinget yang di deket D4 pas itu...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_6_hmm.flac"
     tessa "\"Hmm? yang mana?\""
 
     raden "\"Waktu Kak Tessa mbentak Kak Dio dan semuanya langsung diam.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_8_ah_itu.flac"
     tessa "\"Ah itu. Ya, aku ingat. Kenapa emang?\""
 
     raden "\"Pas itu, Kak Tessa kayak... serem banget. Semua orang pada takut, Santo yang selalu keliatan santai aja kabur duluan\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_7_ohh.flac"
     tessa "\"Oh itu. Yah, aku cuma marah soalnya dia nyelomot aja orangnya.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_9_kalo.flac"
     tessa "\"Kalo nggak ditekan kaya gitu, dia nggak bakal berhenti menyangkal.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_10_dio.flac"
     tessa "\"Dio emang gitu orangnya, jadinya harus ditegasin dari awal.\""
 
     raden "\"Tapi ya itu... Kak Tessa tadi suaranya sama kek pas mbentak Kak Dio... makanya sempet takut aku...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_11_emangnya.flac"
     tessa "\"Emangnya aku terlihat seburuk itu\""
 
     pause 1.0
@@ -140,14 +152,17 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Dipikir-pikir Kak Tessa keren sih... tapi... juga menakutkan...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_12_tapi.flac"
     tessa "\"Ya, tapi sekarang ini aku gak marah kok.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_13_suaraku.flac"
     tessa "\"Suaraku memang jadi lebih keras soalnya tenggorokanku lagi sakit.\""
 
     show raden kasual_tersenyum
 
     raden "\"Btw makasih ya kak, udah bantu kita waktu itu\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_14_sama_sama.flac"
     tessa "\"Iya, sama-sama\""
 
     show raden kasual_biasa
@@ -166,6 +181,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Kenapa nggak pulang sama temenmu Kak?\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_15_masih.flac"
     tessa "\"Masih ada kegiatan mereka\""
 
     "Ketika kami tiba di area parkir, aku langsung melihat motorku terparkir tidak jauh dari motor Kak Tessa."
@@ -204,16 +220,19 @@ label chapter5_tessa_scene4_choice4_3:
     #show tessa
     raden "\"AAAAAAAAAA\"" with vpunch
 
+    voice "audio/vo/tessa/chapter5/chapter5_3_1_apaan.flac"
     tessa "\"Apaan?\""
 
     show raden kasual_gugup
 
     raden "\"Kukira hantu...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_3_2_sembarangan.flac"
     tessa "\"Sembarangan!\"" with vpunch
 
     raden "\"Aa..\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_3_3_a.flac"
     tessa "\"A?\""
 
     raden "\"Ngg-Nggak ada... mohon maaf,\""
@@ -224,12 +243,14 @@ label chapter5_tessa_scene4_choice4_3:
 
     show raden kasual_canggung
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_3_ganggu_kamu.flac"
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
     raden "\"E.. enggak tau\""
 
     play music tessa_bgm fadein 1.0
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_4_gitu.flac"
     tessa "\"Gitu kenapa takut? Nyapa doang.\""
 
     pause 1.0
@@ -238,26 +259,33 @@ label chapter5_tessa_scene4_choice4_3:
 
     raden "\"Tapi kali ini... suara kakak beneran bikin aku merinding, seriusan\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_5_beda_gimana.flac"
     tessa "\"Beda gimana?\""
 
     raden "\"Suara Kak Tessa tadi kayak... benar-benar marah. Jadi keinget yang di deket D4 pas itu...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_6_hmm.flac"
     tessa "\"Hmm? yang mana?\""
 
     raden "\"Waktu Kak Tessa mbentak Kak Dio dan semuanya langsung diam.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_8_ah_itu.flac"
     tessa "\"Ah itu. Ya, aku ingat. Kenapa emang?\""
 
     raden "\"Pas itu, Kak Tessa kayak... serem banget. Semua orang pada takut, Santo yang selalu keliatan santai aja kabur duluan\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_7_ohh.flac"
     tessa "\"Oh itu. Yah, aku cuma marah soalnya dia nyelomot aja orangnya.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_9_kalo.flac"
     tessa "\"Kalo nggak ditekan kaya gitu, dia nggak bakal berhenti menyangkal.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_10_dio.flac"
     tessa "\"Dio emang gitu orangnya, jadinya harus ditegasin dari awal.\""
 
     raden "\"Tapi ya itu... Kak Tessa tadi suaranya sama kek pas mbentak Kak Dio... makanya sempet takut aku...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_11_emangnya.flac"
     tessa "\"Emangnya aku terlihat seburuk itu\""
 
     pause 1.0
@@ -266,12 +294,15 @@ label chapter5_tessa_scene4_choice4_3:
 
     raden "\"Dipikir-pikir Kak Tessa keren sih... tapi... juga menakutkan...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_12_tapi.flac"
     tessa "\"Ya, tapi sekarang ini aku gak marah kok.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_13_suaraku.flac"
     tessa "\"Suaraku memang jadi lebih keras soalnya tenggorokanku lagi sakit.\""
 
     raden "\"Btw makasih ya kak, udah bantu kita waktu itu\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_14_sama_sama.flac"
     tessa "\"Iya, sama-sama\""
 
     menu:
@@ -280,6 +311,7 @@ label chapter5_tessa_scene4_choice4_3:
         "Pulang bareng dan ajak berteman":
             raden "\"Kenapa nggak pulang sama temenmu Kak?\""
 
+            voice "audio/vo/tessa/chapter5/chapter5_2_15_masih.flac"
             tessa "\"Masih ada kegiatan mereka\""
 
             "Ketika kami tiba di area parkir, aku langsung melihat motorku terparkir tidak jauh dari motor Kak Tessa."
@@ -298,14 +330,17 @@ label chapter5_tessa_scene4_choice4_2_1:
 
     play music romantic2 fadein 1.0
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_1_hahaha.flac"
     tessa "\"hahahahahahaha, ku kira ada apa ternyata cuma itu, hahahahaha\""
 
     show raden kasual_kesal
 
     raden "\"Oiii, kenapa jadi ketawa sih\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_2_kau_itu_loh.flac"
     tessa "\"hahaha, kau itu lhoo..\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_3_bisa_bisanya.flac"
     tessa "\"bisa-bisanya ngomong gitu.\""
 
     show raden kasual_gugup
@@ -314,10 +349,12 @@ label chapter5_tessa_scene4_choice4_2_1:
 
     "Dengan malui, aku mengucapkan kata-kataku sambil mencuri pandang ke arah Tessa. Wajahnya yang biasanya terlihat menakutkan, kiri penuh senyuman, membuatku lupa akan sikapnya sebelumnya. Saat tertawa, keimutannya benar-benar memukau."
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_4_kenapa.flac"
     tessa "\"Kenapa melihatku gitu?!\""
 
     raden "\"tidak ada\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_5_apa_iya.flac"
     tessa "\"Apa iya?\""
 
     menu:
@@ -357,10 +394,12 @@ label chapter5_tessa_scene4_choice4_2_1_2:
     
     "Tessa mengerutkan alis, menatapku dengan pandangan curiga."
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_2_1_mikir_makan_apa.flac"
     tessa "\"Mikir nanti makan apa? Itu alasanmu?\""
 
     raden "\"Iya, beneran! Soalnya lagi bingung mau makan nasi goreng atau mie...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_2_1_2_2_dasar_aneh.flac"
     tessa "\"Dasar aneh,\""
 
     show raden kasual_canggung

@@ -6,6 +6,7 @@ label chapter5_tessa_good_ending:
     show raden kasual_panik
     stop music fadeout 2.0
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_1_AAA.flac"
     tessa "\"{size=+10}AAAAAAAAA!!!!{/size}\"" with vpunch
     
     "Aku terkejut dan hampir melompat setelah mendengar teriakan Kak Tessa. Tetapi sebelum aku bisa bereaksi, Tessa langsung bersembunyi di belakangku sambil memegang bajuku erat-erat."
@@ -17,7 +18,10 @@ label chapter5_tessa_good_ending:
 
     raden "\"K..kk..kak, a..aa..ada apa, jangan digoyangkan terus mabuk a..aku jadinya\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_2_tidak_ada.flac"
     tessa "\"T-tidak ada...\""
+
+    voice sustain
 
     tessa "\"Cuma halusinasi... mungkin...\""
 
@@ -27,6 +31,7 @@ label chapter5_tessa_good_ending:
 
     raden "\"Sepertinya nggak ada apa-apa deh,\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_3_huft.flac"
     tessa "\"Hhhuffttt-\""
 
     show raden kasual_serius
@@ -37,6 +42,7 @@ label chapter5_tessa_good_ending:
 
     "Sebelum aku sempat menyelesaikan kalimatku, Kak Tessa kembali menggoyangkan tubuhku."
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_4_HIKK.flac"
     tessa "\"HIIIIKKKK-\"" with hpunch
 
     show raden kasual_pusing
@@ -51,14 +57,17 @@ label chapter5_tessa_good_ending:
 
     "Kak tessa yang sudah lebih tenang, menatapku dengan tatapan datar."
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_5_kau_gak_apa.flac"
     tessa "\"Kau gak apa??\""
 
     show raden kasual_menghela_napas with dissolve
 
     raden "\"Iya\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_6_baguslah.flac"
     tessa "\"Baguslah\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_7_ngomong_ngomong.flac"
     tessa "\"Ngomong-ngomong... dasar wibu\""
 
     show raden kasual_penasaran
@@ -69,6 +78,7 @@ label chapter5_tessa_good_ending:
 
     raden "\"Eh... hehehehe,\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_good_ending_8_dasar_wibu.flac"
     tessa "\"Dasar wibu,\""
 
     show raden kasual_kesal
@@ -85,10 +95,12 @@ label chapter5_tessa_good_ending:
 
     show raden kasual_bingung
 
-    raden "\"Hmmmm...\""
+    voice "audio/vo/tessa/chapter5/chapter5_special_1_hmm.flac"
+    tessa "\"Hmmmm...\""
 
     "Aku terdiam, bingung bagaimana harus menghadapi situasi ini. Tapi sebelum aku sempat berkata apa-apa, dia tiba-tiba bersuara."
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_2_jangan_pernah.flac"
     tessa "\"Jangan pernah bilang ke siapapun aku takut tikus,\""
 
     "Aku langsung menoleh, terkejut dengan pengakuannya"
@@ -99,30 +111,40 @@ label chapter5_tessa_good_ending:
 
     show raden kasual_biasa
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_3_diam.flac"
     tessa "\"Diam!\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_4_kalau_kau.flac"
     tessa "\"kalau kau nggak bilang apa-apa soal tikus, aku juga nggak akan ingat kau ngomong soal waifu tadi\""
 
     raden "\"Jadi kita saling melupakan kelemahan masing-masing ya?\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_5_iya.flac"
     tessa "\"Iya, anggap aja ini kesepakatan.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_6_satu_lagi.flac"
     tessa "\"Oh, satu lagi,\""
     
     raden "\"Apa lagi, mbak?\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_7_aku_juga.flac"
     tessa "\"Aku juga nggak akan mengingat kalau tadi kau bilang aku...\""
     
+    voice sustain
+
     tessa "\"..imut\""
 
     show raden kasual_gugup
 
     raden "\"Huh?! I-itu... i-itu cuma...\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_8_jangan_bilang.flac"
     tessa "\"Jangan bilang apa-apa,\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_9_anggap_saja.flac"
     tessa "\"Anggap saja tadi itu nggak pernah terjadi.\""
 
+    voice "audio/vo/tessa/chapter5/chapter5_special_10_kau.flac"
     tessa "\"Kau nggak pernah bilang apa pun, dan aku juga nggak pernah dengar apa pun.\""
 
     "Dia berusaha menjaga ekspresi datarnya, tapi rona merah di wajahnya justru semakin kentara. Aku hanya bisa menatapnya, setengah bingung, setengah terhibur."
