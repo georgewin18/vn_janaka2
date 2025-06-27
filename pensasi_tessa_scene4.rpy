@@ -14,12 +14,14 @@ label pensasi_tessa_scene4:
 
     raden "\"Kak Tessa, ada booth yang pengen kakak kunjungi gak?\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_4_1_belum.flac"
     tessa "\"Belum lihat semuanya sih. Tapi tadi sempat dengar ada booth VR di ujung sana. Katanya seru.\""
 
     show raden kasual_hehe
 
     raden "\"VR? Wah, aku belum pernah coba itu,\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_4_2_kalo.flac"
     tessa "\"Kalau gitu, kita ke sana aja. Siapa tau seru. Lagian aku juga penasaaran.\""
 
     show raden kasual_biasa
@@ -32,8 +34,10 @@ label pensasi_tessa_scene4:
 
     show raden kasual_biasa
 
+    voice "audio/vo/tessa/pensasi/pensasi_4_3_iya.flac"
     tessa "\"Iya, cuma kayaknya bakal bikin pusing juga kalau terlalu lama,\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_4_4_tapi.flac"
     tessa "\"Tapi aku penasaran pengen coba. udah jauh-jauh ke sini kan?\""
 
     "Akhirnya giliran kami tiba. Petugas di booth menjelaskan cara menggunakan perangkat VR dan pilihan permainan yang tersedia. Kami diberikan dua opsi: menjelajahi dunia fantasi dengan naga terbang atau bermain survival di kota yang penuh zombie."
@@ -44,6 +48,7 @@ label pensasi_tessa_scene4:
 
     "Tessa berpikir sejenak, lalu berkata dengan nada santai,"
 
+    voice "audio/vo/tessa/pensasi/pensasi_4_5_zombie.flac"
     tessa "\"Zombie aja deh. Seru kayaknya kabur-kaburan. Lagian, siapa tahu aku jago headshot\""
 
     show raden kasual_hehe
@@ -56,6 +61,7 @@ label pensasi_tessa_scene4:
 
     raden "\"LINK-ON\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_4_6_wibu.flac"
     tessa "\"Wibuu..\""
 
     ## SPECIAL MOMENT
@@ -76,6 +82,7 @@ label pensasi_tessa_scene4:
 
     play music tessa_bgm fadein 1.0
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_1_raden.flac"
     tessa "\"Raden! Di belakangmu!\"" with vpunch
 
     "Aku menoleh dan melihat segerombilan zombie mendekat dengan cepat. Kak Tessa, yang berada di sampingku di dunia virtual ini, sudah memegang sebuah senapan virtual dan mulai menembaki zombie-zombie tersebut dengan akurasi yang mengejutkan"
@@ -84,6 +91,7 @@ label pensasi_tessa_scene4:
 
     raden "\"Wah, Kak Tessa pro banget mainnya!\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_2_yah.flac"
     tessa "\"Yah, kan tadi aku bilang, siapa tahu jago\""
 
     show raden kasual_biasa
@@ -102,6 +110,7 @@ label pensasi_tessa_scene4:
 
     show raden kasual_biasa
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_3_iya.flac"
     tessa "\"Iya...\""
 
     "Aku tidak menanggapi lebih jauh, hanya menganggap itu bagian dari suasana game. Tapi ada sesuatu dalam caranya berbicara, cara matanya memandang ke atas sejenak sebelum kembali fokus, yang membuatku merasa- mungkin ini lebih dari sekadar mengagumi grafik dalam game."
@@ -134,24 +143,28 @@ label pensasi_tessa_scene4:
 
     raden "\"Itu gila banget. Seru, sama bikin deg-degan!\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_4_iya.flac"
     tessa "\"Iya, aku nggak nyangka bakal seintens itu. Lumayan, lah, pengalaman pertama main VR,\""
 
     show raden kasual_biasa
 
     raden "\"Ngomong-ngomong, kasih nilai berapa kak?, kalau aku kasihnya 80 dari 100\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_5_kalau.flac"
     tessa "\"Huhhh.., kalau aku kasih 65 dari 100\""
 
     show raden kasual_bingung with dissolve
 
     raden "\"Ke..kenapa kecil sekali ya\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_6_lalu.flac"
     tessa "\"Lalu kenapa kau tinggi sekali nilainya\""
 
     show raden kasual_canggung with dissolve
 
     raden "\"Ya... karena itu tadi sudah bagus,\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_7_ish.flac"
     tessa "\"Ish ish ish... kau perlu banyak belajar lagi\""
 
     show raden kasual_ceria with dissolve
@@ -164,6 +177,7 @@ label pensasi_tessa_scene4:
 
     show raden kasual_biasa2
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_8_apakah.flac"
     tessa "\"Apakah... tidak, atau mungkinkah..?\""
 
     "Aku yang merasa ada yang aneh setelah melihat Tessa sedikit diam dari tadi pagi"
@@ -172,6 +186,7 @@ label pensasi_tessa_scene4:
 
     raden "\"Kak, ada apa?\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_9_oh.flac"
     tessa "\"Oh, aku baik kok...\""
 
     show raden kasual_biasa2
@@ -180,8 +195,10 @@ label pensasi_tessa_scene4:
 
     "Kami pun lanjut berkeliling dan tanpa diketahui hari pun sudah mulai sore, waktu memang cepat berlalu saat kita sedang bersenang-senang"
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_10_untuk.flac"
     tessa "{i}Untuk saat ini lebih baik endak usah dipikirin{/i}"
 
+    voice "audio/vo/tessa/pensasi/pensasi_special_11_sudah.flac"
     tessa "\"Sudah mau sore ini, aku mau balik ya\""
 
     menu:
@@ -190,6 +207,7 @@ label pensasi_tessa_scene4:
 
             raden "\"Aku ikut dong, sekalian satu jalan\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_1_1_boleh.flac"
             tessa "\"Boleh aja\""
 
             show raden kasual_ceria
@@ -198,18 +216,21 @@ label pensasi_tessa_scene4:
 
             show raden kasual_panik
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_1_2_eh.flac"
             tessa "\"Ehh?? kenapa tiba-tiba-\"" with hpunch
 
             raden "\"Bentar-bentar- Jangan asal serang-\""
 
             show raden kasual_canggung
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_1_3_maaf.flac"
             tessa "\"Maaf tadi reflek aja, tapi kenapa tiba-tiba ngomong gitu?\""
 
             show raden kasual_gugup
 
             raden "\"Maaf hanya kepikiran aja karena kita hanya jalan berdua aja\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_1_4_kau_ini.flac"
             tessa "\"Kau ini ada-ada aja\""
 
             "Tessa segera menyembunyikan wajahnya yang memerah, terlihat jelas dia sedang menahan malu."
@@ -228,6 +249,7 @@ label pensasi_tessa_scene4:
 
             raden "\"Oke, sampai jumpa kak\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_1_5_iya.flac"
             tessa "\"Iya, sampai jumpa\""
 
             scene black with dissolve
@@ -241,12 +263,14 @@ label pensasi_tessa_scene4:
 
             raden "\"Kalau gitu aku mau balik juga, hati-hati ya\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_2_1_makasih.flac"
             tessa "\"Makasih ya\""
 
             show raden kasual_ceria
 
             raden "\"Iya, makasih atas kencan nya\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_4_2_2_ehh.flac"
             tessa "Eehhh??? Ini bukan kencan! Jangan asal ngomong kayak gitu!" with hpunch
 
             "Tessa cepat-cepat berbalik, melangkah pergi sambil menyembunyikan pipinya yang semakin merah."

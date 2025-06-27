@@ -76,10 +76,12 @@ label pensasi_tessa_scene1:
 
             raden "\"Ohhh, oke yang semangat ya Kak Tessa, aku mau pergi dulu, udah ditungguin sama teman yang lain\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.flac"
             tessa "\"Oke, terima kasih ya udah berkunjung, hati-hati\""
 
             raden "\"Oke, bye\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_2_bye.flac"
             tessa "\"Bye\""
 
             #jump
@@ -94,6 +96,7 @@ label pensasi_tessa_scene1:
 
             raden "\"Aman kak, anggep aja perbaikan sikap karena pernah salah paham\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_1_2_1_ih.flac"
             tessa "\"Ihh.. gausah inget-inget hal itu deh, awas ya!\""
 
             stop music fadeout 2.0
@@ -108,10 +111,12 @@ label pensasi_tessa_scene1:
 
             raden "\"Ohhh, oke yang semangat ya Kak Tessa, aku mau pergi dulu, udah ditungguin sama teman yang lain\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.flac"
             tessa "\"Oke, terima kasih ya udah berkunjung, hati-hati\""
 
             raden "\"Oke, bye\""
 
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_2_bye.flac"
             tessa "\"Bye\""
 
             jump pensasi_sekar_scene1
