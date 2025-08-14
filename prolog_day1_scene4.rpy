@@ -6,7 +6,7 @@ label prolog_day1_scene4:
     "Adzan telah terdengar. Waktu ISHOMA telah dimulai. LO Region ku ada 2, yang pertama laki-laki bernama kak Ryan, dan yang satunya perempuan bernama kak Sekar. Dia mulai memanggil anggota region untuk berkumpul"
 
     show sekar jas_teriak:
-        zoom 1.15 xalign 0.5 yalign 0.05
+        zoom 1.25 xalign 0.5 yalign 0.05
 
     play music sekar_bgm fadein 1.0
 

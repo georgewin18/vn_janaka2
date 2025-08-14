@@ -8,9 +8,9 @@ label prolog_day1_scene6:
         "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
 
         show raden kemeja_biasa2:
-                zoom 0.48 xalign 0.0 yalign 0.1
+                zoom 0.54 xalign -0.2 yalign 0.05
         show fania kemeja_senyum_normal at Transform(matrixcolor=(silhouette)):
-                zoom 1.15 xalign 1.1 yalign -0.02
+                zoom 1.35 xalign 1.4 yalign 0.03
         with dissolve
 
         play music fania_bgm fadein 1.0
@@ -23,7 +23,7 @@ label prolog_day1_scene6:
         hide fania with dissolve
 
         show fania kemeja_senyum_normal:
-                zoom 1.15 xalign 1.1 yalign -0.02
+                zoom 1.35 xalign 1.4 yalign 0.03
         with dissolve
         
         voice "audio/vo/fania/pkkmb2_duh.flac"
@@ -63,7 +63,7 @@ label prolog_day1_scene6:
         hide fania with dissolve
 
         show raden with moveinleft:
-                xalign 0.5
+                xalign 0.45
 
         "Perempuan itu pergi begitu saja tanpa memberi kesempatan untuk sekadar berkenalan."
 
