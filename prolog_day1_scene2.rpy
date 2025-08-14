@@ -6,7 +6,7 @@ label prolog_day1_scene2:
         zoom 0.5
 
     show raden kemeja_biasa2 with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "Pukul 05.55, aku akhirnya sampai di depan kampus. Aku terdiam sejenak dan berpikir"
 
@@ -23,16 +23,16 @@ label prolog_day1_scene2:
     voice sustain
 
     show raden kemeja_biasa2 with moveinleft:
-        zoom 0.48 xalign 1.0 yalign 0.1
+        zoom 0.54 xalign -0.2 yalign 0.05
 
-    show aisyah kemeja_bingung at Transform(matrixcolor=(silhouette)):
-        zoom 0.35 xalign 0.2 yalign -0.7
+    show aisyah kemeja_kesal at Transform(matrixcolor=(silhouette)):
+        zoom 0.4 xalign 1.0 yalign 0.1
     with dissolve
 
     "Aku menoleh ke belakang dan melihat seorang perempuan berkerudung." 
 
-    show aisyah kemeja_bingung with dissolve:
-        zoom 0.35 xalign 0.2 yalign -0.7
+    show aisyah kemeja_kesal with dissolve:
+        zoom 0.4 xalign 1.0 yalign 0.1
 
     play music aisyah_bgm fadein 1.0
 
@@ -47,6 +47,7 @@ label prolog_day1_scene2:
     raden "\"Halo.\"" # ucapku. (Raden gugup)
     
     voice "audio/vo/aisyah/pkkmb2_hah.mp3"
+    show aisyah kemeja_bingung with dissolve
     anon "\"Hah?\"" # jawab perempuan tersebut, mukanya berkerut menunjukkan kekesalannya. (Siluet Aisyah)
 
     show raden kemeja_bingung
@@ -57,7 +58,7 @@ label prolog_day1_scene2:
 
     "Aku masih berpikir. Sampai ketika, perempuan tersebut berbicara."
 
-    show aisyah kemeja_bicara with dissolve
+    show aisyah kemeja_terkejut with dissolve
 
     voice "audio/vo/aisyah/pkkmb3_eh_raden.mp3"
     aisyah "\"Eh, Raden?\"" # ucap wanita tersebut. (Aisyah terkejut)
@@ -70,6 +71,7 @@ label prolog_day1_scene2:
         "Owh, Aisyah ya":
             show raden kemeja_biasa
 
+            show aisyah kemeja_senyum2
             aisyah "\"Hai!!\""
 
             jump scene3_after_choice
@@ -81,8 +83,9 @@ label prolog_day1_scene2:
     return
 
 label scene3_choice1:
-    $ renpy.block_rollback()
+    #$ renpy.block_rollback()
 
+    show aisyah kemeja_serius
     voice "audio/vo/aisyah/pkkmb4_masa_udah_lupa.mp3"
     aisyah "\"Masa udah lupa?\""
 
@@ -91,9 +94,9 @@ label scene3_choice1:
     jump scene3_after_choice
 
 label scene3_choice3:
-    $ renpy.block_rollback()
+    #$ renpy.block_rollback()
 
-    show aisyah kemeja_penasaran
+    show aisyah kemeja_kesal
 
     voice "audio/vo/aisyah/pkkmb4-3_siapa_lagi.mp3"
     aisyah "\"{size=+10}Siapa lagi itu?!{/size} Aku Aisyah, masa ga ingat!\"" with vpunch
@@ -101,11 +104,11 @@ label scene3_choice3:
     jump scene3_after_choice       
 
 label scene3_after_choice:
-    $ renpy.block_rollback()
+    #$ renpy.block_rollback()
 
     "Disaat itulah aku mengingat siapa perempuan yang ada didepan ku ini. Dia adalah Aisyah seorang mahasiswi yang kutemui ketika mengambil jas almamater beberapa Minggu yang lalu. Kami pun berbincang ringan selama antrian bergerak maju."
 
-    show aisyah kemeja_bicara
+    show aisyah kemeja_senyum1
 
     "Aisyah sekarang tampak lebih santai dan tidak menunjukkan kekesalannya lagi, dan percakapan juga bisa membuat waktu terasa lebih cepat."
 
@@ -113,7 +116,7 @@ label scene3_after_choice:
 
     hide aisyah with dissolve
     show raden kemeja_biasa2 with moveinright:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "Akhirnya, tibalah giliranku di meja registrasi."
 
@@ -155,18 +158,20 @@ label scene3_after_choice:
         zoom 0.5
 
     show raden kemeja_biasa:
-        zoom 0.48 xalign 1.0 yalign 0.1
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.2 yalign -0.7
+        zoom 0.54 xalign -0.2 yalign 0.05
+    show aisyah kemeja_senyum1:
+        zoom 0.4 xalign 1.0 yalign 0.1
     with dissolve
 
     "Kami berdiri di tempat untuk beberapa saat. Sampai ketika, seorang kakak panitia yang menjaga di sekitar sini bertanya kepada kami."
 
     lo3 "\"Region apa dik?\"" # tanya panitia tersebut.
 
+    show aisyah kemeja_senyum2
     voice "audio/vo/aisyah/pkkmb5_kami_dari_region.mp3"
     aisyah "\"Kami dari region Aldebaran kak.\""
     
+    show aisyah kemeja_senyum1
     lo3 "\"Aldebaran?, kalau gitu langsung saja menuju ruangan Auditorium ya!, disana kamu bisa melihat panitia di sana yang menunggu di depan ruangan. Itu adalah ruangan kalian.\"" # jawab kakak panitia tersebut.
     
     show raden kemeja_tersenyum

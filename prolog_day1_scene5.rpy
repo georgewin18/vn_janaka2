@@ -9,7 +9,7 @@ label prolog_day1_scene5:
         with dissolve
 
         show raden kemeja_ceria with dissolve:
-                zoom 0.48 xalign 0.5 yalign 0.1
+                zoom 0.54 xalign 0.45 yalign 0.05
 
         raden "\"Alhamdulillah!\""
 

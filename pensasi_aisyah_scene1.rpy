@@ -14,6 +14,7 @@ label pensasi_aisyah_scene1:
 
     raden "\"Ramai juga ternyata\""
 
+    voice "audio/vo/aisyah/pensasi/pensasi_1_iyalah.mp3"
     aisyah "\"Iyalah..\""
 
     show raden kasual_biasa
@@ -34,6 +35,7 @@ label pensasi_aisyah_scene1:
 
             show aisyah kemeja_bingung
 
+            voice "audio/vo/aisyah/pensasi/pensasi_1_1_1_hmm.mp3"
             aisyah "\"Hhmm...?\""
 
             show raden kasual_bingung
@@ -42,6 +44,7 @@ label pensasi_aisyah_scene1:
 
             show aisyah kemeja_bicara
 
+            voice "audio/vo/aisyah/pensasi/pensasi_1_1_2_padahal.mp3"
             aisyah "\"Padahal tadi kayak terpaksa..  tapi nggak apa-apa.\""
 
             "Aku terdiam, sedikit bingung dengan maksudnya. Namun, kami akhirnya melangkah ke depan, memilih kursi yang tersisa."
@@ -53,7 +56,10 @@ label pensasi_aisyah_scene1:
 
             show aisyah kemeja_penasaran
 
+            voice "audio/vo/aisyah/pensasi/pensasi_1_2_1_ehh.mp3"
             aisyah "\"Eeehh..?\""
+
+            voice sustain
 
             aisyah "\"Kok di belakang?!\""
 
@@ -61,6 +67,7 @@ label pensasi_aisyah_scene1:
 
             raden "\"Ngapain juga di depan emangnya?\""
 
+            voice "audio/vo/aisyah/pensasi/pensasi_1_2_2_di_depan_aja.mp3"
             aisyah "\"Di depan aja\""
 
             show raden kasual_menghela_napas with dissolve

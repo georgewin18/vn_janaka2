@@ -9,11 +9,11 @@ label prolog_day2_scene4:
         zoom 0.5
 
     show raden kemeja_biasa with dissolve:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom 0.54 xalign -0.2 yalign 0.05
     "Saat itu, aku tiba-tiba berhenti, mengingat pertemuanku dengan Fania kemarin. Fania yang saat itu terlihat begitu santai terasa sangat berbeda dari yang sekarang. Ini mengganggu pikiranku, serasa ingin menghampirinya."
 
     show fania kemeja_dingin with dissolve:
-        zoom 1.15 xalign 1.1 yalign -0.02
+        zoom 1.35 xalign 1.5 yalign 0.03
 
     menu:
         "Hampiri dia":
@@ -27,7 +27,7 @@ label prolog2_scene4_after_choice1:
 
     "Meskipun agak ragu-ragu aku akhirnya menghampiri Fania dan memanggilnya."
     show raden:
-        xalign 0.2
+        xalign 0.0
     with moveinright
 
     show raden kemeja_tersenyum

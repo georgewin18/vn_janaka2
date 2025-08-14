@@ -17,20 +17,25 @@ label pensasi_aisyah_scene2:
 
         raden "\"Aisyah\""
 
+        voice "audio/vo/aisyah/pensasi/pensasi_2_1_oh_raden.mp3"
         aisyah "\"Oh, Raden\""
 
+        voice "audio/vo/aisyah/pensasi/pensasi_2_2_kamu.mp3"
         aisyah "\"Kamu di depan lihat Fania?\""
 
         show raden kasual_biasa
 
         raden "\"Lihat sih, tadi juga diajak jalan-jalan sama dia\""
 
+        voice "audio/vo/aisyah/pensasi/pensasi_2_3_oh.mp3"
         aisyah "\"oh begitu\""
 
+        voice "audio/vo/aisyah/pensasi/pensasi_2_4_karena.mp3"
         aisyah "\"Karena kamu kesini, jadi tawaran Fania kamu tolak?\""
 
         raden "\"Iya, kenapa emangnya?\""
 
+        voice "audio/vo/aisyah/pensasi/pensasi_2_5_gpp.mp3"
         aisyah "\"Tidak apa-apa sih..\""
 
         aisyah "\"Oh iya duduk dulu sini, daripada mengganggu yang di belakang\""

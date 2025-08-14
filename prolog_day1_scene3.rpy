@@ -6,7 +6,7 @@ label prolog_day1_scene3:
         zoom 0.5
 
     show raden kemeja_capek with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "Di dalam Auditorium sangatlah penuh. Kurasa, sudah lebih dari 100 anak yang telah masuk ke ruangan ini."
     
@@ -28,9 +28,9 @@ label prolog_day1_scene3:
         zoom 0.5
 
     show raden kemeja_menghela_napas:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show aisyah kemeja_penasaran:
-        zoom 0.35 xalign 0.85 yalign -0.7
+        zoom 0.54 xalign -0.2 yalign 0.05
+    show aisyah kemeja_serius:
+        zoom 0.4 xalign 1.0 yalign 0.1
     with dissolve
     
     voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.mp3"
@@ -53,6 +53,8 @@ label scene4_choice1:
     jump scene4_after_choice
 
 label scene4_choice2:
+    show aisyah kemeja_menghela_napas with dissolve
+
     voice "audio/vo/aisyah/pkkmb7-2_hah.mp3"
     aisyah "\"Hah..\""
 
@@ -60,6 +62,8 @@ label scene4_choice2:
 
 label scene4_after_choice:
     show raden kemeja_canggung
+
+    show aisyah kemeja_serius
 
     voice "audio/vo/aisyah/pkkmb8_ayo_catet.mp3"
     aisyah "\"Ayo catet juga materinya\""

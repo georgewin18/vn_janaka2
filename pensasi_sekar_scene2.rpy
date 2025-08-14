@@ -9,10 +9,13 @@ label pensasi_sekar_scene2:
         zoom 1.15 xalign 1.0 yalign 0.05
     with dissolve
 
-    sekar "Ingat ya den! Nanti pas menitnya udah menunjukkan 00, kamu harus pergi ke panggung."
+    voice "audio/vo/sekar/pensasi/pensasi_2_1_ingat.flac"
+    sekar "\"Ingat ya den! Nanti pas menitnya udah menunjukkan 00, kamu harus pergi ke panggung.\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_2_terus.flac"
     sekar "\"Terus lanjutkan dengan sapaan dan salam, yang dilanjutkan dengan perkenalan\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_3_setelah.flac"
     sekar "\"Setelah perkenalan, kamu langsung ucapkan selamat datang di PENSASI PENS 2024. Terserah kamu mau ngucapinnya gimana, yang penting sopan santun peribahasanya kamu jaga\""
 
     show sekar jas_biasa
@@ -23,6 +26,7 @@ label pensasi_sekar_scene2:
     show sekar jas_bicara
     show raden jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_4_ok.flac"
     sekar "\"Ok, breifing nya gitu dulu ya. ada yang mau ditanyaain nggak?\""
 
     show sekar jas_biasa
@@ -33,6 +37,7 @@ label pensasi_sekar_scene2:
     show sekar jas_bicara
     show raden jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_5_baiklah.flac"
     sekar "\"Baiklah, kalau begitu, kamu pergi ke sebelahnya panggung dan tunggu sampai waktunya kamu tampil!\""
 
     scene black with dissolve
@@ -128,6 +133,7 @@ label pensasi_sekar_scene2:
         zoom 1.15 xalign 1.0 yalign 0.05
     with dissolve
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_6_den.flac"
     sekar "\"Den\""
 
     show raden jas_tersenyum
@@ -138,6 +144,7 @@ label pensasi_sekar_scene2:
     show sekar jas_bicara
     show raden jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_7_ini.flac"
     sekar "\"Ini, untuk MC nya sudah datang, makasih banget ya den\""
 
     show sekar jas_biasa
@@ -148,7 +155,6 @@ label pensasi_sekar_scene2:
     
     raden "\"Nggak papa kok kak, aku juga jadi ngerasain feel yang menegangkan seperti ini\""
 
-
     abdi "\"Wih begitu ya dik?\""
 
     show raden jas_tersenyum
@@ -158,6 +164,7 @@ label pensasi_sekar_scene2:
     show raden jas_biasa
     show sekar jas_bicara
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_8_abdi.flac"
     sekar "\"Abdi, kamu langsung siap-siap dulu sana\""
 
     show sekar jas_biasa
@@ -179,12 +186,14 @@ label pensasi_sekar_scene2:
     show sekar jas_teriak
     show raden jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_9_udah.flac"
     sekar "\"Udah pergi sana di\""
 
     abdi "\"Iya-iya kar\""
 
     show sekar jas_bicara
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_10_aman_kan.flac"
     sekar "\"Aman kan den?\""
 
     show sekar jas_biasa
@@ -196,6 +205,7 @@ label pensasi_sekar_scene2:
 
     raden "\"Oh iya, kak. Untuk hadiah spesial yang dimaksud itu dapat apa?\""
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_11_terserah.flac"
     sekar "\"Terserah kamu sih, kamu maunya apa?\""
 
     menu:
@@ -213,6 +223,7 @@ label pensasi_sekar_scene2_choice2_1:
     show raden jas_biasa
     show sekar jas_bingung
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_1_1_kenapa.flac"
     sekar "\"Kenapa nggak sekarang aja den?\""
 
     show raden jas_tersenyum
@@ -221,10 +232,12 @@ label pensasi_sekar_scene2_choice2_1:
 
     show sekar jas_biasa
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_1_2_begitu.flac"
     sekar "\"Begitu?\""
 
     show sekar jas_ceria
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_1_3_baiklah.flac"
     sekar "\"Baiklah kalau begitu, selamat bersenang-senang dengan temanmu\""
     
     "Setelah berpamitan dengan Kak Sekar, aku langsung pergi menuju Auditorium untuk menonton pitch bersama dengan Aisyah dan Fania."
@@ -292,6 +305,7 @@ label pensasi_sekar_scene2_choice2_2:
 
     show raden jas_biasa
     show sekar jas_ragu
+    voice "audio/vo/sekar/pensasi/pensasi_2_2_1_tapi.flac"
     sekar "\"Hmm, tapi sebentar lagi acara sudah mulai agak sibuk den\""
 
     "Tiba-tiba muncullah Kak Bima dari belakang"
@@ -312,6 +326,7 @@ label pensasi_sekar_scene2_choice2_2:
     show raden jas_biasa
     show sekar jas_gugup
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_2_2_tapi_nanti.flac"
     sekar "\"Tapi nanti kalaul ada apa-apa gimana Bim?\""
 
     bima "\"Sudah, nggak perlu dipikirin\""
@@ -326,6 +341,7 @@ label pensasi_sekar_scene2_choice2_2:
     pause 0.3
     show sekar jas_hembus_napas_kantung_mata with dissolve
 
+    voice "audio/vo/sekar/pensasi/pensasi_2_2_3_yasudah_deh.flac"
     sekar "\"Ya sudah deh, iya\""
 
     show raden jas_ceria

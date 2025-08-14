@@ -236,6 +236,9 @@ style choice_button is default:
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
+    idle_color "#ffffffff"
+    selected_color "#ffffff"
+    outlines [ (absolute(1), "#2458AB", 0, 0) ]
 
 
 ## Quick Menu screen ###########################################################
@@ -1260,7 +1263,7 @@ screen confirm(message, yes_action, no_action):
 
             hbox:
                 xalign 0.5
-                spacing 150
+                spacing 300
 
                 textbutton _("Yes") action yes_action
                 textbutton _("No") action no_action
@@ -1283,13 +1286,21 @@ style confirm_frame:
 
 style confirm_prompt_text:
     textalign 0.5
+    color "#ffffff"
+    outlines [ (absolute(4), "#ff5eb6", 0, 0) ]
     layout "subtitle"
 
 style confirm_button:
     properties gui.button_properties("confirm_button")
+    idle_color "#ffffff"
+    selected_color "#ffc2c2"
+    outlines [ (absolute(4), "#ff5eb6", 0, 0) ]
 
 style confirm_button_text:
     properties gui.text_properties("confirm_button")
+    idle_color "#ffffff"
+    selected_color "#ffc2c2"
+    outlines [ (absolute(4), "#ff5eb6", 0, 0) ]
 
 
 ## Skip indicator screen #######################################################

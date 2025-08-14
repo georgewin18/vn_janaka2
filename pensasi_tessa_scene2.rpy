@@ -21,6 +21,7 @@ label pensasi_tessa_scene2:
         zoom 0.39 yalign -0.25 xalign 0.95
     with dissolve
 
+    voice "audio/vo/tessa/pensasi/pensasi_2_1_sudah.flac"
     tessa "\"Sudah selesai kah chat nya? Kumulai ya\""
 
     play music campus fadein 1.0
@@ -47,20 +48,24 @@ label pensasi_tessa_scene2:
         zoom 0.39 yalign -0.25 xalign 0.95
     with dissolve
 
+    voice "audio/vo/tessa/pensasi/pensasi_2_2_sejauh_ini.flac"
     tessa "\"Sejauh ini sudah paham kah?\""
 
     show raden kasual_menghela_napas
 
     raden "\"Ehhhh...\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_2_3_kau_ini.flac"
     tessa "\"Kau ini! Aku ulangi lagi sekali ya!\""
 
-    tessa "\"Jadi dengan dan pahami oke!\""
+    voice "audio/vo/tessa/pensasi/pensasi_2_4_jadi.flac"
+    tessa "\"Jadi dengar dan pahami oke!\""
 
     show raden kasual_biasa
 
     "Setelah Kak Tessa menjelaskan ulang, aku pun mulai memahami- atau setidaknya bisa menjelaskan kembali ke orang lain."
 
+    voice "audio/vo/tessa/pensasi/pensasi_2_5_gimana.flac"
     tessa "\"Gimana? Dah paham?\"" 
 
     show raden kasual_tersenyum
@@ -69,8 +74,10 @@ label pensasi_tessa_scene2:
 
     show raden kasual_biasa
 
+    voice "audio/vo/tessa/pensasi/pensasi_2_6_baguslah.flac"
     tessa "\"Baguslah, awas nanti kau kebingungan dan lihat aku terus untuk minta pertolongan\""
 
+    voice "audio/vo/tessa/pensasi/pensasi_2_7_setidaknya.flac"
     tessa "\"Setidaknya kau bisa membantu daripada menyusahkan\""
 
     "Belum lama setelah Kak Tessa menjelaskan semua detail tentang game di booth ini, para pengunjung mulai berdatangan satu per satu."
@@ -91,7 +98,8 @@ label pensasi_tessa_scene2:
 
     "Aku menoleh dan terkejut melihat Kak Dio berjalan santai menuju meja booth. Dengan ekspresi percaya diri, dia langsung berdiri di sampingku dan menatap layar game yang sedang dipamerkan."
 
-    tessa "\"Udah jangan banyak tanya, cepetan bantuin!\""
+    voice "audio/vo/tessa/pensasi/pensasi_2_8_udah.flac"
+    tessa "\"Udah jangan tanya banyak, cepetan bantuin!\""
 
     dio "\"Tsk, rame banget,\""
 
