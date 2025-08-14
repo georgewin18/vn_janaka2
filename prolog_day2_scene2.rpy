@@ -5,7 +5,7 @@ label prolog_day2_scene2:
         zoom 0.5
 
     show raden kemeja_panik with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     raden "\"Hah… hah… haahh…! Akhirnya sampai!!!\""
 
@@ -22,29 +22,29 @@ label prolog_day2_scene2:
 
     #Sekar muncul tegass
     show sekar jas_teriak with dissolve:
-        zoom 1.15 xalign 0.5 yalign 0.05
+        zoom 1.25 xalign 0.5 yalign 0.05
 
     sekar "\"Aldebaran… Aldebaran…\"" #Suara LO kami dari Aldebaran terdengar jelas, itu si kakak berambut hijau, kak Sekar.
 
     hide sekar with dissolve
 
     show raden kemeja_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     raden "\"Nah! Itu dia. Ternyata masih sama seperti kemarin.\""
 
     "Aku bergegas ke bangku region dan ternyata mendapatkan tempat duduk yang paling pojok dekat dengan jalan dan di depanku ternyata ada Aisyah."
 
     show raden kemeja_biasa with moveinright:
-        xalign 0.0
+        xalign -0.2
 
-    show aisyah kemeja_bicara with dissolve:
-        zoom 0.35 xalign 0.85 yalign -0.7
+    show aisyah kemeja_senyum1 with dissolve:
+        zoom 0.4 xalign 1.0 yalign 0.1
 
     show raden kemeja_tersenyum
     raden "\"Hey! Aisyah!\"" #Aku menyapa perempuan di depanku.
 
-    show aisyah kemeja_senyum
+    show aisyah kemeja_senyum4
 
     voice "audio/vo/aisyah/prolog2/prolog2_1_halo_den.flac"
     aisyah "\"Oh! halo Den\"" #Aisyah menyapa ku kembali dengan senyuman.
@@ -56,8 +56,8 @@ label prolog_day2_scene2:
     "Aku mengeluarkan botol minum 2 liter milikku dari tas dan menengok ke samping kanan, sembari melihat mahasiswa di Region seberang. Aku melihat id card miliknya dan membaca namanya."
 
     #di sini karena santo lebih tinggi dari raden jadi kunaikin dikit yalign nya
-    show santo kemeja_biasa with dissolve:
-        zoom 1.15 xalign 2.7 yalign 0.08
+    show santo kemeja_netral with dissolve:
+        zoom 0.37 xalign 1.0
     
     #Raden terkejut
     show raden kemeja_bingung
@@ -71,7 +71,7 @@ label prolog_day2_scene2:
     show raden kemeja_biasa
     "Aku membuka ponsel dan mentag Santo dari grup obrolan. Ketika aku mengirim pesan, mahasiswa di sampingku membuka ponselnya dan menengok ke arahku."
 
-    show santo kemeja_bicara
+    show santo kemeja_terkejut
     santo "\"Kau Raden dari DTME?\""
 
     show raden kemeja_tersenyum
@@ -81,29 +81,29 @@ label prolog_day2_scene2:
 
     raden "\"Gak nyangka bakalan duduk sebelahan begini, hehe.\"" #Aku terkekeh.
 
-    show santo kemeja_biasa
+    show santo kemeja_senyum
     santo "\"Ya.\""#Santo menjawab singkat dengan senyuman kecil.
 
     #Aisyah muncul netral 
     #di sini menurutku kayanya mending aisyah cuma ngomong dari background ajh gak usah dimunculin, soalnya dia muncul cuma ngingetin raden trs ilang lagi
     show raden kemeja_biasa:
-        xalign 0.4
-    show santo kemeja_biasa:
-        xalign 3.5
+        xalign -0.45
+    show santo kemeja_netral:
+        xalign 0.45
     with moveinleft
 
-    show aisyah kemeja_bicara with dissolve:
-        zoom 0.35 xalign -0.05 yalign -0.7
+    show aisyah kemeja_senyum2 with dissolve:
+        zoom 0.4 xalign 1.2 yalign 0.1
     
     voice "audio/vo/aisyah/prolog2/prolog2_2_udah_mau_mulai.flac"
     aisyah "\"Raden! Udah mau mulai!\""
     
-    hide aisyah kemeja_bicara with dissolve
+    hide aisyah kemeja_senyum2 with dissolve
     
     show raden kemeja_biasa:
-        xalign 0.0
-    show santo kemeja_biasa:
-        xalign 2.7
+        xalign -0.2
+    show santo kemeja_netral:
+        xalign 1.0
     with moveinleft
 
     "Aisyah memanggilku sebelum sempat berbicara lebih jauh. Waktu sudah habis, dan aku terpaksa menghentikan percakapan untuk fokus pada acara yang segera dimulai."
@@ -120,7 +120,7 @@ label prolog_day2_scene2:
 
     santo "\"Ya, dia keren sih. Sayang yang lain gak seperti dia.\""#Santo setuju dengan kata-kataku dengan anggukan.
     
-    show santo kemeja_biasa
+    show santo kemeja_netral
     show raden kemeja_tersenyum
 
     raden "\"Maksud?\""#Aku mendengar rasanya Santo mengeluh tentang keadaan region miliknya.
@@ -130,7 +130,7 @@ label prolog_day2_scene2:
 
     santo "\"Gimana ya… di kelompok kami, yang bekerja itu cuma sedikit… bahkan bisa dibilang, cuma dia sendiri yang kerja paling banyak.\""#jawab Santo.
     
-    show santo kemeja_biasa
+    show santo kemeja_netral
     #Raden terkejut
     show raden kemeja_kaget
 
@@ -157,14 +157,14 @@ label prolog_day2_scene2_after_choice1:
     
     #raden terkejut
     show raden kemeja_kaget:
-        xalign -0.25
+        xalign -0.45
     #santo terkejut, gak ada/blm ada asset nya jadi pake biasa
-    show santo kemeja_biasa:
-        xalign 3.5
+    show santo kemeja_terkejut:
+        xalign 0.45
     with moveinleft
     #aisyah muncul senyum
-    show aisyah kemeja_senyum with dissolve:
-        zoom 0.35 xalign 0.5 yalign -0.7
+    show aisyah kemeja_senyum4 with dissolve:
+        zoom 0.4 xalign 1.2 yalign 0.1
 
     voice "audio/vo/aisyah/prolog2/prolog2_3_aku_juga_ikut.flac"
     aisyah "\"Aku juga ikut bantu!\""
@@ -175,7 +175,7 @@ label prolog_day2_scene2_after_choice1:
     raden "\"Kamu dengerin kita bicara dari tadi?\""#Aku membelalakkan mata karena tidak menyangka bahwa Aisyah yang sedang fokus dengan materi bisa teralihkan perhatiannya untuk bicara dengan kita.
 
     show raden kemeja_biasa
-    show aisyah kemeja_bicara
+    show aisyah kemeja_bersemangat
 
     voice "audio/vo/aisyah/prolog2/prolog2_4_aku_juga_mau_bantu.flac"
     aisyah "\"Aku juga mau bantu kamu, Santo.. kan ya?\""#Aisyah cuma mengangguk
@@ -183,7 +183,7 @@ label prolog_day2_scene2_after_choice1:
     show santo kemeja_bicara
     santo "\"Kalian gak usah repot-repot lah.\""
 
-    show santo kemeja_biasa
+    show santo kemeja_netral
     show raden kemeja_tersenyum
 
     raden "\"Gak masalah, aku bakalan ngikutin kamu, jadi mau gak mau kamu bakalan nerima bantuan kami.\""#ujar ku dengan Aisyah mengangguk setuju.
