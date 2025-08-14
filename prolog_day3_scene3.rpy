@@ -13,7 +13,7 @@ label prolog_day3_scene3:
         zoom 0.5
 
     show raden kemeja_capek with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "Mau tidak mau aku berdiri dari kursi ku, dan pergi keluar ruangan."
     
@@ -33,8 +33,8 @@ label prolog_day3_scene3:
     show raden with moveinleft:
         xalign -0.2
     
-    show tessa normal with dissolve:
-        zoom 0.39 xalign 1.0 yalign -0.25
+    show tessa jas_serius with dissolve:
+        zoom 0.35 xalign 1.0 yalign -0.1
     
     show raden kemeja_tersenyum
     
@@ -44,6 +44,8 @@ label prolog_day3_scene3:
 
     #ekspresi tessa bicara dan marah tidak ada
     voice "audio/vo/tessa/prolog3/prolog3_1_apa.mp3"
+
+    show tessa jas_kesal
     lo "\"Apa?\""#tessa kesal
     
     show raden kemeja_gugup with dissolve
@@ -53,6 +55,7 @@ label prolog_day3_scene3:
 
     raden "\"Permisi kak, saya mau bertanya arah ke toilet dimana?\""
 
+    show tessa jas_serius
     voice "audio/vo/tessa/prolog3/prolog3_2_toilet.mp3"
     lo "\"Toilet? Langsung aja lurus ke arah sana. Kalau kamu perhatikan dengan benar, pasti akan ketemu.\""
     
@@ -90,8 +93,8 @@ label prolog_day3_scene3:
             show raden with moveinleft:
                 xalign -0.2
             
-            show tessa normal with dissolve:
-                zoom 0.39 xalign 0.95 yalign -0.25
+            show tessa jas_serius with dissolve:
+                zoom 0.35 xalign 1.0 yalign -0.1
             
             show raden kemeja_gugup with dissolve
 
@@ -113,10 +116,11 @@ label prolog_day3_scene3:
             
             raden "\"Maaf, Kak. Saya masih kurang paham tadi toilet nya di sebelah mana…. Bisa tolong tunjukkan lagi arahnya?\""
 
+    show tessa jas_kesal
     voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.mp3"
     lo "\"Ya ampun… Kamu ini dibilangin tadi, lurus aja! Perhatikan baik-baik!\""
     
-    show tessa normal with moveinright:
+    show tessa with moveinright:
         xalign 2.0
     show raden at flip with moveinright:
         xalign 0.5
@@ -128,9 +132,9 @@ label prolog_day3_scene3:
     "Aku hanya bisa mengangguk, sembari perlahan melangkah pergi"
     
     show raden with moveinright:
-        xalign 1.0
+        xalign 1.2
     
-    show tessa normal with moveinright:
+    show tessa jas_serius with moveinright:
         xalign 0.0
     
     #raden terkejut

@@ -11,16 +11,16 @@ label prolog_day3_scene2:
         zoom 0.5
 
     show raden kemeja_gugup with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "{i}Untung saja tidak terlambat.{/i}"
     
     show raden kemeja_canggung with moveinleft:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom 0.54 xalign -0.2 yalign 0.05
     
     #ekspresi aisyah normal tidak ada
-    show aisyah kemeja_bicara with dissolve:
-        zoom 0.35 xalign 0.9 yalign -0.7
+    show aisyah kemeja_senyum1 with dissolve:
+        zoom 0.4 xalign 1.0 yalign 0.1
 
     "Memasuki Auditorium, aku melihat kursi di sebelah Aisyah masih kosong, dan pergi duduk sebelahnya."
     
@@ -29,6 +29,7 @@ label prolog_day3_scene2:
     raden "\"Pagi Aisyah.\""
     
     show raden kemeja_biasa2
+    show aisyah kemeja_terkejut
 
     voice "audio/vo/aisyah/prolog3/prolog3_1_eh_raden.flac"
     aisyah "\"Eh, Raden? Terlambat kamu?\""
@@ -38,6 +39,7 @@ label prolog_day3_scene2:
     raden "\"Iyanih, ketiduran aku.\""
     
     show raden kemeja_biasa2
+    show aisyah kemeja_senyum2
 
     voice "audio/vo/aisyah/prolog3/prolog3_2_nggak_hanya_terlambat.flac"
     aisyah "\"Gak hanya terlambat, ada barang yang ketinggalan juga ya?\""
@@ -46,7 +48,7 @@ label prolog_day3_scene2:
 
     raden "\"Kok tau??\""
     
-    show aisyah kemeja_bingung
+    show aisyah kemeja_senyum1
 
     voice "audio/vo/aisyah/prolog3/prolog3_3_keliatan_banget.flac"
     aisyah "\"Kelihatan banget itu, kamu pakai pita hitam.\""
@@ -54,19 +56,17 @@ label prolog_day3_scene2:
     show raden kemeja_gugup
 
     raden "\"Hehe..\""
-    
-    show aisyah kemeja_bicara
 
     "Kami membahas beberapa hal, dari kenapa aku terlambat sampai perasaan apa saja yang kami alami pada dua hari PKKMB. Percakapan berjalan beberapa lama, sampai orang yang duduk di belakangku, menyebut namaku"
     
     show raden:
         xalign 0.55
     show aisyah:
-        xalign 1.1
+        xalign 1.2
     with moveinright
     
     show santo kemeja_bicara with moveinleft:
-        zoom 1.15 xalign -1.8 yalign 0.08
+        zoom 0.37 xalign -0.25
     
     santo "\"Raden?\""
     
@@ -84,40 +84,37 @@ label prolog_day3_scene2:
     santo "\"Gimana den? Masih sehat kan?\""
     
     show raden kemeja_tersenyum
-    show santo kemeja_biasa
+    show santo kemeja_netral
 
     raden "\"Alhamdulillah, masih sehat. Meskipun masih terasa mengantuk sih.\""
     
     show raden kemeja_biasa
-    show santo kemeja_bicara
+    show santo kemeja_senyum_lebar
 
     santo "\"Btw, makasih ya den, telah membantu kami kemarin.\""
     
     show raden kemeja_tersenyum
-    show santo kemeja_biasa
 
     raden "\"Hehe, aman. Jika kalian butuh bantuan lagi, panggil saja aku.\""
     
     show raden kemeja_biasa
-    
+    show aisyah kemeja_bersemangat
+
     voice "audio/vo/aisyah/prolog3/prolog3_4_kalian_juga_bisa.flac"
     aisyah "\"Kalian juga bisa panggil aku, jika butuh bantuan.\""
     
-    show santo kemeja_bicara
+    show santo kemeja_senyum
 
     santo "\"Iya den, syah. Tapi ini masalah region kami, jadi nanti akan ku omongin ke LO ku untuk membahas masalah ini kedepannya.\""
-    
-    show santo kemeja_biasa
 
     "Aku dan Aisyah menggangguk dan aku memberi nya jari jempol."
     
     show raden kemeja_tersenyum
-    show santo kemeja_bicara
 
     "Percakapan kami dengan Santo berjalan cukup lama, terkadang Aisyah juga mengikuti pembicaraan."
     
     show raden kemeja_biasa
-    show santo kemeja_biasa
+    show santo kemeja_netral
     
     "Sampai akhirnya, pembawa materi datang dan aku berhenti bicara."
     
@@ -146,13 +143,13 @@ label prolog_day3_scene2:
         zoom 0.5
     
     show raden kemeja_gugup at flip:
-        zoom 0.48 xalign 0.55 yalign 0.1
+        zoom 0.54 xalign 0.55 yalign 0.05
     
-    show aisyah kemeja_gugup:
-        zoom 0.35 xalign 1.1 yalign -0.7
+    show aisyah kemeja_serius:
+        zoom 0.4 xalign 1.35 yalign 0.1
 
     show sekar jas_teriak at flip:
-        zoom 1.15 xalign -0.1 yalign 0.05
+        zoom 1.25 xalign -0.25 yalign 0.05
     with dissolve
 
     "Mendengar suara Aisyah, aku sontak terbangun dari tidurku. Aku melihat Aisyah yang menatapku dengan muka panik, dan LO region ku Kak Sekar yang memperhatikanku dengan muka yang terlihat agak kesal."
