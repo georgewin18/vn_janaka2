@@ -11,7 +11,7 @@ label prolog_day4_scene4:
     play music raden_bgm fadein 1.0
     
     show raden kemeja_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "Setibanya di area UKM Expo, aku berpisah dengan Kak Sekar, di mana aku menemukan Aisyah"
 
@@ -31,10 +31,10 @@ label prolog_day4_scene4_choice1_1:
     stop music fadeout 2.0
     play music aisyah_bgm fadein 1.0
 
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.9 yalign -0.7
+    show aisyah kemeja_senyum1:
+        zoom 0.4 xalign 1.0 yalign 0.1
     show raden:
-        xalign 0.0
+        xalign -0.2
     with moveinright 
 
     voice "audio/vo/aisyah/prolog4/prolog4_4_gimana_den.flac"
@@ -44,7 +44,7 @@ label prolog_day4_scene4_choice1_1:
 
     raden "\"Eh, ngomong-ngomong, kamu udah lihat-lihat UKM apa aja?\""
 
-    show aisyah kemeja_bertekad with dissolve
+    show aisyah kemeja_bersemangat with dissolve
 
     voice "audio/vo/aisyah/prolog4/prolog4_5_aku_udah_keliling.flac"
     aisyah "\"Aku tadi keliling, dan sepertinya aku udah fix mau join {b}ROBOHOLIC{/b}\""
@@ -115,9 +115,9 @@ label prolog_day4_scene4_choice1_1:
     play music fania_bgm fadein 1.0
 
     show raden kemeja_biasa with moveinright:
-        xalign 0.0
+        xalign -0.2
     show fania kemeja_senyum_normal with dissolve:
-        zoom 1.15 xalign 1.0 yalign -0.02
+        zoom 1.35 xalign 1.4 yalign 0.03
 
     voice "audio/vo/fania/prolog4/prolog4_1_oh_raden.flac"
     fania "\"Oh, Raden,\""
@@ -180,9 +180,9 @@ label prolog_day4_scene4_choice1_1:
 
     #show tessa
     show raden with moveinright:
-        xalign 0.0
-    show tessa normal with dissolve:
-        zoom 0.39 yalign -0.25 xalign 0.95
+        xalign -0.2
+    show tessa jas_netral with dissolve:
+        zoom 0.35 xalign 1.0 yalign -0.1
 
     stop music fadeout 2.0
     play music tessa_bgm fadein 1.0
@@ -231,20 +231,22 @@ label prolog_day4_scene4_choice1_1:
 
     #show santo
     show raden with moveinright:
-        xalign 0.0
-    show santo kemeja_biasa with dissolve:
-        zoom 1.15 xalign 2.7 yalign 0.08
+        xalign -0.2
+    show santo kemeja_netral with dissolve:
+        zoom 0.37 xalign 1.0
 
     stop music fadeout 2.0
     play music santo_bgm fadein 1.0
 
     raden "\"Santo!?\""
 
-    show santo kemeja_bicara
+    show santo kemeja_terkejut
 
     santo "\"Eh, Den! Ngapain kamu ke sini? Mau daftar Esports juga?\""
 
     raden "\"Belum tau, sih. Tapi keliatannya seru juga.\""
+
+    show santo kemeja_senyum_lebar
 
     santo "\"Ya iyalah aku di sini. Ini UKM paling cocok buat ku. Gak ribet, bisa rebahan sambil latihan.\""
 
@@ -255,6 +257,8 @@ label prolog_day4_scene4_choice1_1:
     raden "\"Wah, mantap deh,\""
 
     raden "\"Tapi aku kayaknya mau keliling dulu, Santo. Banyak booth menarik nih.\""
+
+    show santo kemeja_senyum
 
     santo "\"Oke, Den\""
 
@@ -312,11 +316,11 @@ label prolog_day4_scene4_choice2:
 
 label prolog_day4_scene4_choice2_1:
     #show aisyah
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.9 yalign -0.7
+    show aisyah kemeja_senyum1:
+        zoom 0.4 xalign 1.0 yalign 0.1
     show raden:
-        xalign 0.0
-    with moveinright
+        xalign -0.2
+    with moveinright 
 
     stop music fadeout 2.0
     play music aisyah_bgm fadein 1.0
@@ -328,7 +332,7 @@ label prolog_day4_scene4_choice2_1:
 
     raden "\"Eh, ngomong-ngomong, kamu udah lihat-lihat UKM apa aja?\""
 
-    show aisyah kemeja_bertekad with dissolve
+    show aisyah kemeja_bersemangat with dissolve
 
     voice "audio/vo/aisyah/prolog4/prolog4_5_aku_udah_keliling.flac"
     aisyah "\"Aku tadi keliling, dan sepertinya aku udah fix mau join {b}ROBOHOLIC{/b}\""
@@ -392,9 +396,9 @@ label prolog_day4_scene4_choice2_2:
 
     #show raden & fania
     show raden kemeja_biasa with moveinright:
-        xalign 0.0
+        xalign -0.2
     show fania kemeja_senyum_normal with dissolve:
-        zoom 1.15 xalign 1.0 yalign -0.02
+        zoom 1.35 xalign 1.4 yalign 0.03
 
     stop music fadeout 2.0
     play music fania_bgm fadein 1.0
@@ -462,9 +466,9 @@ label prolog_day4_scene4_choice2_3:
 
     #show tessa
     show raden with moveinright:
-        xalign 0.0
-    show tessa normal with dissolve:
-        zoom 0.39 yalign -0.25 xalign 0.95
+        xalign -0.2
+    show tessa jas_netral with dissolve:
+        zoom 0.35 xalign 1.0 yalign -0.1
 
     stop music fadeout 2.0
     play music tessa_bgm fadein 1.0
@@ -513,18 +517,22 @@ label prolog_day4_scene4_choice2_4:
 
     #show santo
     show raden with moveinright:
-        xalign 0.0
-    show santo kemeja_biasa with dissolve:
-        zoom 1.15 xalign 2.7 yalign 0.08
+        xalign -0.2
+    show santo kemeja_netral with dissolve:
+        zoom 0.37 xalign 1.0
 
     stop music fadeout 2.0
     play music santo_bgm fadein 1.0
 
     raden "\"Santo!?\""
 
+    show santo kemeja_terkejut
+
     santo "\"Eh, Den! Ngapain kamu ke sini? Mau daftar Esports juga?\""
 
     raden "\"Belum tau, sih. Tapi keliatannya seru juga.\""
+
+    show santo kemeja_senyum_lebar
 
     santo "\"Ya iyalah aku di sini. Ini UKM paling cocok buat ku. Gak ribet, bisa rebahan sambil latihan.\""
 
@@ -536,8 +544,10 @@ label prolog_day4_scene4_choice2_4:
 
     raden "\"Tapi aku kayaknya mau keliling dulu, Santo. Banyak booth menarik nih.\""
 
+    show santo kemeja_senyum
+
     santo "\"Oke, Den\""
-    #hide santo
+
     hide santo with dissolve
     
     stop music fadeout 2.0

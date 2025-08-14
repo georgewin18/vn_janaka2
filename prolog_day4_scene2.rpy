@@ -10,7 +10,7 @@ label prolog_day4_scene2:
     play music raden_bgm fadein 1.0
 
     show raden kemeja_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom 0.54 xalign 0.45 yalign 0.05
 
     "Setelah prosesi pengukuhan selesai, panitia memberi instruksi agar semua sekelompok berbaris dua banjar. Aku segera mencari posisi bersama kelompokku."
 
@@ -26,8 +26,8 @@ label prolog_day4_scene2:
 
     "{i}Bruk!{/i}" with vpunch
 
-    show aisyah kemeja_gugup with dissolve:
-        zoom 0.35 xalign 1.0 yalign -0.7
+    show aisyah kemeja_terkejut with dissolve:
+        zoom 0.4 xalign 1.0 yalign 0.1
 
     play music intense fadein 1.0
 
@@ -35,17 +35,18 @@ label prolog_day4_scene2:
     aisyah "\"Den! kamu gapapa?!\""
 
     show raden kemeja_gugup with moveinbottom:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom 0.54 xalign -0.2 yalign 0.05
 
+    show aisyah kemeja_serius
     voice "audio/vo/aisyah/prolog4/prolog4_2_aduh_gimana_sih.flac"
     aisyah "\"Aduh, gimana sih jalannya?\""
 
     show raden:
-        xalign -0.2
+        xalign -0.45
     show aisyah:
-        xalign 0.55
+        xalign 0.5
     show sekar jas_khawatir:
-        zoom 1.15 xalign 1.1 yalign 0.05
+        zoom 1.25 xalign 1.15 yalign 0.05
     with moveinright
 
     voice "audio/vo/sekar/prolog4/prolog4_1_raden_kamu.flac"
@@ -73,16 +74,21 @@ label prolog_day4_scene2:
 
     hide aisyah with dissolve
     show raden:
-        xalign 0.0
+        xalign -0.2
     show sekar:
         xalign 1.0
     with moveinright
 
     "Akhirnya kelompok kami melanjutkan perjalanan, sementara aku tetap duduk di pinggi halan bersama Kak Sekar."
 
+    scene black with dissolve
+    with Pause(0.2)
+
+    scene sekar_prolog with dissolve:
+        zoom 0.75
+
     "Dia memeriksa lututku dengan cermat. Namun saat dia melihat lututku yang berdarah, wajahnya mendadak berubah."
 
-    show sekar jas_gugup with dissolve
     #sekar gugup
     "Tatapan tegasnya seketika memudar, berganti dengan raut bingung dan gugup. Dia tampak menahan diri tetapi tangannya sedikit gemetar."
 
@@ -92,8 +98,6 @@ label prolog_day4_scene2:
     sekar "\"Eh... ini, darahnya...\""
 
     raden "\"Kak, ga apa-apa?\""
-
-    show sekar jas_ragu
 
     voice "audio/vo/sekar/prolog4/prolog4_6_eh_gapapa.flac"
     sekar "\"Eh... gapapa kok. Aku... aku cuma gak tahan liat darah...\""
@@ -114,13 +118,20 @@ label prolog_day4_scene2_choice1:
     stop music fadeout 2.0
     play music sekar_bgm fadein 1.0
 
-    show raden kemeja_biasa with dissolve
-
     "Aku merasa sedikit bersalah sudah membuatnya harus menghadapi rasa takut ini, tetapi aku juga kagum pada usahanya untuk tetap membantu."
 
     "Dia kembali melanjutkan membersihkan lukaku, meski tangannya terlihat ragu. Aku memperhatikan wajahnya yang sedikit pucat, tetapi dia tetap memaksakan diri untuk menyelesaikan tugasnya."
 
     "Setelah beberapa saat, kak Sekar akhirnya berhasil membersihkan luka menggunakan kapas antiseptik dan menempelkan perban di atasnya. Dia menghela napas panjang, terlihat sangat lega."
+
+    scene bg depan_auditorium with dissolve:
+        zoom 0.5
+
+    show raden kemeja_biasa:
+        zoom 0.54 xalign -0.2 yalign 0.05
+    show sekar jas_gugup:
+        zoom 1.25 xalign 1.0 yalign 0.05
+    with dissolve
 
     voice "audio/vo/sekar/prolog4/prolog4_7_maaf_ya_lama.flac"
     sekar "\"Maaf ya kalau tadi agak lama.. karena aku.. aku kurang nyaman sama hal-hal seperti ini. Padahal.. Aku ini LO yang harusnya membantu kalian, tapi malah begini...\""
@@ -131,11 +142,8 @@ label prolog_day4_scene2_choice2:
     stop music fadeout 2.0
     play music sekar_bgm fadein 1.0
 
-    show raden kemeja_biasa with dissolve
-
     raden "\"Kak, gak apa-apa kalau aku yang urus sendiri?\""
 
-    show sekar jas_tegas
     voice "audio/vo/sekar/prolog4/prolog4_8_enggak.flac"
     sekar "\"Enggak, enggak. Ini tanggung jawabku. Kamu tenang aja\""
 
@@ -152,15 +160,24 @@ label prolog_day4_scene2_choice2:
 
     raden "\"Lihat... Gampang, kan?\""
 
-    show sekar jas_biasa
+    scene bg depan_auditorium with dissolve:
+        zoom 0.5
+
+    show raden kemeja_biasa:
+        zoom 0.54 xalign -0.2 yalign 0.05
+    show sekar jas_gugup:
+        zoom 1.25 xalign 1.0 yalign 0.05
+    with dissolve
+
     voice "audio/vo/sekar/prolog4/prolog4_10_iya_maaf_ya.flac"
     sekar "\"Iya... maaf ya, Raden. Padahal... Aku ini LO yang harusnya membantu kalian, tapi malah begini...\""
 
 label prolog_day4_scene2_after_choice:
-    
+    show raden kemeja_tersenyum
     raden "\"Gak masalah, Kak. Justru aku baru tahu Kakak ini manusia juga, ternyata bisa gugup,\""
 
-    show sekar jas_ceria
+    show raden kemeja_biasa
+    show sekar jas_ceria with dissolve
     "Kak Sekar tersenyum anggun, senyumnya terasa hangat, memancarkan kharisma yang membuatku terdiam sejenak dalam kekaguman."
 
     "Lalu dia tertawa kecil, dan wajahnya mulai kembali ke ekspresi tenang."
