@@ -5,8 +5,9 @@ label prolog_day1_scene2:
     scene bg lapmer with dissolve:
         zoom 0.5
 
-    show raden kemeja_biasa2 with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+    show raden kemeja_biasa2 at raden_default:
+        xalign 0.45
+    with dissolve
 
     "Pukul 05.55, aku akhirnya sampai di depan kampus. Aku terdiam sejenak dan berpikir"
 
@@ -22,8 +23,9 @@ label prolog_day1_scene2:
 
     voice sustain
 
-    show raden kemeja_biasa2 with moveinleft:
-        zoom 0.54 xalign -0.2 yalign 0.05
+    show raden kemeja_biasa2 at raden_default:
+        xalign -0.2
+    with moveinleft
 
     show aisyah kemeja_kesal at Transform(matrixcolor=(silhouette)):
         zoom 0.4 xalign 1.0 yalign 0.1
@@ -31,8 +33,9 @@ label prolog_day1_scene2:
 
     "Aku menoleh ke belakang dan melihat seorang perempuan berkerudung." 
 
-    show aisyah kemeja_kesal with dissolve:
+    show aisyah kemeja_kesal:
         zoom 0.4 xalign 1.0 yalign 0.1
+    with dissolve
 
     play music aisyah_bgm fadein 1.0
 
@@ -115,8 +118,9 @@ label scene3_after_choice:
     stop music fadeout 2.0
 
     hide aisyah with dissolve
-    show raden kemeja_biasa2 with moveinright:
-        zoom 0.54 xalign 0.45 yalign 0.05
+    show raden kemeja_biasa2 at raden_default:
+        xalign 0.45
+    with moveinright
 
     "Akhirnya, tibalah giliranku di meja registrasi."
 
@@ -157,10 +161,10 @@ label scene3_after_choice:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden kemeja_biasa:
-        zoom 0.54 xalign -0.2 yalign 0.05
-    show aisyah kemeja_senyum1:
-        zoom 0.4 xalign 1.0 yalign 0.1
+    show raden kemeja_biasa at raden_default:
+        xalign -0.2
+    show aisyah kemeja_senyum1 at aisyah_default:
+        xalign 1.0
     with dissolve
 
     "Kami berdiri di tempat untuk beberapa saat. Sampai ketika, seorang kakak panitia yang menjaga di sekitar sini bertanya kepada kami."
