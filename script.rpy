@@ -24,6 +24,29 @@ define bima = Character("Bima")
 define abdi = Character("Abdi")
 define dio = Character("Dio")
 
+transform raden_default:
+    zoom 0.54
+    yalign 0.05
+
+transform aisyah_default:
+    zoom 0.4
+    yalign 0.1
+
+transform fania_default:
+    zoom 1.35
+    yalign 0.03
+
+transform sekar_default:
+    zoom 1.25
+    yalign 0.05
+
+transform tessa_default:
+    zoom 0.35
+    yalign -0.1
+
+transform santo_default:
+    zoom 0.37
+
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 
 define audio.raden_bgm = "audio/bgm/raden.flac"
