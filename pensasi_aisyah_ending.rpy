@@ -5,10 +5,10 @@ label pensasi_aisyah_ending:
 
     "Senja mulai memeluk langit kampus dengan warna keemasan yang lembut, menciptakan suasana yang tenang namun penuh kehangatan. Jalanan mulai sepi, dan suara langkah kami menggema perlahan. Udara sore membawa angin sejuk."
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.95 yalign -0.7
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show aisyah casual_senyum at aisyah_default:
+        xalign 1.0
     with dissolve
 
     "Aisyah menghentikan langkahnya. Menciptakan bayangan samar di wajahnya yang tersapu cahaya jingga. Dia menoleh padaku, sejenak terdiam sebelum akhirnya berbicara."
@@ -23,7 +23,7 @@ label pensasi_aisyah_ending:
 
     "Dia menunduk sejenak, menarik napas dalam, lalu mengangkat wajahnya kembali dengan senyum yang lembut."
 
-    show aisyah kemeja_senyum with dissolve
+    show aisyah casual_senyum3 with dissolve
 
     aisyah "\"Makasih, ya... udah nemenin aku hari ini.\""
 
@@ -31,7 +31,7 @@ label pensasi_aisyah_ending:
 
     raden "\"Ah, santai aja. Lagian, aku juga seneng kok, bisa nemenin kamu.\""
 
-    show aisyah kemeja_bicara
+    show aisyah casual_senyum2
 
     aisyah "\"Tapi beneran deh,\""
 
@@ -41,17 +41,19 @@ label pensasi_aisyah_ending:
 
     raden "\"Ya… seneng juga kalau gitu. Emangnya aku sepenting itu, ya?\""
 
-    show aisyah kemeja_canggung with dissolve
+    show aisyah casual_gugup with dissolve
 
     "Dia tersipu, sedikit memalingkan wajah sambil tertawa kecil."
 
-    show aisyah kemeja_senyum with dissolve
+    show aisyah casual_senyum4 with dissolve
 
     aisyah "\"Hehe, ya anggap aja gitu.\""
 
     "Sesaat, aku hanya diam memandangnya. Senyumnya, cara matanya berkilau, caranya menunduk malu-malu- semua itu membuat hatiku bergetar. Waktu terasa melambat, dan aku sadar betapa momen ini begitu berharga."
 
     "Melihat senyumnya saat itu, aku merasa puas, seolah semua lelah hari ini terbayar lunas. Tidak ada hadiah yang lebih indah selain senyum tulusnya itu."
+
+    show aisyah casual_senyum3
 
     aisyah "\"Aku duluan ya, Den!\""
 

@@ -4,20 +4,23 @@ label pensasi_aisyah_scene1:
 
     play music campus fadein 1.0
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.95 yalign -0.7
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show aisyah casual_senyum at aisyah_default:
+        xalign 1.0
     with dissolve
 
     show raden kasual_tersenyum
 
     raden "\"Ramai juga ternyata\""
 
+    show aisyah casual_senyum2
+
     voice "audio/vo/aisyah/pensasi/pensasi_1_iyalah.mp3"
     aisyah "\"Iyalah..\""
 
     show raden kasual_biasa
+    show aisyah casual_senyum
 
     "Di panggung, para mahasiswa sudah mulai mempresentasikan perangkat canggih yang mereka kembangkan."
 
@@ -33,7 +36,7 @@ label pensasi_aisyah_scene1:
 
             raden "\"Di depan aja gimana?\""
 
-            show aisyah kemeja_bingung
+            show aisyah casual_bingung
 
             voice "audio/vo/aisyah/pensasi/pensasi_1_1_1_hmm.mp3"
             aisyah "\"Hhmm...?\""
@@ -42,7 +45,7 @@ label pensasi_aisyah_scene1:
 
             raden "\"Kenapa?\""
 
-            show aisyah kemeja_bicara
+            show aisyah casual_senyum4
 
             voice "audio/vo/aisyah/pensasi/pensasi_1_1_2_padahal.mp3"
             aisyah "\"Padahal tadi kayak terpaksa..  tapi nggak apa-apa.\""
@@ -54,7 +57,7 @@ label pensasi_aisyah_scene1:
 
             raden "\"Di belakang aja\""
 
-            show aisyah kemeja_penasaran
+            show aisyah casual_serius
 
             voice "audio/vo/aisyah/pensasi/pensasi_1_2_1_ehh.mp3"
             aisyah "\"Eeehh..?\""

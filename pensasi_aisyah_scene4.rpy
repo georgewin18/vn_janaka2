@@ -14,10 +14,10 @@ label pensasi_aisyah_scene4:
 
     "Waktu sudah menunjukkan sekitar pukul satu siang ketika kami melangkah keluar dari masjid. Udara siang yang panas langsung menyambut, membuat bayangan kami tampak jelas di jalanan kampus."
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.95 yalign -0.7
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show aisyah casual_senyum at aisyah_default:
+        xalign 1.0
     with dissolve
 
     aisyah "\"Sekarang mau kemana?\""
@@ -27,17 +27,20 @@ label pensasi_aisyah_scene4:
     raden "\"Kalau begitu ke booth robotik gimana?\""
 
     show raden kasual_biasa
+    show aisyah casual_senyum2
 
     aisyah "\"Boleh sih, tapi bukannya kamu udah di lantai 1 tadi?\""
 
+    show aisyah casual_senyum
     show raden kasual_tersenyum
 
     raden "\"Tadi kan rame, belum sempat eksplor banget di sana.\""
 
+    show aisyah casual_senyum3
+
     aisyah "\"Yaudah, ayok!\""
 
     show raden kasual_biasa
-    show aisyah kemeja_senyum with dissolve
 
     stop music fadeout 2.0
 
