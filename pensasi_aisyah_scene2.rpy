@@ -6,16 +6,18 @@ label pensasi_aisyah_scene2:
 
     play music campus fadein 1.0
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.95 yalign -0.7
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show aisyah casual_senyum at aisyah_default:
+        xalign 1.0
     with dissolve
 
     if (from_sekar_route == True):
         show raden kasual_tersenyum
 
         raden "\"Aisyah\""
+
+        show aisyah casual_terkejut
 
         voice "audio/vo/aisyah/pensasi/pensasi_2_1_oh_raden.mp3"
         aisyah "\"Oh, Raden\""
@@ -27,30 +29,44 @@ label pensasi_aisyah_scene2:
 
         raden "\"Lihat sih, tadi juga diajak jalan-jalan sama dia\""
 
+        show aisyah casual_senyum2
+
         voice "audio/vo/aisyah/pensasi/pensasi_2_3_oh.mp3"
         aisyah "\"oh begitu\""
 
         voice "audio/vo/aisyah/pensasi/pensasi_2_4_karena.mp3"
         aisyah "\"Karena kamu kesini, jadi tawaran Fania kamu tolak?\""
 
+        show aisyah casual_senyum
+        show raden kasual_biasa2
+
         raden "\"Iya, kenapa emangnya?\""
+
+        show aisyah casual_senyum3
 
         voice "audio/vo/aisyah/pensasi/pensasi_2_5_gpp.mp3"
         aisyah "\"Tidak apa-apa sih..\""
+
+        show aisyah casual_senyum2
 
         aisyah "\"Oh iya duduk dulu sini, daripada mengganggu yang di belakang\""
 
         raden "\"Oh, iya-iya\""
     
+    show aisyah casual_senyum
+    show raden kasual_biasa
+
     "Di tengah suasana yang ramai, aku dan Aisyah sudah duduk di kursi barisan depan. Sesekali aku melirik ke arah panggung, mencoba fokus pada presentasi yang sedang berlangsung."
 
     "Namun, tiba-tiba Aisyah memecah keheningan."
 
+    show aisyah casual_senyum2
+    
     aisyah "\"Raden...\""
 
     raden "\"Kenapa?\""
 
-    show aisyah kemeja_bingung
+    show aisyah casual_bingung
 
     aisyah "\"Kenapa kamu malah ngikut aku--?\""
 
@@ -62,7 +78,7 @@ label pensasi_aisyah_scene2:
 
             raden "\"Pengen sama kamu..\""
 
-            show aisyah kemeja_canggung
+            show aisyah casual_gugup
 
             aisyah "\"Haa???\"" with vpunch
 
@@ -75,7 +91,7 @@ label pensasi_aisyah_scene2:
             raden "\"Mungkin acara ini memang akan berguna untukku...\""
 
             show raden kasual_canggung
-            show aisyah kemeja_senyum
+            show aisyah casual_senyum4
 
             aisyah "\"Hahaha.. Itu alasanmu?\""
 
@@ -83,7 +99,7 @@ label pensasi_aisyah_scene2:
 
             raden "\"Y-ya, kenapa? Nggak boleh?\""
 
-            show aisyah kemeja_canggung
+            show aisyah casual_gugup
 
             aisyah "\"Boleh sih, tapi cara ngomongmu barusan... agak...\""
 
@@ -100,23 +116,26 @@ label pensasi_aisyah_scene2:
         
             raden "\"hhhmm..? Kenapa mikir gitu, syah?\""
 
-            show aisyah kemeja_bicara
+            show aisyah casual_senyum2
 
             aisyah "\"Hahah gak tahu, cuman kayaknya kamu lebih suka kebebasan seperti Fania.\""
 
+            show aisyah casual_senyum
             show raden kasual_tersenyum
 
             raden "\"Mungkin karena aku emang pengen eksplor.\""
 
             raden "\"Aku pikir, nggak ada salahnya, kan, belajar sesuatu yang baru?\""
 
-            show aisyah kemeja_bertekad
+            show aisyah casual_bersemangat
 
             aisyah "\"Boleh, bagus itu.\""
 
-            show raden kasual_biasa
+            show raden kasual_hehe
 
             raden "\"Karena aku seorang pengelana\""
+
+            show aisyah casual_senyum4
 
             aisyah "\"Haha.. iya...\""
 

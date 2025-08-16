@@ -1,8 +1,8 @@
 label pensasi_aisyah_scene3:
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show aisyah kemeja_bicara:
-        zoom 0.35 xalign 0.95 yalign -0.7
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show aisyah casual_senyum at aisyah_default:
+        xalign 1.0
     with dissolve
 
     "Kami menghentikan obrolan canggung itu dan kembali fokus ke panggung."
@@ -27,6 +27,8 @@ label pensasi_aisyah_scene3:
 
             raden "\"Wow, mereka serius banget, ya,\""
 
+            show aisyah casual_senyum2
+            
             aisyah "\"iya,\""
 
             scene black with dissolve
@@ -35,26 +37,31 @@ label pensasi_aisyah_scene3:
             scene bg auditorium with dissolve:
                 zoom 0.5
 
-            show raden kasual_biasa:
-                zoom 0.48 xalign 0.0 yalign 0.1
-            show aisyah kemeja_bicara:
-                zoom 0.35 xalign 0.95 yalign -0.7
+            show raden kasual_biasa at raden_default:
+                xalign -0.2
+            show aisyah casual_senyum at aisyah_default:
+                xalign 1.0
             with dissolve
             
             "Hingga akhirnya sesi istirahat dimulai. Aisyah menoleh ke arahku."
 
             if (pensasi_aisyah_scene2_choice2_1_choosen == True):
+                show aisyah casual_serius
                 aisyah "\"Ayok, Ishoma dulu, lalu lanjut jalan\""
+
+                show raden kasual_canggung
 
                 raden "\"Eh ya?\""
 
                 "Perasaanku saja, atau memang Aisyah sedang kesal denganku?"
 
             else:
+                show aisyah casual_senyum2
                 aisyah "\"Kamu beneran memperhatikan ya!\""
 
                 aisyah "\"Sekarang ayo ishoma dulu, lalu lanjut jalan\""
 
+                show raden kasual_tersenyum
                 raden "\"Oke!\""
 
         "Bersantai":
@@ -70,7 +77,7 @@ label pensasi_aisyah_scene3:
 
             "Sebelum aku sadar, kelopak mataku mulai terasa berat, dan tak butuh waktu lama hingga aku tertidur di tengah keramaian aula."
 
-            show aisyah kemeja_penasaran
+            show aisyah casual_kesal
 
             hide black with dissolve
 
@@ -89,24 +96,28 @@ label pensasi_aisyah_scene3:
             raden "\"Maaf.. gak sengaja\""
 
             if (pensasi_aisyah_scene2_choice2_1_choosen == True):
-                show aisyah kemeja_senyum
+                show aisyah casual_senyum
 
                 aisyah "\"Haha nggak apa..\""
 
                 aisyah "\"Makasih..\""
 
+                show raden kasual_gugup
+                
                 raden "\"Huh?\""
 
                 "Apakah barusan Aisyah malah senang?"
 
-                show aisyah kemeja_bicara
+                show aisyah casual_senyum2
 
                 aisyah "\"Sekarang ayo ishoma dulu, lalu lanjut jalan\""
             
             else:
-                show aisyah kemeja_bicara
+                show aisyah casual_serius
 
                 aisyah "\"Yaudah, Ishoma dulu, lalu lanjut jalan\""
+
+                show raden kasual_gugup
 
                 raden "\"Eh ya?\""
 
