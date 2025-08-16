@@ -21,29 +21,46 @@ label pensasi_canon:
 
     "Aku tersenyum lega sambil meregangkan badan."
 
-    show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.0 yalign 0.1
+    show raden kasual_ceria at raden_default:
+        xalign -0.2
+    with dissolve
 
     raden "\"Akhirnya kelar juga semua ujian teori,\""
 
-    show santo kemeja_biasa with dissolve:
-        zoom 1.0 xalign 1.5 yalign 0.06
+    show santo kasual_bicara at santo_default:
+        xalign 1.0
+    with dissolve
+    show raden kasual_biasa
 
     santo "\"Jangan senang dulu, gimana dengan projectmu?\""
 
+    show raden kasual_tersenyum
+    show santo kasual_netral
+
     raden "\"Aman, tinggal acc dari dosen.\""
 
+    show santo kasual_senyum
+
     santo "\"Yakin gak revisi?\""
+
+    show raden kasual_ceria
 
     raden "\"Hahaha, penting yakin aja.\""
 
     santo "\"Terserah kamu lah.\""
 
+    show raden kasual_tersenyum
+
     raden "\"Oh iya, kira-kira di jurusan Multimedia sama Informatika ujiannya gimana ya?\""
 
     santo "\"Aku udah tanya di grup, tapi kayaknya belum—\""
 
+    show santo kasual_terkejut
+
     santo "\"Oh! barusan dibalas\""
+
+    show raden kasual_biasa
+    show santo kasual_netral
 
     #kurang icon hp fania sama aisyah
     santo_nvl "Gimana ujian kalian?"(interact = False)
@@ -71,7 +88,7 @@ label pensasi_canon:
     nvl clear
 
     #Santo Kesal (Di sini raden tidak menyadari ekspresi sinis jadi gak dideskripsikan)
-    show santo kemeja_biasa
+    show santo kasual_bicara
     santo "\"Aku balik dulu kalau gitu, den\""
 
     raden "\"Ga ikut ke perpus?\""
@@ -91,14 +108,16 @@ label pensasi_canon:
 
     "Sambil berjalan pergi juga, aku melanjutkan chat untuk merencanakan pertemuan untuk acara besok. terlalu fokus dengan HP hingga nyaris menabrak seseorang—"
 
-    show sekar kemeja_biasa with dissolve:
-        zoom 1.15 xalign 0.9 yalign 0.05
+    show sekar kasual_lelah_kantung_mata at sekar_default:
+        xalign 1.0
+    with dissolve
 
     voice "audio/vo/sekar/pensasi_canon/pensasi_1_uhh.flac"
     sekar "\"Uh..\""
 
-    show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.0 yalign 0.1
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    with dissolve
 
     raden "\"Oh maaf Kak—\""
 
@@ -106,12 +125,11 @@ label pensasi_canon:
     show raden kasual_kaget
     raden "\"Kak Sekar?!!\""
 
-    show sekar kemeja_lelah_kantung_mata
     voice "audio/vo/sekar/pensasi_canon/pensasi_2_ohh.flac"
     sekar "\"Oh. Raden ya..\"" #Sekar (kantung mata) lelah  (nada perlahan, kecapekan.)
 
     #raden gugup
-    show raden kasual_biasa
+    show raden kasual_canggung
 
     "Ekspresi Kak Sekar terlihat berbeda hari ini. Biasanya, dia selalu tampil tegas dan penuh semangat. Namun, kali ini matanya tampak lebih lelah, dengan raut wajah yang menunjukkan tanda-tanda kurang tidur."
     
@@ -124,9 +142,20 @@ label pensasi_canon:
 
     menu:
         "Sarankan untuk menenangkan diri terlebih dahulu.":
+            show raden kasual_biasa2
             raden "\"Tenang dulu kak.. nafas dulu pelan-pelan\""
 
             "Dia mengikuti saranku, menarik napas dalam-dalam dan menghembuskannya perlahan. "
+
+            show sekar kasual_hembus_nafas_kantung_mata
+
+            pause 0.2
+
+            show sekar kasual_hembus_nafas with dissolve
+
+            pause 0.2
+
+            show sekar kasual_hembus_nafas_kantung_mata with dissolve
 
             voice "audio/vo/sekar/pensasi_canon/pensasi_4_huft.flac"
             sekar "\"Haahh… hah…\""
@@ -136,14 +165,17 @@ label pensasi_canon:
 
             raden "\"Kak Sekar beneran gapapa? Kak Sekar keliatan lelah banget loh.\""
 
+            show sekar kasual_lelah_kantung_mata
             "Dia mengangguk pelan, meski masih terlihat lelah."
 
             voice "audio/vo/sekar/pensasi_canon/pensasi_6_uas.flac"
             sekar "\"UAS, PENSASI, semuanya barengan. Bikin pusing.\""
 
+            show raden kasual_tersenyum
             raden "\"Oh, Pantes. Jangan maksain diri, Semangat ya Kak Sekar.\""
 
-            show sekar kemeja_lelah_kantung_mata
+            show raden kasual_biasa
+            show sekar kasual_senyum_kurang_tidur
             #Sekar (kantung mata) senyum 
             "Dia tersenyum lemah sambil mengangguk lagi."
 
@@ -158,6 +190,7 @@ label pensasi_canon:
             jump pensasi_canon_afterchoice1
 
         "Tanyakan masalah apa yang menimpanya.":
+            show raden kasual_biasa2
             raden "\"Buru-buru mau kemana, Kak?\""
 
             voice "audio/vo/sekar/pensasi_canon/pensasi_9_besok.flac"
@@ -167,10 +200,12 @@ label pensasi_canon:
 
             sekar "\"Rasanya kepala mau pecah ngurus semuanya.\""
 
+            show raden kasual_tersenyum
             raden "\"Oh, Pantes. Jangan maksain diri, Semangat ya Kak Sekar.\""
 
             #Sekar (kantung mata) senyum
-            show sekar kemeja_lelah_kantung_mata
+            show raden kasual_biasa
+            show sekar kasual_senyum_kurang_tidur
 
             "Dia hanya tersenyum lemah singkat sebelum langsung berbalik, langkahnya cepat menuruni tangga."
 
@@ -195,22 +230,24 @@ label pensasi_canon_afterchoice1:
 
     "Setelah meletakkan tas di loker, aku langsung menghampiri mereka."
 
-    show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+    show raden kasual_biasa at raden_default:
+        xalign 0.45
+    with dissolve
 
     raden "\"Udah dari tadi, ya?\""
 
     "Aku menarik kursi untuk duduk di samping Fania. Sedangkan Aisyah duduk di sisi lain Fania."
 
     #Aisyah Serius, Fania Kesal Muncul
-    show raden with moveinright:
-        xalign -0.25
+    show raden at raden_default:
+        xalign -0.5
+    with moveinright
 
-    show aisyah kemeja_gugup:
-        zoom 0.35 yalign -0.7 xalign 1.15
+    show aisyah casual_serius at aisyah_default:
+        xalign 1.35
 
-    show fania casual_kesal:
-        zoom 1.15 xalign 0.6 yalign -0.02
+    show fania casual_dingin at fania_default:
+        xalign 0.6
 
     with dissolve
 
@@ -221,7 +258,11 @@ label pensasi_canon_afterchoice1:
 
     "jawab Aisyah sambil tetap mencatat sesuatu di bukunya."
 
+    show raden kasual_tersenyum
+
     raden "\"Ngapain Fan dari pagi di perpus?\""
+
+    show raden kasual_biasa
 
     voice "audio/vo/fania/pensasi_canon/pensasi_2_sebenernya.flac"
     fania "\"Sebenarnya ada kelas pagi, tapi di cancel... terus habis ini ada kelas juga,\""
@@ -273,34 +314,58 @@ label pensasi_canon_afterchoice1:
 
     "Aku tertawa kecil melihat reaksinya."
 
+    show fania casual_dingin
+
     "Kemudian, aku menoleh ke Aisyah yang sedang melanjutkan menulis dengan serius di buku kecilnya."
 
     #Aisyah serius
-    show aisyah kemeja_bingung
+    show raden kasual_tersenyum
 
     raden "\"Ngerjain apa, Syah?\""
+
+    show raden kasual_biasa
 
     aisyah "\"Flowchart pemrograman,\""
 
     "Dia menjawab tanpa mengalihkan pandangan dari bukunya."
 
+    show raden kasual_tersenyum
+
     raden "\"Flowchart...? Coba lihat,\""
 
+    show raden kasual_biasa at raden_default:
+        xalign 0.55
+    show fania at fania_default:
+        xalign -0.6
+    with moveinleft
+    
     "Aku berjalan dan berdiri di belakangnya. Aku mengamati dengan seksama diagram yang sedang dia buat."
+
+    show raden kasual_tersenyum
 
     raden "\"Hmm... desain sistem ya?\""
 
+    show raden kasual_biasa
+    
     aisyah "\"Iya. Buat aplikasi,\""
 
+    show raden kasual_tersenyum
+    
     raden "\"Mirip ama jaringan..\""
 
     raden "\"Ini tugas?\""
 
+    show raden kasual_biasa
+    
     aisyah "\"Bisa dibilang tugas buat UAS,\""
 
     "Balas Aisyah sambil tetap fokus pada gambarnya."
 
+    show raden kasual_bingung
+    
     raden "\"Emang bisa gitu...? UAS dan tugas kan beda,\""
+
+    show aisyah casual_kesal
 
     aisyah "\"Suka-suka dosen lah..\""
 
@@ -310,23 +375,40 @@ label pensasi_canon_afterchoice1:
     voice "audio/vo/fania/pensasi_canon/pensasi_7_aku_juga.flac"
     fania "\"Aku juga ada yang tugas buat UAS.\""
 
+    show aisyah casual_serius
+    show raden kasual_biasa
+    
     raden "\"Enak banget kalau kayak gitu,\""
 
     "Aku berjalan kembali ke kursiku."
 
+    show raden kasual_biasa at raden_default:
+        xalign -0.5
+    show fania at fania_default:
+        xalign 0.6
+    with moveinleft
+
     "Beberapa menit berikutnya, kami sibuk dengan urusan masing-masing. Hening hanya diisi oleh suara keyboard dan kertas yang bergesekan. Hingga tiba-tiba aku teringat sesuatu."
 
+    show raden kasual_tersenyum
+
     raden "\"Eh, ngomong-ngomong soal PENSASI.. ternyata kak Sekar jadi panitia.. Tadi aku ketemu dia kelihatan capek banget.\""
+
+    show raden kasual_biasa
 
     "Aisyah menatapku sekilas sebelum kembali fokus ke flowchart-nya."
 
     aisyah "\"Ya wajar sih, event sebesar itu. Apalagi waktu ujian gini.\""
+
+    show raden kasual_bingung
 
     raden "\"Tapi emang PENSASI itu apa sih?\""
 
     aisyah "\"Pameran Inovasi dan Teknologi Vokasi atau yang biasa disebut PENSasi adalah kegiatan pameran edukasi teknologi yang dihelat langsung oleh Politeknik Elektronika Negeri Surabaya.\""
 
     aisyah "\"kegiatan tersebut menghadirkan berbagai teknologi hasil karya dosen dan mahasiswa PENS, siswa SMA/SMK sederajat, serta pihak industri.\""
+
+    show raden kasual_biasa2
 
     raden "\"Emangnya kamu robot..?\""
 
@@ -349,14 +431,26 @@ label pensasi_canon_afterchoice1:
 
     "Fania menutup laptopnya dan membereskan barang-barangnya."
 
+    show raden kasual_tersenyum
+
     raden "\"Besok mau liat-liat PENSasi bareng?\""
 
+    show raden kasual_biasa
+    show aisyah casual_senyum
+
     aisyah "\"Boleh\""
+
+    show fania casual_dingin
 
     voice "audio/vo/fania/pensasi_canon/pensasi_11_umm.flac"
     fania "\"ummmm…\""
 
+    show aisyah casual_senyum2
+
     aisyah "\"Ayo Fan, besok udah ga ada ujian lagi kan kamu?\""
+
+    show aisyah casual_senyum
+    show fania casual_senyum_normal_biasa
 
     voice "audio/vo/fania/pensasi_canon/pensasi_12_yaudah.flac"
     fania "\"Yauda deh, aku ikut\""
@@ -449,25 +543,30 @@ label pembukaan_pensasi_afterchoice1:
 
     "Begitu pintu terbuka, dua wajah familiar muncul—Aisyah dengan senyumnya yang canggung, dan Fania yang memasang ekspresi santai seperti biasa."
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign -0.25 yalign 0.1
-
-    show aisyah kemeja_gugup:
-        zoom 0.34 yalign -1.0 xalign 1.15
-
-    show fania casual_senyum_normal_biasa:
-        zoom 1.15 xalign 0.6 yalign -0.02
-
+    show raden kasual_biasa at raden_default:
+        xalign -0.5
+    show aisyah casual_senyum at aisyah_default:
+        xalign 1.35
+    show fania casual_senyum_normal_biasa at fania_default:
+        xalign 0.6
     with dissolve
 
+    show raden kasual_tersenyum
+
     raden "Lama kalian…?"
+
+    show aisyah casual_senyum3
 
     aisyah "\"Maaf ya,\""
 
     voice "audio/vo/fania/pensasi_canon/pensasi_14_kamunya.flac"
     fania "\"Kamunya aja yang kepagian,\""
 
+    show raden kasual_biasa
+
     raden "\"Oke ayok lihat-lihat.\""
+
+    show aisyah casual_senyum
 
     "Kami berjalan menyusuri deretan booth wirausaha mahasiswa yang berada di lantai 6. Ada berbagai jenis usaha yang dipamerkan, mulai dari kuliner, kerajinan, hingga teknologi."
 
@@ -477,20 +576,26 @@ label pembukaan_pensasi_afterchoice1:
 
     "Aisyah mengamati dengan serius brosur yang diberikan penjaga booth, sementara Fania hanya mencicipi sampel kerupuk sambil bersandar di meja."
 
+    show raden kasual_tersenyum
+
     raden "\"Kerupuk gurami ya, lumayan nih,\""
+
+    show fania casual_senyum_ceria
 
     voice "audio/vo/fania/pensasi_canon/pensasi_tertawa.flac"
     "Fania tertawa kecil sambil melahap potongan kerupuk terakhirnya" #fania tertara
+
+    show fania casual_senyum_normal_biasa
 
     voice "audio/vo/fania/pensasi_canon/pensasi_15_bagus.flac"
     fania "\"Bagus buat apa? Kalau aku sih nggak kebayang kerja jualan kerupuk kayak gini. Keliatannya boring.\""
 
     #aisyah serius
-    show aisyah kemeja_senyum
+    show aisyah casual_serius
     aisyah "\"Boring? Ini kan soal uang, Fan. Bisnis itu soal gimana kamu dapet profit!\""
     #(Aisyah nada suaranya naik sedikit)
 
-    show fania casual_senyum_normal_biasa
+    show fania casual_dingin
     voice "audio/vo/fania/pensasi_canon/pensasi_16_ga_semuanya.flac"
     fania "\"Nggak semuanya soal duit, Ais. Kalau nggak enjoy, mending nggak usah.\""
 
@@ -501,8 +606,12 @@ label pembukaan_pensasi_afterchoice1:
     
     aisyah "\"..Hidup tuh butuh duit, tau!\""
 
+    show fania casual_kesal
+
     voice "audio/vo/fania/pensasi_canon/pensasi_18_ya_tapi.flac"
     fania "\"Ya, tapi aku nggak mau kerja sambil menderita karena nggak suka sama apa yang aku kerjain. Uang aja nggak cukup buat bikin hidup berarti,\""
+
+    show raden kasual_canggung
 
     "Aku hanya berdiri di tengah mereka, memandang argumen yang tiba-tiba muncul entah dari mana ini."
 
@@ -512,15 +621,27 @@ label pembukaan_pensasi_afterchoice1:
 
     "Aisyah menatapku dengan penuh keyakinan."
 
+    show fania casual_dingin
     voice "audio/vo/fania/pensasi_canon/pensasi_19_ah_gamungkin.flac"
     fania "\"Ah, nggak mungkin. Raden pasti lebih mendukung soal passion.\""
 
     "Timpal Fania, menatapku dengan senyum percaya diri."
     menu:
         "Setuju dengan Aisyah":
+            show raden kasual_gugup
             raden "\"Aku rasa Aisyah ada benarnya, Fan. Passion itu penting, tapi kalau nggak ada uang, sulit juga bertahan hidup.\""
 
             raden "\"Apalagi zaman sekarang hampir semuanya diatur dengan uang.\""
+
+            show raden kasual_canggung
+
+            show fania casual_menghelanapas
+            pause 0.3
+
+            show fania casual_menghelanapas_ada_asap with dissolve
+            pause 0.3
+
+            show fania casual_menghelanapas with dissolve
 
             "Fania menghela napas, jelas kurang setuju dengan pendapatku."
 
@@ -529,41 +650,58 @@ label pembukaan_pensasi_afterchoice1:
             voice "audio/vo/fania/pensasi_canon/pensasi_20_jadi.flac"
             fania "\"Jadi kamu lebih milih kerja yang nggak kamu suka asal dapet duit, gitu?\""
 
+            show raden kasual_gugup
+            
             raden "\"Bukan soal suka atau nggak suka, tapi gimana kita bisa cari keseimbangan.\""
 
             raden "\"Kalau kita bisa nemu bisnis yang kita enjoy dan menguntungkan, itu ideal. Tapi kalau nggak, kadang kita harus kompromi sedikit.\""
 
+            show raden kasual_canggung
+            show fania casual_menghelanapas
+            show aisyah casual_bersemangat
+            
             "Aisyah tersenyum puas, sementara Fania hanya mengedikkan bahu, terlihat belum sepenuhnya setuju."
 
             voice "audio/vo/fania/pensasi_canon/pensasi_21_yaudah.flac"
             fania "\"Ya udah, terserah deh,\""
 
+            show aisyah casual_senyum4
+
             aisyah "\"Udahlah jangan terlalu dibawa serius.. nanti juga tahu mana yang terbaik\""
+
+            show raden kasual_biasa
 
             "Aku mengangguk kecil, sementara Fania hanya menghela napas kecil, memilih mengalihkan pandangannya ke booth lain."
 
             jump pembukaan_pensasi_afterchoice2
 
         "Setuju dengan Fania":
+            show fania casual_dingin
+            show raden kasual_gugup
             raden "\"Kalau aku sih lebih setuju sama Fania. Passion itu penting banget, Ais.\""
 
             raden "\"Kalau kita nggak suka sama apa yang kita kerjain, seberapa pun besarnya profit, tetap aja bakal ngerasa capek terus.\""
 
+            show raden kasual_canggung
             "Aisyah melipat brosurnya dengan sedikit kesal, menatapku dengan nada protes."
             #aisyah keasal
-            show aisyah kemeja_bertekad
+            show aisyah casual_kesal
 
             aisyah "\"Raden, bisnis itu nggak sesimpel soal suka atau nggak suka. Kamu butuh profit biar bisnis bisa jalan terus. Passion nggak bakal bayar tagihan!\""
 
+            show raden kasual_gugup
             raden "\"Setuju, Syah. Tapi kalau nggak ada passion, bisnis juga nggak bakal bertahan lama. Kita bakal burn out sebelum bisa benar-benar sukses.\""
 
+            show raden kasual_canggung
             voice "audio/vo/fania/pensasi_canon/pensasi_22_tuh.flac"
             fania "\"Tuh, Aisyah. Raden juga tahu kalau hidup itu nggak cuma soal duit.\""
 
             aisyah "\"Ya udah, terserah kalian. Tapi jangan salahkan aku kalau nanti susah cari uang,\""
 
+            show fania casual_senyum_normal_biasa
             "Fania tertawa kecil, merasa puas, sementara aku hanya bisa menghela napas lega karena perdebatan kecil ini akhirnya selesai."
 
+            show aisyah casual_serius
             "Aisyah masih tampak memendam ketidaksetujuannya, tetapi suasana mulai mencair."
 
             jump pembukaan_pensasi_afterchoice2
@@ -574,22 +712,33 @@ label pembukaan_pensasi_afterchoice2:
 
     "Aku mulai merasa jenuh dan bingung, nggak tahu harus ngapain selanjutnya."
 
+    show fania casual_dingin
+    show aisyah casual_senyum
+    show raden kasual_tersenyum
+
     raden "\"Terus.. Ngapain sekarang?\""
+
+    show aisyah casual_senyum2
 
     aisyah "\"Masuk ke Auditorium aja yuk!\""
 
+    show raden kasual_biasa
     voice "audio/vo/fania/pensasi_canon/pensasi_23_ngapain.flac"
     fania "\"Ngapain juga kesana?\""
 
     aisyah "\"Ada pitch produk di sana, bisa dapet insight baru.\""
 
+    show fania casual_menghelanapas
     voice "audio/vo/fania/pensasi_canon/pensasi_24_ga_tertarik.flac"
     fania "\"Gak tertarik aku, mau turun aja.\""
 
     menu:
         "Ikut Fania":#fania route
+            show aisyah casual_senyum
+            show fania casual_dingin
             "Aku memutuskan untuk mengikuti Fania yang tampaknya lebih santai"
 
+            show raden kasual_tersenyum
             raden "\"Ya udah, kalau gitu kita turun aja, Fan.\""
 
             voice "audio/vo/fania/pensasi_canon/pensasi_25_oke.flac"
@@ -598,13 +747,14 @@ label pembukaan_pensasi_afterchoice2:
             jump pensasi_fania
         
         "Ikut Aisyah":#aisyah route
+            show fania casual_dingin
+            show raden kasual_tersenyum
             raden "\"Ya udah, aku ikut Aisyah aja,\""
 
-            show aisyah kemeja_senyum
-
+            show aisyah casual_senyum4
             aisyah "\"Yuk, bisa dapat banyak hal baru kita Den.\""
 
             "Kami menuju ke Auditorium dengan langkah cepat, Aisyah tampak antusias, sementara aku agak ragu. Tapi, siapa tahu aku bisa mendapatkan sesuatu yang menarik dari acara ini."
 
-            "{i}jump route aisyah{/i}"
-            jump pensasi_aisyah_scene1z
+            #"{i}jump route aisyah{/i}"
+            jump pensasi_aisyah_scene1
