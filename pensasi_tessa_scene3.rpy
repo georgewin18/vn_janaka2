@@ -41,10 +41,12 @@ label pensasi_tessa_scene3:
 
     dio "\"Bagus,\""
 
-    show raden with moveinright:
-        xalign 0.0
-    show tessa normal with dissolve:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    show raden at raden_default:
+        xalign -0.2
+    with moveinright
+    show tessa kasual_netral at tessa_default:
+        xalign 1.0
+    with dissolve
 
     "Saat itu, aku melirik ke arah Kak Tessa yang duduk tak jauh dari kami. Dia tidak ikut campur, hanya duduk sambil tersenyum tipis, memandangi interaksi kami dengan ekspresi puas."
 
@@ -62,6 +64,8 @@ label pensasi_tessa_scene3_choice3_1:
     show raden kasual_biasa
 
     raden "\"Fyuhh... kalau gitu aku balik ya kak\""
+
+    show tessa kasual_senyum
 
     voice "audio/vo/tessa/pensasi/pensasi_3_1_1_terima_kasih.flac"
     tessa "\"Terima kasih ya udah bantu\""
@@ -86,10 +90,10 @@ label pensasi_tessa_scene3_choice3_1:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show aisyah kemeja_penasaran:
-        zoom 0.35 xalign 0.2 yalign -0.7
-    show fania casual_bingung:
-        zoom 1.15 xalign 1.0 yalign -0.02
+    show aisyah casual_kesal at aisyah_default:
+        xalign 1.0
+    show fania casual_bingung at fania_default:
+        xalign -0.2
     with dissolve
 
     "Aku melihat Aisyah dan Fania sedang berdebat di salah satu booth."
@@ -97,6 +101,7 @@ label pensasi_tessa_scene3_choice3_1:
     "Suasana di antara mereka tegang. Mereka hanya berdiri diam beberapa detik, dan menatap satui sama lain, sampai akhirnya Aisyah menghela nafas dan memecah keheningan"
 
     show fania casual_dingin
+    show aisyah casual_serius
 
     aisyah "\"Udahlah jangan terlalu dibawa serius.. nanti juga tahu mana yang terbaik\""
 
@@ -108,12 +113,12 @@ label pensasi_tessa_scene3_choice3_1:
 
     "Fania hanya mengela nafas kecil, memilih mengalihkan pandangannya ke booth lain."
 
-    show raden kasual_canggung:
-        zoom 0.48 xalign -0.3 yalign 0.1
-    show aisyah:
-        xalign 0.5
-    show fania:
-        xalign 1.2
+    show raden kasual_canggung at raden_default:
+        xalign -0.5
+    show aisyah at aisyah_default:
+        xalign 1.4
+    show fania at fania_default:
+        xalign 0.6
     with moveinleft
 
     "Aku mendekati mereka dengan hati-hati, mencoba membaca situasi yang sedang berlangsung. Wajah Aisyah tampak tegang meski ia sudah berusaha menutupinya dengan senyumannya yang dipaksakan."
@@ -130,17 +135,18 @@ label pensasi_tessa_scene3_choice3_1:
 
     "{i}Waduh kayaknya aku baru saja melewatkan masalah serius nih{/i}"
 
-    show aisyah kemeja_bicara with dissolve
-
     aisyah "\"Urusan pentingnya udah beres den?\""
 
     raden "\"aman, udah beres kok\""
 
     #jump
+    jump pembukaan_pensasi_afterchoice2
 
     return
 
 label pensasi_tessa_scene3_choice3_2:
+    show tessa kasual_senyum2
+
     voice "audio/vo/tessa/pensasi/pensasi_3_2_1_terima_kasih.flac"
     tessa "\"Makasih ya udah bantu\""
 
@@ -155,12 +161,16 @@ label pensasi_tessa_scene3_choice3_2:
 
     raden "\"Katanya jangan dibahas lagi..\""
 
+    show tessa kasual_senyum
+
     voice "audio/vo/tessa/pensasi/pensasi_3_2_3_hehehe.flac"
     tessa "\"Hehehehe\""
 
     show raden kasual_tersenyum
 
     raden "\"kak Tessa, ikut liat-liat booth yang lain yuk\""
+
+    show tessa kasual_netral
 
     voice "audio/vo/tessa/pensasi/pensasi_3_2_4_hmm.flac"
     tessa "\"hmmm...\""
@@ -180,7 +190,9 @@ label pensasi_tessa_scene3_choice3_2:
 
     dio "\"Atau lebih tepatnya... Lo mau ngedate sama bocah ini?\""
 
-    show raden kasual_panik with dissolve
+    show raden kasual_panik
+    show tessa kasual_kesal
+    with dissolve 
     
     "Aku langsung tersedak udara" with vpunch
 
@@ -194,6 +206,8 @@ label pensasi_tessa_scene3_choice3_2:
     "Kak Dio tertawa puas sambil mengangkat tangan tanda menyerah"
 
     dio "\"Hahahaha, yaudah, yaudah. Canda doang, jangan serius amat.\""
+
+    show tessa kasual_netral
 
     voice "audio/vo/tessa/pensasi/pensasi_3_2_7_yaudah.flac"
     tessa "\"Yaudah, ayo jalan\""

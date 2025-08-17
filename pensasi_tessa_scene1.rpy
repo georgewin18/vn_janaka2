@@ -6,13 +6,15 @@ label pensasi_tessa_scene1:
 
     "Setelah berkeliling untuk beberapa saat, aku melihat Kak Tessa di salah satu booth, aku pun mulai mendekat sambil menlambaikan tangan."
 
-    show raden kasual_tersenyum:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    show raden kasual_tersenyum at raden_default:
+        xalign -0.2
+    show tessa kasual_netral at tessa_default:
+        xalign 1.0
     with dissolve
 
     raden "\"Halo kak, aku tidak tau kakak ikut menjaga booth\""
+
+    show tessa kasual_nafas with dissolve
 
     tessa "\"Ya, mau gimana lagi, ditunjuk oleh dosen\""
 
@@ -20,12 +22,16 @@ label pensasi_tessa_scene1:
 
     raden "\"Ohhh\""
 
+    show tessa kasual_senyum with dissolve
+
     tessa "\"Tapi yahh... not bad sih\""
 
     show raden kasual_menghela_napas
 
     raden "\"Apalah.., jadi suka atau enggak?\""
 
+    show tessa kasual_netral
+    
     tessa "\"Hmmmm.., keduanya mungkin..?\""
 
     raden "\"Terserah dah...\""
@@ -76,6 +82,8 @@ label pensasi_tessa_scene1:
 
             raden "\"Ohhh, oke yang semangat ya Kak Tessa, aku mau pergi dulu, udah ditungguin sama teman yang lain\""
 
+            show tessa kasual_senyum2
+
             voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.flac"
             tessa "\"Oke, terima kasih ya udah berkunjung, hati-hati\""
 
@@ -85,17 +93,21 @@ label pensasi_tessa_scene1:
             tessa "\"Bye\""
 
             #jump
+            jump pembukaan_pensasi_afterchoice1
+
         "Temani Tessa":
             show raden kasual_tersenyum
 
             raden "\"Aku temenin aja gimana?\""
-
+            
             tessa "\"Eh.. ngga perlu repot-repot\""
 
             show raden kasual_ceria
 
             raden "\"Aman kak, anggep aja perbaikan sikap karena pernah salah paham\""
 
+            show tessa kasual_kesal
+            
             voice "audio/vo/tessa/pensasi/pensasi_1_2_1_ih.flac"
             tessa "\"Ihh.. gausah inget-inget hal itu deh, awas ya!\""
 
@@ -111,6 +123,8 @@ label pensasi_tessa_scene1:
 
             raden "\"Ohhh, oke yang semangat ya Kak Tessa, aku mau pergi dulu, udah ditungguin sama teman yang lain\""
 
+            show tessa kasual_senyum2
+            
             voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.flac"
             tessa "\"Oke, terima kasih ya udah berkunjung, hati-hati\""
 
