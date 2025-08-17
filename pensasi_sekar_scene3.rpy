@@ -7,13 +7,13 @@ label pensasi_sekar_scene3:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show sekar kemeja_biasa:
-        zoom 1.15 xalign 1.0 yalign 0.05
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show sekar kasual_biasa at sekar_default:
+        xalign 1.0
     with dissolve
 
-    show sekar kemeja_bingung
+    show sekar kasual_bingung
     voice "audio/vo/sekar/pensasi/pensasi_3_1_kira_kira.flac"
     sekar "\"Kira-kira enaknya mau menjelajahi booth dimana nih den?\""
 
@@ -30,27 +30,27 @@ label pensasi_sekar_scene3:
     scene bg lapmer with dissolve:
         zoom 0.5
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show sekar kemeja_biasa:
-        zoom 1.15 xalign 1.0 yalign 0.05
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show sekar kasual_biasa at sekar_default:
+        xalign 1.0
     with dissolve
 
     "Di depan gedung berdiri sebuah booth kecil dengan kendaraan kecil menyerupai motor roda tiga. Cat nya berwarna merah mengkiap, seperti baru."
 
-    show sekar kemeja_bingung
+    show sekar kasual_bingung
 
     voice "audio/vo/sekar/pensasi/pensasi_3_3_itu.flac"
     sekar "\"Itu kendaraan yang kamu maksud den?\""
 
-    show sekar kemeja_biasa
+    show sekar kasual_biasa
     show raden kasual_tersenyum
 
     raden "\"Iya kak\""
     
     raden "\"Btw, mau naik itu kak?\""
 
-    show sekar kemeja_ceria
+    show sekar kasual_ceria
 
     voice "audio/vo/sekar/pensasi/pensasi_3_4_ayo.flac"
     sekar "\"Ayo, tapi aku yang bonceng ya?\""
@@ -128,7 +128,7 @@ label pensasi_sekar_scene3:
 
     show raden kasual_pusing:
         zoom 0.48 xalign 0.0 yalign 0.1
-    show sekar kemeja_senyum_lebar:
+    show sekar kasual_senyum_lebar:
         zoom 1.15 xalign 1.0 yalign 0.05
     with dissolve
 
@@ -136,7 +136,7 @@ label pensasi_sekar_scene3:
 
     raden "\"kebalikannya kak\""
 
-    show sekar kemeja_ceria
+    show sekar kasual_ceria
 
     voice "audio/vo/sekar/pensasi/pensasi_3_9_maaf.flac"
     sekar "\"Maaf-maaf\""
@@ -147,7 +147,7 @@ label pensasi_sekar_scene3:
 
     raden "\"Rasanya jadi kayak jantungku mau copot\""
 
-    show sekar kemeja_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_3_10_oiya.flac"
     sekar "\"Oh iya den, aku ada pertanyaan nih\""
@@ -162,7 +162,7 @@ label pensasi_sekar_scene3:
     menu:
         "Nggak ada alasan tertentu, cuma pengen aja":
             show raden kasual_tersenyum
-            show sekar kemeja_biasa
+            show sekar kasual_biasa
 
             raden "\"Nggak ada alasan tertentu sih kak, cuma pengen aja\""
 
@@ -188,12 +188,12 @@ label pensasi_sekar_scene3:
 
         "Karena pahlawan H*mm*l akan melakukannya":
             show raden kasual_serius
-            show sekar kemeja_biasa
+            show sekar kasual_biasa
 
             raden "\"Tentu saja, alasannya karena pahlawan {i}H*mm*l{/i} pasti melakukannya\""
         
             show raden kasual_biasa
-            show sekar kemeja_tertawa_lepas
+            show sekar kasual_tertawa_lepas
 
             voice "audio/vo/sekar/pensasi/pensasi_3_2_1_tertawa.flac"
             sekar "\"Hahahahaha\""
@@ -206,7 +206,7 @@ label pensasi_sekar_scene3:
 
             raden "\"Selucu itu kah kak?\""
 
-            show sekar kemeja_ceria
+            show sekar kasual_ceria
 
             voice "audio/vo/sekar/pensasi/pensasi_3_2_2_gak_ekspek.flac"
             sekar "\"Nggak expect aja\""
@@ -216,7 +216,7 @@ label pensasi_sekar_scene3:
 
             raden "\"Ciee, kepo nih kak?\""
 
-            show sekar kemeja_marah fikit
+            show sekar kasual_marah_dikit
 
             sekar "\"Dih, orang nanya doang\""
 
@@ -224,7 +224,7 @@ label pensasi_sekar_scene3:
             
             raden "\"Canda doang kak, jangan marah\""
 
-            show sekar kemeja_merengut
+            show sekar kasual_merengut
 
             sekar "\"...\""
 

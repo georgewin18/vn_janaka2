@@ -1,12 +1,12 @@
 label pensasi_sekar_ending:
-    show raden kasual_biasa
-    show sekar kemeja_biasa
+    show raden kasual_biasa with dissolve
+    show sekar kasual_biasa with dissolve
 
     "Hari telah menjelang sore. Langit mulai berwarna jingga keemasan, menciptakan suasana yang tenang di tengah keramaian yang perlahan surut."
 
     "Kak Sekar menoleh padaku, senyum lembutnya tetap terlihat meskipun ia tampak sedikit lelah."
 
-    show sekar kemeja_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_ending_1_menyenangkan.flac"
     sekar "\"Menyenangkan nggak den?\""
@@ -15,7 +15,7 @@ label pensasi_sekar_ending:
 
     raden "\"Sangat menyenangkan kak\"" 
 
-    show sekar kemeja_ceria
+    show sekar kasual_ceria
 
     voice "audio/vo/sekar/pensasi/pensasi_ending_2_iya_kan.flac"
     sekar "\"Iya kan? Nggak nyangka bakal seseru ini\""
@@ -26,11 +26,11 @@ label pensasi_sekar_ending:
 
     raden "\"Berdua doang\""
 
-    show sekar kemeja_bingung
+    show sekar kasual_bingung
 
     "Kak Sekar menghentikan langkahnya sebentar, lalu menatapku dengan alis terangkat"
 
-    show sekar kemeja_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_ending_3_kamu.flac"
     sekar "\"Kamu ngajak ngedate nih?\""
@@ -39,14 +39,14 @@ label pensasi_sekar_ending:
 
     raden "\"Cuma main doang sih kak\""
 
-    show sekar kemeja_biasa
+    show sekar kasual_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_ending_4_oh.flac"
     sekar "\"Oh cuma main\""
 
     "Nada suaranya terdengar sedikit bercanda. Ia kemudian berjalan lagi, menatap lurus ke depan, sebelum akhirnya menambahkan dengan suara yang lebih lembut."
 
-    show sekar kemeja_senyum
+    show sekar kasual_senyum
 
     voice "audio/vo/sekar/pensasi/pensasi_ending_5_kalo.flac"
     sekar "\"Kalau cuma main mah, kamu chat aja kapan waktu mainnya\""
@@ -58,7 +58,7 @@ label pensasi_sekar_ending:
 
     raden "\"Baik kak\""
 
-    show sekar kemeja_ceria
+    show sekar kasual_ceria
 
     voice "audio/vo/sekar/pensasi/pensasi_ending_7_kalo_begitu.flac"
     sekar "\"kalau begitu, aku pergi dulu ya den\""

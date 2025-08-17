@@ -18,8 +18,9 @@ label pensasi_sekar_scene1:
 
     anon "\"Aduh, cari penggantinya gimana ini?\""
 
-    show sekar jas_tegas with dissolve:
-        zoom 1.15 xalign 0.5 yalign 0.05
+    show sekar kasual_tegas at sekar_default:
+        xalign 0.5
+    with dissolve
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_udah.flac"
     sekar "\"Udah tenang dulu, kita pikirin solusi terbaiknya\""
@@ -46,9 +47,9 @@ label pensasi_sekar_scene1:
     return
 
 label pensasi_sekar_scene1_choice1_1:
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show sekar:
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show sekar at sekar_default:
         xalign 1.0
     with moveinleft
 
@@ -60,17 +61,17 @@ label pensasi_sekar_scene1_choice1_1:
 
     "Mendengar sapaan ku, Kak Sekar menoleh ke arahku dan menjawab."
 
-    show sekar jas_senyum
+    show sekar kasual_senyum
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_1_oh_raden.flac"
     sekar "\"Oh, Raden.\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
     show raden kasual_biasa2
 
     raden "\"Kayaknya ada masalah ya kak?\""
 
-    show sekar jas_ragu
+    show sekar kasual_ragu
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_2_iya_nih.flac"
     sekar "\"Iya nih den, MC yang seharusnya datang dari tadi, ternyata kecelakaan, dan baru konfirmasi ke kita.\'"
@@ -103,7 +104,7 @@ label pensasi_sekar_scene1_choice1_1:
 
     "Sambil berpikir, Kak Sekar tiba-tiba mengeluarkan wajah yang cerah sambil memandangku."
 
-    show sekar jas_senyum_lebar with dissolve
+    show sekar kasual_senyum_lebar with dissolve
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_7_raden.flac"
     sekar "\"Raden, dari gaya bicaramu, kamu bisa public speaking kan?\""
@@ -113,7 +114,7 @@ label pensasi_sekar_scene1_choice1_1:
     raden "\"Bisa sih kak, kenapa memangnya?\""
 
     show raden kasual_biasa
-    show sekar jas_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_8_mau_coba.flac"
     sekar "\"Mau coba jadi MC nggak den?\""
@@ -122,7 +123,7 @@ label pensasi_sekar_scene1_choice1_1:
 
     raden "\"Sudah kuduga... bakal ditanyain tentang ini\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_9_gimana.flac"
     sekar "\"Gimana den? Sekalian nambah pengalaman\""
@@ -136,7 +137,7 @@ label pensasi_sekar_scene1_choice1_1:
     voice "audio/vo/sekar/pensasi/pensasi_1_1_10_jadi.flac"
     sekar "\"Jadi gimana den?\""
 
-    show sekar jas_senyum
+    show sekar kasual_senyum
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_11_sama_nanti.flac"
     sekar "\"Sama nanti ku kasih hadiah spesial den, tawaran ini cuma bakalan terjadi sekali doang loh\""
@@ -151,7 +152,7 @@ label pensasi_sekar_scene1_choice1_1:
 
             raden "Maaf nih kak, aku sudah ada janji sama temenku. Jadi nggak bisa ngebantu."
 
-            show sekar jas_ragu
+            show sekar kasual_ragu
 
             voice "audio/vo/sekar/pensasi/pensasi_1_1_2_1_yasudah.flac"
             sekar "\"Yasudah kalau begitu\""
@@ -160,7 +161,7 @@ label pensasi_sekar_scene1_choice1_1:
 
             raden "\"Kalau begitu aku pergi dulu ya kak\""
 
-            show sekar jas_biasa
+            show sekar kasual_biasa
 
             voice "audio/vo/sekar/pensasi/pensasi_1_1_2_2_iya.flac"
             sekar "\"Iya den\""
@@ -168,6 +169,7 @@ label pensasi_sekar_scene1_choice1_1:
             stop music fadeout 2.0
 
             #jump
+            jump pembukaan_pensasi_afterchoice1
 
     return
 
@@ -178,7 +180,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     raden "\"Gas kak\""
 
-    show sekar jas_ceria
+    show sekar kasual_ceria
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_1_1_sip.flac"
     sekar "\"Sip, sudah kuduga\""
@@ -187,7 +189,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     raden "\"Untuk tiap katanya yang harus aku ucapkan sudah disiapkan atau harus saya bikin sendiri kak?\""
 
-    show sekar jas_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_1_2_untuk.flac"
     sekar "\"Untuk masalah seperti itu dibahas nanti aja den. Kita harus nyiapin pakaian yang harus kamu pakai dan lainnya.\""
@@ -218,7 +220,7 @@ label pensasi_sekar_scene1_choice1_1_1:
     
     raden "\"{size=+10}HUAAAKHH{/size}\"" with vpunch
 
-    show sekar jas_bingung
+    show sekar kasual_bingung
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_1_4_kenapa.flac"
     sekar "\"Kenapa den?\""
@@ -227,7 +229,7 @@ label pensasi_sekar_scene1_choice1_1_1:
 
     raden "\"Nggak papa kak, sudah kok, cuman ngechat temen bentar\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_1_1_1_5_yaudah.flac"
     sekar "\"Yaudah ayo, percepan jalannya\""

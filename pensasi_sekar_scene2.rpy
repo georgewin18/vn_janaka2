@@ -3,10 +3,10 @@ label pensasi_sekar_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden jas_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show sekar jas_bicara:
-        zoom 1.15 xalign 1.0 yalign 0.05
+    show raden jas_biasa at raden_default:
+        xalign -0.2
+    show sekar kasual_bicara at sekar_default:
+        xalign 1.0
     with dissolve
 
     voice "audio/vo/sekar/pensasi/pensasi_2_1_ingat.flac"
@@ -18,23 +18,23 @@ label pensasi_sekar_scene2:
     voice "audio/vo/sekar/pensasi/pensasi_2_3_setelah.flac"
     sekar "\"Setelah perkenalan, kamu langsung ucapkan selamat datang di PENSASI PENS 2024. Terserah kamu mau ngucapinnya gimana, yang penting sopan santun peribahasanya kamu jaga\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
     show raden jas_tersenyum
 
     raden "\"Siap kak\""
 
-    show sekar jas_bicara
+    show sekar kasual_bicara
     show raden jas_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_2_4_ok.flac"
     sekar "\"Ok, breifing nya gitu dulu ya. ada yang mau ditanyaain nggak?\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
     show raden jas_tersenyum
 
     raden "\"Sudah cukup kak\""
 
-    show sekar jas_bicara
+    show sekar kasual_bicara
     show raden jas_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_2_5_baiklah.flac"
@@ -46,10 +46,10 @@ label pensasi_sekar_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show aisyah kemeja_bingung:
-        zoom 0.35 xalign 0.2 yalign -0.7
-    show fania casual_dingin:
-        zoom 1.15 xalign 1.0 yalign -0.02
+    show aisyah casual_bingung at aisyah_default:
+        xalign 1.0
+    show fania casual_dingin at fania_default:
+        xalign -0.2
     with dissolve
 
     aisyah "\"Raden dimana ya? Dia yang mengajak, tapi dia sendiri yang nggak ada\""
@@ -58,7 +58,7 @@ label pensasi_sekar_scene2:
 
     fania "\"Tau begini, mending aku pergi jalan-jalan ke booth-booth yang ada aja\""
 
-    show aisyah kemeja_bicara
+    show aisyah casual_terkejut
     show fania casual_dingin
 
     aisyah "\"Eh, Fan. Itu yang di depan panggun sana terlihat kayak si Raden ya?\""
@@ -83,8 +83,9 @@ label pensasi_sekar_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden jas_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+    show raden jas_biasa at raden_default:
+        xalign 0.45
+    with dissolve
 
     raden "\"Sudah waktunya nih\""
 
@@ -113,10 +114,10 @@ label pensasi_sekar_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show aisyah kemeja_bertekad:
-        zoom 0.35 xalign 0.2 yalign -0.7
-    show fania casual_senyum_ceria:
-        zoom 1.15 xalign 1.0 yalign -0.02
+    show aisyah casual_bersemangat at aisyah_default:
+        xalign 1.0
+    show fania casual_senyum_ceria at fania_default:
+        xalign -0.2
     with dissolve
 
     aisyah "\"Nggak nyangka si Raden malah menjadi MC nya\""
@@ -127,27 +128,27 @@ label pensasi_sekar_scene2:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden jas_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show sekar jas_bicara:
-        zoom 1.15 xalign 1.0 yalign 0.05
+    show raden jas_biasa at raden_default:
+        xalign -0.2
+    show sekar kasual_bicara at sekar_default:
+        xalign 1.0
     with dissolve
 
     voice "audio/vo/sekar/pensasi/pensasi_2_6_den.flac"
     sekar "\"Den\""
 
     show raden jas_tersenyum
-    show sekar jas_biasa
+    show sekar kasual_biasa
 
     raden "\"Oh, Kak Sekar\""
 
-    show sekar jas_bicara
+    show sekar kasual_bicara
     show raden jas_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_2_7_ini.flac"
     sekar "\"Ini, untuk MC nya sudah datang, makasih banget ya den\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
 
     abdi "\"Iya makasih ya dik\""
 
@@ -162,12 +163,12 @@ label pensasi_sekar_scene2:
     raden "\"Iya kak\""
 
     show raden jas_biasa
-    show sekar jas_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_2_8_abdi.flac"
     sekar "\"Abdi, kamu langsung siap-siap dulu sana\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
 
     abdi "\"Ok, Sekar. Dan untuk kamu yang disana, namamu siapa?\""
 
@@ -183,7 +184,7 @@ label pensasi_sekar_scene2:
 
     raden "\"Salam kenal Kak Abdi\""
 
-    show sekar jas_teriak
+    show sekar kasual_teriak
     show raden jas_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_2_9_udah.flac"
@@ -191,12 +192,12 @@ label pensasi_sekar_scene2:
 
     abdi "\"Iya-iya kar\""
 
-    show sekar jas_bicara
+    show sekar kasual_bicara
 
     voice "audio/vo/sekar/pensasi/pensasi_2_10_aman_kan.flac"
     sekar "\"Aman kan den?\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
     show raden jas_tersenyum
 
     raden "\"Aman kak\""
@@ -221,7 +222,7 @@ label pensasi_sekar_scene2_choice2_1:
     raden "\"Bagaimana kalau traktir aku Ayam Malaysia lain kali kak?\""
 
     show raden jas_biasa
-    show sekar jas_bingung
+    show sekar kasual_bingung
 
     voice "audio/vo/sekar/pensasi/pensasi_2_1_1_kenapa.flac"
     sekar "\"Kenapa nggak sekarang aja den?\""
@@ -230,12 +231,12 @@ label pensasi_sekar_scene2_choice2_1:
 
     raden "\"Aku mau pergi ke temanku kak\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
 
     voice "audio/vo/sekar/pensasi/pensasi_2_1_2_begitu.flac"
     sekar "\"Begitu?\""
 
-    show sekar jas_ceria
+    show sekar kasual_ceria
 
     voice "audio/vo/sekar/pensasi/pensasi_2_1_3_baiklah.flac"
     sekar "\"Baiklah kalau begitu, selamat bersenang-senang dengan temanmu\""
@@ -247,10 +248,10 @@ label pensasi_sekar_scene2_choice2_1:
 
     "Di tengah jalan, terlihat Fania yang sedang keluar dari Auditorium."
 
-    show raden kasual_tersenyum:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show fania casual_dingin:
-        zoom 1.15 xalign 1.0 yalign -0.02
+    show raden kasual_tersenyum at raden_default:
+        xalign -0.2
+    show fania casual_dingin at fania_default:
+        xalign 1.3
     with dissolve
 
     raden "\"Fania\""
@@ -304,13 +305,13 @@ label pensasi_sekar_scene2_choice2_2:
     raden "\"Gimana kalau jalan-jalan bareng ke booth-booth yang diluar kak?\""
 
     show raden jas_biasa
-    show sekar jas_ragu
+    show sekar kasual_ragu
     voice "audio/vo/sekar/pensasi/pensasi_2_2_1_tapi.flac"
     sekar "\"Hmm, tapi sebentar lagi acara sudah mulai agak sibuk den\""
 
     "Tiba-tiba muncullah Kak Bima dari belakang"
 
-    show sekar jas_bingung
+    show sekar kasual_bingung
     bima "\"Sekar, kamu kan sudah membantu banyak nih\""
 
     bima "\"Istirahat sekali-kali sana\""
@@ -324,7 +325,7 @@ label pensasi_sekar_scene2_choice2_2:
     raden "\"Iya kak\""
 
     show raden jas_biasa
-    show sekar jas_gugup
+    show sekar kasual_gugup
 
     voice "audio/vo/sekar/pensasi/pensasi_2_2_2_tapi_nanti.flac"
     sekar "\"Tapi nanti kalaul ada apa-apa gimana Bim?\""
@@ -335,11 +336,11 @@ label pensasi_sekar_scene2_choice2_2:
 
     bima "\"Sudah jalan-jalan sana\""
 
-    show sekar jas_hembus_napas_kantung_mata
+    show sekar kasual_hembus_nafas_kantung_mata
     pause 0.3
-    show sekar jas_hembus_napas with dissolve
+    show sekar kasual_hembus_nafas with dissolve
     pause 0.3
-    show sekar jas_hembus_napas_kantung_mata with dissolve
+    show sekar kasual_hembus_nafas_kantung_mata with dissolve
 
     voice "audio/vo/sekar/pensasi/pensasi_2_2_3_yasudah_deh.flac"
     sekar "\"Ya sudah deh, iya\""
@@ -348,7 +349,7 @@ label pensasi_sekar_scene2_choice2_2:
 
     raden "\"Kalau begitu ayo kak\""
 
-    show sekar jas_biasa
+    show sekar kasual_biasa
     show raden jas_biasa
 
     "Sambil berpergian aku menatap kak Bima dan mengacungkan jempol ku ke arahnya."
