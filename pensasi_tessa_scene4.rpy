@@ -1,11 +1,24 @@
+init:
+    transform pan_right:
+        xalign 0.0
+        linear 3.0 xalign 0.2
+
+    transform pan_left:
+        xalign 1.0
+        linear 3.0 xalign 0.9
+
+    transform pan_left2:
+        xalign 1.0
+        linear 2.5 xalign 0.5
+
 label pensasi_tessa_scene4:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
     
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show tessa kasual_netral at tessa_default:
+        xalign 1.0
     with dissolve
 
     play music tessa_bgm fadein 1.0
@@ -67,48 +80,59 @@ label pensasi_tessa_scene4:
     ## SPECIAL MOMENT
 
     #VR
-    scene bg auditorium with dissolve:
-        zoom 0.5
+    play music intense fadein 1.0
 
-    show raden kasual_serius:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    scene tessa_pensasi at pan_right:
+        zoom 2.0 yalign 0.4
     with dissolve
 
+    pause 2.0
+
+    scene tessa_pensasi at pan_left:
+        zoom 2.0 yalign 0.5
+    with dissolve
+
+    pause 2.0
+
+    scene tessa_pensasi with dissolve
+
     "Saat headset terpasang, pandanganku langsung berubah. Aku sekarang berada di tengah kota yang hancur. Assap mengepul dari bangunan yang runtuh, dan suara gemertak zombie semakin mendekat."
-
-    show raden kasual_kaget
-
-    play music tessa_bgm fadein 1.0
 
     voice "audio/vo/tessa/pensasi/pensasi_special_1_raden.flac"
     tessa "\"Raden! Di belakangmu!\"" with vpunch
 
     "Aku menoleh dan melihat segerombilan zombie mendekat dengan cepat. Kak Tessa, yang berada di sampingku di dunia virtual ini, sudah memegang sebuah senapan virtual dan mulai menembaki zombie-zombie tersebut dengan akurasi yang mengejutkan"
 
-    show raden kasual_hehe
-
     raden "\"Wah, Kak Tessa pro banget mainnya!\""
 
     voice "audio/vo/tessa/pensasi/pensasi_special_2_yah.flac"
     tessa "\"Yah, kan tadi aku bilang, siapa tahu jago\""
 
-    show raden kasual_biasa
-
     "Meskipun aku tidak bisa melihat ekspresi wajahnya, aku bisa mendengar nada puas dalam suaranya"
+
+    stop music fadeout 2.0
 
     "Setelah melewati jalanan yang dipenuhi zombie, aku dan Kak Tessa berhasil menemukan tempat perlindungan sementara. Di sana sebuah pemandangan terbuka di depan mata kami."
 
-    "Di dunia game ini, langit malam dibuat dengan detail yang memukau—bintang-bintang yang bertebaran, bulan penuh yang bersinar terang, dan awan tipis yang melintas perlahan."
+    play music tessa_bgm fadein 1.0
 
-    show raden kasual_tersenyum
+    scene tessa_pensasi1 at pan_left2:
+        zoom 1.0 yalign 0.1
+    with dissolve
+
+    pause 1.0
+
+    scene tessa_pensasi1 with dissolve:
+        zoom 0.75
+
+    "Di dunia game ini, langit malam dibuat dengan detail yang memukau—bintang-bintang yang bertebaran, bulan penuh yang bersinar terang, dan awan tipis yang melintas perlahan."
 
     raden "\"Wah, pemandangan dari sini keren banget\""
 
     "Kak Tessa berdiri di dekat pagar, matanya menyapu seluruh pemandangan. Tapi dia tidak berbicara banyak, hanya berdiri diam sambil memandang ke atas, ke arah langit."
 
-    show raden kasual_biasa
+    show tessa_pensasi2 with dissolve:
+        zoom 0.75
 
     voice "audio/vo/tessa/pensasi/pensasi_special_3_iya.flac"
     tessa "\"Iya...\""
@@ -116,8 +140,6 @@ label pensasi_tessa_scene4:
     "Aku tidak menanggapi lebih jauh, hanya menganggap itu bagian dari suasana game. Tapi ada sesuatu dalam caranya berbicara, cara matanya memandang ke atas sejenak sebelum kembali fokus, yang membuatku merasa- mungkin ini lebih dari sekadar mengagumi grafik dalam game."
 
     "Beberapa detik berlalu dalam keheningan, hanya diiringi suara angin lembut. Tapi tiba-tiba, suara geraman rendah terdengar dari bawah. Aku langsung siaga."
-
-    show raden kasual_kaget
 
     raden "\"Kak! zombie nya dateng lagi!\""
 
@@ -131,10 +153,10 @@ label pensasi_tessa_scene4:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden kasual_hehe:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    show raden kasual_hehe at raden_default:
+        xalign -0.2
+    show tessa kasual_netral at tessa_default:
+        xalign 1.0
     with dissolve
 
     play music tessa_bgm fadein 1.0
@@ -143,12 +165,16 @@ label pensasi_tessa_scene4:
 
     raden "\"Itu gila banget. Seru, sama bikin deg-degan!\""
 
+    show tessa kasual_senyum3
+
     voice "audio/vo/tessa/pensasi/pensasi_special_4_iya.flac"
     tessa "\"Iya, aku nggak nyangka bakal seintens itu. Lumayan, lah, pengalaman pertama main VR,\""
 
     show raden kasual_biasa
 
     raden "\"Ngomong-ngomong, kasih nilai berapa kak?, kalau aku kasihnya 80 dari 100\""
+
+    show tessa kasual_senyum2
 
     voice "audio/vo/tessa/pensasi/pensasi_special_5_kalau.flac"
     tessa "\"Huhhh.., kalau aku kasih 65 dari 100\""
@@ -164,6 +190,8 @@ label pensasi_tessa_scene4:
 
     raden "\"Ya... karena itu tadi sudah bagus,\""
 
+    show tessa kasual_senyum with dissolve
+
     voice "audio/vo/tessa/pensasi/pensasi_special_7_ish.flac"
     tessa "\"Ish ish ish... kau perlu banyak belajar lagi\""
 
@@ -176,6 +204,7 @@ label pensasi_tessa_scene4:
     "Kami berdua terus berkeliling melihat booth yang lain, membeli sedikit cemilan, lalu lanjut berkeliling"
 
     show raden kasual_biasa2
+    show tessa kasual_netral
 
     voice "audio/vo/tessa/pensasi/pensasi_special_8_apakah.flac"
     tessa "\"Apakah... tidak, atau mungkinkah..?\""
@@ -185,6 +214,8 @@ label pensasi_tessa_scene4:
     show raden kasual_bingung
 
     raden "\"Kak, ada apa?\""
+
+    show tessa kasual_senyum2
 
     voice "audio/vo/tessa/pensasi/pensasi_special_9_oh.flac"
     tessa "\"Oh, aku baik kok...\""
@@ -215,6 +246,7 @@ label pensasi_tessa_scene4:
             raden "\"Rasanya kayak lagi kencan aja\"" 
 
             show raden kasual_panik
+            show tessa kasual_kesal
 
             voice "audio/vo/tessa/pensasi/pensasi_4_1_2_eh.flac"
             tessa "\"Ehh?? kenapa tiba-tiba-\"" with hpunch
@@ -222,6 +254,8 @@ label pensasi_tessa_scene4:
             raden "\"Bentar-bentar- Jangan asal serang-\""
 
             show raden kasual_canggung
+
+            show tessa kasual_senyum2
 
             voice "audio/vo/tessa/pensasi/pensasi_4_1_3_maaf.flac"
             tessa "\"Maaf tadi reflek aja, tapi kenapa tiba-tiba ngomong gitu?\""
@@ -249,6 +283,8 @@ label pensasi_tessa_scene4:
 
             raden "\"Oke, sampai jumpa kak\""
 
+            show tessa kasual_senyum
+
             voice "audio/vo/tessa/pensasi/pensasi_4_1_5_iya.flac"
             tessa "\"Iya, sampai jumpa\""
 
@@ -269,6 +305,8 @@ label pensasi_tessa_scene4:
             show raden kasual_ceria
 
             raden "\"Iya, makasih atas kencan nya\""
+
+            show tessa kasual_kesal
 
             voice "audio/vo/tessa/pensasi/pensasi_4_2_2_ehh.flac"
             tessa "Eehhh??? Ini bukan kencan! Jangan asal ngomong kayak gitu!" with hpunch

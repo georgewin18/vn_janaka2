@@ -15,10 +15,10 @@ label pensasi_tessa_scene2:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show tessa kasual_netral at tessa_default:
+        xalign 1.0
     with dissolve
 
     voice "audio/vo/tessa/pensasi/pensasi_2_1_sudah.flac"
@@ -42,10 +42,10 @@ label pensasi_tessa_scene2:
     scene bg depan_auditorium with dissolve:
         zoom 0.5
 
-    show raden kasual_capek:
-        zoom 0.48 xalign 0.0 yalign 0.1
-    show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+    show raden kasual_capek at raden_default:
+        xalign -0.2
+    show tessa kasual_netral at tessa_default:
+        xalign 1.0
     with dissolve
 
     voice "audio/vo/tessa/pensasi/pensasi_2_2_sejauh_ini.flac"
@@ -54,6 +54,8 @@ label pensasi_tessa_scene2:
     show raden kasual_menghela_napas
 
     raden "\"Ehhhh...\""
+
+    show tessa kasual_kesal
 
     voice "audio/vo/tessa/pensasi/pensasi_2_3_kau_ini.flac"
     tessa "\"Kau ini! Aku ulangi lagi sekali ya!\""
@@ -64,6 +66,8 @@ label pensasi_tessa_scene2:
     show raden kasual_biasa
 
     "Setelah Kak Tessa menjelaskan ulang, aku pun mulai memahami- atau setidaknya bisa menjelaskan kembali ke orang lain."
+
+    show tessa kasual_netral
 
     voice "audio/vo/tessa/pensasi/pensasi_2_5_gimana.flac"
     tessa "\"Gimana? Dah paham?\"" 
@@ -98,6 +102,8 @@ label pensasi_tessa_scene2:
 
     "Aku menoleh dan terkejut melihat Kak Dio berjalan santai menuju meja booth. Dengan ekspresi percaya diri, dia langsung berdiri di sampingku dan menatap layar game yang sedang dipamerkan."
 
+    show tessa kasual_kesal
+
     voice "audio/vo/tessa/pensasi/pensasi_2_8_udah.flac"
     tessa "\"Udah jangan tanya banyak, cepetan bantuin!\""
 
@@ -106,6 +112,7 @@ label pensasi_tessa_scene2:
     "Kak Dio segera bergabung untuk membantu kami melayani pengunjung."
 
     show raden kasual_biasa
+    show tessa kasual_netral
 
     "Aku bernafas lega, membiarkan Kak Dio menjawab- dan di luar dugaan, penjelasannya sangat meyakinkan"
 
@@ -123,8 +130,9 @@ label pensasi_tessa_scene2:
 
     "Saat aku masih memikirkan hal itu, tiba-tiba Kak Dio mendatangiku."
 
-    show raden kasual_canggung with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+    show raden kasual_canggung at raden_default:
+        xalign 0.45
+    with dissolve
 
     dio "\"Oi, Raden kan nama lu?\""
 
