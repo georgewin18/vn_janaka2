@@ -5,7 +5,7 @@ define prolog_day4_choice2_3_done = False
 define prolog_day4_choice2_4_done = False
 
 label prolog_day4_scene4:
-    scene bg lap_futsal with dissolve:
+    scene bg lap_futsal_ramai with dissolve:
         zoom 0.5
 
     play music raden_bgm fadein 1.0

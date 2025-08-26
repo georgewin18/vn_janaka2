@@ -1,5 +1,5 @@
 label prolog_day4_scene5:
-    scene bg lapmer with dissolve:
+    scene bg lapmer_ramai with dissolve:
         zoom 0.5
     
     "Setelah puas berkeliling di area UKM Expo, aku akhirnya kembali ke Lapangan Merah bersama kelompokku untuk menghadiri acara penutupan PKKMB."
@@ -19,7 +19,7 @@ label prolog_day4_scene5:
     scene black with dissolve
     with Pause(0.2) 
 
-    scene bg lapmer with dissolve:
+    scene bg lapmer_ramai with dissolve:
         zoom 0.5
 
     "Akhirnya selesai juga. Empat hari PKKMB akhirnya berakhir."
