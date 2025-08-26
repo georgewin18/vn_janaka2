@@ -7,8 +7,8 @@ label prolog_day1_scene6:
 
         "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
 
-        show raden kemeja_biasa2:
-                zoom 0.54 xalign -0.2 yalign 0.05
+        show raden kemeja_biasa2 at raden_default:
+                xalign -0.2
         show fania kemeja_senyum_normal at Transform(matrixcolor=(silhouette)):
                 zoom 1.35 xalign 1.4 yalign 0.03
         with dissolve
@@ -22,8 +22,8 @@ label prolog_day1_scene6:
 
         hide fania with dissolve
 
-        show fania kemeja_senyum_normal:
-                zoom 1.35 xalign 1.4 yalign 0.03
+        show fania kemeja_senyum_normal at fania_default:
+                xalign 1.4
         with dissolve
         
         voice "audio/vo/fania/pkkmb2_duh.flac"
@@ -62,17 +62,18 @@ label prolog_day1_scene6:
 
         hide fania with dissolve
 
-        show raden with moveinleft:
+        show raden at raden_default:
                 xalign 0.45
+        with moveinleft
 
         "Perempuan itu pergi begitu saja tanpa memberi kesempatan untuk sekadar berkenalan."
 
         raden "Yasudahlah.. aku juga harus segera kumpul lalu pulang."
 
-        "Setelah beberapa menit berdiskusi dengan kelompok tentang tugas, aku pulang dengan rasa lelah."
-
         scene black with dissolve
         with Pause(0.3)
+
+        centered "Setelah beberapa menit berdiskusi dengan kelompok tentang tugas, aku pulang dengan rasa lelah."
 
         stop music fadeout 2.0
 

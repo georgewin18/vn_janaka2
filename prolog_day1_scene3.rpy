@@ -5,8 +5,9 @@ label prolog_day1_scene3:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden kemeja_capek with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+    show raden kemeja_capek at raden_default:
+        xalign 0.45
+    with dissolve
 
     "Di dalam Auditorium sangatlah penuh. Kurasa, sudah lebih dari 100 anak yang telah masuk ke ruangan ini."
     
@@ -27,10 +28,10 @@ label prolog_day1_scene3:
     scene bg auditorium with dissolve:
         zoom 0.5
 
-    show raden kemeja_menghela_napas:
-        zoom 0.54 xalign -0.2 yalign 0.05
-    show aisyah kemeja_serius:
-        zoom 0.4 xalign 1.0 yalign 0.1
+    show raden kemeja_menghela_napas at raden_default:
+        xalign -0.2
+    show aisyah kemeja_serius at aisyah_default:
+        xalign 1.0
     with dissolve
     
     voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.mp3"

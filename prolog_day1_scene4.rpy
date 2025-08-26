@@ -5,8 +5,8 @@ label prolog_day1_scene4:
 
     "Adzan telah terdengar. Waktu ISHOMA telah dimulai. LO Region ku ada 2, yang pertama laki-laki bernama kak Ryan, dan yang satunya perempuan bernama kak Sekar. Dia mulai memanggil anggota region untuk berkumpul"
 
-    show sekar jas_teriak:
-        zoom 1.25 xalign 0.5 yalign 0.05
+    show sekar jas_teriak at sekar_default:
+        xalign 0.5
 
     play music sekar_bgm fadein 1.0
 
@@ -60,7 +60,7 @@ label prolog_day1_scene4:
 
     Region "\"Iya kak, lain kali nggak bakal kami ulangi.\""
 
-    "Daripada menunda waktu lebih lama, kak Sekar langsung menyuruh kami untuk sholat. Dengan serentak, kami membubarkan barisan untuk sholat."
+    "Tanpa menunda waktu lebih lama, kak Sekar langsung menyuruh kami untuk sholat. Dengan serentak, kami membubarkan barisan untuk sholat."
 
     hide sekar with dissolve
 
@@ -68,6 +68,8 @@ label prolog_day1_scene4:
 
     scene black with dissolve
     with Pause(0.2)
+
+    "Kami melaksanakan Shalat Dhuhur berjamaah"
 
     jump prolog_day1_scene5
 

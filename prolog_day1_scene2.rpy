@@ -2,7 +2,7 @@ label prolog_day1_scene2:
 # [Scene 2]
 # Latar : Gerbang Masuk PENS, depan parkiran D3, lapmer, di dalam Pascasarjana, Pascasarjana lantai 6, dan di depan Auditorium.
 # Karakter: Raden, Santo, dan Aisyah
-    scene bg lapmer with dissolve:
+    scene bg lapmer_ramai with dissolve:
         zoom 0.5
 
     show raden kemeja_biasa2 at raden_default:
@@ -23,6 +23,14 @@ label prolog_day1_scene2:
 
     voice sustain
 
+    show blank with dissolve
+
+    voice sustain
+
+    hide blank with dissolve
+
+    voice sustain
+
     show raden kemeja_biasa2 at raden_default:
         xalign -0.2
     with moveinleft
@@ -33,8 +41,10 @@ label prolog_day1_scene2:
 
     "Aku menoleh ke belakang dan melihat seorang perempuan berkerudung." 
 
-    show aisyah kemeja_kesal:
-        zoom 0.4 xalign 1.0 yalign 0.1
+    hide aisyah with dissolve
+
+    show aisyah kemeja_kesal at aisyah_default:
+        xalign 1.0
     with dissolve
 
     play music aisyah_bgm fadein 1.0
@@ -64,7 +74,7 @@ label prolog_day1_scene2:
     show aisyah kemeja_terkejut with dissolve
 
     voice "audio/vo/aisyah/pkkmb3_eh_raden.mp3"
-    aisyah "\"Eh, Raden?\"" # ucap wanita tersebut. (Aisyah terkejut)
+    aisyah "\"Eh, Raden?\"" with vpunch # ucap wanita tersebut. (Aisyah terkejut)
 
     menu:
         "Waduh, tau namaku dari mana kak?":
@@ -99,10 +109,16 @@ label scene3_choice1:
 label scene3_choice3:
     #$ renpy.block_rollback()
 
-    show aisyah kemeja_kesal
+    show aisyah kemeja_kesal at aisyah_default:
+        xalign 1.0
+        linear 0.2 xalign 0.75
 
     voice "audio/vo/aisyah/pkkmb4-3_siapa_lagi.mp3"
     aisyah "\"{size=+10}Siapa lagi itu?!{/size} Aku Aisyah, masa ga ingat!\"" with vpunch
+
+    show aisyah at aisyah_default:
+        xalign 1.0
+    with moveinright
 
     jump scene3_after_choice       
 
@@ -153,12 +169,14 @@ label scene3_after_choice:
     raden "\"{size=+10}Apa?? Lantai 6??{/size}\"" with vpunch # sontak diriku kaget. (Raden kaget)
     lo2 "\"Hahaha, terimalah nasib kalian dan tetap semangat\"" # kata kakak Panitia tersebut sambil tersenyum. (Panitia senyum)
 
+    scene black with dissolve
+
     "Tidak ada hal yang bisa ku ributkan. Meskipun begitu, berpikir untuk naik menuju lantai 6 saja sudah membuatku malas. Aku pun mencoba untuk mengobrol dengan Aisyah sembari menaiki tangga ini."
 
     # Singkat cerita. Kami akhirnya sampai di lantai 6. 
     raden "{i}Ternyata, tidak secapek yang kupikir.{/i}" # ujarku dalam hati.
 
-    scene bg depan_auditorium with dissolve:
+    scene bg depan_auditorium_ramai with dissolve:
         zoom 0.5
 
     show raden kemeja_biasa at raden_default:
