@@ -1,6 +1,6 @@
 label pensasi_aisyah_ending:
     #depan pasca
-    scene bg lapmer with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     "Senja mulai memeluk langit kampus dengan warna keemasan yang lembut, menciptakan suasana yang tenang namun penuh kehangatan. Jalanan mulai sepi, dan suara langkah kami menggema perlahan. Udara sore membawa angin sejuk."
