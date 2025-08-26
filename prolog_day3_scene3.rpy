@@ -116,7 +116,12 @@ label prolog_day3_scene3:
             
             raden "\"Maaf, Kak. Saya masih kurang paham tadi toilet nya di sebelah mana…. Bisa tolong tunjukkan lagi arahnya?\""
 
-    show tessa jas_kesal
+    show tessa jas_nafas with dissolve
+
+    pause 0.4
+
+    show tessa jas_kesal with dissolve
+
     voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.mp3"
     lo "\"Ya ampun… Kamu ini dibilangin tadi, lurus aja! Perhatikan baik-baik!\""
     
@@ -176,8 +181,11 @@ label prolog_day3_scene3:
     
     show raden with moveinright:
         xalign 0.5
+
+    scene black with dissolve
+    with Pause(0.3)
     
-    "Aku masuk ke toilet, merasa lega akhirnya menemukannya."
+    centered "Aku masuk ke toilet, merasa lega akhirnya menemukannya."
 
     jump prolog_day3_scene4
 
