@@ -10,8 +10,7 @@ label pensasi_canon:
     #kelas d4
     #suasana netral in campus
     
-    scene bg lap_futsal with dissolve:
-        zoom 0.5
+    scene bg kelas_d4 with dissolve
 
     play music campus fadein 1.0
 
@@ -88,7 +87,7 @@ label pensasi_canon:
     nvl clear
 
     #Santo Kesal (Di sini raden tidak menyadari ekspresi sinis jadi gak dideskripsikan)
-    show santo kasual_bicara
+    show santo kasual_kesal with dissolve
     santo "\"Aku balik dulu kalau gitu, den\""
 
     raden "\"Ga ikut ke perpus?\""
@@ -97,13 +96,14 @@ label pensasi_canon:
 
     raden "\"Oh.. ya, hati-hati!\""
 
-    hide santo with dissolve
-    hide raden with dissolve
+    hide santo
+    hide raden
+    with dissolve
 
     pause 0.5
 
     #Pasca lt atas
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca with dissolve:
         zoom 0.5
 
     "Sambil berjalan pergi juga, aku melanjutkan chat untuk merencanakan pertemuan untuk acara besok. terlalu fokus dengan HP hingga nyaris menabrak seseorang—"
@@ -219,8 +219,7 @@ label pensasi_canon_afterchoice1:
     "{i}Sebaiknya aku juga segera pergi. Aisyah dan Fania sedang menungguku di perpustakaan.{i}"
 
     #Perpustakaan
-    scene bg depan_auditorium with dissolve:
-        zoom 0.5
+    scene bg perpus_pasca with dissolve
 
     #suara scan ktm
 
@@ -483,7 +482,7 @@ label pensasi_canon_afterchoice1:
 #[Scene - Pembukaan PENSASI]
 label pembukaan_pensasi:
     #Depan Pasca
-    scene bg masjid with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     "Sekitar pukul jam 8 lebih aku sampai di kampus dan berjalan menuju gedung Pascasarjana, tempat acara PENSASI digelar."
@@ -502,12 +501,61 @@ label pembukaan_pensasi:
 
     scene black with dissolve
 
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
     
     "Aku terus menaiki tangga, berharap menemukan mereka di setiap lantai. Tetapi sampai di lantai enam pun, aku tetap tidak melihat mereka."
 
     "Aku mencoba mengirim pesan kepada mereka, tetapi tidak ada balasan."
+
+    "Baru saja aku hendak mencari tempat duduk, aku mendengar suara pelan dari arah samping."
+
+    show raden kasual_biasa at raden_default:
+        xalign -0.2
+    show erin kasual_netral at erin_default:
+        xalign 1.0
+    with dissolve
+
+    erin "\"Eh... Raden?\""
+
+    "Aku menoleh. Di dekat salah satu pilar, berdiri sosok yang langsung kukenal. Erin, di tangannya tergenggam brosur lipat dari salah satu booth."
+
+    show raden kasual_tersenyum
+
+    raden "\"Erin? Kamu di sini juga?\""
+
+    show raden kasual_biasa
+
+    erin "\"Iya, iseng aja keliling. Katanya acaranya bagus, jadi aku mampir sendiri.\""
+
+    "Erin menatap sekeliling sebentar, lalu kembali padaku"
+
+    erin "\"Kamu sendirian?\""
+
+    show raden kasual_tersenyum
+
+    raden "\"Iya, lagi nyariin Aisyah sama Fania. Tapi belum kelihatan…\""
+
+    show raden kasual_biasa
+
+    erin "\"Kalau begitu… sambil nunggu mereka, mau jalan bareng aku sebentar? Aku belum sempat lihat sisi yang bagian barat.\""
+
+    show raden kasual_tersenyum
+
+    raden "\"Wah, maaf ya, Rin. Aku udah janji buat muter bareng Aisyah sama Fania. Nanti malah mereka nyariin.\""
+
+    show raden kasual_biasa
+
+    erin "\"Oh, tentu. Aku paham kok. Maaf ya, tiba-tiba ngajak.\""
+
+    erin "\"Kalau begitu, semoga acaranya menyenangkan, ya. Sampai ketemu lagi, Den.\""
+
+    "Ia melangkah pergi ke arah koridor kanan."
+
+    hide erin with moveoutright
+    show raden at raden_default:
+        xalign 0.45
+    with moveinright
 
     "\"{i}Ngapain sekarang...?{i}\""
 
@@ -520,8 +568,6 @@ label pembukaan_pensasi:
 
             scene black with dissolve
             pause(0.3)
-
-            scene bg depan_auditorium with dissolve
 
             #notif hp
 
@@ -536,7 +582,7 @@ label pembukaan_pensasi:
 
 label pembukaan_pensasi_afterchoice1:
     #Pasca lt 6 zoom out
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
 
     "Aku berjalan menuju pintu lift untuk menjemput mereka."
