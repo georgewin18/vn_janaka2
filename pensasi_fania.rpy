@@ -5,7 +5,7 @@ define pensasi_fania_choice3_1_choosen = False
 label pensasi_fania:
     #Netral di kampus
 
-    scene bg masjid with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     "Kami berjalan keluar gedung pascasarjana, udara segar langsung menyapa wajah kami setelah beberapa jam berada di dalam keramaian."
@@ -131,7 +131,7 @@ label pensasi_fania_choice_mobil:
         voice "audio/vo/fania/pensasi/pensasi_1_boleh.mp3"
         fania "\"Boleh.\""
 
-        scene bg masjid with dissolve:
+        scene bg depan_perpus_d3_ramai with dissolve:
             zoom 0.5
 
         "Booth mobil itu sudah dipenuhi pengunjung yang antusias. Penjaga booth tampak menjelaskan dengan penuh percaya diri mengenai mobil yang timnya kembangkan."
@@ -197,7 +197,7 @@ label pensasi_fania_choice_gokart:
         fania "\"Kayaknya seru.\""
 
         #depan perpus d3
-        scene bg masjid with dissolve:
+        scene bg depan_perpus_d3_ramai with dissolve:
             zoom 0.5
         
         "Namun, ketika kami tiba di arena, tempat itu sudah penuh dengan antrean panjang orang-orang yang tak sabar menunggu giliran mereka."
@@ -249,7 +249,7 @@ label pensasi_fania_choice_gokart:
 
 label pensasi_fania_afterchoice2:
 
-    scene bg masjid:
+    scene bg depan_perpus_d3:
         zoom 0.5
 
     show raden kasual_biasa at raden_default:
@@ -295,6 +295,10 @@ label pensasi_fania_afterchoice2:
 
             raden "\"Oke.\""
 
+            stop music fadeout 2.0
+
+            play music romantic fadein 1.0
+
             #Special moment start
             scene fania_pensasi at pan_up:
                 zoom 1.5 xalign 0.45
@@ -337,12 +341,16 @@ label pensasi_fania_afterchoice2:
 
             #special moment end
 
+            stop music fadeout 2.0
+
             show black with dissolve
 
             #fania terrawa kecil
 
-            scene bg masjid with dissolve:
+            scene bg depan_pasca_ramai with dissolve:
                 zoom 0.5
+
+            play music campus fadein 1.0
 
             show raden kasual_canggung at raden_default:
                 xalign -0.2
@@ -382,6 +390,9 @@ label pensasi_fania_afterchoice2:
             raden "\"Tentu saja!\""
 
             #special moment start
+            stop music fadeout 2.0
+
+            play music romantic fadein 1.0
 
             scene fania_pensasi at pan_up:
                 zoom 1.5 xalign 0.45
@@ -414,14 +425,18 @@ label pensasi_fania_afterchoice2:
 
             #spesial moment end
 
+            stop music fadeout 2.0
+
             show black with dissolve
 
             jump pensasi_fania_afterchoice3
 
 label pensasi_fania_afterchoice3:
+    if(pensasi_fania_choice3_1_choosen == False):
+        play music campus fadein 1.0
 
     #depan pasca
-    scene bg masjid with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
     show raden kasual_biasa at raden_default:
         xalign -0.2
