@@ -87,7 +87,7 @@ label pensasi_tessa_scene3_choice3_1:
     scene black with dissolve
     with Pause(0.3)
 
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
 
     show aisyah casual_kesal at aisyah_default:

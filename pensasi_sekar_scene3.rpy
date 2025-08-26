@@ -4,8 +4,7 @@ init:
         linear 3.0 xalign 0.7
 
 label pensasi_sekar_scene3:
-    scene bg auditorium with dissolve:
-        zoom 0.5
+    scene bg kelas_d4 with dissolve
 
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -27,7 +26,7 @@ label pensasi_sekar_scene3:
     raden "\"Di depan gedung pasca kudengar ada kendaraan yang bisa coba sih kak, kesana yuk\""
 
     #depan pasca
-    scene bg lapmer with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     show raden kasual_biasa at raden_default:
@@ -123,7 +122,7 @@ label pensasi_sekar_scene3:
 
     "Mendengarnya Kak Sekar langsung memelankan kecepatannya dan melakukan perputaran untuk kembali."
 
-    scene bg lapmer with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     show raden kasual_pusing:

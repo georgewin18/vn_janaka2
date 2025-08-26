@@ -3,10 +3,12 @@ define aisyah_nvl = Character("Aisyah", kind=nvl, callback=Phone_ReceiveSound)
 define from_sekar_route = False
 
 label pensasi_sekar_scene1:
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
     
     "Sembari terdian dalam pikiran, aku tidak sengaja melihat Kak Sekar dari jauh. Daripada aku bingung mau ngapain, aku langsung pergi ke Kak Sekar."
+
+    stop music fadeout 2.0
 
     "Ketika sudah dekat, terdengar suara ricuh."
 

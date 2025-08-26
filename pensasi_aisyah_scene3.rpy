@@ -89,7 +89,7 @@ label pensasi_aisyah_scene3:
 
             raden "\"Huh? Aku ketiduran..?\""
 
-            aisyah "\"Tidur mulu..\""
+            aisyah "\"Tidur mulu..\"" with vpunch
 
             show raden kasual_canggung
 

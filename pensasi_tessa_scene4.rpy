@@ -12,7 +12,7 @@ init:
         linear 2.5 xalign 0.5
 
 label pensasi_tessa_scene4:
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
     
     show raden kasual_biasa at raden_default:
@@ -150,7 +150,7 @@ label pensasi_tessa_scene4:
     scene black with dissolve
     with Pause(0.3)
 
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
 
     show raden kasual_hehe at raden_default:

@@ -9,7 +9,7 @@ init:
 
 label pensasi_aisyah_scene4:
     #depan pasca
-    scene bg lapmer with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     "Waktu sudah menunjukkan sekitar pukul satu siang ketika kami melangkah keluar dari masjid. Udara siang yang panas langsung menyambut, membuat bayangan kami tampak jelas di jalanan kampus."
