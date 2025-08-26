@@ -3,7 +3,7 @@ label prolog_day3_scene1:
 # Latar : Lapmer
 # Suasana : Netral di Kampus
 
-    scene bg lapmer with dissolve:
+    scene bg lapmer_ramai with dissolve:
         zoom 0.5
 
     play music raden_bgm fadein 1.0

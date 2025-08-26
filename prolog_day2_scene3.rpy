@@ -1,6 +1,6 @@
 label prolog_day2_scene3:
     #bg gamg
-    scene bg lap_futsal:
+    scene bg jalan_gang:
         zoom 0.5
     #Suasana Netral in Home
     #Raden, Santo, Aisyah hilang

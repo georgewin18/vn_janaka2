@@ -9,7 +9,6 @@ define sekar = Character("Sekar")
 define aisyah = Character("Aisyah")
 define tessa = Character("Tessa")
 define fania = Character("Fania")
-define erin = Character("Erin")
 define lo = Character("LO")
 define lo1 = Character("LO 1")
 define lo2 = Character("LO 2")
@@ -24,6 +23,7 @@ define dosen = Character("Dosen")
 define bima = Character("Bima")
 define abdi = Character("Abdi")
 define dio = Character("Dio")
+define erin = Character("Erin")
 
 transform raden_default:
     zoom 0.54
@@ -48,6 +48,10 @@ transform tessa_default:
 transform santo_default:
     zoom 0.37
 
+transform erin_default:
+    zoom 0.35 
+    yalign 0.6
+
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 
 define audio.raden_bgm = "audio/bgm/raden.flac"
@@ -62,6 +66,10 @@ define audio.comedic = "audio/bgm/comedic.flac"
 define audio.intense = "audio/bgm/intense.flac"
 define audio.romantic = "audio/bgm/romantic.flac"
 define audio.romantic2 = "audio/bgm/romantic2.flac"
+
+screen block_mouse:
+    key "mouseup_3" action Hide("none")
+    key "mouseup_1" action Hide("none")
 
 # The game starts here.
 
@@ -82,6 +90,8 @@ label start:
     ## this section only for testing
     
     menu:
+        "arc chara":
+            jump arc_character_day1_scene1
         "prolog day 1":
             jump prolog_day1_scene1
         "prolog day 2":

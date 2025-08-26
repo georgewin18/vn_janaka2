@@ -141,18 +141,15 @@ label prolog_day3_scene2:
     
     scene bg auditorium:
         zoom 0.5
-    
-    show raden kemeja_gugup at flip:
-        zoom 0.54 xalign 0.55 yalign 0.05
-    
-    show aisyah kemeja_serius:
-        zoom 0.4 xalign 1.35 yalign 0.1
-
-    show sekar jas_teriak at flip:
-        zoom 1.25 xalign -0.25 yalign 0.05
     with dissolve
 
     "Mendengar suara Aisyah, aku sontak terbangun dari tidurku. Aku melihat Aisyah yang menatapku dengan muka panik, dan LO region ku Kak Sekar yang memperhatikanku dengan muka yang terlihat agak kesal."
+
+    show raden kemeja_gugup at raden_default:
+        xalign -0.2
+    show sekar jas_teriak at sekar_default:
+        xalign 1.0
+    with dissolve
 
     voice "audio/vo/sekar/prolog3/prolog3_2_tidurnya_enak.flac"
     sekar "\"Tidurnya enak?\""

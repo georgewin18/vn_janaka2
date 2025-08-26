@@ -26,12 +26,12 @@ label prolog_day3_scene5:
     
     hide raden with dissolve
 
-    raden_nvl "\"Santo, gimana penugasan kelompok hari ini? Apakah lancar?\""
-    santo_nvl "\"Aman, den. Setelah ku bilangin ke LO ku, langsung tugas hari ini dikerjakan tanpa kendala.\""
-    raden_nvl "\"Baguslah kalau begitu, semoga tetep lancar.\""
-    santo_nvl "\"Iya den, dan juga terimakasih sudah membantu kemarin ya.\""
-    raden_nvl "\"Aman aja itu mah, sebagai gantinya, lain kali traktir aku makan saja.\""
-    santo_nvl "\"Ok den 👍🏻\""
+    raden_nvl "Santo, gimana penugasan kelompok hari ini? Apakah lancar?"
+    santo_nvl "Aman, den. Setelah ku bilangin ke LO ku, langsung tugas hari ini dikerjakan tanpa kendala."
+    raden_nvl "Baguslah kalau begitu, semoga tetep lancar."
+    santo_nvl "Iya den, dan juga terimakasih sudah membantu kemarin ya."
+    raden_nvl "Aman aja itu mah, sebagai gantinya, lain kali traktir aku makan saja."
+    santo_nvl "Ok den 👍🏻"
 
     nvl clear
     
@@ -40,6 +40,9 @@ label prolog_day3_scene5:
 
     "Sekarang waktunya istirahat dan menunggu apa yang akan terjadi esok."
     
+    scene black with dissolve
+    with Pause(0.3)
+
     stop music fadeout 2.0
 
     #prolog_day4_scene1

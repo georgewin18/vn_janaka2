@@ -1,6 +1,6 @@
 label prolog_day2_scene5:
     #bg gang
-    scene bg lap_futsal:
+    scene bg jalan_gang:
         zoom 0.5
 
     play music santo_bgm fadein 1.0
@@ -60,7 +60,10 @@ label prolog_day2_scene5:
 
     show raden kemeja_biasa
 
-    "Aku hanya mengangguk pelan, tubuh terasa lelah setelah seharian penuh aktivitas. Aku melangkah pulang, membiarkan keheningan menyelimuti pikiranku."
+    scene black with dissolve
+    with Pause(0.3)
+
+    centered "Aku hanya mengangguk pelan, tubuh terasa lelah setelah seharian penuh aktivitas. Aku melangkah pulang, membiarkan keheningan menyelimuti pikiranku."
 
     stop music fadeout 2.0
 

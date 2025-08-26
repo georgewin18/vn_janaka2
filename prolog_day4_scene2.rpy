@@ -4,13 +4,14 @@ init:
 
 label prolog_day4_scene2:
     #bg jalan kantin-d4
-    scene bg depan_auditorium with dissolve:
+    scene bg jalan_d4_kantin with dissolve:
         zoom 0.5
 
     play music raden_bgm fadein 1.0
 
-    show raden kemeja_biasa with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+    show raden kemeja_biasa at raden_default:
+        xalign 0.45
+    with dissolve
 
     "Setelah prosesi pengukuhan selesai, panitia memberi instruksi agar semua sekelompok berbaris dua banjar. Aku segera mencari posisi bersama kelompokku."
 
@@ -26,27 +27,29 @@ label prolog_day4_scene2:
 
     "{i}Bruk!{/i}" with vpunch
 
-    show aisyah kemeja_terkejut with dissolve:
-        zoom 0.4 xalign 1.0 yalign 0.1
+    show aisyah kemeja_terkejut at aisyah_default:
+        xalign 1.0
+    with dissolve
 
     play music intense fadein 1.0
 
     voice "audio/vo/aisyah/prolog4/prolog4_1_den_kamu_gapapa.flac"
     aisyah "\"Den! kamu gapapa?!\""
 
-    show raden kemeja_gugup with moveinbottom:
-        zoom 0.54 xalign -0.2 yalign 0.05
+    show raden kemeja_gugup at raden_default:
+        xalign -0.2
+    with moveinbottom
 
     show aisyah kemeja_serius
     voice "audio/vo/aisyah/prolog4/prolog4_2_aduh_gimana_sih.flac"
     aisyah "\"Aduh, gimana sih jalannya?\""
 
-    show raden:
+    show raden at raden_default:
         xalign -0.45
-    show aisyah:
+    show aisyah at aisyah_default:
         xalign 0.5
-    show sekar jas_khawatir:
-        zoom 1.25 xalign 1.15 yalign 0.05
+    show sekar jas_khawatir at sekar_default:
+        xalign 1.15
     with moveinright
 
     voice "audio/vo/sekar/prolog4/prolog4_1_raden_kamu.flac"
@@ -73,9 +76,9 @@ label prolog_day4_scene2:
     sekar "\"Tenang, ku pastikan dia baik-baik saja\""
 
     hide aisyah with dissolve
-    show raden:
+    show raden at raden_default:
         xalign -0.2
-    show sekar:
+    show sekar at sekar_default:
         xalign 1.0
     with moveinright
 
@@ -124,13 +127,13 @@ label prolog_day4_scene2_choice1:
 
     "Setelah beberapa saat, kak Sekar akhirnya berhasil membersihkan luka menggunakan kapas antiseptik dan menempelkan perban di atasnya. Dia menghela napas panjang, terlihat sangat lega."
 
-    scene bg depan_auditorium with dissolve:
+    scene bg jalan_d4_kantin with dissolve:
         zoom 0.5
 
-    show raden kemeja_biasa:
-        zoom 0.54 xalign -0.2 yalign 0.05
-    show sekar jas_gugup:
-        zoom 1.25 xalign 1.0 yalign 0.05
+    show raden kemeja_biasa at raden_default:
+        xalign -0.2
+    show sekar jas_gugup at sekar_default:
+        xalign 1.0
     with dissolve
 
     voice "audio/vo/sekar/prolog4/prolog4_7_maaf_ya_lama.flac"
@@ -160,13 +163,13 @@ label prolog_day4_scene2_choice2:
 
     raden "\"Lihat... Gampang, kan?\""
 
-    scene bg depan_auditorium with dissolve:
+    scene bg jalan_d4_kantin with dissolve:
         zoom 0.5
 
-    show raden kemeja_biasa:
-        zoom 0.54 xalign -0.2 yalign 0.05
-    show sekar jas_gugup:
-        zoom 1.25 xalign 1.0 yalign 0.05
+    show raden kemeja_biasa at raden_default:
+        xalign -0.2
+    show sekar jas_gugup at sekar_default:
+        xalign 1.0
     with dissolve
 
     voice "audio/vo/sekar/prolog4/prolog4_10_iya_maaf_ya.flac"

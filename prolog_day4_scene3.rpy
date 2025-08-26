@@ -2,14 +2,14 @@
 
 label prolog_day4_scene3:
     #bg jalan kantin-d4
-    scene bg depan_auditorium with dissolve:
+    scene bg jalan_d4_kantin with dissolve:
         zoom 0.5
     
     #show raden & sekar
-    show raden kemeja_biasa:
-        zoom 0.54 xalign -0.2 yalign 0.05
-    show sekar jas_biasa:
-        zoom 1.25 xalign 1.0 yalign 0.05
+    show raden kemeja_biasa at raden_default:
+        xalign -0.2
+    show sekar jas_biasa at sekar_default:
+        xalign 1.0
     with dissolve
 
     raden "\"Kak, aku bisa lanjut sendiri ke expo,\""
