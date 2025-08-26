@@ -1,5 +1,5 @@
 label pensasi_tessa_scene1:
-    scene bg depan_auditorium with dissolve:
+    scene bg lt_6_pasca_ramai with dissolve:
         zoom 0.5
 
     play music campus fadein 1.0
