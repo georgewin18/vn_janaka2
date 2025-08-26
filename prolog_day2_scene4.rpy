@@ -5,7 +5,7 @@ init:
 
 label prolog_day2_scene4:
     #bg gang
-    scene bg lap_futsal with dissolve:
+    scene bg jalan_gang with dissolve:
         zoom 0.5
 
     show raden kemeja_biasa with dissolve:
@@ -86,9 +86,11 @@ label prolog2_scene4_after_choice1:
 
     "Fania membalikkan badan perlahan, memperlihatkan punggungnya. Dia menoleh sebentar ke belakang, terlihat ragu, tapi akhirnya bibirnya bergerak."
 
-    fania "*********"#bipp suara sensor
+    fania "\"*********\""#bipp suara sensor
 
     "Suaranya sangat pelan, nyaris seperti gumaman yang hanya bisa didengar angin. Aku mencoba memahami apa yang dia katakan, tapi terlalu samar untuk dimengerti."
+
+    scene blank with dissolve
 
     "Tanpa banyak basa-basi, dia langsung berjalan cepat menjauh. Aku masih terdiam di tempat, tubuhku seakan terkunci oleh kebingungan dan rasa penasaran."
 
