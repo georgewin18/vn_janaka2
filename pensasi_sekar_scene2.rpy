@@ -1,7 +1,6 @@
 label pensasi_sekar_scene2:
     #kelas D4
-    scene bg auditorium with dissolve:
-        zoom 0.5
+    scene bg kelas_d4 with dissolve
 
     show raden jas_biasa at raden_default:
         xalign -0.2
@@ -125,8 +124,7 @@ label pensasi_sekar_scene2:
     fania "\"Iya sih, nggak expect, tiba-tiba saja jadi MC tu anak\""
 
     #kelas D4
-    scene bg auditorium with dissolve:
-        zoom 0.5
+    scene bg kelas_d4 with dissolve
 
     show raden jas_biasa at raden_default:
         xalign -0.2
@@ -243,7 +241,7 @@ label pensasi_sekar_scene2_choice2_1:
     
     "Setelah berpamitan dengan Kak Sekar, aku langsung pergi menuju Auditorium untuk menonton pitch bersama dengan Aisyah dan Fania."
 
-    scene bg depan_auditorium with dissolve:
+    scene bg depan_pasca_ramai with dissolve:
         zoom 0.5
 
     "Di tengah jalan, terlihat Fania yang sedang keluar dari Auditorium."
@@ -292,10 +290,12 @@ label pensasi_sekar_scene2_choice2_1:
 
     menu:
         "Daripada dengerin Pitching booth mending ikut Fania aja":
-            "jump fania route"
-            #jump
+            jump pensasi_fania
         "Maaf nih, tapi aku mau masuk ke audit bersama Aisyah":
             $ from_sekar_route = True
+            scene black with dissolve
+            with Pause(0.3)
+
             jump pensasi_aisyah_scene2
 
     return
