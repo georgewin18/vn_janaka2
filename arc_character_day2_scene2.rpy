@@ -100,28 +100,56 @@ label arc_character_day2_scene2:
 
     raden "{i}Sebaiknya kutanyakan langsung kepada mereka. Mungkin mereka butuh bantuan tambahan.{/i}"
 
+    "Aku menepuk pundak Santo dengan kuat sampai dia kaget."
+
+    santo "Apaan dah?!"
+
+    "Santo membalas dengan jengkel."
+
+    raden "Kau gak penasaran Fania sama Aisyah lagi ngapain?"
+
+    santo "Gak juga."
+
+    raden "Udahlah, ketimbang tidur di sini terus dimarahin, mendingan ikut."
+
+    "Aku menarik Santo bersamaku."
+
+    "Sekarang, haruskah aku tanya Fania atau Aisyah?"
+
     menu:
         "Kenapa Aisyah ada disana?":
-            hide santo kasual_netral with dissolve
             raden "Kalian lagi ngapain sih?"
-            
+            show raden kasual_biasa at raden_default:
+                xalign -0.8
+            show santo kasual_netral at santo_default:
+                xalign 0.8
+            with moveinleft
             show fania casual_kesal at fania_default:
-                xalign 1.4
+                xalign 2.0
+            show aisyah casual_gugup at aisyah_default:
+                xalign 0.15
             with dissolve
 
             "Tapi melihat ekspresi Fania yang berubah mengkerut kesal, sepertinya itu adalah sebuah kesalahan untuk menghampiri mereka."
 
             jump arc_character_day2_scene3
         "Tuju Meja Fania":
-            hide santo kasual_netral with dissolve
             raden "Lagi ngapain fan?"
-
+            show raden kasual_biasa at raden_default:
+                xalign -0.8
+            show santo kasual_netral at santo_default:
+                xalign 0.8
+            with moveinleft
             show fania casual_kesal at fania_default:
-                xalign 1.4
+                xalign 2.0
+            show aisyah casual_gugup at aisyah_default:
+                xalign 0.15
             with dissolve
 
             "Tapi melihat ekspresi Fania yang berubah mengkerut kesal, sepertinya itu adalah sebuah kesalahan untuk menghampiri mereka."
             jump arc_character_day2_scene3
+
+        
 
 
 
