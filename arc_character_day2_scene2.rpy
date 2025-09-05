@@ -23,38 +23,38 @@ label arc_character_day2_scene2:
 
     show raden kasual_menghela_napas
 
-    raden "Oke… garis bawah terakhir… titik. Selesai."
+    raden "\"Oke… garis bawah terakhir… titik. Selesai.\""
 
     #Santo menghela nafas
     show santo kasual_netral
 
-    santo "Alhamdulillah. Tangan gue serasa kaku."
+    santo "\"Alhamdulillah. Tangan gue serasa kaku.\""
 
     #santo netral
 
     "Erin tersenyum lembut, sambil mengangkat map kertas"
 
-    erin "Ini salinan lengkapnya. Satu rangkap buat dikumpulin. Satu lagi cadangan."
+    erin "\"Ini salinan lengkapnya. Satu rangkap buat dikumpulin. Satu lagi cadangan.\""
 
     show raden kasual_biasa
 
-    raden "Rapi banget, Rin. Ini mah bukan laporan, ini karya seni."
+    raden "\"Rapi banget, Rin. Ini mah bukan laporan, ini karya seni.\""
 
-    erin "Jangan dilipet-lipet di tas kamu, ya."
+    erin "\"Jangan dilipet-lipet di tas kamu, ya.\""
 
     "Mereka semua tertawa kecil. Rasa lega terpancar di wajah mereka—bukan karena tugas itu mudah, tapi karena mereka menyelesaikannya bareng."
 
     "Erin mulai membereskan alat tulis ke dalam pouch dan berdiri pelan"
 
-    erin "Aku pamit duluan ya. Harus pulang lebih awal."
+    erin "\"Aku pamit duluan ya. Harus pulang lebih awal.\""
 
     #raden netral
-    raden "Oke, makasih ya udah bantuin. Serius, kalau nggak ada kamu, mungkin laprak ini cuma gambar dispenser doang."
+    raden "\"Oke, makasih ya udah bantuin. Serius, kalau nggak ada kamu, mungkin laprak ini cuma gambar dispenser doang.\""
 
     #santo netral
-    santo "Hati-hati di jalan, Rin."
+    santo "\"Hati-hati di jalan, Rin.\""
 
-    erin "Jangan lupa kumpulin tepat waktu ya. Bye!"
+    erin "\"Jangan lupa kumpulin tepat waktu ya. Bye!\""
 
     hide erin kasual_netral with dissolve
 
@@ -76,41 +76,41 @@ label arc_character_day2_scene2:
 
     "Aisyah sibuk menatap layar laptop, sesekali menulis di buku kecil. Fania terlihat sedang menandai sesuatu di kertas, dengan postur duduk yang santai tapi teratur."
 
-    raden "Eh… itu Aisyah sama Fania?"
+    raden "\"Eh… itu Aisyah sama Fania?\""
 
-    santo "Iya. Mereka juga nugas, kali."
+    santo "\"Iya. Mereka juga nugas, kali.\""
 
-    raden "Kayaknya mereka beda kelompok ya?"
+    raden "\"Kayaknya mereka beda kelompok ya?\""
 
-    santo "Ya iyalah. Fania kan dari MMB, Aisyah IT."
+    santo "\"Ya iyalah. Fania kan dari MMB, Aisyah IT.\""
 
-    santo "Uda deh aku capek."
+    santo "\"Uda deh aku capek.\""
 
     #Raden menghadap Santo <- ini aku bingung
 
-    santo "Zzzzz"
+    santo "\"Zzzzz\""
 
-    raden " Malah tidur. Nggak ketolong emang ni anak"
+    raden "\" Malah tidur. Nggak ketolong emang ni anak\""
 
     "Melihat Santo yang tertidur pulas, aku kembali melihat ke arah Fania dan Aisyah. Mereka terlihat sangat fokus mengerjakan sesuatu."
 
     "Aku jadi berpikir"
 
-    raden "{i}Pekerjaan apa yang mereka kerjakan, sampai terlihat pusing begitu.{/i}"
+    raden "\"{i}Pekerjaan apa yang mereka kerjakan, sampai terlihat pusing begitu.{/i}\""
 
-    raden "{i}Sebaiknya kutanyakan langsung kepada mereka. Mungkin mereka butuh bantuan tambahan.{/i}"
+    raden "\"{i}Sebaiknya kutanyakan langsung kepada mereka. Mungkin mereka butuh bantuan tambahan.{/i}\""
 
     "Aku menepuk pundak Santo dengan kuat sampai dia kaget."
 
-    santo "Apaan dah?!"
+    santo "\"Apaan dah?!\""
 
     "Santo membalas dengan jengkel."
 
-    raden "Kau gak penasaran Fania sama Aisyah lagi ngapain?"
+    raden "\"Kau gak penasaran Fania sama Aisyah lagi ngapain?\""
 
-    santo "Gak juga."
+    santo "\"Gak juga.\""
 
-    raden "Udahlah, ketimbang tidur di sini terus dimarahin, mendingan ikut."
+    raden "\"Udahlah, ketimbang tidur di sini terus dimarahin, mendingan ikut.\""
 
     "Aku menarik Santo bersamaku."
 
@@ -118,13 +118,13 @@ label arc_character_day2_scene2:
 
     menu:
         "Kenapa Aisyah ada disana?":
-            raden "Kalian lagi ngapain sih?"
+            raden "\"Kalian lagi ngapain sih?\""
             show raden kasual_biasa at raden_default:
                 xalign -0.8
             show santo kasual_netral at santo_default:
                 xalign 0.8
             with moveinleft
-            show fania casual_kesal at fania_default:
+            show fania casual_dingin at fania_default:
                 xalign 2.0
             show aisyah casual_gugup at aisyah_default:
                 xalign 0.15
@@ -134,13 +134,13 @@ label arc_character_day2_scene2:
 
             jump arc_character_day2_scene3
         "Tuju Meja Fania":
-            raden "Lagi ngapain fan?"
+            raden "\"Lagi ngapain fan?\""
             show raden kasual_biasa at raden_default:
                 xalign -0.8
             show santo kasual_netral at santo_default:
                 xalign 0.8
             with moveinleft
-            show fania casual_kesal at fania_default:
+            show fania casual_dingin at fania_default:
                 xalign 2.0
             show aisyah casual_gugup at aisyah_default:
                 xalign 0.15
@@ -148,10 +148,3 @@ label arc_character_day2_scene2:
 
             "Tapi melihat ekspresi Fania yang berubah mengkerut kesal, sepertinya itu adalah sebuah kesalahan untuk menghampiri mereka."
             jump arc_character_day2_scene3
-
-        
-
-
-
-
-    
