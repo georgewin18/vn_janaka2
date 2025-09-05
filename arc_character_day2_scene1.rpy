@@ -46,6 +46,14 @@ label arc_character_day2_scene1:
     scene bg kamar_raden with dissolve:
         zoom 0.5
 
+    show black with dissolve
+    $ renpy.pause(0.1, hard=True)
+    hide black with dissolve
+    $ renpy.pause(0.1, hard=True)
+    show black with dissolve
+    $ renpy.pause(0.1, hard=True)
+    hide black with dissolve
+
     show raden kasual_capek at raden_default:
         xalign 0.5
     with dissolve
