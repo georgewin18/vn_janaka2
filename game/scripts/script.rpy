@@ -83,6 +83,8 @@ label splashscreen:
 
 label start:
     $ quick_menu_bottom = True
+    stop music
+
     if debug_mode:
         jump debug_menu
     jump prolog_day1_scene1
