@@ -1,0 +1,20 @@
+# --- Ren'Py Compiled / Generated Files ---
+*.rpyc
+*.rpymc
+
+# --- Logs and Debugging Out ---
+errors.txt
+log.txt
+traceback.txt
+
+# --- Game State and Cache ---
+game/saves/
+game/cache/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Development Environments (Optional but recommended) ---
+.vscode/
+.idea/
