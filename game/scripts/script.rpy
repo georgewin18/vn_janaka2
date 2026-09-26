@@ -22,30 +22,30 @@ define dio = Character("Dio")
 define erin = Character("Erin")
 
 transform raden_default:
-    zoom 0.54
+    zoom 2.0
     yalign 0.05
 
 transform aisyah_default:
-    zoom 0.4
+    zoom 2.0
     yalign 0.1
 
 transform fania_default:
-    zoom 1.35
+    zoom 2.35
     yalign 0.03
 
 transform sekar_default:
-    zoom 1.25
+    zoom 2.25
     yalign 0.05
 
 transform tessa_default:
-    zoom 0.35
+    zoom 2.35
     yalign -0.1
 
 transform santo_default:
-    zoom 0.37
+    zoom 2.37
 
 transform erin_default:
-    zoom 0.35
+    zoom 2.35
     yalign 0.6
 
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
@@ -67,7 +67,7 @@ screen block_mouse:
     key "mouseup_3" action Hide("none")
     key "mouseup_1" action Hide("none")
 
-default debug_mode = True
+default debug_mode = False
 
 label splashscreen:
     scene blank with Pause(1):
