@@ -33,7 +33,7 @@ label prolog_day2_scene3:
     show santo kemeja_netral
     show aisyah kemeja_kesal
 
-    voice "audio/vo/aisyah/prolog2/prolog2_5_itu_keterlaluan.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_5_itu_keterlaluan.ogg"
     aisyah "\"Itu keterlaluan, gak mungkin kalian yang cuma dua orang bisa menyelesaikan tugas yang dikasih!\"" #Aisyah berseru.
 
     show santo kemeja_bicara
@@ -42,7 +42,7 @@ label prolog_day2_scene3:
 
     show santo kemeja_netral
 
-    voice "audio/vo/aisyah/prolog2/prolog2_6_gak_bertanggung_jawab.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_6_gak_bertanggung_jawab.ogg"
     aisyah "\"Benar-benar gak bertanggung jawab!\""#balas Aisyah. Aku bisa melihat api imajiner membara dibelakang tubuhnya. Itu mengerikan. Aku cukup yakin jika dia bertemu dengan anggota lain dari Region Santo, dia akan menghajar mereka saat ini juga.
 
     #Fania muncul dingin
@@ -56,7 +56,7 @@ label prolog_day2_scene3:
         zoom 1.35 xalign 1.9 yalign 0.03
     with moveinright
 
-    voice "audio/vo/fania/prolog2/prolog2_1_yang_lain.flac"
+    voice "audio/vo/fania/prolog2/prolog2_1_yang_lain.ogg"
     fania "\"Yang lain gk datang ya?, terus dua orang itu?\""#Fania melihat kami, lalu bertanya kepada Santo  
 
     $ renpy.show("santo kemeja_bicara", zorder=4)
@@ -67,12 +67,12 @@ label prolog_day2_scene3:
     $ renpy.show("aisyah kemeja_senyum2", zorder=4)
     show raden kemeja_tersenyum
     
-    voice "audio/vo/aisyah/prolog2/prolog2_7_kami_datang.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_7_kami_datang.ogg"
     rna "\"Kami datang untuk membantu!\""#Ujarku dan Aisyah serentak.
 
     "Fania melihat Aisyah sebentar lalu melihat ku selama beberapa saat, sepertinya dia ingat pernah bertemu dengan ku kemarin, tapi memutuskan untuk tidak membahasnya."
 
-    voice "audio/vo/fania/prolog2/prolog2_2_lalu_kelompok_kalian.flac"
+    voice "audio/vo/fania/prolog2/prolog2_2_lalu_kelompok_kalian.ogg"
     $ renpy.show("fania kemeja_dingin", zorder=5)
     fania "\"Lalu kelompok kalian sendiri?\""#Tanya Fania.
 
@@ -80,7 +80,7 @@ label prolog_day2_scene3:
     
     show raden kemeja_biasa
 
-    voice "audio/vo/fania/prolog2/prolog2_3_kalian_nggak_perlu.flac"
+    voice "audio/vo/fania/prolog2/prolog2_3_kalian_nggak_perlu.ogg"
     fania "\"Kalian gak perlu—\""
     
     $ renpy.show("santo kemeja_bicara", zorder=6)
@@ -103,11 +103,11 @@ label prolog_day2_scene3:
     santo "\"Terimakasih ya Raden, Aisyah\""#Ujar Santo.
 
     $ renpy.show("fania kemeja_dingin", zorder=7)
-    voice "audio/vo/fania/prolog2/prolog2_4_kalian_bisa_diandalkan.flac"    
+    voice "audio/vo/fania/prolog2/prolog2_4_kalian_bisa_diandalkan.ogg"    
     fania "\"Kalian bisa diandalkan\""#tambah Fania singkat
 
     $ renpy.show("aisyah kemeja_senyum3", zorder=8)
-    voice "audio/vo/aisyah/prolog2/prolog2_8_senang_bisa_membantu.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_8_senang_bisa_membantu.ogg"
     aisyah "\"Senang bisa membantu!\""#Aisyah tersenyum puas 
 
     "Setelah itu masing-masing dari kami berkemas lalu berjalan pulang ke arah yang berbeda."

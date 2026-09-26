@@ -7,7 +7,7 @@ label chapter4_sekar_scene3:
 
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_oh_iya.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_oh_iya.ogg"
     sekar "\"Oh iya, kalian ada waktu nggak?\""
 
     show sekar kemeja_biasa
@@ -18,12 +18,12 @@ label chapter4_sekar_scene3:
     show raden kasual_biasa
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_ini.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_ini.ogg"
     sekar "\"Ini aku butuh bantuan untuk mengangkat-angkat barang, karena pihak kepanitiaan kekurangan anggota. Cuacanya lagi sering hujan, jadi banyak yang sakit dan tidak hadir\""
 
     pause 1
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_3_ada_konsumsi.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_3_ada_konsumsi.ogg"
     sekar "\"Ada konsumsinya juga kok\""
 
     menu:
@@ -50,7 +50,7 @@ label chapter4_sekar_scene2_choice3_1:
     show santo kemeja_biasa
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_1_baiklah.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_1_baiklah.ogg"
     sekar "\"Baiklah kalau begitu, oh iya, kalau kalian mau mengunjungi acaranya, kalian bisa langsung datang saja kok\""
 
     show sekar kemeja_biasa
@@ -62,7 +62,7 @@ label chapter4_sekar_scene2_choice3_1:
     show raden kasual_biasa
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_2_kalau_begitu.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_2_kalau_begitu.ogg"
     sekar "\"Kalau begitu ayo langsung ke lapmer den\""
 
     show raden kasual_tersenyum
@@ -84,17 +84,17 @@ label chapter4_sekar_scene2_choice3_1:
         zoom 1.15 xalign 1.0 yalign 0.05
     with dissolve
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_3_guys.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_3_guys.ogg"
     sekar "Guys, aku kembali dengan membawa sukarelawan nih"
 
     anon "\"Wih, dapet darimana kar?\""
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_4_ga_sengaja.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_4_ga_sengaja.ogg"
     sekar "\"Nggak sengaja ketemu adik kelas di kantin. Ku ajak, untungnya mau dia. Jadi ini kutitipin ke kamu ya\""
 
     anon "\"Oke kar\""
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_5_sana_den.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_5_sana_den.ogg"
     sekar "\"Sana den ikut kating itu\""
 
     raden "\"Siap kak\""
@@ -175,7 +175,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_6_gimana_den.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_6_gimana_den.ogg"
     sekar "\"Gimana den? Masih kuat kan?\""
 
     show sekar kemeja_biasa
@@ -185,7 +185,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     show sekar kemeja_ceria
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_7_haha_bisa_aja.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_7_haha_bisa_aja.ogg"
     sekar "\"Haha, bisa aja den\""
 
     show sekar kemeja_tegas
@@ -195,7 +195,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_8_btw.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_8_btw.ogg"
     sekar "\"Btw makasih ya den, dengan bantuannya. Acaranya berjalan lancar karenamu nih\""
 
     show sekar kemeja_biasa
@@ -208,7 +208,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     show sekar kemeja_tegas
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_9_den.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_9_den.ogg"
     sekar "\"Den...\""
 
     show raden kasual_tersenyum    
@@ -219,7 +219,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     play music dramatic fadein 1.0
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_10_kenapa.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_10_kenapa.ogg"
     sekar "\"Kenapa kamu kuliah? Apalagi di PENS, ada alasan khusus?\""
 
     show raden kasual_tersenyum
@@ -230,7 +230,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     show raden kasual_biasa
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_11_terus.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_11_terus.ogg"
     sekar "\"Terus, kenapa menurutmu penting den?\""
 
     show raden kasual_tersenyum
@@ -273,7 +273,7 @@ label chapter4_sekar_scene2_choice3_1:
 
     "Dia menundukkan kepala sedikit, seolah mencari jawaban di antara sela-sela dedaunan yang berguguran."
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_12_aku_ya.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_12_aku_ya.ogg"
     sekar "\"Aku ya, hmmm...\""
 
     "Kak Sekar terdiam sejenak, wajahnya sedikit muram seolah memikirkan apa yang harus dijawab, sementara aku menatapnya, berusaha membaca pikirannya yang tampak begitu berat."
@@ -285,7 +285,7 @@ label chapter4_sekar_scene2_choice3_1:
     show raden kasual_biasa
     show sekar kemeja_hembus_nafas_kantung_mata
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_1_13_eh_maaf.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_1_13_eh_maaf.ogg"
     sekar "\"Eh, maaf den. Padahal aku duluan yang memulai percakapan, malah aku juga yang menghentikan percakapan\""
 
     show raden kasual_tersenyum
@@ -318,10 +318,10 @@ label chapter4_sekar_scene2_choice3_2:
     show santo kemeja_biasa
     show raden kasual_biasa
     
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_baiklah.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_baiklah.ogg"
     sekar "\"Baiklah kalau begitu\""
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_2_oh_iya.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_2_oh_iya.ogg"
     sekar "\"Oh iya, jika kalian mau mengunjungi acaranya, kalian bisa langsung datang aja kok\""
 
     show raden kasual_tersenyum
@@ -458,10 +458,10 @@ label chapter4_sekar_scene2_choice3_3:
     show santo kemeja_biasa
     show raden biasa
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_baiklah.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_baiklah.ogg"
     sekar "\"Baiklah kalau begitu\""
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_2_oh_iya.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_2_oh_iya.ogg"
     sekar "\"Oh iya, jika kalian mau mengunjungi acaranya, kalian bisa langsung datang aja kok\""
 
     show raden ngomong
@@ -519,7 +519,7 @@ label chapter4_sekar_scene2_choice3_2_1:
 
     play music sekar_bgm fadein 1.0
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_1_oh_raden.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_1_oh_raden.ogg"
     sekar "\"Oh, Raden. Kamu datang juga ya?\""
 
     show sekar kemeja_biasa
@@ -529,7 +529,7 @@ label chapter4_sekar_scene2_choice3_2_1:
 
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_2_bisa_dibilang.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_2_bisa_dibilang.ogg"
     sekar "\"Bisa dibilang begitu, gimana tugasmu? Beres?\""
     
     show sekar kemeja_biasa
@@ -540,7 +540,7 @@ label chapter4_sekar_scene2_choice3_2_1:
     show sekar kemeja_bicara
     show raden kasual_biasa
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_3_baguslah.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_3_baguslah.ogg"
     sekar "\"Baguslah kalau selesai. Tapi lain kali, coba atur waktumu lebih baik, ya\""
     
     show sekar kemeja_biasa
@@ -551,7 +551,7 @@ label chapter4_sekar_scene2_choice3_2_1:
     show sekar kemeja_bicara
     show raden kasual_biasa
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_4_gapapa.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_4_gapapa.ogg"
     sekar "\"Gak apa-apa. Setiap orang punya prioritas kok\""
 
     menu:
@@ -576,7 +576,7 @@ label chapter4_sekar_scene2_choice3_2_1_1:
     show sekar kemeja_ceria
     show raden kasual_biasa
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_5_gausah.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_5_gausah.ogg"
     sekar "\"Nggak usah den, udah mau selesai kok\""
 
     show sekar kemeja_biasa
@@ -595,7 +595,7 @@ label chapter4_sekar_scene2_choice3_2_1_1:
     show sekar kemeja_bicara
     show raden kasual_biasa
 
-    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_6_makasih.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_3_2_1_6_makasih.ogg"
     sekar "\"Makasih ya den, udah nyempetin bantu\""
 
     show sekar kemeja_biasa

@@ -31,7 +31,7 @@ label prolog_day3_scene2:
     show raden kemeja_biasa2
     show aisyah kemeja_terkejut
 
-    voice "audio/vo/aisyah/prolog3/prolog3_1_eh_raden.flac"
+    voice "audio/vo/aisyah/prolog3/prolog3_1_eh_raden.ogg"
     aisyah "\"Eh, Raden? Terlambat kamu?\""
     
     show raden kemeja_gugup
@@ -41,7 +41,7 @@ label prolog_day3_scene2:
     show raden kemeja_biasa2
     show aisyah kemeja_senyum2
 
-    voice "audio/vo/aisyah/prolog3/prolog3_2_nggak_hanya_terlambat.flac"
+    voice "audio/vo/aisyah/prolog3/prolog3_2_nggak_hanya_terlambat.ogg"
     aisyah "\"Gak hanya terlambat, ada barang yang ketinggalan juga ya?\""
    
     show raden kemeja_bingung
@@ -50,7 +50,7 @@ label prolog_day3_scene2:
     
     show aisyah kemeja_senyum1
 
-    voice "audio/vo/aisyah/prolog3/prolog3_3_keliatan_banget.flac"
+    voice "audio/vo/aisyah/prolog3/prolog3_3_keliatan_banget.ogg"
     aisyah "\"Kelihatan banget itu, kamu pakai pita hitam.\""
     
     show raden kemeja_gugup
@@ -100,7 +100,7 @@ label prolog_day3_scene2:
     show raden kemeja_biasa
     show aisyah kemeja_bersemangat
 
-    voice "audio/vo/aisyah/prolog3/prolog3_4_kalian_juga_bisa.flac"
+    voice "audio/vo/aisyah/prolog3/prolog3_4_kalian_juga_bisa.ogg"
     aisyah "\"Kalian juga bisa panggil aku, jika butuh bantuan.\""
     
     show santo kemeja_senyum
@@ -133,10 +133,10 @@ label prolog_day3_scene2:
 
     sekar "\"....Mu.\""
     
-    voice "audio/vo/sekar/prolog3/prolog3_1_hey_kamu.flac"
+    voice "audio/vo/sekar/prolog3/prolog3_1_hey_kamu.ogg"
     sekar "\"Kamu!\""
     
-    voice "audio/vo/aisyah/prolog3/prolog3_5_den_bangun.flac"
+    voice "audio/vo/aisyah/prolog3/prolog3_5_den_bangun.ogg"
     aisyah "\"Den, bangun den!\""
     
     scene bg auditorium:
@@ -151,7 +151,7 @@ label prolog_day3_scene2:
         xalign 1.0
     with dissolve
 
-    voice "audio/vo/sekar/prolog3/prolog3_2_tidurnya_enak.flac"
+    voice "audio/vo/sekar/prolog3/prolog3_2_tidurnya_enak.ogg"
     sekar "\"Tidurnya enak?\""
     
     play music intense fadein 1.0
@@ -161,12 +161,12 @@ label prolog_day3_scene2:
 
     raden "\"Maaf kak!\""
 
-    voice "audio/vo/sekar/prolog3/prolog3_3_kemarin_ga_tidur.flac"
+    voice "audio/vo/sekar/prolog3/prolog3_3_kemarin_ga_tidur.ogg"
     sekar "\"Kemarin nggak tidur kah?\""
 
     raden "\"Maaf kak, gara gara tugas kemarin saya jadi tidur terlalu malam.\""
 
-    voice "audio/vo/sekar/prolog3/prolog3_4_yaudah.flac"
+    voice "audio/vo/sekar/prolog3/prolog3_4_yaudah.ogg"
     sekar "\"Yasudah, pergi cuci muka dulu sana.\""
     
     raden "\"Baik, kak.\""

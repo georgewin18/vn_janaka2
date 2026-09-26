@@ -17,7 +17,7 @@ label chapter3_fania_scene2:
     show fania casual_dingin with dissolve:
         zoom 1.15 xalign 0.5 yalign -0.02
 
-    voice "audio/vo/fania/chapter3/chapter3_3_jadi_gimana.flac"
+    voice "audio/vo/fania/chapter3/chapter3_3_jadi_gimana.ogg"
     fania "\"Jadi gimana kabar Tina, dia jadi dateng gak?\""
 
     "Sasa, yang masih bermain HP dan menghubungi Tina, sementara Fania telah mencari jurnal untuk diringkas di laptopnya."
@@ -31,11 +31,11 @@ label chapter3_fania_scene2:
 
     "Jawaban Sasa membuat Fania mengerutkan keningnya."
 
-    voice "audio/vo/fania/chapter3/chapter3_4_pacar.flac"
+    voice "audio/vo/fania/chapter3/chapter3_4_pacar.ogg"
     fania "{i}Pacar? Kenapa malah minta bantuan perempuan dan bukan teman laki-laki yang lebih mampu secara fisik?{/i}"
 
     show fania casual_dingin with dissolve
-    voice "audio/vo/fania/chapter3/chapter3_5_kalo_begitu.flac"
+    voice "audio/vo/fania/chapter3/chapter3_5_kalo_begitu.ogg"
     fania "\"Kalau begitu, ayo kita mulai dulu deh.\""
 
     "Fania mulai meringkas tiap bab di dalam buku dan mengambil setiap poin penting di dalamnya."
@@ -43,7 +43,7 @@ label chapter3_fania_scene2:
     #fania bingung
     show fania casual_bingung with dissolve
 
-    voice "audio/vo/fania/chapter3/chapter3_6_kamu_ngga_ngerjain.flac"
+    voice "audio/vo/fania/chapter3/chapter3_6_kamu_ngga_ngerjain.ogg"
     fania "\"Kamu gak ngerjain?\""
 
     "\“Gak apa-apa, deadline-nya masih lima hari lagi, Masih punya banyak waktu kita. Yakin deh, paling juga dosennya gak bakalan baca.\”"
@@ -54,7 +54,7 @@ label chapter3_fania_scene2:
     show fania casual_menghelanapas
     pause 0.3
 
-    voice "audio/vo/fania/chapter3/chapter3_menghela2.flac"
+    voice "audio/vo/fania/chapter3/chapter3_menghela2.ogg"
     show fania casual_menghelanapas_ada_asap with dissolve
     pause 0.3
 
@@ -68,18 +68,18 @@ label chapter3_fania_scene2:
 
     #fania dingin
     show fania casual_dingin with dissolve
-    voice "audio/vo/fania/chapter3/chapter3_7_itu_kesalahan.flac"
+    voice "audio/vo/fania/chapter3/chapter3_7_itu_kesalahan.ogg"
     fania "\"Itu kesalahan berpikir.\""
 
     fania "\"Dosen itu bukan orang yang cuma bisa meluluskan murid kayak guru sekolah umum yang dibawahnya. Mereka itu orang yang terbaik di bidangnya yang berpengalaman dan tahu karakter mahasiswa\""
 
-    voice "audio/vo/fania/chapter3/chapter3_8_kalau_kamu.flac"
+    voice "audio/vo/fania/chapter3/chapter3_8_kalau_kamu.ogg"
     fania "\"Kalau kamu bilang begitu, kamu terlalu meremehkan dosen.\""
 
     "\"Yah, kalau begitu tinggal minta bantuan AI kayak METAL dan chatGaBuT.\""
 
     show fania casual_bingung with dissolve
-    voice "audio/vo/fania/chapter3/chapter3_9_tapi_kan.flac"
+    voice "audio/vo/fania/chapter3/chapter3_9_tapi_kan.ogg"
     fania "\"Tapi kan nanti kelihatan kalau itu buatan AI\""
 
     "\"Tinggal di revisi sama AI-nya aja terus-terusan sampai gak kelihatan buatan AI dong. Itu lebih cepet dan gampang daripada ngerjain sendiri dan malah dianggap pakai AI.\""
@@ -97,10 +97,10 @@ label chapter3_fania_scene2:
 
     play music intense fadein 1.0
 
-    voice "audio/vo/fania/chapter3/chapter3_10_mana_mungkin.flac"
+    voice "audio/vo/fania/chapter3/chapter3_10_mana_mungkin.ogg"
     fania "\"Mana mungkin aku pakai cara instan kayak gitu yang malah bikin aku bodoh. Aku gak mau pakai cara mudah buat bikin tugasku.\""
 
-    voice "audio/vo/fania/chapter3/chapter3_11_lagian.flac"
+    voice "audio/vo/fania/chapter3/chapter3_11_lagian.ogg"
     fania "\"Lagian, kerja cepat bukan berarti kamu paham sama apa yang ada di dalam tugasmu ‘kan? Kalau kamu mau pakai cara yang bisa bikin sel otakku berkurang itu, kamu pakai sendiri aja, dan aku tahu soal yang terakhir,\""
     
     "Fania meninggikan suaranya, cukup untuk membuat orang asing di bangku samping menoleh ke arah Fania"

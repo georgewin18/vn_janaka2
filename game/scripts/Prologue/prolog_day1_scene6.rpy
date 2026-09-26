@@ -15,7 +15,7 @@ label prolog_day1_scene6:
 
         play music fania_bgm fadein 1.0
 
-        voice "audio/vo/fania/pkkmb1_akhirnya_selesai.flac"
+        voice "audio/vo/fania/pkkmb1_akhirnya_selesai.ogg"
         anon "Ahhh, akhirnya selesai juga!"
 
         raden "Iya, capek banget."
@@ -26,7 +26,7 @@ label prolog_day1_scene6:
                 xalign 1.4
         with dissolve
         
-        voice "audio/vo/fania/pkkmb2_duh.flac"
+        voice "audio/vo/fania/pkkmb2_duh.ogg"
         anon "Duh.. Bikin kaget aja."
 
         show raden kemeja_tersenyum
@@ -37,14 +37,14 @@ label prolog_day1_scene6:
 
         raden "Jadi ini rasanya kuliah, ya? Beda banget sama SMA. Orang-orangnya random banget."
 
-        voice "audio/vo/fania/pkkmb3_kalau_lihat_senior.flac"
+        voice "audio/vo/fania/pkkmb3_kalau_lihat_senior.ogg"
         anon "Apalagi kalau lihat senior-senior tadi. Ada yang kayak serius banget, ada yang santai, ada juga yang humoris. Tapi seru sih."
 
         raden "Seru, sih. Tapi capeknya nggak bohong."
 
         show fania kemeja_senyum_ceria
 
-        voice "audio/vo/fania/pkkmb4_yang_penting_sekarang.flac"
+        voice "audio/vo/fania/pkkmb4_yang_penting_sekarang.ogg"
         anon "Haha, Yang penting sekarang waktunya pulang, mandi, terus rebahan."
 
         show raden kemeja_hehe
@@ -54,10 +54,10 @@ label prolog_day1_scene6:
         show raden kemeja_biasa
         show fania kemeja_senyum_normal
 
-        voice "audio/vo/fania/pkkmb5_iya_tugasnya_lumayan.flac"
+        voice "audio/vo/fania/pkkmb5_iya_tugasnya_lumayan.ogg"
         anon "Iya, tugasnya... lumayan.. Tapi ya sudahlah, namanya juga PKKMB."
 
-        voice "audio/vo/fania/pkkmb6_ohiya_kumpul.flac"
+        voice "audio/vo/fania/pkkmb6_ohiya_kumpul.ogg"
         anon "Oh iya.. kumpul kelompok dulu- Duluan ya!"
 
         hide fania with dissolve

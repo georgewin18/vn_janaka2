@@ -33,7 +33,7 @@ label prolog_day4_scene2:
 
     play music intense fadein 1.0
 
-    voice "audio/vo/aisyah/prolog4/prolog4_1_den_kamu_gapapa.flac"
+    voice "audio/vo/aisyah/prolog4/prolog4_1_den_kamu_gapapa.ogg"
     aisyah "\"Den! kamu gapapa?!\""
 
     show raden kemeja_gugup at raden_default:
@@ -41,7 +41,7 @@ label prolog_day4_scene2:
     with moveinbottom
 
     show aisyah kemeja_serius
-    voice "audio/vo/aisyah/prolog4/prolog4_2_aduh_gimana_sih.flac"
+    voice "audio/vo/aisyah/prolog4/prolog4_2_aduh_gimana_sih.ogg"
     aisyah "\"Aduh, gimana sih jalannya?\""
 
     show raden at raden_default:
@@ -52,27 +52,27 @@ label prolog_day4_scene2:
         xalign 1.15
     with moveinright
 
-    voice "audio/vo/sekar/prolog4/prolog4_1_raden_kamu.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_1_raden_kamu.ogg"
     sekar "\"Raden, kamu baik-baik saja?\""
 
     raden "\"Gak apa-apa, Kak. Cuma sedikit kesandung\""
 
-    voice "audio/vo/sekar/prolog4/prolog4_2_jangan_dipaksakan.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_2_jangan_dipaksakan.ogg"
     sekar "\"Jangan dipaksakan dulu\""
 
-    voice "audio/vo/sekar/prolog4/prolog4_3_coba_duduk.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_3_coba_duduk.ogg"
     sekar "\"Coba duduk dulu di pinggir jalan. Aku cek lututmu\""
 
     "Aku mengikuti arahannya meski rasa malu masih terasa. Dengan hati-hati aku duduk di pinggir jalan, dan Kak Sekar berjongkok di depanku menyuruh salah satu panitia lain mengambil kotak P3K"
 
     "Sementara itu, anggota kelompokku yang lain diserahkan pada LO region kami yang satunya, Kak Ryan, untuk lanjut menuju area expo"
 
-    voice "audio/vo/aisyah/prolog4/prolog4_3_tapi_kak.flac"
+    voice "audio/vo/aisyah/prolog4/prolog4_3_tapi_kak.ogg"
     aisyah "Tapi kak, Raden gimana?"
 
     show sekar jas_tegas
 
-    voice "audio/vo/sekar/prolog4/prolog4_4_tenang.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_4_tenang.ogg"
     sekar "\"Tenang, ku pastikan dia baik-baik saja\""
 
     hide aisyah with dissolve
@@ -97,12 +97,12 @@ label prolog_day4_scene2:
 
     "Tak lama panitia lain datang dan memberinya kotak P3K, tapi setelah itu langsung pergi karena banyak yang harus diurus"
 
-    voice "audio/vo/sekar/prolog4/prolog4_5_eh_ini_darah.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_5_eh_ini_darah.ogg"
     sekar "\"Eh... ini, darahnya...\""
 
     raden "\"Kak, ga apa-apa?\""
 
-    voice "audio/vo/sekar/prolog4/prolog4_6_eh_gapapa.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_6_eh_gapapa.ogg"
     sekar "\"Eh... gapapa kok. Aku... aku cuma gak tahan liat darah...\""
 
     "Aku menatapnya, heran. Biasanya, Kak Sekar adalah sosok yang selalu terlihat tangguh dan sempurna."
@@ -136,7 +136,7 @@ label prolog_day4_scene2_choice1:
         xalign 1.0
     with dissolve
 
-    voice "audio/vo/sekar/prolog4/prolog4_7_maaf_ya_lama.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_7_maaf_ya_lama.ogg"
     sekar "\"Maaf ya kalau tadi agak lama.. karena aku.. aku kurang nyaman sama hal-hal seperti ini. Padahal.. Aku ini LO yang harusnya membantu kalian, tapi malah begini...\""
 
     jump prolog_day4_scene2_after_choice
@@ -147,14 +147,14 @@ label prolog_day4_scene2_choice2:
 
     raden "\"Kak, gak apa-apa kalau aku yang urus sendiri?\""
 
-    voice "audio/vo/sekar/prolog4/prolog4_8_enggak.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_8_enggak.ogg"
     sekar "\"Enggak, enggak. Ini tanggung jawabku. Kamu tenang aja\""
 
     "Aku tersenyum kecil, merasa sedikit terhibur melihat sisi rapuhnya yang jarang terlihat."
 
     raden "\"Kalau begitu, aku bantu Kakak, pegang perban ini, ya\""
 
-    voice "audio/vo/sekar/prolog4/prolog4_9_iya.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_9_iya.ogg"
     sekar "\"Iya...\""
 
     raden "\"Santai aja, Kak. Aku juga bisa kok bersihin sendiri.\""
@@ -172,7 +172,7 @@ label prolog_day4_scene2_choice2:
         xalign 1.0
     with dissolve
 
-    voice "audio/vo/sekar/prolog4/prolog4_10_iya_maaf_ya.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_10_iya_maaf_ya.ogg"
     sekar "\"Iya... maaf ya, Raden. Padahal... Aku ini LO yang harusnya membantu kalian, tapi malah begini...\""
 
 label prolog_day4_scene2_after_choice:
@@ -185,7 +185,7 @@ label prolog_day4_scene2_after_choice:
 
     "Lalu dia tertawa kecil, dan wajahnya mulai kembali ke ekspresi tenang."
 
-    voice "audio/vo/sekar/prolog4/prolog4_11_aku_juga_manusia.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_11_aku_juga_manusia.ogg"
     sekar "\"Ya, aku kan juga manusia. Tapi jangan bilang siapa-siapa ya soal ini. Malu kalau ketahuan panitia lain\""
 
     raden "\"Tenang, aman kok\""

@@ -34,7 +34,7 @@ label prolog_day1_scene3:
         xalign 1.0
     with dissolve
     
-    voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.mp3"
+    voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.ogg"
     aisyah "\"Raden, jangan tidur dong\""
 
     show raden kemeja_gugup with dissolve
@@ -48,7 +48,7 @@ label prolog_day1_scene3:
     return
 
 label scene4_choice1:
-    voice "audio/vo/aisyah/pkkmb7-1_hmmm.mp3"
+    voice "audio/vo/aisyah/pkkmb7-1_hmmm.ogg"
     aisyah "\"HMMM?!!\""
 
     jump scene4_after_choice
@@ -56,7 +56,7 @@ label scene4_choice1:
 label scene4_choice2:
     show aisyah kemeja_menghela_napas with dissolve
 
-    voice "audio/vo/aisyah/pkkmb7-2_hah.mp3"
+    voice "audio/vo/aisyah/pkkmb7-2_hah.ogg"
     aisyah "\"Hah..\""
 
     jump scene4_after_choice
@@ -66,7 +66,7 @@ label scene4_after_choice:
 
     show aisyah kemeja_serius
 
-    voice "audio/vo/aisyah/pkkmb8_ayo_catet.mp3"
+    voice "audio/vo/aisyah/pkkmb8_ayo_catet.ogg"
     aisyah "\"Ayo catet juga materinya\""
 
     show raden kemeja_gugup

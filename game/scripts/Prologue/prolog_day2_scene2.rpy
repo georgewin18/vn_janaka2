@@ -51,7 +51,7 @@ label prolog_day2_scene2:
 
     show aisyah kemeja_senyum4
 
-    voice "audio/vo/aisyah/prolog2/prolog2_1_halo_den.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_1_halo_den.ogg"
     aisyah "\"Oh! halo Den\"" #Aisyah menyapa ku kembali dengan senyuman.
 
     #Aisyah hilang
@@ -107,7 +107,7 @@ label prolog_day2_scene2:
         xalign 1.2
     with dissolve
     
-    voice "audio/vo/aisyah/prolog2/prolog2_2_udah_mau_mulai.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_2_udah_mau_mulai.ogg"
     aisyah "\"Raden! Udah mau mulai!\""
     
     hide aisyah kemeja_senyum2 with dissolve
@@ -180,7 +180,7 @@ label prolog_day2_scene2_after_choice1:
     show aisyah kemeja_senyum4 with dissolve:
         zoom 0.4 xalign 1.2 yalign 0.1
 
-    voice "audio/vo/aisyah/prolog2/prolog2_3_aku_juga_ikut.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_3_aku_juga_ikut.ogg"
     aisyah "\"Aku juga ikut bantu!\""
 
     "Kami tersentak saat Aisyah tiba-tiba berbicara dari depan."
@@ -191,7 +191,7 @@ label prolog_day2_scene2_after_choice1:
     show raden kemeja_biasa
     show aisyah kemeja_bersemangat
 
-    voice "audio/vo/aisyah/prolog2/prolog2_4_aku_juga_mau_bantu.flac"
+    voice "audio/vo/aisyah/prolog2/prolog2_4_aku_juga_mau_bantu.ogg"
     aisyah "\"Aku juga mau bantu kamu, Santo.. kan ya?\""#Aisyah cuma mengangguk
 
     show santo kemeja_bicara

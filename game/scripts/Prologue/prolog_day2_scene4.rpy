@@ -35,7 +35,7 @@ label prolog2_scene4_after_choice1:
 
     #fania dingin
 
-    voice "audio/vo/fania/prolog2/prolog2_5_ya.flac"
+    voice "audio/vo/fania/prolog2/prolog2_5_ya.ogg"
     fania "\"Ya?\""
 
     #raden canggung
@@ -43,7 +43,7 @@ label prolog2_scene4_after_choice1:
     raden "\"ummmm…. nama ku Raden… haha….\""
 
     show raden kemeja_canggung
-    voice "audio/vo/fania/prolog2/prolog2_6_iya_aku_udah_liat.flac"
+    voice "audio/vo/fania/prolog2/prolog2_6_iya_aku_udah_liat.ogg"
     fania "\"Iya, aku udah liat dari nametag mu\""
 
     #raden gugup

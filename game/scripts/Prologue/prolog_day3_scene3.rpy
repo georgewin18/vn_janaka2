@@ -43,7 +43,7 @@ label prolog_day3_scene3:
     play music tessa_bgm fadein 1.0
 
     #ekspresi tessa bicara dan marah tidak ada
-    voice "audio/vo/tessa/prolog3/prolog3_1_apa.mp3"
+    voice "audio/vo/tessa/prolog3/prolog3_1_apa.ogg"
 
     show tessa jas_kesal
     lo "\"Apa?\""#tessa kesal
@@ -56,7 +56,7 @@ label prolog_day3_scene3:
     raden "\"Permisi kak, saya mau bertanya arah ke toilet dimana?\""
 
     show tessa jas_serius
-    voice "audio/vo/tessa/prolog3/prolog3_2_toilet.mp3"
+    voice "audio/vo/tessa/prolog3/prolog3_2_toilet.ogg"
     lo "\"Toilet? Langsung aja lurus ke arah sana. Kalau kamu perhatikan dengan benar, pasti akan ketemu.\""
     
     show raden kemeja_biasa2 with dissolve
@@ -98,7 +98,7 @@ label prolog_day3_scene3:
             
             show raden kemeja_gugup with dissolve
 
-            voice "audio/vo/tessa/prolog3/prolog3_3_apa_lagi.mp3"
+            voice "audio/vo/tessa/prolog3/prolog3_3_apa_lagi.ogg"
             lo "\"Ada apa lagi?\""
             
             show raden kemeja_canggung with dissolve
@@ -122,7 +122,7 @@ label prolog_day3_scene3:
 
     show tessa jas_kesal with dissolve
 
-    voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.mp3"
+    voice "audio/vo/tessa/prolog3/prolog3_4_ya_ampun.ogg"
     lo "\"Ya ampun… Kamu ini dibilangin tadi, lurus aja! Perhatikan baik-baik!\""
     
     show tessa with moveinright:
@@ -147,7 +147,7 @@ label prolog_day3_scene3:
     
     "Namun dia tiba-tiba berjalan mendahuluiku."
 
-    voice "audio/vo/tessa/prolog3/prolog3_5_sudahlah.mp3"
+    voice "audio/vo/tessa/prolog3/prolog3_5_sudahlah.ogg"
     lo "\"Sudahlah, ikut aku. Kalau gak, nanti malah kamu hilang.\""
     
     show raden kemeja_biasa2
@@ -170,7 +170,7 @@ label prolog_day3_scene3:
     
     show tessa at flip with dissolve
 
-    voice "audio/vo/tessa/prolog3/prolog3_6_nah_ini.mp3"
+    voice "audio/vo/tessa/prolog3/prolog3_6_nah_ini.ogg"
     lo "\"Nah, ini. Lain kali buka matanya lebih lebar, ya,\""
     
     "Dia menunjuk pintu toilet dengan sedikit sentakan tangan."

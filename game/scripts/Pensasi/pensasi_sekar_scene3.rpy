@@ -13,13 +13,13 @@ label pensasi_sekar_scene3:
     with dissolve
 
     show sekar kasual_bingung
-    voice "audio/vo/sekar/pensasi/pensasi_3_1_kira_kira.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_1_kira_kira.ogg"
     sekar "\"Kira-kira enaknya mau menjelajahi booth dimana nih den?\""
 
     show raden kasual_bingung
     raden "\"Hmm.. Nggak kepikiran booth mana yang mau ku coba\""
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_2_menurutmu.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_2_menurutmu.ogg"
     sekar "\"Menurutmu gimana den? Ada yang menarik nggak?\""
     
     show raden kasual_ceria
@@ -39,7 +39,7 @@ label pensasi_sekar_scene3:
 
     show sekar kasual_bingung
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_3_itu.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_3_itu.ogg"
     sekar "\"Itu kendaraan yang kamu maksud den?\""
 
     show sekar kasual_biasa
@@ -51,14 +51,14 @@ label pensasi_sekar_scene3:
 
     show sekar kasual_ceria
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_4_ayo.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_4_ayo.ogg"
     sekar "\"Ayo, tapi aku yang bonceng ya?\""
 
     show raden kasual_gugup
 
     raden "\"Eh?\""
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_5_dah_ayo.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_5_dah_ayo.ogg"
     sekar "\"Dah ayo, sekali-kali kamu dibonceng cewek\""
 
     ## SPECIAL MOMENT
@@ -86,14 +86,14 @@ label pensasi_sekar_scene3:
 
     #show sekar kemeja_senyum_lebar
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_6_ngomong_apa.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_6_ngomong_apa.ogg"
     sekar "\"Ngomong apa den?\""
 
     raden "\"Jangan ngebut kakk!!\"" with vpunch
 
     #show sekar kemeja_ceria
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_7_masih_normal.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_7_masih_normal.ogg"
     sekar "\"Masih normal ini...\""
 
     voice sustain
@@ -102,7 +102,7 @@ label pensasi_sekar_scene3:
 
     raden "\"Jangan samain ama mobil!!\"" with vpunch
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_8_pegangan.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_8_pegangan.ogg"
     sekar "\"Pegangan!\""
 
     raden "\"HAA??!!\""
@@ -137,7 +137,7 @@ label pensasi_sekar_scene3:
 
     show sekar kasual_ceria
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_9_maaf.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_9_maaf.ogg"
     sekar "\"Maaf-maaf\""
 
     show raden kasual_menghela_napas with dissolve
@@ -148,14 +148,14 @@ label pensasi_sekar_scene3:
 
     show sekar kasual_bicara
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_10_oiya.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_10_oiya.ogg"
     sekar "\"Oh iya den, aku ada pertanyaan nih\""
 
     show raden kasual_bingung
 
     raden "\"Apa tuh kak?\""
 
-    voice "audio/vo/sekar/pensasi/pensasi_3_11_ada.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_3_11_ada.ogg"
     sekar "\"Ada alasan tertentu nggak dek kamu bantu aku?\""
 
     menu:
@@ -173,7 +173,7 @@ label pensasi_sekar_scene3:
 
             "Kak Sekar terdiam. Ia menatapku dalam, seperti mencari sesuati di balik kata-kataku"
         
-            voice "audio/vo/sekar/pensasi/pensasi_3_1_1_hmm.flac"
+            voice "audio/vo/sekar/pensasi/pensasi_3_1_1_hmm.ogg"
             sekar "\"hmm begitu den\""
 
             show raden kasual_biasa
@@ -182,7 +182,7 @@ label pensasi_sekar_scene3:
 
             "Sekar tersenyum kecil, lalu memalingkan wajah, seolah ingin menyembunyikan ekspresi yang sulit kuartikan."
 
-            voice "audio/vo/sekar/pensasi/pensasi_3_1_2_cuma.flac"
+            voice "audio/vo/sekar/pensasi/pensasi_3_1_2_cuma.ogg"
             sekar "\"Cuma pengen tanya saja\""
 
         "Karena pahlawan H*mm*l akan melakukannya":
@@ -194,7 +194,7 @@ label pensasi_sekar_scene3:
             show raden kasual_biasa
             show sekar kasual_tertawa_lepas
 
-            voice "audio/vo/sekar/pensasi/pensasi_3_2_1_tertawa.flac"
+            voice "audio/vo/sekar/pensasi/pensasi_3_2_1_tertawa.ogg"
             sekar "\"Hahahahaha\""
 
             voice sustain
@@ -207,7 +207,7 @@ label pensasi_sekar_scene3:
 
             show sekar kasual_ceria
 
-            voice "audio/vo/sekar/pensasi/pensasi_3_2_2_gak_ekspek.flac"
+            voice "audio/vo/sekar/pensasi/pensasi_3_2_2_gak_ekspek.ogg"
             sekar "\"Nggak expect aja\""
         
         "Kepo nih ye":

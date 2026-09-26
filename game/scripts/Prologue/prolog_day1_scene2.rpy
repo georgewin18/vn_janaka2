@@ -18,7 +18,7 @@ label prolog_day1_scene2:
 
     stop music fadeout 2.0
 
-    voice "audio/vo/aisyah/pkkmb1_antriannya_lama.mp3"
+    voice "audio/vo/aisyah/pkkmb1_antriannya_lama.ogg"
     anon "\"Hmmmmm, ini antrinya lama banget sih,\"" # keluh suara dari belakangku. (Aisyah sedikit kesal)
 
     voice sustain
@@ -59,7 +59,7 @@ label prolog_day1_scene2:
 
     raden "\"Halo.\"" # ucapku. (Raden gugup)
     
-    voice "audio/vo/aisyah/pkkmb2_hah.mp3"
+    voice "audio/vo/aisyah/pkkmb2_hah.ogg"
     show aisyah kemeja_bingung with dissolve
     anon "\"Hah?\"" # jawab perempuan tersebut, mukanya berkerut menunjukkan kekesalannya. (Siluet Aisyah)
 
@@ -73,7 +73,7 @@ label prolog_day1_scene2:
 
     show aisyah kemeja_terkejut with dissolve
 
-    voice "audio/vo/aisyah/pkkmb3_eh_raden.mp3"
+    voice "audio/vo/aisyah/pkkmb3_eh_raden.ogg"
     aisyah "\"Eh, Raden?\"" with vpunch # ucap wanita tersebut. (Aisyah terkejut)
 
     menu:
@@ -99,7 +99,7 @@ label scene3_choice1:
     #$ renpy.block_rollback()
 
     show aisyah kemeja_serius
-    voice "audio/vo/aisyah/pkkmb4_masa_udah_lupa.mp3"
+    voice "audio/vo/aisyah/pkkmb4_masa_udah_lupa.ogg"
     aisyah "\"Masa udah lupa?\""
 
     aisyah "\"Kita kan udah kenalan minggu lalu\""
@@ -113,7 +113,7 @@ label scene3_choice3:
         xalign 1.0
         linear 0.2 xalign 0.75
 
-    voice "audio/vo/aisyah/pkkmb4-3_siapa_lagi.mp3"
+    voice "audio/vo/aisyah/pkkmb4-3_siapa_lagi.ogg"
     aisyah "\"{size=+10}Siapa lagi itu?!{/size} Aku Aisyah, masa ga ingat!\"" with vpunch
 
     show aisyah at aisyah_default:
@@ -190,7 +190,7 @@ label scene3_after_choice:
     lo3 "\"Region apa dik?\"" # tanya panitia tersebut.
 
     show aisyah kemeja_senyum2
-    voice "audio/vo/aisyah/pkkmb5_kami_dari_region.mp3"
+    voice "audio/vo/aisyah/pkkmb5_kami_dari_region.ogg"
     aisyah "\"Kami dari region Aldebaran kak.\""
     
     show aisyah kemeja_senyum1

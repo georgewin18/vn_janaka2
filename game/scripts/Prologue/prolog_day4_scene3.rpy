@@ -16,7 +16,7 @@ label prolog_day4_scene3:
 
     show sekar jas_teriak
 
-    voice "audio/vo/sekar/prolog4/prolog4_12_tidak_boleh.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_12_tidak_boleh.ogg"
     sekar "Tidak boleh, aku harus ikut mengantar. Kalau nanti ada apa-apa di tengah jalan, aku yang bertanggung jawab."
 
     show sekar jas_biasa
@@ -37,7 +37,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_13_disana_semua_ukm.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_13_disana_semua_ukm.ogg"
     sekar "\"Di sana, semua UKM bakal pamerin kegiatan mereka. Intinya buat ngenalin diri dan ngajak kalian para mahasiswa baru untuk bergabung.\""
 
     show sekar jas_biasa
@@ -46,7 +46,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_14_aku_e2c.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_14_aku_e2c.ogg"
     sekar "\"Aku di {b}E2C{/b}\""
 
     show sekar jas_biasa
@@ -55,7 +55,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_15_eepis.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_15_eepis.ogg"
     sekar "\"EEPIS English Community atau E2C merupakan UKM Bahasa Inggris.\""
     
     voice sustain
@@ -70,7 +70,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_16_lumayan.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_16_lumayan.ogg"
     sekar "\"Lumayan. Aku dulu pernah ikut lomba debat sama speech contest. Belum sampai menang tingkat internasional sih, tapi beberapa kali menang tingkat nasional.\""
 
     show sekar jas_biasa
@@ -79,7 +79,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_17_seru_kok.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_17_seru_kok.ogg"
     sekar "\"Malah seru kok. Bisa ketemu orang baru, diskusi, bahkan jalan-jalan keluar kota.\""
 
     show sekar jas_biasa
@@ -88,7 +88,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_18_tertarik_gabung.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_18_tertarik_gabung.ogg"
     sekar "\"Tertarik gabung?\""
 
     show sekar jas_biasa
@@ -97,7 +97,7 @@ label prolog_day4_scene3:
 
     show sekar jas_bicara
 
-    voice "audio/vo/sekar/prolog4/prolog4_19_boleh_banget.flac"
+    voice "audio/vo/sekar/prolog4/prolog4_19_boleh_banget.ogg"
     sekar "\"Boleh banget. Tapi jangan asal pilih UKM, ya. Cari yang benar-benar sesuai sama minat kamu. Jangan cuma ikut-ikutan\""
 
     show sekar jas_biasa

@@ -175,7 +175,7 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     show sekar kemeja_senyum
 
-    voice "audio/vo/sekar/chapter4/chapter4_1_1_eh_raden.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_1_1_eh_raden.ogg"
     sekar "\"Eh, Raden? Kebetulan banget, iya nih bensinku habis di tengah perjalanan untuk membeli barang-barang ini,\""
 
     voice sustain
@@ -183,7 +183,7 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     raden "\"Iya kak, aku juga kebetulan ada kelas pagi. kalau nggak ada pasti nggak ketemu\""
 
-    voice "audio/vo/sekar/chapter4/chapter4_1_2_hehe_iya.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_1_2_hehe_iya.ogg"
     sekar "\"Hahaha, iya\""
 
     "Sambil mendorong motor, kami sedikit berbincang mengenai kebetulan ini, meskipun topik kadang berpindah-pindah, tapi pembicaraan tersebut terus berjalan sampai kita berada di depan Pom Bensin terdekat."

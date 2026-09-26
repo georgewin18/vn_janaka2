@@ -51,7 +51,7 @@ label prolog_day1_scene5:
 
         # show raden kemeja_biasa
 
-        voice "audio/vo/aisyah/pkkmb9_aku_halangan.mp3"
+        voice "audio/vo/aisyah/pkkmb9_aku_halangan.ogg"
         aisyah "\"Aku halangan hari ini\""
 
         # show raden kemeja_canggung
@@ -60,7 +60,7 @@ label prolog_day1_scene5:
 
         raden "\"Ehh... errmmm...\""
 
-        voice "audio/vo/aisyah/pkkmb10_kenapa.mp3"
+        voice "audio/vo/aisyah/pkkmb10_kenapa.ogg"
         aisyah "\"Kenapa?\""
 
         # show raden kemeja_gugup
@@ -69,24 +69,24 @@ label prolog_day1_scene5:
 
         # show aisyah kemeja_senyum
 
-        voice "audio/vo/aisyah/pkkmb11_haha.mp3"
+        voice "audio/vo/aisyah/pkkmb11_haha.ogg"
         aisyah "\"Hahaha..\""
 
         # show raden kemeja_biasa
 
         raden "\"Malah ketawa\""
 
-        voice "audio/vo/aisyah/pkkmb12_enggak_apa.mp3"
+        voice "audio/vo/aisyah/pkkmb12_enggak_apa.ogg"
         aisyah "\"Enggak apa.. nyari udara segar aja\""
 
         # show raden kemeja_serius
 
         raden "\"Beneran?\""
 
-        voice "audio/vo/aisyah/pkkmb13_hmm.mp3"
+        voice "audio/vo/aisyah/pkkmb13_hmm.ogg"
         "..."
 
-        voice "audio/vo/aisyah/pkkmb14_semoga.mp3"
+        voice "audio/vo/aisyah/pkkmb14_semoga.ogg"
         aisyah "\"Semoga kuliah kita nanti lancar ya!\""
 
         "Gadis yang aneh. Sejak pertama kali bertemu, Aisyah selalu bersikap baik padaku. Dia seperti cahaya yang menyinari orang-orang disekitarnya\""

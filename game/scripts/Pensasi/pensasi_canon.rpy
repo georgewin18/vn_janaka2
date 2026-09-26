@@ -112,7 +112,7 @@ label pensasi_canon:
         xalign 1.0
     with dissolve
 
-    voice "audio/vo/sekar/pensasi_canon/pensasi_1_uhh.flac"
+    voice "audio/vo/sekar/pensasi_canon/pensasi_1_uhh.ogg"
     sekar "\"Uh..\""
 
     show raden kasual_biasa at raden_default:
@@ -125,7 +125,7 @@ label pensasi_canon:
     show raden kasual_kaget
     raden "\"Kak Sekar?!!\""
 
-    voice "audio/vo/sekar/pensasi_canon/pensasi_2_ohh.flac"
+    voice "audio/vo/sekar/pensasi_canon/pensasi_2_ohh.ogg"
     sekar "\"Oh. Raden ya..\"" #Sekar (kantung mata) lelah  (nada perlahan, kecapekan.)
 
     #raden gugup
@@ -135,7 +135,7 @@ label pensasi_canon:
     
     "Seperti ada beban yang menekan, membuatnya tampak kurang bertenaga."
 
-    voice "audio/vo/sekar/pensasi_canon/pensasi_3_maaf.flac"
+    voice "audio/vo/sekar/pensasi_canon/pensasi_3_maaf.ogg"
     sekar "Maaf ya… aku lagi buru-buru ini."
 
     "Nafas Kak Sekar terdengar terengah-engah, seperti baru saja dikejar sesuatu atau terburu-buru."
@@ -157,10 +157,10 @@ label pensasi_canon:
 
             show sekar kasual_hembus_nafas_kantung_mata with dissolve
 
-            voice "audio/vo/sekar/pensasi_canon/pensasi_4_huft.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_4_huft.ogg"
             sekar "\"Haahh… hah…\""
 
-            voice "audio/vo/sekar/pensasi_canon/pensasi_5_terima_kasih.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_5_terima_kasih.ogg"
             sekar "\"Terima kasih ya, Den\""
 
             raden "\"Kak Sekar beneran gapapa? Kak Sekar keliatan lelah banget loh.\""
@@ -168,7 +168,7 @@ label pensasi_canon:
             show sekar kasual_lelah_kantung_mata
             "Dia mengangguk pelan, meski masih terlihat lelah."
 
-            voice "audio/vo/sekar/pensasi_canon/pensasi_6_uas.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_6_uas.ogg"
             sekar "\"UAS, PENSASI, semuanya barengan. Bikin pusing.\""
 
             show raden kasual_tersenyum
@@ -179,10 +179,10 @@ label pensasi_canon:
             #Sekar (kantung mata) senyum 
             "Dia tersenyum lemah sambil mengangguk lagi."
 
-            voice "audio/vo/sekar/pensasi_canon/pensasi_7_udah_biasa.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_7_udah_biasa.ogg"
             sekar "\"Udah biasa kok multitasking gini.\""
             
-            voice "audio/vo/sekar/pensasi_canon/pensasi_8_aku.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_8_aku.ogg"
             sekar "\"Aku pergi dulu ya, masih banyak yang harus kusiapkan.\""
 
             "Tanpa menunggu jawaban dariku, Kak Sekar perlahan pergi, langkahnya tetap terburu-buru."
@@ -193,7 +193,7 @@ label pensasi_canon:
             show raden kasual_biasa2
             raden "\"Buru-buru mau kemana, Kak?\""
 
-            voice "audio/vo/sekar/pensasi_canon/pensasi_9_besok.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_9_besok.ogg"
             sekar "\"Besok PENSASI, terus UAS juga\""
 
             voice sustain
@@ -209,7 +209,7 @@ label pensasi_canon:
 
             "Dia hanya tersenyum lemah singkat sebelum langsung berbalik, langkahnya cepat menuruni tangga."
 
-            voice "audio/vo/sekar/pensasi_canon/pensasi_10_makasih.flac"
+            voice "audio/vo/sekar/pensasi_canon/pensasi_10_makasih.ogg"
             sekar "\"Makasih Den. Aku pergi dulu ya!\""
 
             jump pensasi_canon_afterchoice1
@@ -250,7 +250,7 @@ label pensasi_canon_afterchoice1:
 
     with dissolve
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_1_dari_pagi.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_1_dari_pagi.ogg"
     fania "\"Dari pagi aku mah,\""
 
     aisyah "\"Kalo aku barusan selesai ujian.\'"
@@ -263,11 +263,11 @@ label pensasi_canon_afterchoice1:
 
     show raden kasual_biasa
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_2_sebenernya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_2_sebenernya.ogg"
     fania "\"Sebenarnya ada kelas pagi, tapi di cancel... terus habis ini ada kelas juga,\""
 
     #(menghela nafas) 
-    voice "audio/vo/fania/pensasi_canon/pensasi_3_menghela.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_3_menghela.ogg"
     
     show fania casual_menghelanapas
     pause 0.3
@@ -287,20 +287,20 @@ label pensasi_canon_afterchoice1:
 
     #(Suara meninggi sedikit) 
     
-    voice "audio/vo/fania/pensasi_canon/pensasi_4_kapan_ini.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_4_kapan_ini.ogg"
     fania "\"Kapan ini demo projectnya?\""
 
     aisyah "\"Katamu gampang,\""
 
     #(Suara meninggi lagi) 
-    voice "audio/vo/fania/pensasi_canon/pensasi_5_teorinya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_5_teorinya.ogg"
     fania "\"Teorinya mah easy-peasy... project juga gampang sebenarnya, tapi gatau dah maunya dosen gimana,\""
 
     aisyah "\"Fan..! suaramu kekencengan,\""
 
     #fania canggung
     show fania casual_canggung
-    voice "audio/vo/fania/pensasi_canon/pensasi_6_sorry.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_6_sorry.ogg"
     fania "\"Ah, sorry!\""
 
     "Fania langsung menurunkan nada suaranya, memasang wajah kesal."
@@ -371,7 +371,7 @@ label pensasi_canon_afterchoice1:
     #fania biasa
     show fania casual_senyum_normal_biasa
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_7_aku_juga.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_7_aku_juga.ogg"
     fania "\"Aku juga ada yang tugas buat UAS.\""
 
     show aisyah casual_serius
@@ -413,10 +413,10 @@ label pensasi_canon_afterchoice1:
 
     "Fania menoleh ke arahku."
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_8_intinya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_8_intinya.ogg"
     fania "\"Intinya, acara ini showcase produk. Acaranya di Pasca, ada tiga bagian: booth, workshop, dan pitching produk di auditorium.\""
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_9_ohiya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_9_ohiya.ogg"
     fania "\"Oh iya, katanya Kak Tessa jaga booth penelitian juga di sana.\""
 
     "{i}Kak Tessa? Apa dia bisa menjaga booth dan bertemu orang asing. Takutnya bakal…{i}"
@@ -425,7 +425,7 @@ label pensasi_canon_afterchoice1:
 
     raden "\"Penelitian apa?\""
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_10_gatau.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_10_gatau.ogg"
     fania "\"Gak tahu, pokoknya sama dosen,\""
 
     "Fania menutup laptopnya dan membereskan barang-barangnya."
@@ -441,7 +441,7 @@ label pensasi_canon_afterchoice1:
 
     show fania casual_dingin
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_11_umm.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_11_umm.ogg"
     fania "\"ummmm…\""
 
     show aisyah casual_senyum2
@@ -451,10 +451,10 @@ label pensasi_canon_afterchoice1:
     show aisyah casual_senyum
     show fania casual_senyum_normal_biasa
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_12_yaudah.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_12_yaudah.ogg"
     fania "\"Yauda deh, aku ikut\""
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_13_eh_duluan_ya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_13_eh_duluan_ya.ogg"
     fania "\"Eh, duluan ya, ada kelas nih... bye-bye.\""
 
     hide fania with dissolve
@@ -605,7 +605,7 @@ label pembukaan_pensasi_afterchoice1:
 
     aisyah "\"Maaf ya,\""
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_14_kamunya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_14_kamunya.ogg"
     fania "\"Kamunya aja yang kepagian,\""
 
     show raden kasual_biasa
@@ -628,12 +628,12 @@ label pembukaan_pensasi_afterchoice1:
 
     show fania casual_senyum_ceria
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_tertawa.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_tertawa.ogg"
     "Fania tertawa kecil sambil melahap potongan kerupuk terakhirnya" #fania tertara
 
     show fania casual_senyum_normal_biasa
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_15_bagus.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_15_bagus.ogg"
     fania "\"Bagus buat apa? Kalau aku sih nggak kebayang kerja jualan kerupuk kayak gini. Keliatannya boring.\""
 
     #aisyah serius
@@ -642,10 +642,10 @@ label pembukaan_pensasi_afterchoice1:
     #(Aisyah nada suaranya naik sedikit)
 
     show fania casual_dingin
-    voice "audio/vo/fania/pensasi_canon/pensasi_16_ga_semuanya.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_16_ga_semuanya.ogg"
     fania "\"Nggak semuanya soal duit, Ais. Kalau nggak enjoy, mending nggak usah.\""
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_17_yang_penting.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_17_yang_penting.ogg"
     fania "\"Yang penting passion dan kesenangan.\""
 
     aisyah "\"Fan, nggak realistis kalau kamu cuma mikirin passion tanpa mikir untung\""
@@ -654,7 +654,7 @@ label pembukaan_pensasi_afterchoice1:
 
     show fania casual_kesal
 
-    voice "audio/vo/fania/pensasi_canon/pensasi_18_ya_tapi.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_18_ya_tapi.ogg"
     fania "\"Ya, tapi aku nggak mau kerja sambil menderita karena nggak suka sama apa yang aku kerjain. Uang aja nggak cukup buat bikin hidup berarti,\""
 
     show raden kasual_canggung
@@ -668,7 +668,7 @@ label pembukaan_pensasi_afterchoice1:
     "Aisyah menatapku dengan penuh keyakinan."
 
     show fania casual_dingin
-    voice "audio/vo/fania/pensasi_canon/pensasi_19_ah_gamungkin.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_19_ah_gamungkin.ogg"
     fania "\"Ah, nggak mungkin. Raden pasti lebih mendukung soal passion.\""
 
     "Timpal Fania, menatapku dengan senyum percaya diri."
@@ -693,7 +693,7 @@ label pembukaan_pensasi_afterchoice1:
 
             #fania kesal
             show fania casual_kesal
-            voice "audio/vo/fania/pensasi_canon/pensasi_20_jadi.flac"
+            voice "audio/vo/fania/pensasi_canon/pensasi_20_jadi.ogg"
             fania "\"Jadi kamu lebih milih kerja yang nggak kamu suka asal dapet duit, gitu?\""
 
             show raden kasual_gugup
@@ -708,7 +708,7 @@ label pembukaan_pensasi_afterchoice1:
             
             "Aisyah tersenyum puas, sementara Fania hanya mengedikkan bahu, terlihat belum sepenuhnya setuju."
 
-            voice "audio/vo/fania/pensasi_canon/pensasi_21_yaudah.flac"
+            voice "audio/vo/fania/pensasi_canon/pensasi_21_yaudah.ogg"
             fania "\"Ya udah, terserah deh,\""
 
             show aisyah casual_senyum4
@@ -739,7 +739,7 @@ label pembukaan_pensasi_afterchoice1:
             raden "\"Setuju, Syah. Tapi kalau nggak ada passion, bisnis juga nggak bakal bertahan lama. Kita bakal burn out sebelum bisa benar-benar sukses.\""
 
             show raden kasual_canggung
-            voice "audio/vo/fania/pensasi_canon/pensasi_22_tuh.flac"
+            voice "audio/vo/fania/pensasi_canon/pensasi_22_tuh.ogg"
             fania "\"Tuh, Aisyah. Raden juga tahu kalau hidup itu nggak cuma soal duit.\""
 
             aisyah "\"Ya udah, terserah kalian. Tapi jangan salahkan aku kalau nanti susah cari uang,\""
@@ -769,13 +769,13 @@ label pembukaan_pensasi_afterchoice2:
     aisyah "\"Masuk ke Auditorium aja yuk!\""
 
     show raden kasual_biasa
-    voice "audio/vo/fania/pensasi_canon/pensasi_23_ngapain.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_23_ngapain.ogg"
     fania "\"Ngapain juga kesana?\""
 
     aisyah "\"Ada pitch produk di sana, bisa dapet insight baru.\""
 
     show fania casual_menghelanapas
-    voice "audio/vo/fania/pensasi_canon/pensasi_24_ga_tertarik.flac"
+    voice "audio/vo/fania/pensasi_canon/pensasi_24_ga_tertarik.ogg"
     fania "\"Gak tertarik aku, mau turun aja.\""
 
     menu:
@@ -787,7 +787,7 @@ label pembukaan_pensasi_afterchoice2:
             show raden kasual_tersenyum
             raden "\"Ya udah, kalau gitu kita turun aja, Fan.\""
 
-            voice "audio/vo/fania/pensasi_canon/pensasi_25_oke.flac"
+            voice "audio/vo/fania/pensasi_canon/pensasi_25_oke.ogg"
             fania "\"Okey!!.\""
 
             jump pensasi_fania

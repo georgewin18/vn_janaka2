@@ -19,12 +19,12 @@ label chapter3_fania_scene1:
     show fania casual_dingin with dissolve:
         zoom 1.15 xalign 0.5 yalign -0.02
 
-    voice "audio/vo/fania/chapter3/chapter3_1_ok.flac"
+    voice "audio/vo/fania/chapter3/chapter3_1_ok.ogg"
     fania "\"Oke\""
 
     "\"Gimana kalau kita ngerjain tugasnya nanti setelah matkul terakhir?\" Tina  memberikan pendapatnya, bertanya kepada kedua orang lainnya."
 
-    voice "audio/vo/fania/chapter3/chapter3_2_kalau_aku.flac"
+    voice "audio/vo/fania/chapter3/chapter3_2_kalau_aku.ogg"
     fania "\"Kalau aku, gak masalah.\""
 
     "Fania membalas, mengingat jadwalnya sedang senggang untuk hari ini dan lebih baik mengerjakan tugas secepatnya atau mereka tidak akan punya waktu jika terus menerus prokrastinasi."

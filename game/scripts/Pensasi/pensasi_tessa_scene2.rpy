@@ -21,7 +21,7 @@ label pensasi_tessa_scene2:
         xalign 1.0
     with dissolve
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_1_sudah.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_1_sudah.ogg"
     tessa "\"Sudah selesai kah chat nya? Kumulai ya\""
 
     play music campus fadein 1.0
@@ -48,7 +48,7 @@ label pensasi_tessa_scene2:
         xalign 1.0
     with dissolve
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_2_sejauh_ini.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_2_sejauh_ini.ogg"
     tessa "\"Sejauh ini sudah paham kah?\""
 
     show raden kasual_menghela_napas
@@ -57,10 +57,10 @@ label pensasi_tessa_scene2:
 
     show tessa kasual_kesal
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_3_kau_ini.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_3_kau_ini.ogg"
     tessa "\"Kau ini! Aku ulangi lagi sekali ya!\""
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_4_jadi.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_4_jadi.ogg"
     tessa "\"Jadi dengar dan pahami oke!\""
 
     show raden kasual_biasa
@@ -69,7 +69,7 @@ label pensasi_tessa_scene2:
 
     show tessa kasual_netral
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_5_gimana.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_5_gimana.ogg"
     tessa "\"Gimana? Dah paham?\"" 
 
     show raden kasual_tersenyum
@@ -78,10 +78,10 @@ label pensasi_tessa_scene2:
 
     show raden kasual_biasa
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_6_baguslah.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_6_baguslah.ogg"
     tessa "\"Baguslah, awas nanti kau kebingungan dan lihat aku terus untuk minta pertolongan\""
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_7_setidaknya.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_7_setidaknya.ogg"
     tessa "\"Setidaknya kau bisa membantu daripada menyusahkan\""
 
     "Belum lama setelah Kak Tessa menjelaskan semua detail tentang game di booth ini, para pengunjung mulai berdatangan satu per satu."
@@ -104,7 +104,7 @@ label pensasi_tessa_scene2:
 
     show tessa kasual_kesal
 
-    voice "audio/vo/tessa/pensasi/pensasi_2_8_udah.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_2_8_udah.ogg"
     tessa "\"Udah jangan tanya banyak, cepetan bantuin!\""
 
     dio "\"Tsk, rame banget,\""

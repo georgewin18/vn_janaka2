@@ -19,10 +19,10 @@ label pensasi_aisyah_scene2:
 
         show aisyah casual_terkejut
 
-        voice "audio/vo/aisyah/pensasi/pensasi_2_1_oh_raden.mp3"
+        voice "audio/vo/aisyah/pensasi/pensasi_2_1_oh_raden.ogg"
         aisyah "\"Oh, Raden\""
 
-        voice "audio/vo/aisyah/pensasi/pensasi_2_2_kamu.mp3"
+        voice "audio/vo/aisyah/pensasi/pensasi_2_2_kamu.ogg"
         aisyah "\"Kamu di depan lihat Fania?\""
 
         show raden kasual_biasa
@@ -31,10 +31,10 @@ label pensasi_aisyah_scene2:
 
         show aisyah casual_senyum2
 
-        voice "audio/vo/aisyah/pensasi/pensasi_2_3_oh.mp3"
+        voice "audio/vo/aisyah/pensasi/pensasi_2_3_oh.ogg"
         aisyah "\"oh begitu\""
 
-        voice "audio/vo/aisyah/pensasi/pensasi_2_4_karena.mp3"
+        voice "audio/vo/aisyah/pensasi/pensasi_2_4_karena.ogg"
         aisyah "\"Karena kamu kesini, jadi tawaran Fania kamu tolak?\""
 
         show aisyah casual_senyum
@@ -44,7 +44,7 @@ label pensasi_aisyah_scene2:
 
         show aisyah casual_senyum3
 
-        voice "audio/vo/aisyah/pensasi/pensasi_2_5_gpp.mp3"
+        voice "audio/vo/aisyah/pensasi/pensasi_2_5_gpp.ogg"
         aisyah "\"Tidak apa-apa sih..\""
 
         show aisyah casual_senyum2

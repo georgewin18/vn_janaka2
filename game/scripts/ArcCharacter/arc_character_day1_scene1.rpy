@@ -1,6 +1,6 @@
 label arc_character_day1_scene1:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        zoom 2.0
 
     show screen block_mouse
 

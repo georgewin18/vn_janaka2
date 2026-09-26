@@ -10,7 +10,7 @@ label prolog_day1_scene4:
 
     play music sekar_bgm fadein 1.0
 
-    voice "audio/vo/sekar/pkkmb1_ayo_baris.flac"
+    voice "audio/vo/sekar/pkkmb1_ayo_baris.ogg"
     sekar "\"Aldebaran! Ayo berbaris dua banjar.\""
 
     show sekar jas_tegas
@@ -31,7 +31,7 @@ label prolog_day1_scene4:
 
     show sekar jas_teriak
 
-    voice "audio/vo/sekar/pkkmb2_berhenti.flac"
+    voice "audio/vo/sekar/pkkmb2_berhenti.ogg"
     sekar "\"Aldebaran berhenti terlebih dahulu! Mari berhitung dimulai dari banjar sebelah kiri saya!\""
 
     show sekar jas_tegas
@@ -40,7 +40,7 @@ label prolog_day1_scene4:
 
     show sekar jas_teriak
 
-    voice "audio/vo/sekar/pkkmb3_berhitung_lagi.flac"
+    voice "audio/vo/sekar/pkkmb3_berhitung_lagi.ogg"
     sekar "\"Ayo berhitung sekali lagi!\""
 
     show sekar jas_tegas
@@ -55,7 +55,7 @@ label prolog_day1_scene4:
 
     show sekar jas_teriak
 
-    voice "audio/vo/sekar/pkkmb4_kan_sudah_kubilang.flac"
+    voice "audio/vo/sekar/pkkmb4_kan_sudah_kubilang.ogg"
     sekar "\"Kan sudah kubilang untuk ke toilet terlebih dahulu ketika di ruangan tadi.\""
 
     Region "\"Iya kak, lain kali nggak bakal kami ulangi.\""

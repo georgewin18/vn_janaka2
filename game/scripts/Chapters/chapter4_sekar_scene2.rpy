@@ -90,18 +90,18 @@ label chapter4_sekar_scene2:
         zoom 1.15 xalign 1.1 yalign 0.05
     with moveinright
 
-    voice "audio/vo/sekar/chapter4/chapter4_1_3_halo.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_1_3_halo.ogg"
     sekar "\"Halo, nggak ganggu kan?\""
 
     raden "Nggak, Kak,"
 
-    voice "audio/vo/sekar/chapter4/chapter4_1_4_kursi_pada_penuh.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_1_4_kursi_pada_penuh.ogg"
     sekar "\"Kursi pada penuh, Aku duduk di sini gapapa kan?\""
 
     raden "\"Silahkan, Kak,\""
 
     if (chapter4_sekar_choice1_1_1_choosen == True):
-        voice "audio/vo/sekar/chapter4/chapter4_1_5_oh_iya.flac"
+        voice "audio/vo/sekar/chapter4/chapter4_1_5_oh_iya.ogg"
         sekar "\"Oh iya, Pagi tadi makasih sudah bantuin ya den\""
 
         raden "\"Aman kak\""
@@ -146,14 +146,14 @@ label chapter4_sekar_scene2_choice2_1:
 
     show sekar kemeja_bingung
 
-    voice "audio/vo/sekar/chapter4/chapter4_2_1_kenapa.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_2_1_kenapa.ogg"
     sekar "\"Kenapa nggak kamu kerjakan aja den?\""
 
     raden "\"Ugghh, terlalu malas kak...\""
 
     show sekar kemeja_teriak
 
-    voice "audio/vo/sekar/chapter4/chapter4_2_2_kalo_ditunda.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_2_2_kalo_ditunda.ogg"
     sekar "\"Kalo ditunda terus nanti kamu semakin malas loh\""
 
     raden "\"Iya sih kak. Tapi hari ini aku lagi malas banget, jadi besok aja\""
@@ -181,7 +181,7 @@ label chapter4_sekar_scene2_choice2_2:
 
     show sekar kemeja_bicara
 
-    voice "audio/vo/sekar/chapter4/chapter4_2_3_kalau_aku.flac"
+    voice "audio/vo/sekar/chapter4/chapter4_2_3_kalau_aku.ogg"
     sekar "\"Kalau aku sukanya Slice of Life, animenya bikin hati adem. Jadi enak ditontonnya\""
 
     raden "\"Ada rekomendasi nggak, satu aja\""

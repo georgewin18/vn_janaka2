@@ -50,18 +50,18 @@ transform erin_default:
 
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 
-define audio.raden_bgm = "audio/bgm/raden.flac"
-define audio.aisyah_bgm = "audio/bgm/aisyah_sweet.flac"
-define audio.sekar_bgm = "audio/bgm/sekar.flac"
-define audio.fania_bgm = "audio/bgm/fania_energic.flac"
-define audio.tessa_bgm = "audio/bgm/tessa.flac"
-define audio.santo_bgm = "audio/bgm/santo.flac"
-define audio.dramatic = "audio/bgm/dramatic.flac"
-define audio.campus = "audio/bgm/campus.flac"
-define audio.comedic = "audio/bgm/comedic.flac"
-define audio.intense = "audio/bgm/intense.flac"
-define audio.romantic = "audio/bgm/romantic.flac"
-define audio.romantic2 = "audio/bgm/romantic2.flac"
+define audio.raden_bgm = "audio/bgm/raden.ogg"
+define audio.aisyah_bgm = "audio/bgm/aisyah_sweet.ogg"
+define audio.sekar_bgm = "audio/bgm/sekar.ogg"
+define audio.fania_bgm = "audio/bgm/fania_energic.ogg"
+define audio.tessa_bgm = "audio/bgm/tessa.ogg"
+define audio.santo_bgm = "audio/bgm/santo.ogg"
+define audio.dramatic = "audio/bgm/dramatic.ogg"
+define audio.campus = "audio/bgm/campus.ogg"
+define audio.comedic = "audio/bgm/comedic.ogg"
+define audio.intense = "audio/bgm/intense.ogg"
+define audio.romantic = "audio/bgm/romantic.ogg"
+define audio.romantic2 = "audio/bgm/romantic2.ogg"
 
 screen block_mouse:
     key "mouseup_3" action Hide("none")
@@ -73,7 +73,7 @@ label splashscreen:
     scene blank with Pause(1)
 
     show logo with dissolve:
-        zoom 0.4 truecenter
+        zoom 1.0 truecenter
     with Pause(2)
 
     scene blank with dissolve

@@ -8,7 +8,7 @@ label pensasi_sekar_ending:
 
     show sekar kasual_bicara
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_1_menyenangkan.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_1_menyenangkan.ogg"
     sekar "\"Menyenangkan nggak den?\""
 
     show raden kasual_ceria
@@ -17,7 +17,7 @@ label pensasi_sekar_ending:
 
     show sekar kasual_ceria
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_2_iya_kan.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_2_iya_kan.ogg"
     sekar "\"Iya kan? Nggak nyangka bakal seseru ini\""
 
     show raden kasual_biasa
@@ -32,7 +32,7 @@ label pensasi_sekar_ending:
 
     show sekar kasual_bicara
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_3_kamu.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_3_kamu.ogg"
     sekar "\"Kamu ngajak ngedate nih?\""
 
     show raden kasual_gugup
@@ -41,17 +41,17 @@ label pensasi_sekar_ending:
 
     show sekar kasual_biasa
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_4_oh.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_4_oh.ogg"
     sekar "\"Oh cuma main\""
 
     "Nada suaranya terdengar sedikit bercanda. Ia kemudian berjalan lagi, menatap lurus ke depan, sebelum akhirnya menambahkan dengan suara yang lebih lembut."
 
     show sekar kasual_senyum
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_5_kalo.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_5_kalo.ogg"
     sekar "\"Kalau cuma main mah, kamu chat aja kapan waktu mainnya\""
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_6_biar.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_6_biar.ogg"
     sekar "\"Biar aku bisa enak ngatur jadwal\""
 
     show raden kasual_biasa
@@ -60,10 +60,10 @@ label pensasi_sekar_ending:
 
     show sekar kasual_ceria
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_7_kalo_begitu.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_7_kalo_begitu.ogg"
     sekar "\"kalau begitu, aku pergi dulu ya den\""
 
-    voice "audio/vo/sekar/pensasi/pensasi_ending_8_selamat_tinggal.flac"
+    voice "audio/vo/sekar/pensasi/pensasi_ending_8_selamat_tinggal.ogg"
     sekar "\"Selamat tinggal\""
 
     show raden kasual_ceria

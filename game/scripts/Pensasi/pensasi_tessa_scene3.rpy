@@ -67,21 +67,21 @@ label pensasi_tessa_scene3_choice3_1:
 
     show tessa kasual_senyum
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_1_1_terima_kasih.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_1_1_terima_kasih.ogg"
     tessa "\"Terima kasih ya udah bantu\""
 
     show raden kasual_tersenyum
 
     raden "\"Aman kak, udah biasa teman menolong teman\""
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_1_2_oke.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_1_2_oke.ogg"
     tessa "\"Oke, hati-hati ya\""
 
     show raden kasual_ceria
 
     raden "\"Oke, makasih, bye\""
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_1_3_bye.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_1_3_bye.ogg"
     tessa "\"Bye\""
 
     scene black with dissolve
@@ -147,14 +147,14 @@ label pensasi_tessa_scene3_choice3_1:
 label pensasi_tessa_scene3_choice3_2:
     show tessa kasual_senyum2
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_1_terima_kasih.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_1_terima_kasih.ogg"
     tessa "\"Makasih ya udah bantu\""
 
     show raden kasual_ceria
 
     raden "\"Aman kak, aku suka menolong kok\""
     
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_2_begitu.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_2_begitu.ogg"
     tessa "\"Begitu ya, bukan karena pernah kabur dulu\""
 
     show raden kasual_capek
@@ -163,7 +163,7 @@ label pensasi_tessa_scene3_choice3_2:
 
     show tessa kasual_senyum
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_3_hehehe.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_3_hehehe.ogg"
     tessa "\"Hehehehe\""
 
     show raden kasual_tersenyum
@@ -172,7 +172,7 @@ label pensasi_tessa_scene3_choice3_2:
 
     show tessa kasual_netral
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_4_hmm.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_4_hmm.ogg"
     tessa "\"hmmm...\""
 
     "Kak Tessa tampak berpikir sejenak, lalu menoleh ke arah Kak Dio, yang masih duduk santai dengan tangan di belakang kepala"
@@ -181,7 +181,7 @@ label pensasi_tessa_scene3_choice3_2:
 
     dio "\"Santai aja. Gue udah ngehubungin anak-anak yang lain. Jadi lo bisa bebas jalan-jalan dulu, Boss\""
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_5_serius.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_5_serius.ogg"
     tessa "\"Serius kau?\""
 
     dio "\"Yaelah, gue kapan bohong soal beginian? Udah gih. Lo jalan aja.\""
@@ -200,7 +200,7 @@ label pensasi_tessa_scene3_choice3_2:
 
     "Kak Tessa juga tampak kaget, lalu langsung melemparkan gulungan brosur ke kepala Kak Dio."
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_6_bacot.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_6_bacot.ogg"
     tessa "\"{size=+10}Bacot lu!{/size}\""
 
     "Kak Dio tertawa puas sambil mengangkat tangan tanda menyerah"
@@ -209,7 +209,7 @@ label pensasi_tessa_scene3_choice3_2:
 
     show tessa kasual_netral
 
-    voice "audio/vo/tessa/pensasi/pensasi_3_2_7_yaudah.flac"
+    voice "audio/vo/tessa/pensasi/pensasi_3_2_7_yaudah.ogg"
     tessa "\"Yaudah, ayo jalan\""
 
     show raden kasual_canggung

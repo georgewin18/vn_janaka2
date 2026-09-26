@@ -18,3 +18,5 @@ Thumbs.db
 # --- Development Environments (Optional but recommended) ---
 .vscode/
 .idea/
+
+progressive_download.txt

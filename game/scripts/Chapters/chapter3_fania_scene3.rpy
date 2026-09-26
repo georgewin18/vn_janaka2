@@ -13,7 +13,7 @@ label chapter3_fania_scene3:
     show aisyah kemeja_gugup with dissolve:
         zoom 0.35 xalign 0.9 yalign -0.7
 
-    voice "audio/vo/aisyah/chapter3/chapter3_1_fa.flac"
+    voice "audio/vo/aisyah/chapter3/chapter3_1_fa.ogg"
     aisyah "\"Fa- hmm, mendingan jangan deh.\""
 
     "Aisyah menghentikan niatnya untuk memanggil Fania, melihat dia begitu fokus dan penuh konsentrasi."
@@ -24,25 +24,25 @@ label chapter3_fania_scene3:
     
     "Aisyah mendekati Fania dan membuat Fania menyadarinya."
 
-    voice "audio/vo/fania/chapter3/chapter3_12_aisyah.flac"
+    voice "audio/vo/fania/chapter3/chapter3_12_aisyah.ogg"
     fania "\"Aisyah.\""
 
     "Jumlah kata-kata yang terlampau banyak di layar laptop dalam satu saat membuat Aisyah merasa pusing melihatnya. Dia duduk di bangku di sisi Fania. "
 
-    voice "audio/vo/aisyah/chapter3/chapter3_2_fania.flac"
+    voice "audio/vo/aisyah/chapter3/chapter3_2_fania.ogg"
     aisyah "\"Fania, itu mau kamu baca semuanya? Kenapa kok ada banyak sekali bukunya?\""
 
-    voice "audio/vo/fania/chapter3/chapter3_13_buat_tugas_aja.flac"
+    voice "audio/vo/fania/chapter3/chapter3_13_buat_tugas_aja.ogg"
     fania "\"Buat tugas aja sih.\'"
 
     "Aisyah menatap Fania dengan kebingungan dan tidak yakin. "
 
     show aisyah kemeja_bingung
 
-    voice "audio/vo/aisyah/chapter3/chapter3_3_tugas.flac"
+    voice "audio/vo/aisyah/chapter3/chapter3_3_tugas.ogg"
     aisyah "\"Tugas?\""
 
-    voice "audio/vo/aisyah/chapter3/chapter3_4_kayanya.flac"
+    voice "audio/vo/aisyah/chapter3/chapter3_4_kayanya.ogg"
     aisyah "\"Kayaknya kebanyakan deh kalau cuma buat tugas.\""
 
     show black with dissolve

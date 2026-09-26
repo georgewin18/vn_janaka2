@@ -84,12 +84,12 @@ label pensasi_tessa_scene1:
 
             show tessa kasual_senyum2
 
-            voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.flac"
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.ogg"
             tessa "\"Oke, terima kasih ya udah berkunjung, hati-hati\""
 
             raden "\"Oke, bye\""
 
-            voice "audio/vo/tessa/pensasi/pensasi_1_1_2_bye.flac"
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_2_bye.ogg"
             tessa "\"Bye\""
 
             #jump
@@ -108,7 +108,7 @@ label pensasi_tessa_scene1:
 
             show tessa kasual_kesal
             
-            voice "audio/vo/tessa/pensasi/pensasi_1_2_1_ih.flac"
+            voice "audio/vo/tessa/pensasi/pensasi_1_2_1_ih.ogg"
             tessa "\"Ihh.. gausah inget-inget hal itu deh, awas ya!\""
 
             stop music fadeout 2.0
@@ -125,12 +125,12 @@ label pensasi_tessa_scene1:
 
             show tessa kasual_senyum2
             
-            voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.flac"
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_1_oke.ogg"
             tessa "\"Oke, terima kasih ya udah berkunjung, hati-hati\""
 
             raden "\"Oke, bye\""
 
-            voice "audio/vo/tessa/pensasi/pensasi_1_1_2_bye.flac"
+            voice "audio/vo/tessa/pensasi/pensasi_1_1_2_bye.ogg"
             tessa "\"Bye\""
 
             jump pensasi_sekar_scene1

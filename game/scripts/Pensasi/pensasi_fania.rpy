@@ -128,7 +128,7 @@ label pensasi_fania_choice_mobil:
     if(pensasi_fania_choice2_2_choosen == False):
         raden "\"Gimana kalau kita lihat mobil listrik?\""
 
-        voice "audio/vo/fania/pensasi/pensasi_1_boleh.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_1_boleh.ogg"
         fania "\"Boleh.\""
 
         scene bg depan_perpus_d3_ramai with dissolve:
@@ -214,7 +214,7 @@ label pensasi_fania_choice_gokart:
 
         raden "\"Kalau begitu ayo kita lihat yang lain,\""
 
-        voice "audio/vo/fania/pensasi/pensasi_istirahat_aja.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_istirahat_aja.ogg"
         fania "\"Istirahat aja dah? pasti yang lain juga ramai\""
 
         $ pensasi_fania_choice2_2_choosen = True
@@ -228,17 +228,17 @@ label pensasi_fania_choice_gokart:
     else:
         raden "\"Ayo pergi ke Go-kart!\""
 
-        voice "audio/vo/fania/pensasi/pensasi_1_boleh.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_1_boleh.ogg"
         fania "\"Boleh.\""
 
         "Dengan persetujuan, Kami berjalan dan sampai di booth go kart."
 
-        voice "audio/vo/fania/pensasi/pensasi_2_deket_banget.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_2_deket_banget.ogg"
         fania "\"Deket banget, kukira bakalan ke booth yang jauh.\""
 
         "Ternyata tempatnya juga sudah ramai orang yang ingin mencoba Go-kart."
 
-        voice "audio/vo/fania/pensasi/pensasi_3_hmm.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_3_hmm.ogg"
         fania "\"Hmm…\""
 
         fania "\"Rasanya gak etis kalau kita tiba-tiba motong di tengah antrian, ayo pergi aja.\""
@@ -259,7 +259,7 @@ label pensasi_fania_afterchoice2:
     with dissolve
     
     
-    voice "audio/vo/fania/pensasi/pensasi_4_hahh_capek.mp3"
+    voice "audio/vo/fania/pensasi/pensasi_4_hahh_capek.ogg"
     fania "\"Haahh capek juga ya, muter-muter doang.\""
 
     show raden kasual_ceria
@@ -269,21 +269,21 @@ label pensasi_fania_afterchoice2:
     show fania casual_senyum_normal_biasa
     "Kami berdua bersantai di pojok bagian depan gedung pasca sarjana. Di sisi lainnya, terdapat live music yang mengalun untuk mengiringi acara."
 
-    voice "audio/vo/fania/pensasi/pensasi_5_kamu_bisa_nyanyi.mp3"
+    voice "audio/vo/fania/pensasi/pensasi_5_kamu_bisa_nyanyi.ogg"
     fania "\"Kamu bisa nyanyi, den?\""
 
     raden "\"Ya mungkin, belajar gitar\""
 
     "Fania menoleh ke arahku dan melambaikan tangannya. Aku mendekatinya dan mendapatkan sebuah pertanyaan yang mengejutkan."
 
-    voice "audio/vo/fania/pensasi/pensasi_6_kamu_mau.mp3"
+    voice "audio/vo/fania/pensasi/pensasi_6_kamu_mau.ogg"
     fania "\"Kamu mau jadi gitarisku?\""
 
     #raden kaget
     show raden kasual_kaget
     raden "\"Hah!? Gitaris?!\""
 
-    voice "audio/vo/fania/pensasi/pensasi_7_iya.mp3"
+    voice "audio/vo/fania/pensasi/pensasi_7_iya.ogg"
     fania "\"Iya. Gimana?\""
 
     menu:
@@ -358,7 +358,7 @@ label pensasi_fania_afterchoice2:
                 xalign 1.25
             with dissolve
 
-            voice "audio/vo/fania/pensasi/pensasi_8_pfft.mp3"
+            voice "audio/vo/fania/pensasi/pensasi_8_pfft.ogg"
             fania "\"Pfftt, hahaha... padahal gak bisa gitar tapi kamu sok banget. Jadi kelihatan lucu,\""
 
             "Fania tertawa dengan sangat manis saat dia menjauhkan mic-nya."
@@ -381,7 +381,7 @@ label pensasi_fania_afterchoice2:
             show raden kasual_canggung
             "Rasanya sangat tidak enak saat dia begitu bersemangat tetapi aku tidak bisa memberikannya harapan"
 
-            voice "audio/vo/fania/pensasi/pensasi_9_yah.mp3"
+            voice "audio/vo/fania/pensasi/pensasi_9_yah.ogg"
             fania "\"Yah… sayang banget. Kalau begitu kamu harus saksikan ini dengan baik.\""
 
             show raden kasual_biasa
@@ -444,7 +444,7 @@ label pensasi_fania_afterchoice3:
         xalign 1.25
     with dissolve
     
-    voice "audio/vo/fania/pensasi/pensasi_10_hahh.mp3"
+    voice "audio/vo/fania/pensasi/pensasi_10_hahh.ogg"
     fania "\"Ha… rasanya capek banget\""
 
     "Fania meregangkan tubuhnya saat kita keluar dari konser dadakan Fania."
@@ -459,33 +459,33 @@ label pensasi_fania_afterchoice3:
 
         #fania tertawa kecil
         show fania casual_tertawa_kecil
-        voice "audio/vo/fania/pensasi/pensasi_11_kamu_juga.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_11_kamu_juga.ogg"
         fania "\"Kamu juga lucu waktu bingung sama gitarnya tadi.\""
 
         show raden kasual_tersenyum
         raden "\"Siapa tahu aku tiba-tiba dapet skill dadakan gitu,\""
 
         #(VO tertawa)
-        voice "audio/vo/fania/pensasi/pensasi_12_tertawa.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_12_tertawa.ogg"
         "Fania tertawa mendengar komentarku."
     else:
         #fania senyum ceria
         show fania casual_senyum_normal_biasa
         show raden kasual_biasa
-        voice "audio/vo/fania/pensasi/pensasi_13_sayang.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_13_sayang.ogg"
         fania "\"Sayang sih kamu gak ikut tadi. Aku yakin bakalan lebih seru kalau kamu ikut tadi.\""
 
         show raden kasual_tersenyum
         raden "\"Yah kalau begitu aku bakalan latihan main gitar biar kita bisa duet lain kali,\""
 
-        voice "audio/vo/fania/pensasi/pensasi_14_kalau_begitu.mp3"
+        voice "audio/vo/fania/pensasi/pensasi_14_kalau_begitu.ogg"
         fania "\"Kalau begitu aku tunggu den.\""
 
     
     #fania senyum
     show fania casual_senyum_ceria
 
-    voice "audio/vo/fania/pensasi/pensasi_15_den.mp3"
+    voice "audio/vo/fania/pensasi/pensasi_15_den.ogg"
     fania "\"Den, gimana hari ini? seru banget kan?\""
 
     show raden kasual_biasa
@@ -508,7 +508,7 @@ label pensasi_fania_afterchoice3:
             "Aku menatapnya. Menemukan Fania telah mengalihkan pandangannya dariku, tetapi aku bisa melihat telinganya memerah."
 
             show fania casual_kesal
-            voice "audio/vo/fania/pensasi/pensasi_16_kamu_pinter.mp3"
+            voice "audio/vo/fania/pensasi/pensasi_16_kamu_pinter.ogg"
             fania "\"Kamu… pinter ya, mulutmu itu.\""#suara jengkel
 
             "Tetapi aku tertawa kecil melihat Fania yang bertingkah malu-malu"
@@ -519,7 +519,7 @@ label pensasi_fania_afterchoice3:
             raden "\"Kalau begitu, gimana jawabanmu?\""
 
             show fania casual_senyum_normal_biasa
-            voice "audio/vo/fania/pensasi/pensasi_17_boleh_deh.mp3"
+            voice "audio/vo/fania/pensasi/pensasi_17_boleh_deh.ogg"
             fania "\"… Boleh deh, lain kali.\""
 
             show black with dissolve
@@ -531,7 +531,7 @@ label pensasi_fania_afterchoice3:
             raden "\"Yah… lumayanlah, gak buruk. Sayang kita gak bisa cobain mobil listrik sama gokart karena terlalu ramai. Pasti bakalan lebih menyenangkan\""
             
             #menghela nafas
-            voice "audio/vo/fania/pensasi/pensasi_18_mau_gimana_lagi.mp3"
+            voice "audio/vo/fania/pensasi/pensasi_18_mau_gimana_lagi.ogg"
 
             show fania casual_menghelanapas_ada_asap with dissolve
             pause 0.2
@@ -548,7 +548,7 @@ label pensasi_fania_afterchoice3:
             raden "\"Boleh deh, kalau begitu, ayo jalan bareng lagi lain kali.\""
 
             show fania casual_senyum_ceria
-            voice "audio/vo/fania/pensasi/pensasi_19_oke.mp3"
+            voice "audio/vo/fania/pensasi/pensasi_19_oke.ogg"
             fania "\"Oke!\""
 
             show black with dissolve

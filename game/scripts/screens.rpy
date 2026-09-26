@@ -452,7 +452,11 @@ screen main_menu():
     tag menu
 
     add gui.main_menu_background
-    add "images/cover.png" zoom 0.55 ypos 200
+    add "images/cover.png":
+        xysize (config.screen_width, config.screen_height)
+        fit "cover"
+        zoom 0.55
+        ypos 250
 
     ## This empty frame darkens the main menu.
     frame:
