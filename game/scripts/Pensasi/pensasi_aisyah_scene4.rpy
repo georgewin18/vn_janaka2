@@ -10,7 +10,8 @@ init:
 label pensasi_aisyah_scene4:
     #depan pasca
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Waktu sudah menunjukkan sekitar pukul satu siang ketika kami melangkah keluar dari masjid. Udara siang yang panas langsung menyambut, membuat bayangan kami tampak jelas di jalanan kampus."
 
@@ -50,7 +51,9 @@ label pensasi_aisyah_scene4:
 
     play music aisyah_bgm fadein 1.0
 
-    scene blank with dissolve
+    scene blank with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show aisyah_pensasi at pan_left:
         zoom 1.5
@@ -67,7 +70,8 @@ label pensasi_aisyah_scene4:
     pause 2.0
 
     scene aisyah_pensasi with dissolve:
-        zoom 0.75
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     pause 1.5
 

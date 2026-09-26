@@ -1,6 +1,7 @@
 label chapter5_tessa_scene1:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     play music raden_bgm fadein 1.0
 
@@ -30,7 +31,8 @@ label chapter5_tessa_scene1:
 
 label chapter5_tessa_scene1_choice1_1:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa with moveinbottom:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -59,7 +61,8 @@ label chapter5_tessa_scene1_choice1_1:
 
     #bg parkiran
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music campus fadein 1.0
 
@@ -83,7 +86,8 @@ label chapter5_tessa_scene1_choice1_1:
 
 label chapter5_tessa_scene1_choice1_2:
     scene bg kamar_raden with dissolve:
-        zoom 0.5    
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_menghela_napas with moveinbottom:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -118,7 +122,8 @@ label chapter5_tessa_scene1_choice1_2:
 
     #bg parkiran
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_capek with moveinleft:
         zoom 0.48 xalign 0.0 yalign 0.1

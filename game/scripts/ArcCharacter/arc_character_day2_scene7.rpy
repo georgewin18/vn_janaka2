@@ -3,7 +3,8 @@ label arc_character_day2_scene7:
     pause 0.5
 
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign 0.0
@@ -141,7 +142,8 @@ label arc_character_day2_scene7:
     #Sfx telfon berdering
 
     scene bg parkir_d3_sore with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kasual_biasa at raden_default:
         xalign 0.0
@@ -176,7 +178,8 @@ label arc_character_day2_scene7:
 
     #Jalan gang
     scene bg jalan_gang with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     #Suasana intens
 
     "Sampai di gang belakang kampus, aku lihat Aisyah berdiri sigap, siap melawan dua pria mencurigakan. Di sampingnya, seorang mahasiswi terjatuh—aku kenal, Erin."

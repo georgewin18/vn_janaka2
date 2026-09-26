@@ -6,7 +6,8 @@ define prolog_day4_choice2_4_done = False
 
 label prolog_day4_scene4:
     scene bg lap_futsal_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music raden_bgm fadein 1.0
     

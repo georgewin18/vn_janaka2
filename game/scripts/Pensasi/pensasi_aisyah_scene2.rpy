@@ -2,7 +2,8 @@ define pensasi_aisyah_scene2_choice2_1_choosen = False
 
 label pensasi_aisyah_scene2:
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music campus fadein 1.0
 

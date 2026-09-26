@@ -327,7 +327,8 @@ label arc_character_day1_scene4:
     aisyah "\"Iya, Biar serius suasananya.\""
 
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show santo kasual_netral at santo_default:
         xalign 0.25

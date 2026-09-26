@@ -2,7 +2,8 @@ define chapter2_aisyah_scene2_choice1_choosen = False
 
 label chapter2_aisyah_scene2:
     scene bg kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa with dissolve:
         zoom 0.54 xalign 0.0 yalign 0.05

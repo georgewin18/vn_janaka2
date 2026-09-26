@@ -4,7 +4,8 @@ label prolog_day3_scene1:
 # Suasana : Netral di Kampus
 
     scene bg lapmer_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music raden_bgm fadein 1.0
 

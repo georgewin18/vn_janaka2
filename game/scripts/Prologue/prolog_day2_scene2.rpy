@@ -2,7 +2,8 @@ label prolog_day2_scene2:
 
     #Depan Auditorium
     scene bg depan_auditorium_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_panik at raden_default:
         xalign 0.45
@@ -17,7 +18,8 @@ label prolog_day2_scene2:
     show black with dissolve
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Aku masuk ke dalam auditorium dan memeriksa sekeliling mencari Region-ku."
 

@@ -6,7 +6,8 @@ init:
 
 label chapter5_tessa_scene4:
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         zoom 0.48 xalign 0.0 yalign 0.1
@@ -171,7 +172,8 @@ label chapter5_tessa_scene4_choice4_2:
 
     #bg parkiran
     scene bg lap_futsal with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         zoom 0.48 xalign 0.0 yalign 0.1
@@ -199,7 +201,8 @@ label chapter5_tessa_scene4_choice4_3:
 
     #bg parkiran
     scene bg lap_futsal with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_capek with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1

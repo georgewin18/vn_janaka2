@@ -4,7 +4,8 @@ define from_sekar_route = False
 
 label pensasi_sekar_scene1:
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     "Sembari terdian dalam pikiran, aku tidak sengaja melihat Kak Sekar dari jauh. Daripada aku bingung mau ngapain, aku langsung pergi ke Kak Sekar."
 

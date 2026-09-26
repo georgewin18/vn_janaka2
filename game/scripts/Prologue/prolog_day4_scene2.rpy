@@ -5,7 +5,8 @@ init:
 label prolog_day4_scene2:
     #bg jalan kantin-d4
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music raden_bgm fadein 1.0
 
@@ -88,7 +89,8 @@ label prolog_day4_scene2:
     with Pause(0.2)
 
     scene sekar_prolog with dissolve:
-        zoom 0.75
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Dia memeriksa lututku dengan cermat. Namun saat dia melihat lututku yang berdarah, wajahnya mendadak berubah."
 
@@ -128,7 +130,8 @@ label prolog_day4_scene2_choice1:
     "Setelah beberapa saat, kak Sekar akhirnya berhasil membersihkan luka menggunakan kapas antiseptik dan menempelkan perban di atasnya. Dia menghela napas panjang, terlihat sangat lega."
 
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa at raden_default:
         xalign -0.2
@@ -164,7 +167,8 @@ label prolog_day4_scene2_choice2:
     raden "\"Lihat... Gampang, kan?\""
 
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa at raden_default:
         xalign -0.2

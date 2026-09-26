@@ -1,7 +1,8 @@
 label chapter5_tessa_scene2:
     #bg kelas
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kasual_biasa2:
         zoom 0.48 xalign 0.0 yalign 0.1

@@ -13,7 +13,8 @@ init:
 
 label pensasi_tessa_scene4:
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -123,7 +124,8 @@ label pensasi_tessa_scene4:
     pause 1.0
 
     scene tessa_pensasi1 with dissolve:
-        zoom 0.75
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Di dunia game ini, langit malam dibuat dengan detail yang memukau—bintang-bintang yang bertebaran, bulan penuh yang bersinar terang, dan awan tipis yang melintas perlahan."
 
@@ -151,7 +153,8 @@ label pensasi_tessa_scene4:
     with Pause(0.3)
 
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_hehe at raden_default:
         xalign -0.2

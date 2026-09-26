@@ -3,7 +3,8 @@ label prolog_day1_scene3:
     # Latar: Dalam Auditorium
     # Karakter: Raden, Aisyah, Sekar, dan Tessa
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_capek at raden_default:
         xalign 0.45
@@ -26,7 +27,8 @@ label prolog_day1_scene3:
     "Seseorang mencubit lengan bajuku dengan pelan dan membangunkanku"
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_menghela_napas at raden_default:
         xalign -0.2

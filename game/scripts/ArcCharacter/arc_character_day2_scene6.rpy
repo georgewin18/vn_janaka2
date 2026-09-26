@@ -10,7 +10,8 @@ transform kanan_kiri:
 
 label arc_character_day2_scene6:
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show tessa kasual_kesal at tessa_default: #tessa bingung
         xalign 0.8
@@ -148,7 +149,8 @@ label arc_character_day2_scene6:
 
     #Lorong D3 dekat lapmer 
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     #Sekar Mondar Mandir
     show sekar kasual_biasa at kanan_kiri:
         xzoom 1.0
@@ -233,12 +235,14 @@ label arc_character_day2_scene6:
             scene black with dissolve
             pause 1.0
             scene bg kantin with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
             pause 1.0
             scene black with dissolve
             pause 1.0
             scene bg jalan_d4_kantin with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
             pause 1.0
 
             "Ketika masuk menuju D4 tiba-tiba saja ada banyak orang yang keluar secara bersamaan."
@@ -253,7 +257,8 @@ label arc_character_day2_scene6:
 
             #D3 dekat Lapmer
             scene bg lapmer with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             "Aku kembali ke D3 dekat Lapmer untuk melihat acara nya lagi, semua orang terlihat menikmati nya."
             show raden kasual_biasa at raden_default:

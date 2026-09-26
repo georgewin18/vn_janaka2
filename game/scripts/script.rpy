@@ -67,16 +67,20 @@ screen block_mouse:
     key "mouseup_3" action Hide("none")
     key "mouseup_1" action Hide("none")
 
-default debug_mode = False
+default debug_mode = True
 
 label splashscreen:
-    scene blank with Pause(1)
+    scene blank with Pause(1):
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show logo with dissolve:
         zoom 1.0 truecenter
     with Pause(2)
 
-    scene blank with dissolve
+    scene blank with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(1)
 
     return

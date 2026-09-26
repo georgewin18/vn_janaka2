@@ -6,7 +6,8 @@ label pensasi_fania:
     #Netral di kampus
 
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Kami berjalan keluar gedung pascasarjana, udara segar langsung menyapa wajah kami setelah beberapa jam berada di dalam keramaian."
 
@@ -132,7 +133,8 @@ label pensasi_fania_choice_mobil:
         fania "\"Boleh.\""
 
         scene bg depan_perpus_d3_ramai with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
 
         "Booth mobil itu sudah dipenuhi pengunjung yang antusias. Penjaga booth tampak menjelaskan dengan penuh percaya diri mengenai mobil yang timnya kembangkan."
 
@@ -198,7 +200,8 @@ label pensasi_fania_choice_gokart:
 
         #depan perpus d3
         scene bg depan_perpus_d3_ramai with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
         
         "Namun, ketika kami tiba di arena, tempat itu sudah penuh dengan antrean panjang orang-orang yang tak sabar menunggu giliran mereka."
 
@@ -250,7 +253,8 @@ label pensasi_fania_choice_gokart:
 label pensasi_fania_afterchoice2:
 
     scene bg depan_perpus_d3:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -307,7 +311,8 @@ label pensasi_fania_afterchoice2:
             pause 4.0
 
             scene fania_pensasi with dissolve:
-                zoom 0.75
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             pause 1.5
 
@@ -348,7 +353,8 @@ label pensasi_fania_afterchoice2:
             #fania terrawa kecil
 
             scene bg depan_pasca_ramai with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             play music campus fadein 1.0
 
@@ -401,7 +407,8 @@ label pensasi_fania_afterchoice2:
             pause 4.0
 
             scene fania_pensasi with dissolve:
-                zoom 0.75
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             pause 1.5
 
@@ -437,7 +444,8 @@ label pensasi_fania_afterchoice3:
 
     #depan pasca
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     show raden kasual_biasa at raden_default:
         xalign -0.2
     show fania casual_menghelanapas at fania_default:

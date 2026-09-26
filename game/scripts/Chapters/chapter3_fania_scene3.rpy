@@ -1,7 +1,8 @@
 label chapter3_fania_scene3:
     #bg perpus pasca
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     #bgm netral in kampus
     #fania dingin

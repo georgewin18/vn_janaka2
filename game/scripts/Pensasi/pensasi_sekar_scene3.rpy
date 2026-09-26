@@ -27,7 +27,8 @@ label pensasi_sekar_scene3:
 
     #depan pasca
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -65,7 +66,9 @@ label pensasi_sekar_scene3:
 
     play music sekar_bgm fadein 1.0
 
-    scene blank with dissolve
+    scene blank with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show sekar_pensasi1 at pan_right:
         zoom 2.0
@@ -123,7 +126,8 @@ label pensasi_sekar_scene3:
     "Mendengarnya Kak Sekar langsung memelankan kecepatannya dan melakukan perputaran untuk kembali."
 
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_pusing:
         zoom 0.48 xalign 0.0 yalign 0.1

@@ -44,7 +44,8 @@ label arc_character_day2_scene1:
     "*sfx alarm"
 
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show black with dissolve
     $ renpy.pause(0.1, hard=True)
@@ -126,7 +127,8 @@ label arc_character_day2_scene1:
 
     #sceme lorong d3
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign 0.0

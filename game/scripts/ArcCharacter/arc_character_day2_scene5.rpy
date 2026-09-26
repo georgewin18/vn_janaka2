@@ -3,7 +3,8 @@ label arc_character_day2_scene5:
     #SFX: Langkah sepatu pelan
 
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -63,7 +64,8 @@ label arc_character_day2_scene5:
             jump arc_character_day2_scene6
         "Pilih kabur":
             scene bg parkir_d3_pagi with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
             "Setelah kabur dari dari tessa yang ada di kantin, aku pun menarik napas dan menenangkan diriku."
 
             show raden kasual_gugup at raden_default:

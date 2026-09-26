@@ -8,7 +8,8 @@ label chapter3_fania_scene4:
     centered "Seminggu setelahnya.."
 
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music campus fadein 1.0
     #raden santo netral
@@ -394,7 +395,9 @@ label chapter3_fania_scene4_afterchoice3:
             "Akhirnya, Fania bangkit dari kursinya, berjalan keluar perpustakaan, dan menelpon teman satu kelompoknya yang sebelumnya sempat terlibat adu mulut dengannya"
 
             #BG putih
-            scene blank with dissolve
+            scene blank with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             "Di luar, aku membayangkan Fania berbicara dengan tenang namun tegas, meminta maaf atas kata-kata yang sempat menyinggung dan mencela."
 
@@ -403,7 +406,8 @@ label chapter3_fania_scene4_afterchoice3:
             "Aku tidak tahu pasti bagaimana percakapan mereka berlangsung. Yang jelas, ketika Fania kembali dan berdiri di depan kami, ia membawa kabar baik."
 
             scene bg depan_auditorium with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             #fania tersenyum
             show fania casual_senyum_normal_biasa:
@@ -474,7 +478,8 @@ label chapter3_fania_scene4_afterchoice3:
 
             #Kelas Raden
             scene bg auditorium with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             #Backsound Netral suasana kampus
             play music campus fadein 1.0

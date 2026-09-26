@@ -13,7 +13,8 @@ label pensasi_tessa_scene2:
     nvl clear
 
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -40,7 +41,8 @@ label pensasi_tessa_scene2:
     with Pause(0.3)
 
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_capek at raden_default:
         xalign -0.2

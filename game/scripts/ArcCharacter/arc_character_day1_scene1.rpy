@@ -1,6 +1,7 @@
 label arc_character_day1_scene1:
     scene bg kamar_raden with dissolve:
-        zoom 2.0
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show screen block_mouse
 
@@ -55,7 +56,8 @@ label arc_character_day1_scene1_afterchoice1:
     with Pause(0.3)
 
     scene bg jalan_gang with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Dalam perjalanan menuju kampus Aku tidak sengaja bertemu dengan seseorang yang terlihat mendorong motornya yang mogok."
 
@@ -116,7 +118,8 @@ label arc_character_day1_scene1_afterchoice1:
     with Pause(0.3)
 
     scene bg parkir_d3_pagi with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.2
@@ -220,7 +223,8 @@ label arc_character_day1_scene1_afterchoice2:
     centered "Beberapa Jam Kemudian"
 
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_menghela_napas at raden_default:
         xalign 0.45

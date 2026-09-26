@@ -1,6 +1,7 @@
 label arc_character_day1_scene3:
     scene bg kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.2

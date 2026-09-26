@@ -4,7 +4,8 @@ label chapter3_fania_scene1:
 
     #Kelas D4.
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music campus fadein 1.0
 

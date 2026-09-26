@@ -1,6 +1,7 @@
 label prolog_day4_scene1:
     scene bg lapmer_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     #suasana netral
 

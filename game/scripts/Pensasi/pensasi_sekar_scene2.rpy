@@ -43,7 +43,8 @@ label pensasi_sekar_scene2:
     with Pause(0.3)
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show aisyah casual_bingung at aisyah_default:
         xalign 1.0
@@ -80,7 +81,8 @@ label pensasi_sekar_scene2:
     with Pause(0.3)
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden jas_biasa at raden_default:
         xalign 0.45
@@ -111,7 +113,8 @@ label pensasi_sekar_scene2:
     "Dengan langkah yang mantap, aku turun dari panggung, menyerahkan panggung selanjutnya kepada pengisi acara berikutnya. Namun, dalam hatiku, aku tahu momen ini akan terus terpatri sebagai awal dari sesuatu yang istimewa."
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show aisyah casual_bersemangat at aisyah_default:
         xalign 1.0
@@ -242,7 +245,8 @@ label pensasi_sekar_scene2_choice2_1:
     "Setelah berpamitan dengan Kak Sekar, aku langsung pergi menuju Auditorium untuk menonton pitch bersama dengan Aisyah dan Fania."
 
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Di tengah jalan, terlihat Fania yang sedang keluar dari Auditorium."
 

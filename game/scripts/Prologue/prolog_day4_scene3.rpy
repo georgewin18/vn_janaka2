@@ -3,7 +3,8 @@
 label prolog_day4_scene3:
     #bg jalan kantin-d4
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     #show raden & sekar
     show raden kemeja_biasa at raden_default:

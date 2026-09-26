@@ -1,6 +1,7 @@
 label chapter4_sekar_good_ending:
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Selesai makan, aku langsung pergi membantu para panitia memindahkan peralatan yang dipakai. Ketiak selesai, aku dikasih upah berupa uang oleh Kak Sekar."
 
@@ -11,7 +12,8 @@ label chapter4_sekar_good_ending:
     stop music fadeout 2.0
 
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     raden "\"Uhh, akhirnya pulang juga. Pegel banget\""
 
@@ -28,7 +30,8 @@ label chapter4_sekar_good_ending:
 
 label chapter4_sekar_neutral_ending:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     raden "\"Uhh, akhirnya pulang juga. Pegel banget\""
 
@@ -45,7 +48,8 @@ label chapter4_sekar_neutral_ending:
 
 label chapter4_sekar_bad_ending:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     raden "\"Uhh, akhirnya pulang juga. Pegel banget\""
 

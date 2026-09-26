@@ -1,6 +1,7 @@
 label arc_character_day1_scene5:
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show tessa kasual_kesal at tessa_default:
         xalign 0.5

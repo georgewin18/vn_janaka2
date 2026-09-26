@@ -6,7 +6,6 @@ define config.nvl_adv_transition = Dissolve(0.3)
 
 label prolog_day1_scene1:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
         size (config.screen_width, config.screen_height)
         truecenter
 

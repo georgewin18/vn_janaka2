@@ -3,7 +3,8 @@ label prolog_day1_scene2:
 # Latar : Gerbang Masuk PENS, depan parkiran D3, lapmer, di dalam Pascasarjana, Pascasarjana lantai 6, dan di depan Auditorium.
 # Karakter: Raden, Santo, dan Aisyah
     scene bg lapmer_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa2 at raden_default:
         xalign 0.45
@@ -177,7 +178,8 @@ label scene3_after_choice:
     raden "{i}Ternyata, tidak secapek yang kupikir.{/i}" # ujarku dalam hati.
 
     scene bg depan_auditorium_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa at raden_default:
         xalign -0.2

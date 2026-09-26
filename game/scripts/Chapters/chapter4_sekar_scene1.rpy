@@ -7,7 +7,8 @@ init:
 
 label chapter4_sekar_scene1:
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     play music raden_bgm fadein 1.0
 
@@ -52,7 +53,8 @@ label chapter4_sekar_scene1_choice1_1:
 
     #jalan gang
     scene bg lap_futsal with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa2 with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -82,7 +84,8 @@ label chapter4_sekar_scene1_choice1_2:
     centered "Beberapa jam kemudian..."
 
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa2 with moveinbottom:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -102,7 +105,8 @@ label chapter4_sekar_scene1_choice1_2:
 
     #kelas
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kasual_gugup with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -213,7 +217,8 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     #parkiran
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -292,7 +297,8 @@ label chapter4_sekar_scene1_choice1_1_2:
 
     #parkiran
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kasual_biasa2 with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1

@@ -7,7 +7,8 @@ label chapter2_aisyah_scene3:
     #Raden, Aisyah, Santo netral
 
     scene jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa at flip:
         zoom 0.54 xalign 1.3 yalign 0.05

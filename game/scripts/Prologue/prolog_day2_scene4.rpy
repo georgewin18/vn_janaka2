@@ -6,7 +6,8 @@ init:
 label prolog_day2_scene4:
     #bg gang
     scene bg jalan_gang with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa with dissolve:
         zoom 0.54 xalign -0.2 yalign 0.05
@@ -67,9 +68,12 @@ label prolog2_scene4_after_choice1:
 
     #special moment
     scene bg lap_futsal with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
-    scene blank with dissolve
+    scene blank with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music romantic fadein 1.0
 
@@ -80,7 +84,8 @@ label prolog2_scene4_after_choice1:
     pause 4.0
 
     scene fania_prolog with dissolve:
-        zoom 0.75
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     pause 1.5
 
@@ -90,7 +95,9 @@ label prolog2_scene4_after_choice1:
 
     "Suaranya sangat pelan, nyaris seperti gumaman yang hanya bisa didengar angin. Aku mencoba memahami apa yang dia katakan, tapi terlalu samar untuk dimengerti."
 
-    scene blank with dissolve
+    scene blank with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Tanpa banyak basa-basi, dia langsung berjalan cepat menjauh. Aku masih terdiam di tempat, tubuhku seakan terkunci oleh kebingungan dan rasa penasaran."
 

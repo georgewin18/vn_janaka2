@@ -10,7 +10,8 @@ label chapter3_fania_scene2:
     
     #bg perpus pasca
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Fania dan Sasa telah berada di dalam perpustakaan gedung Pascasarjana menyiapkan buku di atas meja yang sesuai dengan topik yang akan dibahas dan siap untuk mulai mereview dan meringkas."
 

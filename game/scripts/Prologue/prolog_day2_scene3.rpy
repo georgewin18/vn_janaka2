@@ -1,7 +1,8 @@
 label prolog_day2_scene3:
     #bg gamg
     scene bg jalan_gang:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     #Suasana Netral in Home
     #Raden, Santo, Aisyah hilang
     #Fania muncul dingin 

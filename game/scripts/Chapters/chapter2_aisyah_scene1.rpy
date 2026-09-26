@@ -16,7 +16,8 @@ label chapter2_aisyah_scene1:
     "Pagi harinya, alarm yang kupasang dengan harapan besar malah tidak berguna. Aku terbangun dengan panik, melihat jam menunjukkan pukul 07.40."
     
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_panik with dissolve:
         zoom 0.54 xalign 0.5 yalign 0.05
@@ -24,7 +25,8 @@ label chapter2_aisyah_scene1:
     raden "\"Waduh telat nih bisa-bisa aku!\""
 
     scene bg lorong_kampus with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_capek with dissolve:
         zoom 0.54 xalign 0.5 yalign 0.05
@@ -47,7 +49,8 @@ label chapter2_aisyah_scene1:
     with Pause(0.5)
     
     scene bg lorong_kampus with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_pusing with dissolve:
         zoom 0.54 xalign 0.5 yalign 0.05
@@ -123,7 +126,8 @@ label chapter2_aisyah_scene1:
             
             #bg kelas d4
             scene bg kelas_d4 with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
             
             #raden gugup
             show raden kemeja_gugup with dissolve:
@@ -146,7 +150,8 @@ label chapter2_aisyah_scene1:
                 xalign 0.5
 
             scene bg kelas_d4 with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
             
             show raden kemeja_biasa2 with dissolve:
                 zoom 0.54 xalign 0.5 yalign 0.05
@@ -163,7 +168,8 @@ label chapter2_aisyah_scene1:
     with Pause(0.2)
 
     scene bg kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa with dissolve:
         zoom 0.54 xalign 0.0 yalign 0.05

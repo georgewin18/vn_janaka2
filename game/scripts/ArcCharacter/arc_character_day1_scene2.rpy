@@ -1,6 +1,7 @@
 label arc_character_day1_scene2:
     scene bg jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.5
@@ -36,7 +37,8 @@ label arc_character_day1_scene2:
     santo "\"Nah, itu baru ide brilian.\""
 
     scene bg kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.5

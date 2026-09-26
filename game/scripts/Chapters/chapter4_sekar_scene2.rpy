@@ -3,7 +3,8 @@ define chapter4_sekar_choice2_2_choosen = False
 label chapter4_sekar_scene2:
     #kelas
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa2 with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -55,7 +56,8 @@ label chapter4_sekar_scene2:
 
     #kantin
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kasual_biasa2 with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1

@@ -8,7 +8,8 @@ label prolog_day3_scene2:
 # Karakter: Raden, Aisyah, Santo, Sekar
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_gugup with dissolve:
         zoom 0.54 xalign 0.45 yalign 0.05
@@ -140,7 +141,8 @@ label prolog_day3_scene2:
     aisyah "\"Den, bangun den!\""
     
     scene bg auditorium:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     with dissolve
 
     "Mendengar suara Aisyah, aku sontak terbangun dari tidurku. Aku melihat Aisyah yang menatapku dengan muka panik, dan LO region ku Kak Sekar yang memperhatikanku dengan muka yang terlihat agak kesal."

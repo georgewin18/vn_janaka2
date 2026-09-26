@@ -104,7 +104,8 @@ label pensasi_canon:
 
     #Pasca lt atas
     scene bg lt_6_pasca with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Sambil berjalan pergi juga, aku melanjutkan chat untuk merencanakan pertemuan untuk acara besok. terlalu fokus dengan HP hingga nyaris menabrak seseorang—"
 
@@ -483,7 +484,8 @@ label pensasi_canon_afterchoice1:
 label pembukaan_pensasi:
     #Depan Pasca
     scene bg depan_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Sekitar pukul jam 8 lebih aku sampai di kampus dan berjalan menuju gedung Pascasarjana, tempat acara PENSASI digelar."
 
@@ -502,7 +504,8 @@ label pembukaan_pensasi:
     scene black with dissolve
 
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     "Aku terus menaiki tangga, berharap menemukan mereka di setiap lantai. Tetapi sampai di lantai enam pun, aku tetap tidak melihat mereka."
 
@@ -583,7 +586,8 @@ label pembukaan_pensasi:
 label pembukaan_pensasi_afterchoice1:
     #Pasca lt 6 zoom out
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Aku berjalan menuju pintu lift untuk menjemput mereka."
 

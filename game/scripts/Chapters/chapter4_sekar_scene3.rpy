@@ -76,7 +76,8 @@ label chapter4_sekar_scene2_choice3_1:
     santo "\"Iya den\""
 
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         zoom 0.48 xalign 0.0 yalign 0.1
@@ -125,7 +126,8 @@ label chapter4_sekar_scene2_choice3_1:
 
     #malem
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_menghela_napas with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1
@@ -388,7 +390,8 @@ label chapter4_sekar_scene2_choice3_2:
 
     #perpus
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         zoom 0.48 xalign 0.0 yalign 0.1
@@ -495,7 +498,8 @@ label chapter4_sekar_scene2_choice3_2_1:
     stop music fadeout 2.0
 
     scene bg lapmer with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa with dissolve:
         zoom 0.48 xalign 0.5 yalign 0.1

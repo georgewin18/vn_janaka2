@@ -1,6 +1,7 @@
 label arc_character_day2_scene8:
     scene bg jalan_gang:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa at raden_default:
         xalign -0.4

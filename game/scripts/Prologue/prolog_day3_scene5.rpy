@@ -13,7 +13,8 @@ label prolog_day3_scene5:
 # Suasana Netral
 
     scene bg kamar_raden with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music raden_bgm fadein 1.0
 

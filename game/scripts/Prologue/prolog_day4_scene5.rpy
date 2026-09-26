@@ -1,6 +1,7 @@
 label prolog_day4_scene5:
     scene bg lapmer_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     "Setelah puas berkeliling di area UKM Expo, aku akhirnya kembali ke Lapangan Merah bersama kelompokku untuk menghadiri acara penutupan PKKMB."
 
@@ -20,7 +21,8 @@ label prolog_day4_scene5:
     with Pause(0.2) 
 
     scene bg lapmer_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Akhirnya selesai juga. Empat hari PKKMB akhirnya berakhir."
     

@@ -1,7 +1,8 @@
 label prolog_day2_scene5:
     #bg gang
     scene bg jalan_gang:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music santo_bgm fadein 1.0
 

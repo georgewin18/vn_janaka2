@@ -10,7 +10,8 @@ label prolog_day3_scene3:
 # Karakter: Raden, Tessa
 
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_capek with dissolve:
         zoom 0.54 xalign 0.45 yalign 0.05

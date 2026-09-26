@@ -35,7 +35,8 @@ label pensasi_aisyah_scene3:
             with Pause(0.3)
 
             scene bg auditorium with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             show raden kasual_biasa at raden_default:
                 xalign -0.2

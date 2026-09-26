@@ -6,7 +6,8 @@ define mahasiswi = Character("Mahasiswi")
 
 label chapter2_aisyah_scene4:
     scene jalan_d4_kantin with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kemeja_biasa:
         zoom 0.54 xalign 0.5 yalign 0.05
@@ -136,7 +137,8 @@ label chapter2_aisyah_scene4:
         with Pause(0.2)
 
         scene perjalanan_pulang with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
 
         show raden kemeja_biasa:
             zoom 0.54 xalign 0.5 yalign 0.05
@@ -177,7 +179,8 @@ label chapter2_aisyah_scene4:
         with Pause(0.2)
 
         scene tengah_jalan with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
 
         show aisyah kemeja_penasaran at flip:
             zoom 0.34 xalign 0.9 yalign -1.0
@@ -273,7 +276,8 @@ label chapter2_aisyah_scene4:
         with Pause(0.2)
 
         scene perjalanan_pulang with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
 
         show raden kemeja_biasa with dissolve:
             zoom 0.54 xalign 0.0 yalign 0.05
@@ -303,7 +307,8 @@ label chapter2_aisyah_scene4:
         with Pause(0.2)
 
         scene tengah_jalan with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
 
         show raden kemeja_biasa:
             zoom 0.54 xalign 0.5 yalign 0.05
@@ -344,7 +349,8 @@ label chapter2_aisyah_scene4:
         with Pause(0.2)
 
         scene tengah_jalan with dissolve:
-            zoom 0.5
+            size (config.screen_width, config.screen_height)
+            truecenter
 
         show aisyah kemeja_penasaran at flip:
             zoom 0.34 xalign 0.9 yalign -1.0

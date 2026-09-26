@@ -25,7 +25,9 @@ label prolog_day3_scene4:
     
     # show raden kemeja_kaget
 
-    scene blank with dissolve
+    scene blank with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show tessa_prolog at pan_left:
         zoom 1.5 yalign 0.3
@@ -34,7 +36,8 @@ label prolog_day3_scene4:
     pause 3.0
 
     scene tessa_prolog with dissolve:
-        zoom 0.75
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     pause 1.5
     
@@ -108,7 +111,8 @@ label prolog_day3_scene4:
     #     xalign 0.5
     
     scene bg depan_auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kemeja_biasa with dissolve:
         zoom 0.54 xalign 0.45 yalign 0.05
@@ -118,7 +122,8 @@ label prolog_day3_scene4:
     stop music fadeout 2.0
 
     scene bg auditorium with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     show raden kemeja_biasa with dissolve:
         zoom 0.54 xalign 0.45 yalign 0.05

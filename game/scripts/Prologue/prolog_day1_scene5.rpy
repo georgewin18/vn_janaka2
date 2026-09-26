@@ -5,7 +5,8 @@ init:
 
 label prolog_day1_scene5:
         scene bg masjid:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
         with dissolve
 
         show raden kemeja_ceria at raden_default:
@@ -32,7 +33,9 @@ label prolog_day1_scene5:
 
         play music aisyah_bgm fadein 1.0
 
-        scene blank with dissolve
+        scene blank with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
         show aisyah_prolog at pan_up:
                 xalign 0.25
@@ -41,7 +44,8 @@ label prolog_day1_scene5:
         pause 3.0
 
         scene aisyah_prolog with dissolve:
-                zoom 0.75
+                size (config.screen_width, config.screen_height)
+                truecenter
 
         pause 1.0
 
@@ -97,7 +101,9 @@ label prolog_day1_scene5:
 
         stop music fadeout 2.0
 
-        scene blank with dissolve
+        scene blank with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
         with Pause(0.2)
 
         "Setelah selesai ISHOMA, rangkaian acara PKKMB dilanjutkan di Auditorium hingga menjelang sore hari."

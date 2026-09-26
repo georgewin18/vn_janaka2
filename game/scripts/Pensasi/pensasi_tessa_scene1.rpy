@@ -1,6 +1,7 @@
 label pensasi_tessa_scene1:
     scene bg lt_6_pasca_ramai with dissolve:
-        zoom 0.5
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music campus fadein 1.0
 
