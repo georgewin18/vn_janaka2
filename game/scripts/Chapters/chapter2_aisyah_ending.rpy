@@ -23,7 +23,9 @@ label chapter2_aisyah_bad_ending:
 
     "Di perjalanan, kami tak bertukar kata kecuali Aisyah yang menjelaskan arah pulang. Selain itu, hanya suara mesin motor dan angin malam yang menemani. Bahkan, sampai aku menurunkannya di depan gang, Aisyah hanya menganggukkan kepala sebelum berjalan pergi."
     
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     jump chapter3_fania_scene1

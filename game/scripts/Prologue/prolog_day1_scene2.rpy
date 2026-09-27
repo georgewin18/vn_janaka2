@@ -24,7 +24,7 @@ label prolog_day1_scene2:
 
     voice sustain
 
-    show blank with dissolve
+    show blank at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
     voice sustain
 
@@ -170,7 +170,9 @@ label scene3_after_choice:
     raden "\"{size=+10}Apa?? Lantai 6??{/size}\"" with vpunch # sontak diriku kaget. (Raden kaget)
     lo2 "\"Hahaha, terimalah nasib kalian dan tetap semangat\"" # kata kakak Panitia tersebut sambil tersenyum. (Panitia senyum)
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Tidak ada hal yang bisa ku ributkan. Meskipun begitu, berpikir untuk naik menuju lantai 6 saja sudah membuatku malas. Aku pun mencoba untuk mengobrol dengan Aisyah sembari menaiki tangga ini."
 
@@ -206,7 +208,9 @@ label scene3_after_choice:
 
     "Meskipun rasa lelah ini masih terasa. Kami langsung saja menuju ruangan tersebut, dengan pikiran kalau kita bisa langsung duduk setelah memasuki ruangan."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)    
 
     jump prolog_day1_scene3

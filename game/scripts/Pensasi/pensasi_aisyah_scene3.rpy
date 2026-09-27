@@ -31,7 +31,9 @@ label pensasi_aisyah_scene3:
             
             aisyah "\"iya,\""
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             with Pause(0.3)
 
             scene bg auditorium with dissolve:
@@ -74,7 +76,7 @@ label pensasi_aisyah_scene3:
 
             "Aku menutup mata sejenak. Namun, kenyamanan itu malah membawaku ke arah yang tak terduga."
 
-            show black with dissolve
+            show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
             "Sebelum aku sadar, kelopak mataku mulai terasa berat, dan tak butuh waktu lama hingga aku tertidur di tengah keramaian aula."
 

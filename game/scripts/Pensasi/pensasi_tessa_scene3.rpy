@@ -84,7 +84,9 @@ label pensasi_tessa_scene3_choice3_1:
     voice "audio/vo/tessa/pensasi/pensasi_3_1_3_bye.ogg"
     tessa "\"Bye\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg lt_6_pasca_ramai with dissolve:

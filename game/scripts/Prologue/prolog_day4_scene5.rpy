@@ -17,7 +17,9 @@ label prolog_day4_scene5:
 
     anon "\"Selamat sore. Sebelumnya saya ucapkan terima kasih karena telah mengikuti acara Pengenalan Kampus-\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2) 
 
     scene bg lapmer_ramai with dissolve:
@@ -36,7 +38,9 @@ label prolog_day4_scene5:
 
     anon "\"{size=+10}JOSS!!{/size}\"" with vpunch
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     centered "Namun, ini adalah babak pengenalan."
 

@@ -46,7 +46,7 @@ label chapter3_fania_scene3:
     voice "audio/vo/aisyah/chapter3/chapter3_4_kayanya.ogg"
     aisyah "\"Kayaknya kebanyakan deh kalau cuma buat tugas.\""
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
     stop music fadeout 2.0
 

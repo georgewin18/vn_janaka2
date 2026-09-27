@@ -41,7 +41,9 @@ label prolog_day3_scene5:
 
     "Sekarang waktunya istirahat dan menunggu apa yang akan terjadi esok."
     
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     stop music fadeout 2.0

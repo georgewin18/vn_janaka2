@@ -127,7 +127,9 @@ label prolog_day3_scene2:
 
     stop music fadeout 2.0
     
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     "Aku mencoba fokus saja kepada materi dengan teliti dan mencatat poin poin penting yang diberikan, tapi aku masih merasa mengantuk akibat mengerjakan tugas kemarin. Lama kelamaan mataku terasa sangat berat. Yang membuat diriku akhirnya tertidur."

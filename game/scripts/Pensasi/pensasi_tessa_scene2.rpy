@@ -37,7 +37,9 @@ label pensasi_tessa_scene2:
 
     "Dia menjelaskan alur gameplay, elemen desain, dan sedikit tentang latar belakang pengembangannya. Meski agak berat, aku berusaha menyimak dengan serius."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg lt_6_pasca_ramai with dissolve:

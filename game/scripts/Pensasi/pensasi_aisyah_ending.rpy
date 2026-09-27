@@ -66,7 +66,9 @@ label pensasi_aisyah_ending:
 
     "Dia melangkah pergi, dan aku berdiri di tempatku, menatap punggungnya yang semakin jauh."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     stop music fadeout 2.0

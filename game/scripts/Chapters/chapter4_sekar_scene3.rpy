@@ -299,7 +299,9 @@ label chapter4_sekar_scene2_choice3_1:
 
     "Aku hanya bisa tersenyum kecil, merasakan sesuatu yang hangat mengalir di dadaku. Kata-katanya terasa seperti meninggalkan jejak yang dalam. Kemudian, dia melangkah pergi, meninggalkan keheningan yang anehnya menenangkan."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     centered "Hari itu, aku tidak hanya melihat sisi lain dari Kak Sekar, tetapi juga merasakan hubungan yang lebih dalam. Seperti ada sesuatu yang tak terucap, namun terasa nyata."

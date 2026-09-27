@@ -415,7 +415,9 @@ label chapter3_fania_scene4_afterchoice3:
             voice "audio/vo/fania/chapter3/chapter3_30_kami_udah_baikkan.ogg"
             fania "\"Kami udah baikan.\""
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             stop music fadeout 2.0            
 
@@ -440,7 +442,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             nvl clear
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             with Pause(0.3)
 
             stop music fadeout 2.0
@@ -467,7 +471,9 @@ label chapter3_fania_scene4_afterchoice3:
             voice "audio/vo/aisyah/chapter3/chapter3_11_baguslah.ogg"
             aisyah "\"Baguslah kalau begitu.\""
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             stop music fadeout 2.0
             #Transisi menghitam
@@ -497,7 +503,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             nvl clear
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             with Pause(0.3)
 
             stop music fadeout 2.0

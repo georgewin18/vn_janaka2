@@ -183,7 +183,9 @@ label prolog_day3_scene3:
     show raden with moveinright:
         xalign 0.5
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
     
     centered "Aku masuk ke toilet, merasa lega akhirnya menemukannya."

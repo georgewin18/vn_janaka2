@@ -112,6 +112,6 @@ label chapter3_fania_scene2:
 
     "Fania hanya menatap ke arah Sasa tanpa mengatakan apapun untuk sesaat dan pergi."
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
     jump chapter3_fania_scene3

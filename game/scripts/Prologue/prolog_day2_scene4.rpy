@@ -109,6 +109,6 @@ label prolog2_scene4_after_choice1:
 
     stop music fadeout 2.0
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
     
     jump prolog_day2_scene5

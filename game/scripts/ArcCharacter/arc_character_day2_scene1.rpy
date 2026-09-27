@@ -39,7 +39,7 @@ transform joget_loncat(d=0.5, hop=60, sway=18, travel=2.0):
             repeat
 
 label arc_character_day2_scene1:
-    show black
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
     #sfx alarm
     "*sfx alarm"
 
@@ -47,11 +47,11 @@ label arc_character_day2_scene1:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
     $ renpy.pause(0.1, hard=True)
     hide black with dissolve
     $ renpy.pause(0.1, hard=True)
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
     $ renpy.pause(0.1, hard=True)
     hide black with dissolve
 

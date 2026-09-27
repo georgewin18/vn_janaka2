@@ -17,7 +17,9 @@ label chapter5_tessa_scene1:
 
     raden "\"Tidur dulu aja, deh\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Aku pun merebahkan diri di kasur dan terlelap dengan nyenyak. Ketika akhirnya terbangun, hari sudah sore, mendekati waktu kuliah yang kutunda tadi pagi."
 
@@ -56,7 +58,9 @@ label chapter5_tessa_scene1_choice1_1:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     #bg parkiran
@@ -115,7 +119,9 @@ label chapter5_tessa_scene1_choice1_2:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     play music campus fadein 1.0

@@ -19,7 +19,9 @@ label prolog_day2_scene1:
 
     "Aku tersenyum dan menantikan materi dengan bersemangat."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     jump prolog_day2_scene2

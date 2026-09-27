@@ -1,5 +1,7 @@
 label arc_character_day2_scene7:
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     pause 0.5
 
     scene bg lapmer with dissolve:
@@ -173,7 +175,9 @@ label arc_character_day2_scene7:
 
     "Meneguk sisa minumanku, aku langsung bergegas menuju motorku. Ada ketegangan dalam dadaku, tapi aku mencoba tetap tenang. Dia membutuhkan bantuanku, dan aku tidak akan mengecewakannya."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     pause 1.0
 
     #Jalan gang

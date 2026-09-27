@@ -48,7 +48,9 @@ label chapter4_sekar_scene1_choice1_1:
 
     "Semua barang sudah siap, Aku pun membawa motor dan mulai perjalanan."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     #jalan gang
@@ -79,7 +81,9 @@ label chapter4_sekar_scene1_choice1_2:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     
     centered "Beberapa jam kemudian..."
 

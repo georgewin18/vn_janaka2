@@ -83,7 +83,9 @@ label arc_character_day2_scene8:
     "Dia tersenyum kecil, wajahnya tampak lega. hampir seperti bisikan, tapi cukup untuk membuatku merasa bahwa dia benar-benar tulus."
 
     #scene white with dissolve
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Saat Aisyah naik ke motorku dan duduk di belakang, aku menyalakan mesin dan mulai melaju perlahan. Jalanan malam yang sepi terasa lebih hangat dengan kehadirannya di belakangku. Sesekali aku mendengar suaranya mengarahkan jalan."
 

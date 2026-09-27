@@ -475,7 +475,9 @@ label pensasi_canon_afterchoice1:
     hide aisyah with dissolve
     hide raden with dissolve
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     pause (0.3)
 
     jump pembukaan_pensasi
@@ -501,7 +503,9 @@ label pembukaan_pensasi:
 
     "\"{i}Mungkin saja mereka sudah masuk duluan,{i}\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     scene bg lt_6_pasca_ramai with dissolve:
         size (config.screen_width, config.screen_height)
@@ -569,7 +573,9 @@ label pembukaan_pensasi:
         "Menunggu Aisyah dan Fania":
             "Aku memutuskan mencari tempat duduk untuk menunggu Aisyah dan Fania datang. Suasana di sekitar masih cukup ramai, tapi aku berhasil menemukan bangku kosong di dekat jendela."
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             pause(0.3)
 
             #notif hp

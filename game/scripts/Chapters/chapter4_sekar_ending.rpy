@@ -23,7 +23,9 @@ label chapter4_sekar_good_ending:
 
     jump chapter5_tessa_scene1
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     return
@@ -41,7 +43,9 @@ label chapter4_sekar_neutral_ending:
 
     jump chapter5_tessa_scene1
     
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     return
@@ -67,7 +71,9 @@ label chapter4_sekar_bad_ending:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     jump chapter5_tessa_scene1

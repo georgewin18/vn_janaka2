@@ -61,7 +61,9 @@ label prolog_day2_scene5:
 
     show raden kemeja_biasa
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     centered "Aku hanya mengangguk pelan, tubuh terasa lelah setelah seharian penuh aktivitas. Aku melangkah pulang, membiarkan keheningan menyelimuti pikiranku."

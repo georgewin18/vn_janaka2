@@ -161,7 +161,9 @@ label chapter5_tessa_good_ending:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     jump pensasi_canon
@@ -187,7 +189,9 @@ label chapter5_tessa_neutral_ending:
 
     raden "\"segitu aja, byee\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     jump pensasi_canon

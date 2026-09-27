@@ -85,7 +85,9 @@ label prolog_day4_scene2:
 
     "Akhirnya kelompok kami melanjutkan perjalanan, sementara aku tetap duduk di pinggi halan bersama Kak Sekar."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     scene sekar_prolog with dissolve:

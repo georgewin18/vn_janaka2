@@ -141,7 +141,9 @@ label arc_character_day2_scene6:
 
     tessa "\"Oke, selamat menikmati acaranya\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     #Suara Bising/Ramai
 
@@ -226,19 +228,25 @@ label arc_character_day2_scene6:
 
             "Melihat tidak ada respon dari Santo, aku akhirnya diam dan menikmati acara yang berjalan dengan menyenangkan, semua orang yang mengikuti acara baik panitia dan org lainnya semuanya bersemangat. Meskipun ada beberapa bagian yang bisa dibilang membosankan."
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             jump arc_character_day2_scene7
 
         "Rasa ingin tahu yang tak tertahankan":
             "Aku pun mencoba berjalan ke arah tatapan tersebut. Melihat orang yang menatapku tadi pergi dengan berlari. Aku pun mengejarnya."
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             pause 1.0
             scene bg kantin with dissolve:
                 size (config.screen_width, config.screen_height)
                 truecenter
             pause 1.0
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             pause 1.0
             scene bg jalan_d4_kantin with dissolve:
                 size (config.screen_width, config.screen_height)
@@ -251,7 +259,9 @@ label arc_character_day2_scene6:
 
             "Sebelum akhirnya aku tidak bisa menemukan orang tersebut."
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             #Suara Bising/Ramai
 
@@ -311,6 +321,8 @@ label arc_character_day2_scene6:
 
             "Setelah itu, kami berbincang-bincang sebentar. Kemudian melihat dan menikmati acara yang berjalan dengan menyenangkan, semua orang yang mengikuti acara baik panitia dan org lainnya semuanya bersemangat. Meskipun ada beberapa bagian yang bisa dibilang membosankan."
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             jump arc_character_day2_scene7

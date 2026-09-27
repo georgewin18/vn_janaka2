@@ -55,7 +55,9 @@ label chapter5_tessa_scene4:
             hide raden with MoveTransition(0.3, leave=bottom) 
             with vpunch
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             with Pause(0.3)
 
             jump chapter5_tessa_scene4

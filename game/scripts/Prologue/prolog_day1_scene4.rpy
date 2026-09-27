@@ -66,7 +66,9 @@ label prolog_day1_scene4:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     "Kami melaksanakan Shalat Dhuhur berjamaah"

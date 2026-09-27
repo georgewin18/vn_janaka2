@@ -15,7 +15,7 @@ label prolog_day2_scene2:
     
     "Tenggorokanku sangat kering dan kakiku bergetar hebat setelah naik tangga dari lantai satu ke lantai enam."
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
     scene bg auditorium with dissolve:
         size (config.screen_width, config.screen_height)
@@ -208,6 +208,6 @@ label prolog_day2_scene2_after_choice1:
 
     santo "\"Yaudahlah, oke kalau begitu.\""#Santo akhirnya menyerah dengan nada pasrah
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
     jump prolog_day2_scene3

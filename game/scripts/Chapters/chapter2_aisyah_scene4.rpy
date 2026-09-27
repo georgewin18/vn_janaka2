@@ -133,7 +133,9 @@ label chapter2_aisyah_scene4:
 
         #Aisyah, Santo hilang
 
-        scene black with dissolve
+        scene black with dissolve:
+            size (config.screen_width, config.screen_height)
+            truecenter
         with Pause(0.2)
 
         scene perjalanan_pulang with dissolve:
@@ -175,7 +177,9 @@ label chapter2_aisyah_scene4:
 
         #Raden, Aisyah hilang
 
-        scene black with dissolve
+        scene black with dissolve:
+            size (config.screen_width, config.screen_height)
+            truecenter
         with Pause(0.2)
 
         scene tengah_jalan with dissolve:
@@ -272,7 +276,9 @@ label chapter2_aisyah_scene4:
 
         #Aisyah, Santo hilang
 
-        scene black with dissolve
+        scene black with dissolve:
+            size (config.screen_width, config.screen_height)
+            truecenter
         with Pause(0.2)
 
         scene perjalanan_pulang with dissolve:
@@ -303,7 +309,9 @@ label chapter2_aisyah_scene4:
 
         #Aisyah hilang
 
-        scene black with dissolve
+        scene black with dissolve:
+            size (config.screen_width, config.screen_height)
+            truecenter
         with Pause(0.2)
 
         scene tengah_jalan with dissolve:
@@ -345,7 +353,9 @@ label chapter2_aisyah_scene4:
 
         "Meneguk sisa minumanku, aku langsung bergegas menuju motorku. Ada ketegangan dalam dadaku, tapi aku mencoba tetap tenang. Dia membutuhkan bantuanku, dan aku tidak akan mengecewakannya."
 
-        scene black with dissolve
+        scene black with dissolve:
+            size (config.screen_width, config.screen_height)
+            truecenter
         with Pause(0.2)
 
         scene tengah_jalan with dissolve:

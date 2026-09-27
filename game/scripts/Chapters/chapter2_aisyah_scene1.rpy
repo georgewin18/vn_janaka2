@@ -2,7 +2,9 @@ define chapter2_aisyah_scene1_choice1_choosen = False
 
 label chapter2_aisyah_scene1:
   
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     "Minggu kedua perkuliahan setelah PKKMB selesai. Aku masih berusaha beradaptasi dengan ritme kehidupan kampus yang terasa jauh lebih nyata dibandingkan minggu pengenalan."
@@ -45,7 +47,9 @@ label chapter2_aisyah_scene1:
     
     #Flash hitam setengah detik.
     
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.5)
     
     scene bg lorong_kampus with dissolve:
@@ -164,7 +168,9 @@ label chapter2_aisyah_scene1:
             
             "Selamat…"
             
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     scene bg kantin with dissolve:

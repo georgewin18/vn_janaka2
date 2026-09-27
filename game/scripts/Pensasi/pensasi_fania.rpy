@@ -348,7 +348,7 @@ label pensasi_fania_afterchoice2:
 
             stop music fadeout 2.0
 
-            show black with dissolve
+            show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
             #fania terrawa kecil
 
@@ -434,7 +434,7 @@ label pensasi_fania_afterchoice2:
 
             stop music fadeout 2.0
 
-            show black with dissolve
+            show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
             jump pensasi_fania_afterchoice3
 
@@ -530,7 +530,7 @@ label pensasi_fania_afterchoice3:
             voice "audio/vo/fania/pensasi/pensasi_17_boleh_deh.ogg"
             fania "\"… Boleh deh, lain kali.\""
 
-            show black with dissolve
+            show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
             #END
 
@@ -559,6 +559,6 @@ label pensasi_fania_afterchoice3:
             voice "audio/vo/fania/pensasi/pensasi_19_oke.ogg"
             fania "\"Oke!\""
 
-            show black with dissolve
+            show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
             #END

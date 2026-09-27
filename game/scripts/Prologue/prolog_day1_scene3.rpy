@@ -22,7 +22,7 @@ label prolog_day1_scene3:
 
     "Sayangnya, video yang diputar hanya tentang itu terus sampai beberapa waktu kemudian. Hal ini membuatku mengantuk karena kebosanan. Lama kelamaan mataku terasa sangat berat. Yang membuat diriku akhirnya tertidur."
 
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
 
     "Seseorang mencubit lengan bajuku dengan pelan dan membangunkanku"
 
@@ -151,7 +151,9 @@ label scene4_after_choice:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.2)
 
     jump prolog_day1_scene4

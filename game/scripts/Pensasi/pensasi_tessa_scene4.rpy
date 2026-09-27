@@ -69,7 +69,9 @@ label pensasi_tessa_scene4:
 
     raden "\"Oke, zombie it is!\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     stop music fadeout 2.0
 
@@ -149,7 +151,9 @@ label pensasi_tessa_scene4:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg lt_6_pasca_ramai with dissolve:
@@ -291,7 +295,9 @@ label pensasi_tessa_scene4:
             voice "audio/vo/tessa/pensasi/pensasi_4_1_5_iya.ogg"
             tessa "\"Iya, sampai jumpa\""
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
 
             raden "\"Oke, sekarang pulang aja ahh, mau lanjut nonton film\""
 
@@ -316,7 +322,9 @@ label pensasi_tessa_scene4:
 
             "Tessa cepat-cepat berbalik, melangkah pergi sambil menyembunyikan pipinya yang semakin merah."
 
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             with Pause(0.5)
 
             ## END

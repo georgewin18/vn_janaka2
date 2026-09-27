@@ -39,7 +39,9 @@ label pensasi_sekar_scene2:
     voice "audio/vo/sekar/pensasi/pensasi_2_5_baiklah.ogg"
     sekar "\"Baiklah, kalau begitu, kamu pergi ke sebelahnya panggung dan tunggu sampai waktunya kamu tampil!\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg auditorium with dissolve:
@@ -77,7 +79,9 @@ label pensasi_sekar_scene2:
 
     aisyah "\"Eh, sudah dimulai nih\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg auditorium with dissolve:
@@ -297,7 +301,9 @@ label pensasi_sekar_scene2_choice2_1:
             jump pensasi_fania
         "Maaf nih, tapi aku mau masuk ke audit bersama Aisyah":
             $ from_sekar_route = True
-            scene black with dissolve
+            scene black with dissolve:
+                size (config.screen_width, config.screen_height)
+                truecenter
             with Pause(0.3)
 
             jump pensasi_aisyah_scene2
@@ -362,7 +368,9 @@ label pensasi_sekar_scene2_choice2_2:
 
     stop music fadeout 2.0
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     jump pensasi_sekar_scene3

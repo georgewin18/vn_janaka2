@@ -8,11 +8,11 @@ label arc_character_day1_scene1:
     $ renpy.pause(1.0, hard=True)
 
     # efek kedip
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
     $ renpy.pause(0.1, hard=True)
     hide black with dissolve
     $ renpy.pause(0.1, hard=True)
-    show black with dissolve
+    show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
     $ renpy.pause(0.1, hard=True)
     hide black with dissolve
 
@@ -52,7 +52,9 @@ label arc_character_day1_scene1_afterchoice1:
     show raden kasual_biasa
     raden "\"Sip, dah siap berangkat nih...\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg jalan_gang with dissolve:
@@ -114,7 +116,9 @@ label arc_character_day1_scene1_afterchoice1:
 
     "Sambil mendorong motor, kami sedikit berbincang mengenai kebetulan ini, meskipun topik kadang berpindah-pindah tapi pembicaraan tersebut terus berjalan sampai kita sampai di kampus."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     scene bg parkir_d3_pagi with dissolve:
@@ -203,7 +207,9 @@ label arc_character_day1_scene1_afterchoice1:
 
     erin "\"Erin. Makasih ya.\""
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     jump arc_character_day1_scene2
@@ -217,7 +223,9 @@ label arc_character_day1_scene1_afterchoice2:
 
     "Karena di luar masih gerimis, Aku memutuskan untuk tidur lagi, di kasur yang empuk, lembut, dan hangat."
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     centered "Beberapa Jam Kemudian"
@@ -337,7 +345,9 @@ label arc_character_day1_scene1_afterchoice2:
 
     "Erin hanya tertawa kecil, lalu menatap ke depan dengan tenang"
 
-    scene black with dissolve
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     with Pause(0.3)
 
     jump arc_character_day1_scene2

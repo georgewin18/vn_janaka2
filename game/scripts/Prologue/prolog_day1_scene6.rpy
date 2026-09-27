@@ -70,7 +70,9 @@ label prolog_day1_scene6:
 
         raden "Yasudahlah.. aku juga harus segera kumpul lalu pulang."
 
-        scene black with dissolve
+        scene black with dissolve:
+            size (config.screen_width, config.screen_height)
+            truecenter
         with Pause(0.3)
 
         centered "Setelah beberapa menit berdiskusi dengan kelompok tentang tugas, aku pulang dengan rasa lelah."
