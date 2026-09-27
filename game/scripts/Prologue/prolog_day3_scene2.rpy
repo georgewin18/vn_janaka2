@@ -12,12 +12,12 @@ label prolog_day3_scene2:
         truecenter
 
     show raden kemeja_gugup with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+        zoom 2.0 xalign 0.45 yalign 0.05
 
     "{i}Untung saja tidak terlambat.{/i}"
     
     show raden kemeja_canggung with moveinleft:
-        zoom 0.54 xalign -0.2 yalign 0.05
+        zoom 2.0 xalign -0.2 yalign 0.05
     
     #ekspresi aisyah normal tidak ada
     show aisyah kemeja_senyum1 with dissolve:

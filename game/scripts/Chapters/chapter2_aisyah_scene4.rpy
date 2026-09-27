@@ -10,7 +10,7 @@ label chapter2_aisyah_scene4:
         truecenter
 
     show raden kemeja_biasa:
-        zoom 0.54 xalign 0.5 yalign 0.05
+        zoom 2.0 xalign 0.5 yalign 0.05
     
     show santo kemeja_biasa at flip:
         zoom 1.35 xalign 8.7 yalign 0.08
@@ -85,7 +85,7 @@ label chapter2_aisyah_scene4:
     hide tessa
 
     show raden kemeja_canggung at flip:
-        zoom 0.54 xalign 1.3 yalign 0.05
+        zoom 2.0 xalign 1.3 yalign 0.05
     
     show santo kemeja_biasa at flip:
         zoom 1.35 xalign 8.0 yalign 0.08
@@ -143,7 +143,7 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show raden kemeja_biasa:
-            zoom 0.54 xalign 0.5 yalign 0.05
+            zoom 2.0 xalign 0.5 yalign 0.05
 
         #Suasana netral di kampus saat malam
         
@@ -193,7 +193,7 @@ label chapter2_aisyah_scene4:
         "Kota Surabaya memang dikenal ramai, namun di gang-gang rumah, suasana cenderung lebih sepi. Saat itu, aku sedang mengendarai motor dan melaju di jalanan. Tiba-tiba, aku melihat Aisyah tengah terlibat perkelahian dengan dua pria asing di tengah jalan. Kedua pria itu jelas begal yang sedang mencoba mencuri sesuatu."
 
         show raden kemeja_biasa2:
-            zoom 0.54 xalign 0.0 yalign 0.05
+            zoom 2.0 xalign 0.0 yalign 0.05
 
         "Tanpa berpikir panjang, aku segera menginjak rem dan berhenti. Langsung turun dari motor, aku berlari menghampiri Aisyah untuk membantu."
 
@@ -286,7 +286,7 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show raden kemeja_biasa with dissolve:
-            zoom 0.54 xalign 0.0 yalign 0.05
+            zoom 2.0 xalign 0.0 yalign 0.05
 
         show aisyah kemeja_bicara with dissolve:
             zoom 0.34 xalign 0.9 yalign -1.0
@@ -319,7 +319,7 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show raden kemeja_biasa:
-            zoom 0.54 xalign 0.5 yalign 0.05
+            zoom 2.0 xalign 0.5 yalign 0.05
 
         #telfon berdering
 
@@ -369,7 +369,7 @@ label chapter2_aisyah_scene4:
         "Sesampainya, aku melihat Aisyah tengah terlibat perkelahian dengan dua pria asing di tengah jalan. Kedua pria itu jelas begal yang sedang mencoba mencuri sesuatu."
 
         show raden kemeja_biasa2:
-            zoom 0.54 xalign 0.0 yalign 0.05
+            zoom 2.0 xalign 0.0 yalign 0.05
         
         "Tanpa berpikir panjang, aku segera menginjak rem dan berhenti. Langsung turun dari motor, aku berlari menghampiri Aisyah untuk membantu."
 

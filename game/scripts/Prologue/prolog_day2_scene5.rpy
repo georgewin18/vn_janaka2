@@ -7,7 +7,7 @@ label prolog_day2_scene5:
     play music santo_bgm fadein 1.0
 
     show raden kemeja_biasa:
-        zoom 0.54 xalign -0.2 yalign 0.05
+        zoom 2.0 xalign -0.2 yalign 0.05
     show santo kemeja_netral:
         zoom 0.37 xalign 1.0
     with dissolve

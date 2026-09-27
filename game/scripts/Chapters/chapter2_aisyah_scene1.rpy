@@ -22,7 +22,7 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kasual_panik with dissolve:
-        zoom 0.54 xalign 0.5 yalign 0.05
+        zoom 2.0 xalign 0.5 yalign 0.05
     
     raden "\"Waduh telat nih bisa-bisa aku!\""
 
@@ -31,7 +31,7 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kemeja_capek with dissolve:
-        zoom 0.54 xalign 0.5 yalign 0.05
+        zoom 2.0 xalign 0.5 yalign 0.05
 
     raden "\"Kenapa kelasnya harus jauh sekali sih hari ini!?\""
 
@@ -57,7 +57,7 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kemeja_pusing with dissolve:
-        zoom 0.54 xalign 0.5 yalign 0.05
+        zoom 2.0 xalign 0.5 yalign 0.05
 
     show raden with moveinleft:
         xalign 0.0
@@ -135,7 +135,7 @@ label chapter2_aisyah_scene1:
             
             #raden gugup
             show raden kemeja_gugup with dissolve:
-                zoom 0.54 xalign 0.5 yalign 0.05
+                zoom 2.0 xalign 0.5 yalign 0.05
             
             "Sesampainya di kelas, Dosen sudah datang dan mengajar, aku di suruh menunggu di luar sebentar, sampai akhirnya setelah diperbolehkan masuk kelas, aku di tegur dan tidak boleh sampai mengulangi nya lagi."
 
@@ -158,7 +158,7 @@ label chapter2_aisyah_scene1:
                 truecenter
             
             show raden kemeja_biasa2 with dissolve:
-                zoom 0.54 xalign 0.5 yalign 0.05
+                zoom 2.0 xalign 0.5 yalign 0.05
             
             "Untung nya sesampai di kelas, dosen nya juga baru datang. Aku menghela nafas lega."
 
@@ -178,7 +178,7 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kemeja_biasa with dissolve:
-        zoom 0.54 xalign 0.0 yalign 0.05
+        zoom 2.0 xalign 0.0 yalign 0.05
 
     show santo kemeja_biasa with dissolve:
         zoom 1.35 xalign -5.0 yalign 0.08

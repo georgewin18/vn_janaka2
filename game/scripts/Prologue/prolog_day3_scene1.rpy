@@ -10,7 +10,7 @@ label prolog_day3_scene1:
     play music raden_bgm fadein 1.0
 
     show raden kemeja_panik with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+        zoom 2.0 xalign 0.45 yalign 0.05
 
     "Hufh.. huh"
 

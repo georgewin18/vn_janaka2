@@ -10,7 +10,7 @@ label prolog_day2_scene4:
         truecenter
 
     show raden kemeja_biasa with dissolve:
-        zoom 0.54 xalign -0.2 yalign 0.05
+        zoom 2.0 xalign -0.2 yalign 0.05
     "Saat itu, aku tiba-tiba berhenti, mengingat pertemuanku dengan Fania kemarin. Fania yang saat itu terlihat begitu santai terasa sangat berbeda dari yang sekarang. Ini mengganggu pikiranku, serasa ingin menghampirinya."
 
     show fania kemeja_dingin with dissolve:

@@ -6,7 +6,7 @@ label chapter2_aisyah_scene2:
         truecenter
 
     show raden kemeja_biasa with dissolve:
-        zoom 0.54 xalign 0.0 yalign 0.05
+        zoom 2.0 xalign 0.0 yalign 0.05
 
     show aisyah kemeja_bicara with dissolve:
         zoom 0.34 xalign 0.9 yalign -1.0
@@ -19,7 +19,7 @@ label chapter2_aisyah_scene2:
         xalign 0.1
 
     show raden kemeja_biasa at flip with dissolve:
-        zoom 0.54 xalign 1.0 yalign 0.05
+        zoom 2.0 xalign 1.0 yalign 0.05
 
     #Aisyah serius
 

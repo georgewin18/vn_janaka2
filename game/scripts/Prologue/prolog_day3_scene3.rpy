@@ -14,7 +14,7 @@ label prolog_day3_scene3:
         truecenter
 
     show raden kemeja_capek with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+        zoom 2.0 xalign 0.45 yalign 0.05
 
     "Mau tidak mau aku berdiri dari kursi ku, dan pergi keluar ruangan."
     

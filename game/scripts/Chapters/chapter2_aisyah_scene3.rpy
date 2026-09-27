@@ -11,7 +11,7 @@ label chapter2_aisyah_scene3:
         truecenter
 
     show raden kemeja_biasa at flip:
-        zoom 0.54 xalign 1.3 yalign 0.05
+        zoom 2.0 xalign 1.3 yalign 0.05
 
     show aisyah kemeja_bicara:
         zoom 0.34 xalign 0.5 yalign -1.0

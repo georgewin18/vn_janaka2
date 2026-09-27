@@ -14,7 +14,7 @@ label chapter3_fania_scene4:
     play music campus fadein 1.0
     #raden santo netral
     show raden kasual_biasa:
-        zoom 0.54 xalign -0.2 yalign 0.05
+        zoom 2.0 xalign -0.2 yalign 0.05
     show santo kemeja_biasa:
         zoom 1.35 xalign -3.5 yalign 0.08
     with dissolve

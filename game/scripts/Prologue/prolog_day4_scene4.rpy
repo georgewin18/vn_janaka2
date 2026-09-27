@@ -12,7 +12,7 @@ label prolog_day4_scene4:
     play music raden_bgm fadein 1.0
     
     show raden kemeja_biasa with dissolve:
-        zoom 0.54 xalign 0.45 yalign 0.05
+        zoom 2.0 xalign 0.45 yalign 0.05
 
     "Setibanya di area UKM Expo, aku berpisah dengan Kak Sekar, di mana aku menemukan Aisyah"
 

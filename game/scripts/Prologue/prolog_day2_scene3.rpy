@@ -18,7 +18,7 @@ label prolog_day2_scene3:
 
     #Raden, Santo, Aisyah muncul netral
     show raden kemeja_serius:
-        zoom 0.54 xalign -0.45 yalign 0.05
+        zoom 2.0 xalign -0.45 yalign 0.05
     show santo kemeja_netral:
         zoom 0.37 xalign 0.45
     show aisyah kemeja_bingung:

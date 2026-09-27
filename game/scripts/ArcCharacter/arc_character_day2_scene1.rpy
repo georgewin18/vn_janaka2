@@ -1,6 +1,6 @@
 transform joget_kanan_kiri:
     subpixel True
-    zoom 0.54 yalign 0.05
+    zoom 2.0 yalign 0.05
     linear 1.0 xalign 1.0
     xzoom -1.0
     linear 1.0 xalign 0.0
