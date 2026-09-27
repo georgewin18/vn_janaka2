@@ -9,7 +9,7 @@ label prolog_day2_scene5:
     show raden kemeja_biasa:
         zoom 2.0 xalign -0.2 yalign 0.05
     show santo kemeja_netral:
-        zoom 0.37 xalign 1.0
+        zoom 1.47 xalign 1.0
     with dissolve
 
     show santo kemeja_bicara

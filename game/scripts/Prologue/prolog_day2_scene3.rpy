@@ -20,7 +20,7 @@ label prolog_day2_scene3:
     show raden kemeja_serius:
         zoom 2.0 xalign -0.45 yalign 0.05
     show santo kemeja_netral:
-        zoom 0.37 xalign 0.45
+        zoom 1.47 xalign 0.45
     show aisyah kemeja_bingung:
         zoom 1.6 xalign 1.2 yalign 0.1
     with dissolve

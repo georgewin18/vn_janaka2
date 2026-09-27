@@ -67,7 +67,7 @@ label prolog_day3_scene2:
     with moveinright
     
     show santo kemeja_bicara with moveinleft:
-        zoom 0.37 xalign -0.25
+        zoom 1.47 xalign -0.25
     
     santo "\"Raden?\""
     

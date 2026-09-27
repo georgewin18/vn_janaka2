@@ -234,7 +234,7 @@ label prolog_day4_scene4_choice1_1:
     show raden with moveinright:
         xalign -0.2
     show santo kemeja_netral with dissolve:
-        zoom 0.37 xalign 1.0
+        zoom 1.47 xalign 1.0
 
     stop music fadeout 2.0
     play music santo_bgm fadein 1.0
@@ -520,7 +520,7 @@ label prolog_day4_scene4_choice2_4:
     show raden with moveinright:
         xalign -0.2
     show santo kemeja_netral with dissolve:
-        zoom 0.37 xalign 1.0
+        zoom 1.47 xalign 1.0
 
     stop music fadeout 2.0
     play music santo_bgm fadein 1.0
