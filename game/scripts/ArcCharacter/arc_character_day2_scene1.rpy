@@ -55,8 +55,10 @@ label arc_character_day2_scene1:
     $ renpy.pause(0.1, hard=True)
     hide black with dissolve
 
-    show raden kasual_capek at raden_default:
+    show raden kasual_capek:
         xalign 0.5
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Alarm berbunyi nyaring. Aku berguling malas selama beberapa menit, sebelum akhirnya duduk perlahan, mematikan alarm sambil mengucek mata."
@@ -78,8 +80,10 @@ label arc_character_day2_scene1:
     #Suara sapu yang sedang membersihkan debu (sfx)
 
     #Raden sedang nyapu sambil joget ke kiri dan kanan di kamarnya
-    show raden kasual_biasa at joget_kanan_kiri
+    show raden kasual_biasa at joget_kanan_kiri:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku menyapu sambil goyang kiri-kanan, mengikuti irama pelan. Saat lagu berganti—"
 
     #Play lagu https://youtu.be/NithFu9aSlY?si=ZeO5Arz0ZfA8hYKb (menit 0.57 - 1.40)
@@ -87,8 +91,10 @@ label arc_character_day2_scene1:
     "Aku langsung ambil posisi. Pegang sapu seperti mic, lalu mulai bernyanyi."
 
     #raden senyum ceria
-    show raden kasual_ceria
+    show raden kasual_ceria:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     #audio https://youtu.be/z3OKd5b2Rlw?si=9gBFlVsXSmiqDd1I (menit 0.41 - 1.09)
 
     "Ketika sedang mengangkat guling, aku melihat sesuatu di balik tumpukan selimut. Aku membungkuk—menyibak sedikit—dan…"
@@ -98,8 +104,10 @@ label arc_character_day2_scene1:
     raden "\"Gamedam!\""
 
     #Raden loncat-loncat dan berputar-putar (effek)
-    show raden kasual_ceria at joget_loncat
+    show raden kasual_ceria at joget_loncat:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Saat aku berputar-putar, secara nggak sengaja, kakiku menyenggol tumpukan kotak di bawah rak. Sebuah tumpukan komik lama berjatuhan, menyebar ke lantai."
 
     #Audio ketemu harta
@@ -113,14 +121,18 @@ label arc_character_day2_scene1:
     show raden kasual_bingung:
         xalign 0.5 xzoom 1.0
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Hah? …Kok gak ada volume 14?"
 
     "Aku mengecek ulang, membuka beberapa halaman, lalu mengangkat kardus lain di bawah rak. Tidak ada."
 
     "Ah… padahal itu ending-nya."
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Setelah hening beberapa detik, aku menaruh semua volume kembali ke dalam kotak—kecuali Volume pertama. Kuselipkan ke dalam ransel."
 
     "Aku menutup resleting tas, lalu mengambil jaket. Sambil menyampirkan ransel ke punggung. Aku melirik seisi kamar yang kini jauh lebih rapi, lalu melangkah keluar menuju kampus."
@@ -130,9 +142,11 @@ label arc_character_day2_scene1:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign 0.0
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Sesampainya di kampus, Aku melangkah menyusuri lorong D3 yang masih sepi menuju kelas."
 
     "Langkah kaki terdengar dari arah belakang. Saat aku menoleh, Aisyah sedang berjalan perlahan sambil menatap lantai. Ekspresinya tidak seperti biasanya."
@@ -141,8 +155,10 @@ label arc_character_day2_scene1:
 
     #Suasana dramatis sedih
 
-    show aisyah casual_sedih at aisyah_default:
+    show aisyah casual_sedih:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Ah Raden, kemarin aku belum sempat bilang\""
 
     aisyah "\"Terima kasih ya.. sudah membantu.\""
@@ -165,8 +181,10 @@ label arc_character_day2_scene1:
         "Menghibur Aisyah":
             "Aku menggelengkan kepala, tersenyum kecil, mencoba membuat suasana lebih ringan."
 
-            show raden kasual_canggung
+            show raden kasual_canggung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"—Oh, nggak apa kok, Aisyah. Lagipula Mas kemarin memang salah.\""
 
             "Aisyah mengangguk dan memberi senyuman yang tak biasa itu lagi."
@@ -194,7 +212,9 @@ label arc_character_day2_scene1:
         "Kritik Aisyah":
             "Aku menggelengkan kepala dan tersenyum kecil."
 
-            show raden kasual_canggung
+            show raden kasual_canggung:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"—Oh, nggak apa kok, Aisyah. Lagipula Mas kemarin memang salah.\""
 
             "Tapi aku melanjutkan, mencoba memberi nasihat tanpa menyakiti perasaannya."
@@ -202,22 +222,28 @@ label arc_character_day2_scene1:
             raden "Tapi ya, Syah… Lain kali hati-hati, ya. Banyak orang di luar sana kayak Mas perokok tadi. Sudah salah, nggak mau mengaku, malah bikin ribut."
             
             #aisyah netral
-            show aisyah casual_senyum
+            show aisyah casual_senyum:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "Aku ngerti, Raden. Makasih udah ngingetin."
 
             raden "Ya, sama-sama,"
 
-            show aisyah casual_senyum3
+            show aisyah casual_senyum3:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "Iya, makasih banget, Raden."
 
             "Aisyah hanya tersenyum tipis setelah semua itu. Lalu dengan pelan, ia mengangguk kecil, dan berkata."
 
             #aisyah netral
 
-            show aisyah casual_senyum
+            show aisyah casual_senyum:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "Aku duluan, ya."
 
             "Tanpa menunggu jawaban, dia berbalik dan berjalan menjauh, meninggalkan ku yang masih berdiri di lorong"

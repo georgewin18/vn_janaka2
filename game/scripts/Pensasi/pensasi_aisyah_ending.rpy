@@ -6,10 +6,14 @@ label pensasi_aisyah_ending:
 
     "Senja mulai memeluk langit kampus dengan warna keemasan yang lembut, menciptakan suasana yang tenang namun penuh kehangatan. Jalanan mulai sepi, dan suara langkah kami menggema perlahan. Udara sore membawa angin sejuk."
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show aisyah casual_senyum at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
     "Aisyah menghentikan langkahnya. Menciptakan bayangan samar di wajahnya yang tersapu cahaya jingga. Dia menoleh padaku, sejenak terdiam sebelum akhirnya berbicara."
@@ -24,44 +28,60 @@ label pensasi_aisyah_ending:
 
     "Dia menunduk sejenak, menarik napas dalam, lalu mengangkat wajahnya kembali dengan senyum yang lembut."
 
-    show aisyah casual_senyum3 with dissolve
+    show aisyah casual_senyum3 with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Makasih, ya... udah nemenin aku hari ini.\""
 
-    show raden kasual_ceria
+    show raden kasual_ceria:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ah, santai aja. Lagian, aku juga seneng kok, bisa nemenin kamu.\""
 
-    show aisyah casual_senyum2
+    show aisyah casual_senyum2:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Tapi beneran deh,\""
 
     aisyah "\"Kalau nggak ada kamu, aku mungkin cuma muter-muter sendirian, gak tau mau ngapain.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ya… seneng juga kalau gitu. Emangnya aku sepenting itu, ya?\""
 
-    show aisyah casual_gugup with dissolve
+    show aisyah casual_gugup with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Dia tersipu, sedikit memalingkan wajah sambil tertawa kecil."
 
-    show aisyah casual_senyum4 with dissolve
+    show aisyah casual_senyum4 with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Hehe, ya anggap aja gitu.\""
 
     "Sesaat, aku hanya diam memandangnya. Senyumnya, cara matanya berkilau, caranya menunduk malu-malu- semua itu membuat hatiku bergetar. Waktu terasa melambat, dan aku sadar betapa momen ini begitu berharga."
 
     "Melihat senyumnya saat itu, aku merasa puas, seolah semua lelah hari ini terbayar lunas. Tidak ada hadiah yang lebih indah selain senyum tulusnya itu."
 
-    show aisyah casual_senyum3
+    show aisyah casual_senyum3:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Aku duluan ya, Den!\""
 
     "katanya tiba-tiba, melangkah mundur sambil melambaikan tangan."
 
-    show raden kasual_ceria
+    show raden kasual_ceria:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya, hati-hati ya!\""
 
     "Dia melangkah pergi, dan aku berdiri di tempatku, menatap punggungnya yang semakin jauh."

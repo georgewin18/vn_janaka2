@@ -1,18 +1,26 @@
 label chapter2_aisyah_bad_ending:
     #suasana dramatis sedih
 
-    show aisyah kemeja_gugup
+    show aisyah kemeja_gugup:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Aku cuma…\""
 
     "Dia terdiam. Aku nggak tahu apa dia merasa bersalah atau cuma malas berdebat."
 
-    show raden kemeja_menghela_napas
+    show raden kemeja_menghela_napas:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with Pause(1.0)
-    show raden kemeja_menghela_napas_asap with dissolve
+    show raden kemeja_menghela_napas_asap with dissolve:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku menarik nafas yang panjang sekali lagi."
 
-    show raden kemeja_serius
+    show raden kemeja_serius:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Yaudah, biar ku antar nya ke kos mu.\""
 
     "Aku menaiki motor ku, dan menatapnya, berharap dia segera naik."
@@ -34,8 +42,12 @@ label chapter2_aisyah_good_ending:
     #Special moment
     #suasana agak romantis
 
-    show aisyah kemeja_senyum
-    show raden kemeja_biasa2
+    show aisyah kemeja_senyum:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show raden kemeja_biasa2:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aisyah memegang tangannya yang lemas karena terluka, dan tersenyum hangat."
 
     "Mata nya seperti sedang mengingat kembali masa lalu nya dan apa saja yang telah ia lalui hari ini. Dan seperti nya dia sudah menemukan jawaban yang telah ia cari sejak lama."
@@ -44,12 +56,16 @@ label chapter2_aisyah_good_ending:
 
     aisyah "\"Bisa nggak kamu anterin aku pulang, Den?\""
 
-    show raden kemeja_kaget
+    show raden kemeja_kaget:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh?!\""
 
     "Suaraku meninggi tanpa sadar, karena jujur saja, aku tidak menyangka dia akan meminta hal itu."
 
-    show raden kemeja_gugup
+    show raden kemeja_gugup:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kenapa?\""
 
     "Aku menggaruk belakang kepalaku, masih mencoba mencerna situasinya."
@@ -62,17 +78,23 @@ label chapter2_aisyah_good_ending:
 
     aisyah "\"Kita kan juga bukan sekadar kenalan sekarang.\""
 
-    show raden kemeja_bingung
+    show raden kemeja_bingung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Maksudnya?\""
 
     aisyah "Dia menunduk sedikit, lalu menghela napas sebelum berbicara lagi."
 
     aisyah "\"Den, kalau lain kali aku ada masalah lagi, kamu mau bantu aku lagi, kan?\""
 
-    show raden kemeja_tersenyum
+    show raden kemeja_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Bilang aja, aku pasti bantu.\""
 
-    show raden kemeja_biasa
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     aisyah "\"Gitu ya... Makasih, Den...\""
 
     "Dia tersenyum kecil, wajahnya tampak lega, hampir seperti bisikan, tapi cukup untuk membuatku merasa bahwa dia benar-benar tulus."

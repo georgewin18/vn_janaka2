@@ -5,8 +5,10 @@ label prolog_day2_scene1:
 
     play music raden_bgm fadein 1.0
 
-    show raden kemeja_biasa2 at raden_default:
+    show raden kemeja_biasa2:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Seperti kemarin, aku bangun pagi, bersiap-siap, lalu berangkat ke kampus untuk menjalani kegiatan PKKMB di hari kedua"

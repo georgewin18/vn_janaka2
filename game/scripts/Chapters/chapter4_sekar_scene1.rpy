@@ -23,7 +23,9 @@ label chapter4_sekar_scene1:
     "Aku ambil ponselku dan terlihat jam masih menunjukkan pukul 5.30 pagi. Tidur siang yang \'sebentar\' ternyata berubah menjadi tidur semalaman."
 
     show raden kasual_biasa2 with moveinbottom:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "\"Nggak nyangka udah jam segini.\""
 
@@ -59,7 +61,9 @@ label chapter4_sekar_scene1_choice1_1:
         truecenter
 
     show raden kasual_biasa2 with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     "Dalam perjalanan menuju kampus, Aku tidak sengaja bertemu dengan seseorang yang terlihat mendorong motornya yang mogok."
 
@@ -92,7 +96,9 @@ label chapter4_sekar_scene1_choice1_2:
         truecenter
 
     show raden kasual_biasa2 with moveinbottom:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "\"Aakkhh, enak banget tidurnya\""
 
@@ -101,8 +107,10 @@ label chapter4_sekar_scene1_choice1_2:
     #terkejut
     raden "\"Hmm?\""
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"{size=+10}?????, Welahdalah, udah jam 8.30, terlambat ni aku{/size}\"" with vpunch
 
     "Dengan buru-buru, Aku mempersiapkan barang-barangku. Tanpa mandi dan hanya cuci muka, AKu langsung berangkat pergi menuju kampus"
@@ -113,7 +121,9 @@ label chapter4_sekar_scene1_choice1_2:
         truecenter
     
     show raden kasual_gugup with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     "aku mengetuk pintu"
 
@@ -121,8 +131,10 @@ label chapter4_sekar_scene1_choice1_2:
 
     raden "\"Assalamualaikum, Pak. Permisi\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Tidak ada jawaban dari dosen untuk membuka pintu, Aku menunggu sampai ada respon."
 
     "Karena sudah agak lama menunggu dan tidak ada respon, Aku langsung membuka pintu sendiri tanpa arahan dari dosen."
@@ -131,14 +143,18 @@ label chapter4_sekar_scene1_choice1_2:
 
     play music intense fadein 1.0
 
-    show raden kasual_gugup with dissolve
+    show raden kasual_gugup with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh, maaf Pak, karena tidak ada jawaban. Saya kira diperbolehkan masuk\""
 
     dosen "\"Lain kali, jika saya masih belum memberi instruksi masuk ruangan, jangan masuk ruangan\""
 
-    show raden kasual_sedih
+    show raden kasual_sedih:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya Pak, maaf\""
 
     dosen "\"Baiklah kalau begitu masuk sana. Saya peringatkan lain kali jangan terlambat\""
@@ -161,8 +177,12 @@ label chapter4_sekar_scene1_choice1_1_1:
     #show sekar
     show raden:
         xalign -0.1
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show sekar kemeja_biasa at Transform(matrixcolor=(silhouette)):
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.0
+        yalign sekar_default.yalign
     with moveinright
 
     raden "\"Lah, itu Kak Sekar?\""
@@ -173,7 +193,9 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     hide sekar with dissolve
     show sekar kemeja_biasa with dissolve:
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.0
+        yalign sekar_default.yalign
 
     play music sekar_bgm fadein 1.0
 
@@ -181,8 +203,10 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     raden "\"Mau kudorong sampai Pom Bensin terdekat Kak?\""
 
-    show sekar kemeja_senyum
+    show sekar kemeja_senyum:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_1_1_eh_raden.ogg"
     sekar "\"Eh, Raden? Kebetulan banget, iya nih bensinku habis di tengah perjalanan untuk membeli barang-barang ini,\""
 
@@ -205,6 +229,8 @@ label chapter4_sekar_scene1_choice1_1_1:
     show raden with moveinleft:
         xalign 0.5
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     play music raden_bgm fadein 1.0
 
     "Aku tersenyum kecil mengingat wajah Kak Sekar tadi saat Aku mendorong motornya. Rasanya seperti ada energi baru yang mengalir, menghangatkan hati di tengah pagi yang sejuk ini."
@@ -225,7 +251,9 @@ label chapter4_sekar_scene1_choice1_1_1:
         truecenter
 
     show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     play music campus fadein 1.0
 
@@ -239,19 +267,27 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     show raden with moveinright:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo kemeja_bicara with MoveTransition(0.2, enter=fromright):
-        zoom 1.15 xalign 2.7 yalign 0.08
+        zoom santo_default.zoom
+        xalign 2.7
+        yalign 0.08
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     play music comedic fadein 1.0
 
     santo "{size=+10}Raden!!{size=+10}" with vpunch
 
     raden "\"{size=+10}?!?!?!?!?{size=+10}\""
 
-    show raden kasual_kaget
+    show raden kasual_kaget:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Yaelah Santo, hampir tewas aku\""
 
     santo "\"Hehe, maaf maaf. Karena kamu melamun, aku yang melihat kesempatan seperti ini mana mau melewatkannya\""
@@ -260,20 +296,26 @@ label chapter4_sekar_scene1_choice1_1_1:
 
     santo "\"Iya deh, iya. Ngomong-ngomong, lagi ngelamunin apa kamu?\""
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"gpp\""
 
     santo "\"Hmm, mencurigakan. Jangan-jangan cewek nih ya\""
 
-    show raden kasual_kaget
+    show raden kasual_kaget:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Dah dibilang bukan apa-apa\""
 
     santo "\"Iya, maaf maaf\""
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kalau nggak ada hal yang penting, aku langsung pergi ke kelasku yak\""
 
     santo "\"Iya den, lain kali jangan ngelamunin cewek lagi pas jalan yak\""
@@ -305,7 +347,9 @@ label chapter4_sekar_scene1_choice1_1_2:
         truecenter
     
     show raden kasual_biasa2 with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "Akhirnya sampai juga"
 

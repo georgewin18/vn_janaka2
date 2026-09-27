@@ -13,10 +13,14 @@ label arc_character_day2_scene6:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show tessa kasual_kesal at tessa_default: #tessa bingung
+    show tessa kasual_kesal: #tessa bingung
         xalign 0.8
-    show raden kasual_gugup at raden_default: #raden gugup
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
+    show raden kasual_gugup: #raden gugup
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     #Suasana netral in campus
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
@@ -32,8 +36,10 @@ label arc_character_day2_scene6:
 
     raden "\"Tapi kali ini... suara kakak beneran bikin aku merinding, seriusan\""
 
-    show tessa kasual_netral
+    show tessa kasual_netral:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     tessa "\"Beda gimana?\""
 
     raden "\"Suara Kak Tessa tadi kayak... benar-benar marah. jadi keinget... yang di deket D4 pas itu..\""
@@ -49,32 +55,42 @@ label arc_character_day2_scene6:
     raden "\"Pas itu, Kak Tessa kayak... serem banget. Semua orang pada takut, Santo yang selalu keliatan santai aja kabur duluan\""
 
     #Tessa senyum tipis(Tessa tertawa kecil)
-    show tessa kasual_senyum
+    show tessa kasual_senyum:
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     tessa "\"Oh, itu. Yah, aku cuma marah soalnya dia nyelomot aja orang nya.\""
 
     tessa "\"Kalau nggak ditekan kayak gitu, dia nggak bakal berhenti menyangkal..\""
 
     tessa "\"Dio emang gitu orang nya, jadinya harus di tegas in dari awal.\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Tapi ya itu… Kak Tessa tadi suaranya sama kek pas mbentak Kak Dio… makanya sempet takut aku…\""
 
-    show tessa kasual_kesal #tessa bingung
+    show tessa kasual_kesal: #tessa bingung
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     tessa "\"Memangnya aku terlihat seburuk itu?\""
 
     'Tanyanya sambil tertawa kecil, meskipun aku menangkap sedikit rasa penasaran dalam nadanya.'
 
     "Aku terdiam sebentar sebelum akhirnya menjawab"
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Di pikir pikir Kak Tessa keren sih... tapi… juga menakutkan...\""
 
     tessa "\"Ya, tapi sekarang ini aku gak marah kok.\""
 
-    show tessa kasual_senyum #Tessa Lega atau senyum(Tessa menghela napas) 
+    show tessa kasual_senyum: #Tessa Lega atau senyum(Tessa menghela napas)
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     tessa "\"Suaraku memang jadi lebih keras, soalnya tenggorokanku lagi sakit.\""
 
     raden "\"Btw makasih ya kak, udah bantu kita waktu itu\""
@@ -83,8 +99,10 @@ label arc_character_day2_scene6:
 
     "Mendengar jawabanya tessa, aku pun tenang tapi agak bingung kemudian hanya nganguk kepala."
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Yaudah kak, aku lanjut ke acara di lapmer ya.\""
 
     tessa "\"Oi tunggu\"" # (keras dan serak)
@@ -92,14 +110,18 @@ label arc_character_day2_scene6:
     tessa "\"Tas mu kebuka itu\""
 
     #Raden cemas
-    show raden kasual_canggung
+    show raden kasual_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Wah, bener\""
 
     raden "\"Semoga barangku endak ada yang hilang\""
 
     "Saat Raden memeriksa barang yang ada di tasnya Tessa sempat melihat buku komik yang dibawa oleh Raden"
 
-    show tessa kasual_netral
+    show tessa kasual_netral:
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     tessa "\"Buku itu\""
 
     tessa "\"Kau juga baca komik itu?\""
@@ -112,7 +134,9 @@ label arc_character_day2_scene6:
 
     raden "\"Seperti tanpa sadar aku masukin komik ini saat tadi pagi aku sedang bersih-bersih kamar\""
 
-    show tessa kasual_senyum
+    show tessa kasual_senyum:
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     tessa "\"Ehhh.....Ternyata kau cukup rajin juga untuk seorang laki-laki\""
 
     raden "\"Ngomong-ngomong, volume terakhir komik ini hilang udah aku cari tapi tidak ketemu\""
@@ -129,8 +153,10 @@ label arc_character_day2_scene6:
 
     tessa "\"Ini.\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Makasih kak Tessa, tapi kenapa kak Tessa bawa buku komik ini?\""
 
     tessa "\"Sebenarnya komik ini untuk mengisi waktu saat istirahat\""
@@ -156,15 +182,21 @@ label arc_character_day2_scene6:
     #Sekar Mondar Mandir
     show sekar kasual_biasa at kanan_kiri:
         xzoom 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
     "Ketika aku berjalan di lapmer aku sempat melihat Kak Sekar yang mondar-mandir di jalan."
 
     "Aku pun memanggil Kak Sekar"
     hide sekar kasual_biasa
-    show sekar kasual_biasa at sekar_default:
+    show sekar kasual_biasa:
         xalign 1.0 xzoom 1.0
-    show raden kasual_biasa at raden_default:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_biasa:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
     
     sekar "\"Ada apa den?\""
@@ -179,8 +211,10 @@ label arc_character_day2_scene6:
 
     raden "\"Iya kak.\""
 
-    show sekar kasual_biasa at sekar_default:
+    show sekar kasual_biasa:
         xalign 1.0 xzoom -1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     hide sekar with moveoutright
 
     "Seperti tadi pagi, Aku menoleh ke arahnya. Aku berpikir, apa yang seharusnya ku lakukan."
@@ -189,11 +223,14 @@ label arc_character_day2_scene6:
         "Tertelan amarah":
             "Aku melupakan tatapan tersebut, dan langsung berlari ke arah Santo."
 
-            show raden kasual_kesal
+            show raden kasual_kesal:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"SANTOO!\""
 
-            show santo kasual_netral at santo_default:
+            show santo kasual_netral:
                 xalign 1.0
+                zoom santo_default.zoom
             with dissolve
 
             santo "\"Sore den.\""
@@ -201,19 +238,23 @@ label arc_character_day2_scene6:
             raden "\"Nggak merasa bersalah nih?\""
 
             #Santo Gugup
-            show santo kasual_senyum_lebar
+            show santo kasual_senyum_lebar:
 
+                zoom santo_default.zoom
             santo "\"Hehe, maaf maaf. Masalah hidup dan mati den, salah satu dari kita harus jadi korban\""
 
             raden "\"Enak banget ngomongnya, ckckck.\""
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Btw, kamu tadi lihat nggak. Orang dengan tatapan agak aneh."
 
             #Santo Bingung
-            show santo kasual_netral
+            show santo kasual_netral:
 
+                zoom santo_default.zoom
             santo "\"Aneh gimana?\""
 
             raden "\"Kayak nggak enak aja gitu, tadi aku ngerasain perasaan kek gitu.\""
@@ -271,24 +312,29 @@ label arc_character_day2_scene6:
                 truecenter
 
             "Aku kembali ke D3 dekat Lapmer untuk melihat acara nya lagi, semua orang terlihat menikmati nya."
-            show raden kasual_biasa at raden_default:
+            show raden kasual_biasa:
                 xalign 0.0
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             with dissolve
 
             "Santo kemudian memanggilku dari belakang"
 
             santo "\"Raden!\""
             
-            show santo kasual_netral at santo_default:
+            show santo kasual_netral:
                 xalign 1.0
+                zoom santo_default.zoom
             with dissolve
 
             raden "\"?\""
 
             santo "\"Kamu kenapa lari tadi den?\""
 
-            show raden kasual_serius
+            show raden kasual_serius:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Bukan apa-apa to.\""
 
             santo "\"Beneran?\""
@@ -297,24 +343,30 @@ label arc_character_day2_scene6:
 
             santo "\"Yasudah kalau begitu.\""
 
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Btw, kamu nggak lupa kan?\""
 
             #Santo Bingung
     
             santo "\"Lupa tentang apa?\""
 
-            show raden kasual_kesal
+            show raden kasual_kesal:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Siapa tadi yang lari duluan meninggalkanku.\""
 
             santo "\"Hehe.\""
 
             raden "\"Sudahlah, lupakan.\""
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Btw, apa saja yang kulewatkan pada acara tadi.\""
 
             santo "\"Dikit sih, cuma penampilan Kak Sekar.\""

@@ -115,7 +115,9 @@ label prolog_day3_scene4:
         truecenter
     
     show raden kemeja_biasa with dissolve:
-        zoom 2.0 xalign 0.45 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.45
+        yalign raden_default.yalign
     
     "Saat aku kembali ke ruangan, aku mulai merasa lebih paham tentang Kak Tessa. Gaya bicaranya mungkin terdengar galak, tapi itu bukan berarti dia marah atau tidak peduli. Dia hanya punya cara yang berbeda untuk menunjukkan kepeduliannya."
     
@@ -126,7 +128,9 @@ label prolog_day3_scene4:
         truecenter
     
     show raden kemeja_biasa with dissolve:
-        zoom 2.0 xalign 0.45 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.45
+        yalign raden_default.yalign
     
     "Sesampainya di auditorium, suasana tidak banyak berubah. Hanya banyak materi yang dibagikan, yang membuat mataku semakin berat dan mengantuk."
     

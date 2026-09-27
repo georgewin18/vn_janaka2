@@ -6,8 +6,10 @@ label prolog_day1_scene3:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kemeja_capek at raden_default:
+    show raden kemeja_capek:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Di dalam Auditorium sangatlah penuh. Kurasa, sudah lebih dari 100 anak yang telah masuk ke ruangan ini."
@@ -18,8 +20,10 @@ label prolog_day1_scene3:
     
     #nanti diubah narasinya
 
-    show raden kemeja_menghela_napas with dissolve
+    show raden kemeja_menghela_napas with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Sayangnya, video yang diputar hanya tentang itu terus sampai beberapa waktu kemudian. Hal ini membuatku mengantuk karena kebosanan. Lama kelamaan mataku terasa sangat berat. Yang membuat diriku akhirnya tertidur."
 
     show black at Transform(xsize=config.screen_width, ysize=config.screen_height, xpos=0, ypos=0) with dissolve
@@ -30,17 +34,23 @@ label prolog_day1_scene3:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kemeja_menghela_napas at raden_default:
+    show raden kemeja_menghela_napas:
         xalign -0.2
-    show aisyah kemeja_serius at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah kemeja_serius:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
     
     voice "audio/vo/aisyah/pkkmb6_raden_jangan_tidur.ogg"
     aisyah "\"Raden, jangan tidur dong\""
 
-    show raden kemeja_gugup with dissolve
+    show raden kemeja_gugup with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     menu:
         "A-aku ga tidur kok!":
             jump scene4_choice1
@@ -56,29 +66,39 @@ label scene4_choice1:
     jump scene4_after_choice
 
 label scene4_choice2:
-    show aisyah kemeja_menghela_napas with dissolve
+    show aisyah kemeja_menghela_napas with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     voice "audio/vo/aisyah/pkkmb7-2_hah.ogg"
     aisyah "\"Hah..\""
 
     jump scene4_after_choice
 
 label scene4_after_choice:
-    show raden kemeja_canggung
+    show raden kemeja_canggung:
 
-    show aisyah kemeja_serius
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah kemeja_serius:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     voice "audio/vo/aisyah/pkkmb8_ayo_catet.ogg"
     aisyah "\"Ayo catet juga materinya\""
 
-    show raden kemeja_gugup
+    show raden kemeja_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"I-iya, makasih Aisyah\""
 
     "Aku memperhatikan materi tersebut dengan seksama dan mencatat poin-poin penting dari materi yang ada"
 
-    show raden kemeja_canggung
+    show raden kemeja_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     # show sekar jas_bicara at Transform(matrixcolor=(silhouette)):
     #     zoom 0.78 xalign 0.1 yalign -0.2
     # with dissolve

@@ -10,11 +10,15 @@ label prolog_day2_scene4:
         truecenter
 
     show raden kemeja_biasa with dissolve:
-        zoom 2.0 xalign -0.2 yalign 0.05
+        zoom raden_default.zoom
+        xalign -0.2
+        yalign raden_default.yalign
     "Saat itu, aku tiba-tiba berhenti, mengingat pertemuanku dengan Fania kemarin. Fania yang saat itu terlihat begitu santai terasa sangat berbeda dari yang sekarang. Ini mengganggu pikiranku, serasa ingin menghampirinya."
 
     show fania kemeja_dingin with dissolve:
-        zoom 1.35 xalign 1.5 yalign 0.03
+        zoom fania_default.zoom
+        xalign 1.5
+        yalign fania_default.yalign
 
     menu:
         "Hampiri dia":
@@ -29,9 +33,13 @@ label prolog2_scene4_after_choice1:
     "Meskipun agak ragu-ragu aku akhirnya menghampiri Fania dan memanggilnya."
     show raden:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with moveinright
 
-    show raden kemeja_tersenyum
+    show raden kemeja_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Fania!\""
 
     #fania dingin
@@ -40,16 +48,22 @@ label prolog2_scene4_after_choice1:
     fania "\"Ya?\""
 
     #raden canggung
-    show raden kemeja_gugup
+    show raden kemeja_gugup:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"ummmm…. nama ku Raden… haha….\""
 
-    show raden kemeja_canggung
+    show raden kemeja_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/fania/prolog2/prolog2_6_iya_aku_udah_liat.ogg"
     fania "\"Iya, aku udah liat dari nametag mu\""
 
     #raden gugup
-    show raden kemeja_gugup
+    show raden kemeja_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Gini…. Fania… kamu…\""
 
     #fania gugup

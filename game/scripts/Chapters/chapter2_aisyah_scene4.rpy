@@ -10,16 +10,24 @@ label chapter2_aisyah_scene4:
         truecenter
 
     show raden kemeja_biasa:
-        zoom 2.0 xalign 0.5 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
     
     show santo kemeja_biasa at flip:
-        zoom 1.35 xalign 8.7 yalign 0.08
+        zoom santo_default.zoom
+        xalign 8.7
+        yalign 0.08
     
     show aisyah kemeja_bicara:
-        zoom 0.34 xalign 0.2 yalign -1.0
+        zoom aisyah_default.zoom
+        xalign 0.2
+        yalign aisyah_default.yalign
 
     show tessa normal: #kesal
-        zoom 0.39 xalign 1.2 yalign -0.25
+        zoom tessa_default.zoom
+        xalign 1.2
+        yalign tessa_default.yalign
     with dissolve
 
     tessa "\"HEY! DIEM DULU BISA GAK!!\""
@@ -85,13 +93,19 @@ label chapter2_aisyah_scene4:
     hide tessa
 
     show raden kemeja_canggung at flip:
-        zoom 2.0 xalign 1.3 yalign 0.05
+        zoom raden_default.zoom
+        xalign 1.3
+        yalign raden_default.yalign
     
     show santo kemeja_biasa at flip:
-        zoom 1.35 xalign 8.0 yalign 0.08
+        zoom santo_default.zoom
+        xalign 8.0
+        yalign 0.08
     
     show aisyah kemeja_gugup:
-        zoom 0.34 xalign 0.5 yalign -1.0
+        zoom aisyah_default.zoom
+        xalign 0.5
+        yalign aisyah_default.yalign
     with moveinleft
 
     aisyah "\"Raden, Santo, sekali lagi terima kasih ya.. sudah membantu.\""
@@ -143,7 +157,9 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show raden kemeja_biasa:
-            zoom 2.0 xalign 0.5 yalign 0.05
+            zoom raden_default.zoom
+            xalign 0.5
+            yalign raden_default.yalign
 
         #Suasana netral di kampus saat malam
         
@@ -151,10 +167,14 @@ label chapter2_aisyah_scene4:
 
         show raden:
             xalign 0.0
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         with moveinright
 
         show aisyah kemeja_bicara with dissolve:
-            zoom 0.34 xalign 0.9 yalign -1.0
+            zoom aisyah_default.zoom
+            xalign 0.9
+            yalign aisyah_default.yalign
         
         #Aisyah muncul netral
         raden "\"Aisyah, pulang sekarang?\""
@@ -164,7 +184,9 @@ label chapter2_aisyah_scene4:
         raden "\"Mau kuantar aja? kan kost-mu searah rumahku.\""
 
         #Aisyah Serius
-        show aisyah kemeja_penasaran
+        show aisyah kemeja_penasaran:
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Maaf, Raden, nggak perlu. Cowok sama cewek nggak seharusnya jalan bareng malem-malem.\""
 
         raden "\"Tapi aku cuma mau bantu\""
@@ -187,13 +209,17 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show aisyah kemeja_penasaran at flip:
-            zoom 0.34 xalign 0.9 yalign -1.0
+            zoom aisyah_default.zoom
+            xalign 0.9
+            yalign aisyah_default.yalign
         with dissolve
 
         "Kota Surabaya memang dikenal ramai, namun di gang-gang rumah, suasana cenderung lebih sepi. Saat itu, aku sedang mengendarai motor dan melaju di jalanan. Tiba-tiba, aku melihat Aisyah tengah terlibat perkelahian dengan dua pria asing di tengah jalan. Kedua pria itu jelas begal yang sedang mencoba mencuri sesuatu."
 
         show raden kemeja_biasa2:
-            zoom 2.0 xalign 0.0 yalign 0.05
+            zoom raden_default.zoom
+            xalign 0.0
+            yalign raden_default.yalign
 
         "Tanpa berpikir panjang, aku segera menginjak rem dan berhenti. Langsung turun dari motor, aku berlari menghampiri Aisyah untuk membantu."
 
@@ -217,8 +243,10 @@ label chapter2_aisyah_scene4:
 
         #Raden gugup
 
-        show raden kemeja_gugup
+        show raden kemeja_gugup:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Aisyah, kamu nggak apa-apa?\""
 
         "Mataku tertuju pada bahunya. Ada goresan kecil yang tampak mengeluarkan darah tipis."
@@ -226,13 +254,17 @@ label chapter2_aisyah_scene4:
         "Aisyah melirik ke pundaknya lalu mendengus kecil."
 
         #Aisyah canggung
-        show aisyah kemeja_canggung
+        show aisyah kemeja_canggung:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Ah, ini cuma lecet kok, nggak serius,\""
 
         raden "\"Yakin nggak perlu diobati? Kita bisa ke klinik, lho.\""
 
-        show aisyah kemeja_gugup
+        show aisyah kemeja_gugup:
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         "Dia hanya menggeleng dengan senyuman tipis."
 
         aisyah "\"Aku baik-baik aja, Raden. Tapi makasih ya... udah bantu tadi,\""
@@ -250,19 +282,25 @@ label chapter2_aisyah_scene4:
         #[kritik aisyah]
         
         #Raden canggung
-        show raden kemeja_canggung
+        show raden kemeja_canggung:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"—Oh, nggak apa kok, Aisyah. Lagipula Mas tadi memang salah.\""
 
         #Tapi aku melanjutkan, mencoba memberi nasihat tanpa menyakiti perasaannya.
         #Raden netral
-        show raden kemeja_biasa
+        show raden kemeja_biasa:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Tapi ya, Syah… Lain kali hati-hati, ya. Banyak orang di luar sana kayak Mas perokok tadi. Sudah salah, nggak mau mengaku, malah bikin ribut.\""
 
         #Aisyah netral
-        show aisyah kemeja_bicara
+        show aisyah kemeja_bicara:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Aku ngerti, Raden. Makasih udah ngingetin.\""
 
         raden "Ya, sama-sama."
@@ -270,8 +308,10 @@ label chapter2_aisyah_scene4:
         raden "Kita semua belajar, kan?"
 
         #Aisyah senyum
-        show aisyah kemeja_senyum
+        show aisyah kemeja_senyum:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Iya, makasih banget, Raden, Santo.\""
 
         #Aisyah, Santo hilang
@@ -286,10 +326,14 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show raden kemeja_biasa with dissolve:
-            zoom 2.0 xalign 0.0 yalign 0.05
+            zoom raden_default.zoom
+            xalign 0.0
+            yalign raden_default.yalign
 
         show aisyah kemeja_bicara with dissolve:
-            zoom 0.34 xalign 0.9 yalign -1.0
+            zoom aisyah_default.zoom
+            xalign 0.9
+            yalign aisyah_default.yalign
         
         raden "\"Aisyah, pulang sekarang?\""
 
@@ -319,7 +363,9 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show raden kemeja_biasa:
-            zoom 2.0 xalign 0.5 yalign 0.05
+            zoom raden_default.zoom
+            xalign 0.5
+            yalign raden_default.yalign
 
         #telfon berdering
 
@@ -363,13 +409,17 @@ label chapter2_aisyah_scene4:
             truecenter
 
         show aisyah kemeja_penasaran at flip:
-            zoom 0.34 xalign 0.9 yalign -1.0
+            zoom aisyah_default.zoom
+            xalign 0.9
+            yalign aisyah_default.yalign
         with dissolve
 
         "Sesampainya, aku melihat Aisyah tengah terlibat perkelahian dengan dua pria asing di tengah jalan. Kedua pria itu jelas begal yang sedang mencoba mencuri sesuatu."
 
         show raden kemeja_biasa2:
-            zoom 2.0 xalign 0.0 yalign 0.05
+            zoom raden_default.zoom
+            xalign 0.0
+            yalign raden_default.yalign
         
         "Tanpa berpikir panjang, aku segera menginjak rem dan berhenti. Langsung turun dari motor, aku berlari menghampiri Aisyah untuk membantu."
 
@@ -388,8 +438,10 @@ label chapter2_aisyah_scene4:
         "Setelah mahasiswi itu pergi, aku menoleh ke arah Aisyah. Wajahnya tampak tenang, tapi aku melihat ada sesuatu yang tidak beres."
 
         #Raden gugup
-        show raden kemeja_gugup
+        show raden kemeja_gugup:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Aisyah, kamu nggak apa-apa?\""
 
         "Mataku tertuju pada bahunya. Ada goresan kecil yang tampak mengeluarkan darah tipis."
@@ -397,13 +449,17 @@ label chapter2_aisyah_scene4:
         "Aisyah melirik ke pundaknya lalu mendengus kecil."
 
         #Aisyah canggung
-        show aisyah kemeja_canggung
+        show aisyah kemeja_canggung:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Ah, ini cuma lecet kok, nggak serius,\""
 
         raden "\"Yakin nggak perlu diobati? Kita bisa ke klinik, lho.\""
 
-        show aisyah kemeja_gugup
+        show aisyah kemeja_gugup:
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         "Dia hanya menggeleng dengan senyuman tipis."
 
         aisyah "\"Aku baik-baik aja, Raden. Tapi makasih ya... udah bantu tadi,\""
@@ -418,8 +474,10 @@ label chapter2_aisyah_scene4:
 
     if (chapter2_aisyah_scene4_choice2_choosen == True):
         #Raden serius
-        show raden kemeja_kesal
+        show raden kemeja_kesal:
         
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         "\"Aku menatap Aisyah yang berdiri di depanku dengan wajah keras kepala. Jujur, aku tidak tahu harus bagaimana lagi.\""
 
         raden "\"Aisyah.!”"
@@ -427,8 +485,10 @@ label chapter2_aisyah_scene4:
         raden "\"Apa yang kamu pikirin sampai mencoba melawan mereka sendirian?!\""
 
         #Aisyah gugup
-        show aisyah kemeja_gugup
+        show aisyah kemeja_gugup:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Aku… mana mungkin aku bisa diam, Den. Mereka…\""
 
         "Aisyah menghindari tatapan ku, aku melihat dia mengepalkan tangannya, ragu untuk melanjutkan."
@@ -436,8 +496,10 @@ label chapter2_aisyah_scene4:
         "Lalu akhirnya dia berdiri dan menatapku dengan tegas."
 
         #Aisyah serius
-        show aisyah kemeja_penasaran
+        show aisyah kemeja_penasaran:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Mereka hampir menyakiti dia! Aku gak mungkin cuma diam dan liat itu terjadi..\""
 
         raden "\"Kamu harus lebih peduli sama dirimu sendiri. Kalau kondisimu nggak memungkinkan, jangan paksakan diri membantu orang lain!\""
@@ -452,23 +514,31 @@ label chapter2_aisyah_scene4:
 
     elif (chapter2_aisyah_scene4_choice3_choosen == True):
         #Raden serius
-        show raden kemeja_serius
+        show raden kemeja_serius:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Aisyah, Apa yang kamu pikirin sampai mencoba melawan mereka sendirian?!\""
 
         "Dia menggelengkan kepala ringan, dan tersenyum tipis padaku."
 
         aisyah "\"Engga kok, aku percaya kamu pasti datang buat bantu.\""
 
-        show raden kemeja_gugup
+        show raden kemeja_gugup:
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         "Aku terkejut dengan kepercayaannya, tapi aku tahu dia tetap salah."
 
-        show raden kemeja_serius
+        show raden kemeja_serius:
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Tapi kan kamu bisa nunggu aku sampai dulu!\""
 
         #Aisyah gugup
-        show aisyah kemeja_gugup
+        show aisyah kemeja_gugup:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Aku… mana mungkin aku bisa diam, Den. Mereka…\""
 
         "Aisyah menghindari tatapan ku, aku melihat dia mengepalkan tangannya, ragu untuk melanjutkan."
@@ -476,31 +546,41 @@ label chapter2_aisyah_scene4:
         "Lalu akhirnya dia berdiri dan menatapku dengan tegas."
 
         #Aisyah serius
-        show aisyah kemeja_penasaran
+        show aisyah kemeja_penasaran:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         aisyah "\"Mereka hampir menyakiti dia! Aku gak mungkin cuma diam dan liat itu terjadi..\""
 
         #Raden sedih
-        show raden kemeja_sedih
+        show raden kemeja_sedih:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Kamu harus lebih peduli sama dirimu sendiri. Gimana kalau aku tidak datang tepat waktu— aku…\""
 
         jump chapter2_aisyah_good_ending
 
     else:
         #Raden serius
-        show raden kemeja_serius
+        show raden kemeja_serius:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Aisyah, yang kamu lakukan tadi sangat ceroboh!\""
 
         #Raden sedih
-        show raden kemeja_sedih
+        show raden kemeja_sedih:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"...Kalau aku tidak datang tepat waktu—tidak tahu, Aku khawatir ama kamu!!\""
 
         #Aisyah terkejut
-        show aisyah kemeja_gugup
+        show aisyah kemeja_gugup:
 
+            zoom aisyah_default.zoom
+            yalign aisyah_default.yalign
         "Aisyah sesaat terkejut dengan ucapanku. Aku tahu, perempuan seperti dia sebenarnya sadar akan kesalahannya ini."
 
         jump chapter2_aisyah_good_ending

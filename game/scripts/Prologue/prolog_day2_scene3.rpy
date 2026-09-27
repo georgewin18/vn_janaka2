@@ -7,7 +7,9 @@ label prolog_day2_scene3:
     #Raden, Santo, Aisyah hilang
     #Fania muncul dingin 
     show fania kemeja_dingin with dissolve:
-        zoom 1.35 xalign 0.5 yalign 0.03
+        zoom fania_default.zoom
+        xalign 0.5
+        yalign fania_default.yalign
 
     "Aku dan Aisyah mengikuti Santo menuju lokasi pertemuan Region Santo."
 
@@ -18,43 +20,61 @@ label prolog_day2_scene3:
 
     #Raden, Santo, Aisyah muncul netral
     show raden kemeja_serius:
-        zoom 2.0 xalign -0.45 yalign 0.05
+        zoom raden_default.zoom
+        xalign -0.45
+        yalign raden_default.yalign
     show santo kemeja_netral:
-        zoom 1.47 xalign 0.45
+        zoom santo_default.zoom
+        xalign 0.45
     show aisyah kemeja_bingung:
-        zoom 1.6 xalign 1.2 yalign 0.1
+        zoom aisyah_default.zoom
+        xalign 1.2
+        yalign aisyah_default.yalign
     with dissolve
 
     aisyah "\"Yang lain gak ada?\""#Aku bertanya.
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
+        zoom santo_default.zoom
     santo "\"Mereka langsung pulang, gak peduli sama penugasan hari ini.\"" 
 
     #Aisyah kesal
-    show santo kemeja_netral
-    show aisyah kemeja_kesal
+    show santo kemeja_netral:
+        zoom santo_default.zoom
+    show aisyah kemeja_kesal:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     voice "audio/vo/aisyah/prolog2/prolog2_5_itu_keterlaluan.ogg"
     aisyah "\"Itu keterlaluan, gak mungkin kalian yang cuma dua orang bisa menyelesaikan tugas yang dikasih!\"" #Aisyah berseru.
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Mau gimana lagi, temanku ini juga bukan tipe orang yang menuntut orang lain untuk kerja. Dia kelihatannya gak ada niatan untuk cari teman dan bakalan kerja sendirian saja.\"" #ujar Santo.
 
-    show santo kemeja_netral
+    show santo kemeja_netral:
 
+        zoom santo_default.zoom
     voice "audio/vo/aisyah/prolog2/prolog2_6_gak_bertanggung_jawab.ogg"
     aisyah "\"Benar-benar gak bertanggung jawab!\""#balas Aisyah. Aku bisa melihat api imajiner membara dibelakang tubuhnya. Itu mengerikan. Aku cukup yakin jika dia bertemu dengan anggota lain dari Region Santo, dia akan menghajar mereka saat ini juga.
 
     #Fania muncul dingin
     show raden:
         xalign -0.75
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo:
         xalign 0.25
+        zoom santo_default.zoom
     show aisyah kemeja_serius:
         xalign 0.85
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     show fania kemeja_dingin:
-        zoom 1.35 xalign 1.9 yalign 0.03
+        zoom fania_default.zoom
+        xalign 1.9
+        yalign fania_default.yalign
     with moveinright
 
     voice "audio/vo/fania/prolog2/prolog2_1_yang_lain.ogg"
@@ -64,10 +84,13 @@ label prolog_day2_scene3:
     santo "\"Kayak nya gitu deh, dan untuk dua orang ini-\""#Santo menggaruk bagian belakang lehernya dan menghela nafas 
 
     #raden dan aisyah senyum
-    show santo kemeja_netral
+    show santo kemeja_netral:
+        zoom santo_default.zoom
     $ renpy.show("aisyah kemeja_senyum2", zorder=4)
-    show raden kemeja_tersenyum
+    show raden kemeja_tersenyum:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/aisyah/prolog2/prolog2_7_kami_datang.ogg"
     rna "\"Kami datang untuk membantu!\""#Ujarku dan Aisyah serentak.
 
@@ -79,8 +102,10 @@ label prolog_day2_scene3:
 
     raden "\"Udah aman kok\""#jawabku dengan anggukan dan jempol terangkat.
     
-    show raden kemeja_biasa
+    show raden kemeja_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/fania/prolog2/prolog2_3_kalian_nggak_perlu.ogg"
     fania "\"Kalian gak perlu—\""
     
@@ -88,19 +113,27 @@ label prolog_day2_scene3:
     santo "\"Udah, biarin aja mereka. Tadi juga udah kutolak, tapi tetep maksa.\"" #Sebelum Fania menyelesaikan kalimatnya, Santo menyela. 
 
     #Raden, Aisyah canggung
-    show santo kemeja_netral
-    show raden kemeja_tersenyum
-    show aisyah kemeja_senyum3
+    show santo kemeja_netral:
+        zoom santo_default.zoom
+    show raden kemeja_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah kemeja_senyum3:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Akhirnya, kami berempat bekerja sama menyelesaikan tugas. Komunikasi kami awalnya terasa canggung, terutama saat berbicara dengan Fania, karena dia hanya menjawab singkat dan padat. Namun, meski hampir tengah malam, kami berhasil menyelesaikan semuanya."
 
     #Raden, Aisyah senyum
-    show aisyah kemeja_senyum4
+    show aisyah kemeja_senyum4:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     $ renpy.show("raden kemeja_tersenyum", zorder=7)
     raden "\"Akhirnya Selesai!!!\""# Teriak ku dengan pelan sambil merenggangkan badan.
 
     #Santo senyum
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
+        zoom santo_default.zoom
     santo "\"Terimakasih ya Raden, Aisyah\""#Ujar Santo.
 
     $ renpy.show("fania kemeja_dingin", zorder=7)

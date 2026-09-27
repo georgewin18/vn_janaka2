@@ -19,7 +19,9 @@ label prolog_day3_scene5:
     play music raden_bgm fadein 1.0
 
     show raden kasual_biasa2 with dissolve:
-        zoom 2.0 xalign 0.45 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.45
+        yalign raden_default.yalign
 
     "Tidak kusangka aku telah melakukan 3 hari sebagai Mahasiswa di PENS, semuanya berjalan sangat cepat. Dengan banyak hal menarik yang terjadi, semoga saja tidak ada masalah juga di hari terakhir esok."
 
@@ -37,7 +39,9 @@ label prolog_day3_scene5:
     nvl clear
     
     show raden kasual_biasa2 with dissolve:
-        zoom 2.0 xalign 0.45 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.45
+        yalign raden_default.yalign
 
     "Sekarang waktunya istirahat dan menunggu apa yang akan terjadi esok."
     

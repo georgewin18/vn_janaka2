@@ -48,8 +48,10 @@ label prolog_day1_scene1:
 
     play music raden_bgm fadein 1.0
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "\"Kenalin namaku Raden Praditya Wicaksono, Biasa dikenal sebagai Raden\""

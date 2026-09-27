@@ -16,7 +16,9 @@ label chapter3_fania_scene2:
     "Fania dan Sasa telah berada di dalam perpustakaan gedung Pascasarjana menyiapkan buku di atas meja yang sesuai dengan topik yang akan dibahas dan siap untuk mulai mereview dan meringkas."
 
     show fania casual_dingin with dissolve:
-        zoom 1.15 xalign 0.5 yalign -0.02
+        zoom fania_default.zoom
+        xalign 0.5
+        yalign fania_default.yalign
 
     voice "audio/vo/fania/chapter3/chapter3_3_jadi_gimana.ogg"
     fania "\"Jadi gimana kabar Tina, dia jadi dateng gak?\""
@@ -26,8 +28,10 @@ label chapter3_fania_scene2:
     "\"Katanya dia ada urusan mendadak buat bantuin pacarnya pindahan.\”"
 
     #fania kesal
-    show fania casual_kesal with dissolve
+    show fania casual_kesal with dissolve:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     stop music fadeout 2.0
 
     "Jawaban Sasa membuat Fania mengerutkan keningnya."
@@ -35,15 +39,19 @@ label chapter3_fania_scene2:
     voice "audio/vo/fania/chapter3/chapter3_4_pacar.ogg"
     fania "{i}Pacar? Kenapa malah minta bantuan perempuan dan bukan teman laki-laki yang lebih mampu secara fisik?{/i}"
 
-    show fania casual_dingin with dissolve
+    show fania casual_dingin with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     voice "audio/vo/fania/chapter3/chapter3_5_kalo_begitu.ogg"
     fania "\"Kalau begitu, ayo kita mulai dulu deh.\""
 
     "Fania mulai meringkas tiap bab di dalam buku dan mengambil setiap poin penting di dalamnya."
 
     #fania bingung
-    show fania casual_bingung with dissolve
+    show fania casual_bingung with dissolve:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     voice "audio/vo/fania/chapter3/chapter3_6_kamu_ngga_ngerjain.ogg"
     fania "\"Kamu gak ngerjain?\""
 
@@ -52,15 +60,21 @@ label chapter3_fania_scene2:
     "Sasa membalas dengan santai dan tanpa beban sembari terus bermain dan menggulir halaman TokTok nya"
 
     #fania menghela nafas
-    show fania casual_menghelanapas
+    show fania casual_menghelanapas:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     pause 0.3
 
     voice "audio/vo/fania/chapter3/chapter3_menghela2.ogg"
-    show fania casual_menghelanapas_ada_asap with dissolve
+    show fania casual_menghelanapas_ada_asap with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     pause 0.3
 
-    show fania casual_menghelanapas with dissolve
+    show fania casual_menghelanapas with dissolve:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"... Huh…\""
 
     "Fania hanya bisa menghela nafas dengan ketidak bertanggung jawabnya temannya itu."
@@ -68,7 +82,9 @@ label chapter3_fania_scene2:
     "Padahal, ini adalah bentuk evaluasi dari dosen kepada mahasiswa untuk menunjukkan seberapa kompeten mahasiswa dalam mengambil kesimpulan, mencari tahu informasi, dan membuat ringkasan yang masih sesuai dengan topik di dalam buku dan jurnal yang berhubungan dengan mata kuliah mereka."
 
     #fania dingin
-    show fania casual_dingin with dissolve
+    show fania casual_dingin with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     voice "audio/vo/fania/chapter3/chapter3_7_itu_kesalahan.ogg"
     fania "\"Itu kesalahan berpikir.\""
 
@@ -79,7 +95,9 @@ label chapter3_fania_scene2:
 
     "\"Yah, kalau begitu tinggal minta bantuan AI kayak METAL dan chatGaBuT.\""
 
-    show fania casual_bingung with dissolve
+    show fania casual_bingung with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     voice "audio/vo/fania/chapter3/chapter3_9_tapi_kan.ogg"
     fania "\"Tapi kan nanti kelihatan kalau itu buatan AI\""
 
@@ -94,8 +112,10 @@ label chapter3_fania_scene2:
     #backsound agak intens
 
     #layar bergetar
-    show fania casual_kesal with hpunch
+    show fania casual_kesal with hpunch:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     play music intense fadein 1.0
 
     voice "audio/vo/fania/chapter3/chapter3_10_mana_mungkin.ogg"

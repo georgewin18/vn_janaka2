@@ -5,9 +5,13 @@ label chapter5_tessa_scene2:
         truecenter
     
     show raden kasual_biasa2:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
     show santo kemeja_biasa:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom santo_default.zoom
+        yalign 0.08
+        xalign 2.7
     with dissolve
 
     "Matkul pada sore hari yang aku ikuti pun akhirnya selesai dan hari udah mau malem."
@@ -42,8 +46,10 @@ label chapter5_tessa_scene2_choice2_2:
 
     santo "\"lima?\""
 
-    show raden kasual_kaget
+    show raden kasual_kaget:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"SATU AJA WOI!\""
 
     santo "\"Nggak mau ahh, beli aja sendiri\""

@@ -1,23 +1,38 @@
 label chapter4_sekar_scene3:
-    show raden kasual_biasa
-    show santo kemeja_biasa
-    show sekar kemeja_biasa
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show sekar kemeja_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Semua sudah menyelesaikan makanannya, kemudian Kak Sekar bertanya"
 
-    show sekar kemeja_bicara
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_oh_iya.ogg"
     sekar "\"Oh iya, kalian ada waktu nggak?\""
 
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ada sih kak, kenapa emangnya?\""
 
-    show raden kasual_biasa
-    show sekar kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_ini.ogg"
     sekar "\"Ini aku butuh bantuan untuk mengangkat-angkat barang, karena pihak kepanitiaan kekurangan anggota. Cuacanya lagi sering hujan, jadi banyak yang sakit dan tidak hadir\""
 
@@ -38,41 +53,61 @@ label chapter4_sekar_scene3:
     return
 
 label chapter4_sekar_scene2_choice3_1:
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aku bisa sih kak, kalau membantu angkat-angkat barang doang\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Kalau aku nggak bisa, soalnya tugasku masih menunggu untuk diselesaikan hari ini\""
 
-    show raden kasual_biasa
-    show santo kemeja_biasa
-    show sekar kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_1_baiklah.ogg"
     sekar "\"Baiklah kalau begitu, oh iya, kalau kalian mau mengunjungi acaranya, kalian bisa langsung datang saja kok\""
 
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
-    show santo kemeja_biasa
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_biasa:
 
+        zoom santo_default.zoom
     raden "\"Siap kak\""
 
-    show raden kasual_biasa
-    show sekar kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_2_kalau_begitu.ogg"
     sekar "\"Kalau begitu ayo langsung ke lapmer den\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Siap kak\""
 
     raden "\"Duluan yak, to\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Iya den\""
 
     scene bg lapmer with dissolve:
@@ -80,9 +115,13 @@ label chapter4_sekar_scene2_choice3_1:
         truecenter
 
     show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
     show sekar kemeja_bicara:
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.0
+        yalign sekar_default.yalign
     with dissolve
 
     voice "audio/vo/sekar/chapter4/chapter4_3_1_3_guys.ogg"
@@ -104,10 +143,14 @@ label chapter4_sekar_scene2_choice3_1:
     show raden with moveinleft:
         xalign 0.5
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     anon "\"Jadi... siapa namamu?\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Raden kak\""
 
     anon "\"Asal mana?\""
@@ -130,20 +173,26 @@ label chapter4_sekar_scene2_choice3_1:
         truecenter
 
     show raden kasual_menghela_napas with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "\"Capek banget dah\""
 
     bima "\"Aman den?\""
 
-    show raden kasual_capek
+    show raden kasual_capek:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Dah, tewas kak\""
 
     bima "\"Hahaha, nih makan dulu\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Makasih kak. Btw, sudah nggak ada kerjaan lagi kan?\""
 
     bima "\"Ada sih, cuma mengembalikan barang ke tempatnya\""
@@ -167,76 +216,108 @@ label chapter4_sekar_scene2_choice3_1:
     #show sekar
     show raden:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show sekar kemeja_biasa:
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.0
+        yalign sekar_default.yalign
     with moveinright
 
     play music sekar_bgm fadein 1.0
 
     "Aku menoleh dan melihat Kak Sekar berdiri di depanku. Wajahnya sedikit terlihat lebih tenang dari biasanya"
 
-    show sekar kemeja_bicara
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_6_gimana_den.ogg"
     sekar "\"Gimana den? Masih kuat kan?\""
 
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Masih Kak, Apalagi dikasih makan begini, udah semangat lagi ini\""
 
-    show sekar kemeja_ceria
+    show sekar kemeja_ceria:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_7_haha_bisa_aja.ogg"
     sekar "\"Haha, bisa aja den\""
 
-    show sekar kemeja_tegas
-    show raden kasual_biasa
+    show sekar kemeja_tegas:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Namun, tawanya cepat mereda. Dia terdiam sejenak, kemudian duduk dekat di sebelahku tanpa banyak bicara."
 
-    show sekar kemeja_bicara
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_8_btw.ogg"
     sekar "\"Btw makasih ya den, dengan bantuannya. Acaranya berjalan lancar karenamu nih\""
 
-    show sekar kemeja_biasa
+    show sekar kemeja_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Aku hanya mengangguk kecil, merasakan kehangatan dalam kata-katanya. Ada sesuatu yang berbeda dari Kak Sekar saat ini, sesuatu yang membuat hatiku berdetak lebih cepat."
 
     stop music fadeout 2.0
 
     "Keheningan yang nyaman menyelimuti kami, hanya ditemani suara daun yang berdesir pelan. Tapi keheningan itu tak berlangsung lama."
 
-    show sekar kemeja_tegas
+    show sekar kemeja_tegas:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_9_den.ogg"
     sekar "\"Den...\""
 
-    show raden kasual_tersenyum    
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya, kak?\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     play music dramatic fadein 1.0
 
     voice "audio/vo/sekar/chapter4/chapter4_3_1_10_kenapa.ogg"
     sekar "\"Kenapa kamu kuliah? Apalagi di PENS, ada alasan khusus?\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aku sih...\""
 
     raden "\"Nggak ada alasan yang spesial sih kak. Aku cuma ingin menjadi pribadi mapan... dan juga, kurasa berkuliah adalah sebuah kesempatan yang tidak bisa dirasakan semua orang\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_11_terus.ogg"
     sekar "\"Terus, kenapa menurutmu penting den?\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Untuk kasus ku sendiri, alasannnya mempersiapkan diri ke dunia yang lebih luas diluar sana...\""
 
     raden "\"Di saat kita masih SD, SMP, SMA ataupun SMK, kita hanya diajarkan materi dan melatih kedisiplinan kita.\""
@@ -249,30 +330,40 @@ label chapter4_sekar_scene2_choice3_1:
 
     raden "\"Setidaknya itu yang kuharapkan\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Kak Sekar mendengarkanku dengan seksama, tetapi dengan perlahan ekspresinya berubah. Ada keterkejutan sama di wajahnya, seolah dia tidak menyangka jawaban itu keluar dari raden."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Selain itu, PENS kan terkenal sebagai politeknik terbaik se-Asia Tenggara\""
 
     raden "\"Aku pikir, kalau aku mau berhasil, ini adalah tempat yang tepat\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Kak Sekar tetap diam, tetapi ekspresinya sekarang sedikit serius. Ekspresinya seperti mencoba memahami setiap kata yahng baru saja kuucapkan."
 
     "Dia tersenyum samar, meskipun matanya masih terlihat serius, seolah ada banyak hal yang sedang dia pikirkan."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kalau kakak sendiri?\""
 
     raden "\"Apa alasan Kakak kuliah di PENS?\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Dia menundukkan kepala sedikit, seolah mencari jawaban di antara sela-sela dedaunan yang berguguran."
 
     voice "audio/vo/sekar/chapter4/chapter4_3_1_12_aku_ya.ogg"
@@ -280,23 +371,35 @@ label chapter4_sekar_scene2_choice3_1:
 
     "Kak Sekar terdiam sejenak, wajahnya sedikit muram seolah memikirkan apa yang harus dijawab, sementara aku menatapnya, berusaha membaca pikirannya yang tampak begitu berat."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Jika kakak masih ragu bagaimana cara menjawabnya, lebih baik dipendam dulu untuk sekarang\""
 
-    show raden kasual_biasa
-    show sekar kemeja_hembus_nafas_kantung_mata
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kemeja_hembus_nafas_kantung_mata:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_1_13_eh_maaf.ogg"
     sekar "\"Eh, maaf den. Padahal aku duluan yang memulai percakapan, malah aku juga yang menghentikan percakapan\""
 
-    show raden kasual_tersenyum
-    show sekar kemeja_biasa
+    show raden kasual_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kemeja_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Gapapa kak, ini juga salahku sih karena menjawab pertanyaan kaka dengan jawaban yang dalam seperti itu\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku hanya bisa tersenyum kecil, merasakan sesuatu yang hangat mengalir di dadaku. Kata-katanya terasa seperti meninggalkan jejak yang dalam. Kemudian, dia melangkah pergi, meninggalkan keheningan yang anehnya menenangkan."
 
     scene black with dissolve:
@@ -309,81 +412,121 @@ label chapter4_sekar_scene2_choice3_1:
     jump chapter4_sekar_good_ending
 
 label chapter4_sekar_scene2_choice3_2:
-    show raden kasual_gugup
-    show sekar kemeja_biasa
+    show raden kasual_gugup:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kemeja_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Maaf nih kak, tapi aku masih ada tugas\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Kalau aku nggak bisa soalnya tugasku masih menunggu untuk diselesaikan hari ini\""
 
-    show sekar kemeja_bicara
-    show santo kemeja_biasa
-    show raden kasual_biasa
+    show sekar kemeja_bicara:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show raden kasual_biasa:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_baiklah.ogg"
     sekar "\"Baiklah kalau begitu\""
 
     voice "audio/vo/sekar/chapter4/chapter4_3_2_2_oh_iya.ogg"
     sekar "\"Oh iya, jika kalian mau mengunjungi acaranya, kalian bisa langsung datang aja kok\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Siap kak\""
 
     #hide sekar
     hide sekar with dissolve
     show raden:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo:
         xalign 2.7
+        zoom santo_default.zoom
     with moveinleft
 
     raden "\"To\""
 
-    show raden kasual_biasa
-    show santo kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Apa den?\""
 
-    show santo kemeja_biasa
-    show raden kasual_tersenyum
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Mau bantu aku mengerjakan tugas nggak?\""
 
-    show santo kemeja_bicara
-    show raden kasual_biasa
+    show santo kemeja_bicara:
+        zoom santo_default.zoom
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     santo "\"Tumben ngajak, biasanya dijawab lagi malas\""
 
-    show santo kemeja_biasa
-    show raden kasual_tersenyum
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya sih, tapi dipikir-pikir enakan nggak ada beban\""
 
-    show santo kemeja_bicara
-    show raden kasual_biasa
+    show santo kemeja_bicara:
+        zoom santo_default.zoom
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     santo "\"Yasudah sih gapapa\""
 
-    show santo kemeja_biasa
-    show raden kasual_tersenyum
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Memangnya kamu mau ngerjain dimana?\""
 
-    show santo kemeja_bicara
-    show raden kasual_biasa
+    show santo kemeja_bicara:
+        zoom santo_default.zoom
+    show raden kasual_biasa:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     santo "\"Terserah sih, perpus pasca aja kali\""
 
-    show santo kemeja_biasa
-    show raden kasual_tersenyum
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Okeh aku ikut ya\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Ayo aja\""
 
     hide santo
@@ -396,51 +539,75 @@ label chapter4_sekar_scene2_choice3_2:
         truecenter
 
     show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
     show santo kemeja_biasa:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom santo_default.zoom
+        yalign 0.08
+        xalign 2.7
     with moveinleft
 
     "Sesampainya di perpustakaan pasca kami langsung melakukan scan, dan langsung mencari tempat duduk."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Seperti biasa disini dingin\""
 
-    show raden kasual_biasa
-    show santo kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Tapi enak disini den, suasananya tenang\""
 
-    show raden kasual_tersenyum
-    show santo kemeja_biasa
+    show raden kasual_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_biasa:
 
+        zoom santo_default.zoom
     raden "\"Iya sih\""
 
-    show raden kasual_biasa
-    show santo kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Jadi kau butuh bantuan seperti apa?\""
 
-    show raden kasual_ceria
-    show santo kemeja_biasa
+    show raden kasual_ceria:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_biasa:
 
+        zoom santo_default.zoom
     raden "\"Hampir semua sih...\""
 
     pause 2
 
     #show santo kesal
-    show raden kasual_hehe
+    show raden kasual_hehe:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Canda, canda. Aku hanya tidak tahu bagaimana tata letak penulisanmu\""
 
-    show raden kasual_biasa
-    show santo kemeja_bicara
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Bilang dong\""
 
-    show santo kemeja_biasa
+    show santo kemeja_biasa:
 
+        zoom santo_default.zoom
     "Dengan bantuan Santo, tugasku akhirnya selesai juga. Setelah mengerjakan tugas, kami bingung mau ngapain"
 
     menu:
@@ -450,35 +617,50 @@ label chapter4_sekar_scene2_choice3_2:
             jump chapter4_sekar_scene2_choice3_2_2
 
 label chapter4_sekar_scene2_choice3_3:
-    show raden ngomong
-    show sekar jas_normal
+    show raden ngomong:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar jas_normal:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Maaf kak, tapi kurasa aku nggak bisa ikut\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Kalau aku nggak bisa soalnya tugasku masih menunggu untuk diselesaikan hari ini\""
 
-    show sekar jas_bicara
-    show santo kemeja_biasa
-    show raden biasa
+    show sekar jas_bicara:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show santo kemeja_biasa:
+        zoom santo_default.zoom
+    show raden biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_baiklah.ogg"
     sekar "\"Baiklah kalau begitu\""
 
     voice "audio/vo/sekar/chapter4/chapter4_3_2_2_oh_iya.ogg"
     sekar "\"Oh iya, jika kalian mau mengunjungi acaranya, kalian bisa langsung datang aja kok\""
 
-    show raden ngomong
+    show raden ngomong:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Siap kak\""
 
     #hide sekar
     hide sekar with dissolve
     show raden:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo:
         xalign 2.7
+        zoom santo_default.zoom
     with moveinleft
 
     raden "\"Yaudah to, pulang dulu ya\""
@@ -504,7 +686,9 @@ label chapter4_sekar_scene2_choice3_2_1:
         truecenter
 
     show raden kasual_biasa with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     "Jadi aku memutuskan untuk pergi ke sana sendirian."
 
@@ -520,43 +704,69 @@ label chapter4_sekar_scene2_choice3_2_1:
 
     show raden with moveinright:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show sekar kemeja_bicara with dissolve:
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.0
+        yalign sekar_default.yalign
 
     play music sekar_bgm fadein 1.0
 
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_1_oh_raden.ogg"
     sekar "\"Oh, Raden. Kamu datang juga ya?\""
 
-    show sekar kemeja_biasa
-    show raden kasual_canggung
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya, Kak. Tapi... kayaknya udah telat banget ya?\""
 
-    show sekar kemeja_bicara
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_2_bisa_dibilang.ogg"
     sekar "\"Bisa dibilang begitu, gimana tugasmu? Beres?\""
     
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya, Kak. Baru selesai, makanya aku baru bisa ke sini\""
 
-    show sekar kemeja_bicara
-    show raden kasual_biasa
+    show sekar kemeja_bicara:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_3_baguslah.ogg"
     sekar "\"Baguslah kalau selesai. Tapi lain kali, coba atur waktumu lebih baik, ya\""
     
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya, Kak. Maaf banget gak bisa bantu tadi\""
 
-    show sekar kemeja_bicara
-    show raden kasual_biasa
+    show sekar kemeja_bicara:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_4_gapapa.ogg"
     sekar "\"Gak apa-apa. Setiap orang punya prioritas kok\""
 
@@ -574,39 +784,63 @@ label chapter4_sekar_scene2_choice3_2_2:
     jump chapter4_sekar_neutral_ending
 
 label chapter4_sekar_scene2_choice3_2_1_1:
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kak Sekar, sekarang lagi ngembaliin perlengkapan ya? Biar kubantu kak\""
 
-    show sekar kemeja_ceria
-    show raden kasual_biasa
+    show sekar kemeja_ceria:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_5_gausah.ogg"
     sekar "\"Nggak usah den, udah mau selesai kok\""
 
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Gapapa kak, anggap aja permintaan maafku, gabisa bantu tadi\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Barang-barang sudah dimasukkan ke mobil pickup, dan lokasi acara mulai kosong. Aku dan Kak Sekar berdiri di pinggir lokasi, mengawasi panitia lain yang berkemas."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Akhirnya selesai juga\""
 
-    show sekar kemeja_bicara
-    show raden kasual_biasa
+    show sekar kemeja_bicara:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_3_2_1_6_makasih.ogg"
     sekar "\"Makasih ya den, udah nyempetin bantu\""
 
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aman kak, sama-sama\""
 
     "Setelah itu kami berpamitan dan pulang."
@@ -616,9 +850,13 @@ label chapter4_sekar_scene2_choice3_2_1_1:
     jump chapter4_sekar_neutral_ending
 
 label chapter4_sekar_scene2_choice3_2_1_2:
-    show sekar kemeja_biasa
-    show raden kasual_tersenyum
+    show sekar kemeja_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"yaudah, aku mau lihat sisa-sisa acaranya kak\""
 
     "Sekar hanya mengangguk lalu kembali membereskan dekorasi dan perlengkapan bersama panitia lain. Karena tidak banyak yang tersisa, aku pulang saja karena bosan"

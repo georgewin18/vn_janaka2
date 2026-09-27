@@ -37,7 +37,9 @@ label chapter5_tessa_scene1_choice1_1:
         truecenter
 
     show raden kasual_biasa with moveinbottom:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "\"wah bentar lagi matkul, siap-siap dulu aja\""
 
@@ -71,12 +73,16 @@ label chapter5_tessa_scene1_choice1_1:
     play music campus fadein 1.0
 
     show raden kasual_biasa with moveinleft:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
 
     "Ketika aku sampai di depan kampus dan keluar parkiran, aku melihat Santo yang tampak sedikti ogah-ogahan. Aku menghampirinya dan menyapanya dengan senyum lebar."
 
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom santo_default.zoom
+        yalign 0.08
+        xalign 2.7
 
     raden "\"Begini kan bagus, hehehe\""
 
@@ -94,7 +100,9 @@ label chapter5_tessa_scene1_choice1_2:
         truecenter
 
     show raden kasual_menghela_napas with moveinbottom:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "{i}bentar lagi ada matkul, mau ikut, tapi... ahh, malas{/i}"
 
@@ -132,14 +140,20 @@ label chapter5_tessa_scene1_choice1_2:
         truecenter
 
     show raden kasual_capek with moveinleft:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
 
     "Ketika aku sampai di depan kampus dan keluar parkiran, aku melihat Santo yang tampak sedikit ogah-ogahan. Aku menghampirinya dan menyapanya"
 
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 yalign 0.08 xalign 2.7
-    show raden kasual_hehe
+        zoom santo_default.zoom
+        yalign 0.08
+        xalign 2.7
+    show raden kasual_hehe:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Lihat tuh, akhirnya lo ikut juga, hahaha\""
 
     santo "\"Padahal lagi asyik ngegame\""
@@ -158,8 +172,10 @@ label chapter5_tessa_scene1_choice1_2:
 
     santo "\"Oi, jangan langsung pergi!\""
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     santo "\"Mari kita hadapi penderitaan ini bersama\""
 
     raden "\"Tii... {size=+10}TIDAKKKKK{/size}\"" with vpunch

@@ -16,10 +16,14 @@ label pensasi_tessa_scene4:
         size (config.screen_width, config.screen_height)
         truecenter
     
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show tessa kasual_netral at tessa_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_netral:
         xalign 1.0
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with dissolve
 
     play music tessa_bgm fadein 1.0
@@ -31,23 +35,31 @@ label pensasi_tessa_scene4:
     voice "audio/vo/tessa/pensasi/pensasi_4_1_belum.ogg"
     tessa "\"Belum lihat semuanya sih. Tapi tadi sempat dengar ada booth VR di ujung sana. Katanya seru.\""
 
-    show raden kasual_hehe
+    show raden kasual_hehe:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"VR? Wah, aku belum pernah coba itu,\""
 
     voice "audio/vo/tessa/pensasi/pensasi_4_2_kalo.ogg"
     tessa "\"Kalau gitu, kita ke sana aja. Siapa tau seru. Lagian aku juga penasaaran.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Kami akhirnya sampai di booth VR. Sebuah layar besar menampilkan cuplikan dunia virtual yang tampak begitu nyata, seperti sebuah hutan lebat dengan air terjun yang mengalir deras. Antrean di sini cukup panjang, tetapi tidak sampai membuat kami menyerah."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kalau dari lihat aja sih, kayanya keren banget ya?\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_4_3_iya.ogg"
     tessa "\"Iya, cuma kayaknya bakal bikin pusing juga kalau terlalu lama,\""
 
@@ -56,8 +68,10 @@ label pensasi_tessa_scene4:
 
     "Akhirnya giliran kami tiba. Petugas di booth menjelaskan cara menggunakan perangkat VR dan pilihan permainan yang tersedia. Kami diberikan dua opsi: menjelajahi dunia fantasi dengan naga terbang atau bermain survival di kota yang penuh zombie."
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kak Tessa pilih yang mana? Naga atau Zombie?\""
 
     "Tessa berpikir sejenak, lalu berkata dengan nada santai,"
@@ -65,8 +79,10 @@ label pensasi_tessa_scene4:
     voice "audio/vo/tessa/pensasi/pensasi_4_5_zombie.ogg"
     tessa "\"Zombie aja deh. Seru kayaknya kabur-kaburan. Lagian, siapa tahu aku jago headshot\""
 
-    show raden kasual_hehe
+    show raden kasual_hehe:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oke, zombie it is!\""
 
     scene black with dissolve:
@@ -160,10 +176,14 @@ label pensasi_tessa_scene4:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_hehe at raden_default:
+    show raden kasual_hehe:
         xalign -0.2
-    show tessa kasual_netral at tessa_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_netral:
         xalign 1.0
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with dissolve
 
     play music tessa_bgm fadein 1.0
@@ -172,63 +192,89 @@ label pensasi_tessa_scene4:
 
     raden "\"Itu gila banget. Seru, sama bikin deg-degan!\""
 
-    show tessa kasual_senyum3
+    show tessa kasual_senyum3:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_special_4_iya.ogg"
     tessa "\"Iya, aku nggak nyangka bakal seintens itu. Lumayan, lah, pengalaman pertama main VR,\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ngomong-ngomong, kasih nilai berapa kak?, kalau aku kasihnya 80 dari 100\""
 
-    show tessa kasual_senyum2
+    show tessa kasual_senyum2:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_special_5_kalau.ogg"
     tessa "\"Huhhh.., kalau aku kasih 65 dari 100\""
 
-    show raden kasual_bingung with dissolve
+    show raden kasual_bingung with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ke..kenapa kecil sekali ya\""
 
     voice "audio/vo/tessa/pensasi/pensasi_special_6_lalu.ogg"
     tessa "\"Lalu kenapa kau tinggi sekali nilainya\""
 
-    show raden kasual_canggung with dissolve
+    show raden kasual_canggung with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ya... karena itu tadi sudah bagus,\""
 
-    show tessa kasual_senyum with dissolve
+    show tessa kasual_senyum with dissolve:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_special_7_ish.ogg"
     tessa "\"Ish ish ish... kau perlu banyak belajar lagi\""
 
-    show raden kasual_ceria with dissolve
+    show raden kasual_ceria with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Kami pun keluar dari booth VR sambil tertawa-tawa, membicarakan pengalaman seru tadi. Aku tidak menyangka, berjalan-jalan dengan Kak Tessa ternyata membawa pengalaman baru yang tidak terlupakan."
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Kami berdua terus berkeliling melihat booth yang lain, membeli sedikit cemilan, lalu lanjut berkeliling"
 
-    show raden kasual_biasa2
-    show tessa kasual_netral
+    show raden kasual_biasa2:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_netral:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_special_8_apakah.ogg"
     tessa "\"Apakah... tidak, atau mungkinkah..?\""
 
     "Aku yang merasa ada yang aneh setelah melihat Tessa sedikit diam dari tadi pagi"
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kak, ada apa?\""
 
-    show tessa kasual_senyum2
+    show tessa kasual_senyum2:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_special_9_oh.ogg"
     tessa "\"Oh, aku baik kok...\""
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oke\""
 
     "Kami pun lanjut berkeliling dan tanpa diketahui hari pun sudah mulai sore, waktu memang cepat berlalu saat kita sedang bersenang-senang"
@@ -241,34 +287,48 @@ label pensasi_tessa_scene4:
 
     menu:
         "Ikut Kak Tessa":
-            show raden kasual_biasa
+            show raden kasual_biasa:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Aku ikut dong, sekalian satu jalan\""
 
             voice "audio/vo/tessa/pensasi/pensasi_4_1_1_boleh.ogg"
             tessa "\"Boleh aja\""
 
-            show raden kasual_ceria
+            show raden kasual_ceria:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Rasanya kayak lagi kencan aja\"" 
 
-            show raden kasual_panik
-            show tessa kasual_kesal
+            show raden kasual_panik:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show tessa kasual_kesal:
 
+                zoom tessa_default.zoom
+                yalign tessa_default.yalign
             voice "audio/vo/tessa/pensasi/pensasi_4_1_2_eh.ogg"
             tessa "\"Ehh?? kenapa tiba-tiba-\"" with hpunch
 
             raden "\"Bentar-bentar- Jangan asal serang-\""
 
-            show raden kasual_canggung
+            show raden kasual_canggung:
 
-            show tessa kasual_senyum2
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show tessa kasual_senyum2:
 
+                zoom tessa_default.zoom
+                yalign tessa_default.yalign
             voice "audio/vo/tessa/pensasi/pensasi_4_1_3_maaf.ogg"
             tessa "\"Maaf tadi reflek aja, tapi kenapa tiba-tiba ngomong gitu?\""
 
-            show raden kasual_gugup
+            show raden kasual_gugup:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Maaf hanya kepikiran aja karena kita hanya jalan berdua aja\""
 
             voice "audio/vo/tessa/pensasi/pensasi_4_1_4_kau_ini.ogg"
@@ -276,22 +336,30 @@ label pensasi_tessa_scene4:
 
             "Tessa segera menyembunyikan wajahnya yang memerah, terlihat jelas dia sedang menahan malu."
 
-            show raden kasual_bingung with dissolve
+            show raden kasual_bingung with dissolve:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Aku hanya bisa mengernyit bingung, tidak tahu apa yang sebenarnya dia pikirkan."
             
-            show raden kasual_canggung
+            show raden kasual_canggung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Kami pun melanjutkan langkah menuju booth. Sepanjang perjalanan, suasana terasa canggung- tidak ada satu kata pun yang keluar dari mulut kami. Hanya derap langkah yang terdengar di antara kesunyian."
 
             "Setelah menghantarkan Kak Tessa ke booth-nya, aku memutuskan untuk pamit, mencoba menghilangkan rasa canggung yang masih terasa."
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Oke, sampai jumpa kak\""
 
-            show tessa kasual_senyum
+            show tessa kasual_senyum:
 
+                zoom tessa_default.zoom
+                yalign tessa_default.yalign
             voice "audio/vo/tessa/pensasi/pensasi_4_1_5_iya.ogg"
             tessa "\"Iya, sampai jumpa\""
 
@@ -304,19 +372,25 @@ label pensasi_tessa_scene4:
             ## END
 
         "Pamit":
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Kalau gitu aku mau balik juga, hati-hati ya\""
 
             voice "audio/vo/tessa/pensasi/pensasi_4_2_1_makasih.ogg"
             tessa "\"Makasih ya\""
 
-            show raden kasual_ceria
+            show raden kasual_ceria:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Iya, makasih atas kencan nya\""
 
-            show tessa kasual_kesal
+            show tessa kasual_kesal:
 
+                zoom tessa_default.zoom
+                yalign tessa_default.yalign
             voice "audio/vo/tessa/pensasi/pensasi_4_2_2_ehh.ogg"
             tessa "Eehhh??? Ini bukan kencan! Jangan asal ngomong kayak gitu!" with hpunch
 

@@ -19,22 +19,31 @@ label arc_character_day2_scene4:
     camera at normal_camera
     scene bg perpus_pasca
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.8
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 0.8
-    show fania casual_dingin at fania_default:
+        zoom santo_default.zoom
+    show fania casual_dingin:
         xalign 2.0
-    show aisyah casual_gugup at aisyah_default:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
+    show aisyah casual_gugup:
         xalign 0.15
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     #Backsound Suasana sedikit dramatis
 
     fania "\"Kenapa kalian pada bantu, padahal aku gak minta?\""
     
     "Aisyah menatap Fania dengan senyuman, tetapi ada ketegasan dalam nada suaranya."
 
-    show aisyah casual_senyum
+    show aisyah casual_senyum:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Karena kami gak mungkin diam aja lihat kamu kerja kayak gini, Fan. Kita teman kan?\""
 
     "Fania kembali menatap layar laptopnya, mengetik beberapa baris lagi tanpa menanggapi. Tapi gerakannya sedikit melambat, seperti memikirkan jawaban."
@@ -43,22 +52,32 @@ label arc_character_day2_scene4:
 
     "Fania menghentikan ketikannya, lalu menutup laptop dengan pelan. Dia menatap mereka dengan ekspresi dingin, tetapi ada sedikit kelelahan di matanya."
 
-    show fania casual_menghelanapas
+    show fania casual_menghelanapas:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     with Pause(1.0)
-    show fania casual_menghelanapas_ada_asap
+    show fania casual_menghelanapas_ada_asap:
     
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"haahhh…\""
 
-    show fania casual_senyum_normal_biasa
+    show fania casual_senyum_normal_biasa:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Makasih, Aisyah, Santo, Raden.\""
 
-    show fania casual_menghelanapas
+    show fania casual_menghelanapas:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Sebenarnya, aku ada masalah sama anggota kelompokku…\""
 
-    show fania casual_gugup
+    show fania casual_gugup:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     "Fania bercerita kepada kami, tentang masalah yang dia hadapi."
 
     "Masalah internal yang diakibatkan hanya karena seseorang memiliki urusan pribadi dan cekcok yang berakhir pada pertengkaran Fania dan salah satu rekan di kelompoknya."
@@ -69,7 +88,9 @@ label arc_character_day2_scene4:
 
     #Backsound sedikit dramatis
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aku paham.\""
 
     "Aku mengangguk dengan tenang tanpa mengalihkan mataku dari buku yang ku baca. Perhatian ketiga temanku tertuju ke arahku ketika aku berhenti membaca dan memandang Fania."
@@ -78,8 +99,10 @@ label arc_character_day2_scene4:
 
     "Perasaan kepercayaan yang telah dikhianati ketika masa PKKMB dan cekcok yang dimulai dari perbedaan cara mengerjakan tugas, membuat Fania tidak lagi berniat memberikan kepercayaan yang dalam kepada orang lain."
 
-    show fania casual_sedih
+    show fania casual_sedih:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Gak segampang itu Den.\""
 
     fania "\"Santo, Kamu inget satu orang yang dari DTMK di kelompok kita selain aku?\""
@@ -89,30 +112,40 @@ label arc_character_day2_scene4:
     santo "\"Sifatnya masih sama-sama tidak bertanggungjawab.\""
 
     #Santo Serius
-    show santo kasual_kesal
+    show santo kasual_kesal:
 
+        zoom santo_default.zoom
     "Santo hanya bisa mengerutkan keningnya, membuatku memahami bahwa ada masalah yang cukup serius di antara Fania, Santo, dan kelompok PKKMB mereka."
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Fania, sekarang kamu lihat kami bertiga.\""
 
     raden "\"Apakah kamu pikir kita kesini buat main-main?\""
 
-    show fania casual_gugup
+    show fania casual_gugup:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Enggaklah, jelas-jelas kalian kesini buat belajar.\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Menurutmu semua orang juga sama kayak kita atau orang yang kamu sebutin?\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Fania, manusia itu rumit. Kamu kira Santo ngerjain tugasnya di sini karena rajin? Bukan, dia malah gabung biar cepet kelar. Malas mikirin tugas sendiri, gitu.\""
 
-    show santo kasual_netral
+    show santo kasual_netral:
 
+        zoom santo_default.zoom
     santo "\"Kamu juga sama aja sih.\""
 
     raden "\"Waspada itu nggak salah, tapi jangan sampai bikin kamu jadi close-minded, Fania.\""
@@ -128,13 +161,17 @@ label arc_character_day2_scene4:
     #Backsound sedikit romantis
 
     camera at cam_zoom_fania
-    show fania casual_senyum_ceria at fania_default
+    show fania casual_senyum_ceria:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     "Tawa halusnya terdengar seperti lonceng yang dihembuskan oleh angin lembut, berpadu dengan senyum yang memancarkan kehangatan seperti siraman mentari pagi. Aku terdiam sesaat, terpaku pada wajahnya yang terlihat begitu bersinar."
 
     "Aku mengagumi itu. Mungkin lebih dari sekadar kekaguman biasa."
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Lah, kenapa ketawa?\""
 
     raden "{i}Apa yang salah?{i}"
@@ -145,18 +182,24 @@ label arc_character_day2_scene4:
 
     camera at normal_camera
 
-    show fania casual_senyum_normal_biasa
+    show fania casual_senyum_normal_biasa:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Ok lah, Den.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Fania tersenyum dengan cool, ada sesuatu dalam dirinya yang membuatku semakin terpesona. Caranya menatapku—penuh keyakinan, tapi juga penuh penghargaan—seolah mengatakan kalau dia benar-benar mendengarkan setiap kata yang keluar dari mulutku."
 
     fania "\"Akan ku lakuin sesuai saranmu. Rasanya gak mungkin deh mengabaikan temanku yang udah berkorban untuk mengatakan semua itu.\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kalau begitu, ayo lakuin sekarang!\""
 
     raden "\"Semakin banyak ditunda bakalan semakin susah nanti. Mendingan sekarang aja.\""
@@ -177,26 +220,36 @@ label arc_character_day2_scene4:
 
     "Santo berdehem pelan, lalu menyenggol lenganku dengan siku."
 
-    show santo kasual_senyum
+    show santo kasual_senyum:
+        zoom santo_default.zoom
     santo "\"Den. Barusan pidatonya kayak dosen filsafat yang lagi jatuh cinta.\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Yah... kadang pencerahan datang di luar jam kuliah.\""
 
-    show aisyah casual_senyum
+    show aisyah casual_senyum:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Tapi jujur, Den. Keren sih. Kamu ngomong kayak gitu tuh nggak semua orang bisa. Ngena. Dan Fania dengerin beneran.\""
 
-    show santo kasual_netral
+    show santo kasual_netral:
+        zoom santo_default.zoom
     santo "\"Setuju. Kita emang nggak bisa bantu banyak di masalah dia, tapi kayaknya… itu udah cukup. Sisanya, biar dia yang hadapi sendiri.\""
 
     "Aku dan Aisyah menganggukan kepala, setuju dengan Santo."
 
     "Aku tidak tahu pasti bagaimana percakapan mereka berlangsung. Yang jelas, ketika Fania kembali dan berdiri di depan kami, ia membawa kabar baik."
 
-    show fania casual_senyum_ceria
+    show fania casual_senyum_ceria:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Kami udah baikan.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Bagus. Kamu udah ngelangkah. Sisanya tinggal dijalanin aja, pelan-pelan.\""
 
     santo "\"Anyway, kita pamit dulu ya.\""
@@ -205,7 +258,9 @@ label arc_character_day2_scene4:
 
     raden "\"Iya, udah waktunya juga. Tapi jangan lupa istirahat, Fan.\""
 
-    show fania casual_senyum_normal_biasa
+    show fania casual_senyum_normal_biasa:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"Makasih, kalian berdua. Beneran… makasih.\""
 
     jump arc_character_day2_scene5

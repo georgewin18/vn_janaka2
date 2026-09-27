@@ -16,10 +16,14 @@ label pensasi_tessa_scene2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show tessa kasual_netral at tessa_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_netral:
         xalign 1.0
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with dissolve
 
     voice "audio/vo/tessa/pensasi/pensasi_2_1_sudah.ogg"
@@ -27,12 +31,16 @@ label pensasi_tessa_scene2:
 
     play music campus fadein 1.0
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya kak, udah, cuma ngabarin temen sebentar tadi\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Kak Tessa mulai menjelaskan konsep game yang sedang dipamerkan supaya aku tidak bingung."
 
     "Dia menjelaskan alur gameplay, elemen desain, dan sedikit tentang latar belakang pengembangannya. Meski agak berat, aku berusaha menyimak dengan serius."
@@ -46,42 +54,58 @@ label pensasi_tessa_scene2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_capek at raden_default:
+    show raden kasual_capek:
         xalign -0.2
-    show tessa kasual_netral at tessa_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_netral:
         xalign 1.0
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with dissolve
 
     voice "audio/vo/tessa/pensasi/pensasi_2_2_sejauh_ini.ogg"
     tessa "\"Sejauh ini sudah paham kah?\""
 
-    show raden kasual_menghela_napas
+    show raden kasual_menghela_napas:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ehhhh...\""
 
-    show tessa kasual_kesal
+    show tessa kasual_kesal:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_2_3_kau_ini.ogg"
     tessa "\"Kau ini! Aku ulangi lagi sekali ya!\""
 
     voice "audio/vo/tessa/pensasi/pensasi_2_4_jadi.ogg"
     tessa "\"Jadi dengar dan pahami oke!\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Setelah Kak Tessa menjelaskan ulang, aku pun mulai memahami- atau setidaknya bisa menjelaskan kembali ke orang lain."
 
-    show tessa kasual_netral
+    show tessa kasual_netral:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_2_5_gimana.ogg"
     tessa "\"Gimana? Dah paham?\"" 
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Dah paham kok\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_2_6_baguslah.ogg"
     tessa "\"Baguslah, awas nanti kau kebingungan dan lihat aku terus untuk minta pertolongan\""
 
@@ -96,8 +120,10 @@ label pensasi_tessa_scene2:
 
     "Berkali-kali aku harus menjelaskan hal yang sama, dan Kak Tessa terlihat semakin sibuk menjawab pertanyaan-pertanyaan yang lebih teknis."
 
-    show raden kasual_canggung with dissolve
+    show raden kasual_canggung with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Saat aku hampir menyerah karena merasa ngos-ngosan, tiba-tiba seorang teman Kak Tessa datang."
 
     "Di tengah kekacauan ini, tiba-tiba terdengar suara familiar dari belakang."
@@ -106,8 +132,10 @@ label pensasi_tessa_scene2:
 
     "Aku menoleh dan terkejut melihat Kak Dio berjalan santai menuju meja booth. Dengan ekspresi percaya diri, dia langsung berdiri di sampingku dan menatap layar game yang sedang dipamerkan."
 
-    show tessa kasual_kesal
+    show tessa kasual_kesal:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_2_8_udah.ogg"
     tessa "\"Udah jangan tanya banyak, cepetan bantuin!\""
 
@@ -115,9 +143,13 @@ label pensasi_tessa_scene2:
 
     "Kak Dio segera bergabung untuk membantu kami melayani pengunjung."
 
-    show raden kasual_biasa
-    show tessa kasual_netral
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_netral:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     "Aku bernafas lega, membiarkan Kak Dio menjawab- dan di luar dugaan, penjelasannya sangat meyakinkan"
 
     "Kak Dio melanjutkan dengan gestur tangan yang mantap, mejelaskan mekanik gameplay dengan percaya diri. Setiap pertanyaan dari pengunjung dia jawab tanpa ragu, bahkan lebih detail dari yang pernah Kak Tessa jelaskan kepadaku."
@@ -134,14 +166,18 @@ label pensasi_tessa_scene2:
 
     "Saat aku masih memikirkan hal itu, tiba-tiba Kak Dio mendatangiku."
 
-    show raden kasual_canggung at raden_default:
+    show raden kasual_canggung:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     dio "\"Oi, Raden kan nama lu?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh? Iya kak...\""
 
     menu:

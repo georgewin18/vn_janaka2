@@ -9,16 +9,20 @@ label prolog_day1_scene5:
                 truecenter
         with dissolve
 
-        show raden kemeja_ceria at raden_default:
+        show raden kemeja_ceria:
                 xalign 0.45
+                zoom raden_default.zoom
+                yalign raden_default.yalign
         with dissolve
 
         raden "\"Alhamdulillah!\""
 
         "Syukurlah aku masih sempat ikut shalat berjamaah di bagian pertama. Sekarang masih ada sedikit waktu untuk beristirahat."
 
-        show raden kemeja_biasa with dissolve
+        show raden kemeja_biasa with dissolve:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         "Aku merenggangkan tubuh sambil memandang sekeliling. Sebuah senyuman tipis muncul di wajahku, merasa lega karena akhirnya aku bisa menempuh kuliah di kampus yang bagus."
         
         "Saat itu, mataku berhenti pada Aisyah yang sedang duduk di taman depan masjid."

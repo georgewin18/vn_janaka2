@@ -11,13 +11,19 @@ label chapter2_aisyah_scene3:
         truecenter
 
     show raden kemeja_biasa at flip:
-        zoom 2.0 xalign 1.3 yalign 0.05
+        zoom raden_default.zoom
+        xalign 1.3
+        yalign raden_default.yalign
 
     show aisyah kemeja_bicara:
-        zoom 0.34 xalign 0.5 yalign -1.0
+        zoom aisyah_default.zoom
+        xalign 0.5
+        yalign aisyah_default.yalign
 
     show santo kemeja_biasa at flip:
-        zoom 1.35 xalign 8.0 yalign 0.08
+        zoom santo_default.zoom
+        xalign 8.0
+        yalign 0.08
     with dissolve
 
     "Saat aku, Aisyah, dan Santo berjalan melewati jalan setapak di kampus, Segerombol mahasiswa—sepertinya kakak tingkat tiba-tiba menghadang jalan kami. Matanya menatap kami dengan tajam, mengeluarkan aura tidak bersahabat."

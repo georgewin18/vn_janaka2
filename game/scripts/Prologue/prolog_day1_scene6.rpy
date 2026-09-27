@@ -7,10 +7,14 @@ label prolog_day1_scene6:
 
         "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
 
-        show raden kemeja_biasa2 at raden_default:
+        show raden kemeja_biasa2:
                 xalign -0.2
+                zoom raden_default.zoom
+                yalign raden_default.yalign
         show fania kemeja_senyum_normal at Transform(matrixcolor=(silhouette)):
-                zoom 1.35 xalign 1.4 yalign 0.03
+                zoom fania_default.zoom
+                xalign 1.4
+                yalign fania_default.yalign
         with dissolve
 
         play music fania_bgm fadein 1.0
@@ -22,19 +26,25 @@ label prolog_day1_scene6:
 
         hide fania with dissolve
 
-        show fania kemeja_senyum_normal at fania_default:
+        show fania kemeja_senyum_normal:
                 xalign 1.4
+                zoom fania_default.zoom
+                yalign fania_default.yalign
         with dissolve
         
         voice "audio/vo/fania/pkkmb2_duh.ogg"
         anon "Duh.. Bikin kaget aja."
 
-        show raden kemeja_tersenyum
+        show raden kemeja_tersenyum:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "Hahaha, maaf ya."
 
-        show raden kemeja_biasa
+        show raden kemeja_biasa:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "Jadi ini rasanya kuliah, ya? Beda banget sama SMA. Orang-orangnya random banget."
 
         voice "audio/vo/fania/pkkmb3_kalau_lihat_senior.ogg"
@@ -42,18 +52,26 @@ label prolog_day1_scene6:
 
         raden "Seru, sih. Tapi capeknya nggak bohong."
 
-        show fania kemeja_senyum_ceria
+        show fania kemeja_senyum_ceria:
 
+            zoom fania_default.zoom
+            yalign fania_default.yalign
         voice "audio/vo/fania/pkkmb4_yang_penting_sekarang.ogg"
         anon "Haha, Yang penting sekarang waktunya pulang, mandi, terus rebahan."
 
-        show raden kemeja_hehe
+        show raden kemeja_hehe:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "Fix, setuju banget. Tapi besok kayaknya bakal tambah ribet deh, lihat dari list tugas yang tadi dikasih."
 
-        show raden kemeja_biasa
-        show fania kemeja_senyum_normal
+        show raden kemeja_biasa:
+            zoom raden_default.zoom
+            yalign raden_default.yalign
+        show fania kemeja_senyum_normal:
 
+            zoom fania_default.zoom
+            yalign fania_default.yalign
         voice "audio/vo/fania/pkkmb5_iya_tugasnya_lumayan.ogg"
         anon "Iya, tugasnya... lumayan.. Tapi ya sudahlah, namanya juga PKKMB."
 
@@ -62,8 +80,10 @@ label prolog_day1_scene6:
 
         hide fania with dissolve
 
-        show raden at raden_default:
+        show raden:
                 xalign 0.45
+                zoom raden_default.zoom
+                yalign raden_default.yalign
         with moveinleft
 
         "Perempuan itu pergi begitu saja tanpa memberi kesempatan untuk sekadar berkenalan."

@@ -3,63 +3,85 @@ label arc_character_day1_scene2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.5
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 0.45
-    show erin kasual_netral at erin_default:
+        zoom santo_default.zoom
+    show erin kasual_netral:
         xalign 1.1
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     santo "\"Fiuh... baru juga awal semester, udah langsung disuruh tugas ribet gini segala, Laprak tulis lagi\""
 
     erin "\"Memang biar langsung adaptasi kali ya. Tapi tugasnya seru sih, topiknya bisa fleksibel.\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Asal jangan nulisnya mepet deadline... kayaknya berat juga kalau nunggu-nunggu.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     erin "\"Kalau mau, kita bisa mulai bahas sekarang. Mumpung belum ada kelas lanjut.\""
 
-    show santo kasual_bicara
+    show santo kasual_bicara:
 
+        zoom santo_default.zoom
     santo "\"Bahas sekarang boleh... tapi perutku udah demo dari tadi.\""
 
-    show santo kasual_netral
-    show raden kasual_tersenyum
+    show santo kasual_netral:
+        zoom santo_default.zoom
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hm... ya udah, kita makan dulu aja. Sambil ngobrol santai, siapa tahu malah nemu ide di tengah makan.\""
 
-    show santo kasual_senyum_lebar
+    show santo kasual_senyum_lebar:
 
+        zoom santo_default.zoom
     santo "\"Nah, itu baru ide brilian.\""
 
     scene bg kantin with dissolve:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.5
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 0.45
-    show erin kasual_netral at erin_default:
+        zoom santo_default.zoom
+    show erin kasual_netral:
         xalign 1.1
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     "Sesampainya kami di kantin. kami melihat ada keributan kecil di kejauhan."
 
-    show santo kasual_terkejut
+    show santo kasual_terkejut:
 
+        zoom santo_default.zoom
     santo "\"Eh, itu Aisyah, kan?\""
 
     "Erin menatap serius. Dia memperhatikan situasi tanpa banyak bicara, tapi jelas ada kekhawatiran di matanya."
 
     "Aisyah terlihat sedang berbicara dengan seorang pria berkemeja coklat. Dari jarak sini, jelas kelihatan dia habis merokok—dan kelihatannya mereka berdebat soal itu."
 
-    show raden kasual_serius
+    show raden kasual_serius:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Sepertinya ada masalah… Kita samperin aja.\""
 
     hide raden
@@ -69,8 +91,10 @@ label arc_character_day1_scene2:
 
     "Lantas Aisyah berjalan mendekat pada hal tersebut, yang ternyata merupakan seorang lelaki yang mengenakan kemeja coklat lengan pendek. Dari asap yang mengepul mulutnya, sepertinya ia baru saja merokok."
 
-    show aisyah casual_serius at aisyah_default:
+    show aisyah casual_serius:
         xalign 0.5
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
     aisyah "\"Permisi, tapi kalau bisa tolong jangan buang puntung rokok sembarangan di sini!\""
@@ -79,8 +103,10 @@ label arc_character_day1_scene2:
 
     anon "—Hah?"
 
-    show aisyah casual_kesal with dissolve
+    show aisyah casual_kesal with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "{i}Gawat, kelihatannya si perokok itu marah karena ditegur. Aisyah akan mendapat masalah dengannya!{/i}"
 
     "{i}Apa yang harus kulakukan?{/i}"
@@ -94,18 +120,24 @@ label arc_character_day1_scene2:
     return
 
 label arc_character_day1_scene2_afterchoice1:
-    show aisyah at aisyah_default:
+    show aisyah:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with moveinleft
 
-    show raden kasual_tersenyum at raden_default:
+    show raden kasual_tersenyum:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "\"Aku support kamu, kawan, ayo kita buang sampah sembarangan!!!\""
 
-    show raden kasual_gugup with dissolve
+    show raden kasual_gugup with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Dia tertawa lebar, sementara aku hanya tersenyum kaku, merasa sedikit bersalah. Mungkin ini bukan ide yang bagus, tapi ya sudahlah..."
 
     anon "\"Hahahaha!, boleh juga kamu\""
@@ -118,19 +150,29 @@ label arc_character_day1_scene2_afterchoice1:
 
     aisyah "\"Bercanda juga ada batasnya—\""
 
-    show raden kasual_canggung
-    show aisyah casual_serius
+    show raden kasual_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_serius:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Tiba tiba mas perokok itu memotong dengan marah."
 
     anon "\"He! Lu itu maba kan? Enak kali lu ngatur-ngatur gua!\""
 
-    show raden at raden_default:
+    show raden:
         xalign -0.5
-    show aisyah at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah:
         xalign 0.5
-    show sekar kasual_tegas at sekar_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show sekar kasual_tegas:
         xalign 1.2
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with moveinright
 
     "Belum sempat aku berpikir bagaimana menebus kesalahanku, tiba-tiba Santo dan Erin muncul diikuti Sekar, yang juga merupakan anggota BEM yang dikenal tegas."
@@ -141,14 +183,21 @@ label arc_character_day1_scene2_afterchoice1:
 
     "Sebelum ada yang sempat menjelaskan, pria bebal tadi, yang masih berdiri santai di dekat semak-semak, mendadak gugup. Tanpa banyak bicara, dia kabur begitu saja, meninggalkan kami dalam kebingungan."
 
-    show raden at raden_default:
+    show raden:
         xalign -0.7
-    show aisyah at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah:
         xalign 0.2
-    show sekar at sekar_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show sekar:
         xalign 0.75
-    show santo kasual_bicara at santo_default:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show santo kasual_bicara:
         xalign 1.3
+        zoom santo_default.zoom
     with moveinright
 
     santo "\"Ya ampun, kok lari sih?\""
@@ -156,30 +205,39 @@ label arc_character_day1_scene2_afterchoice1:
     "Erin mendekat, masih tenang namun sorot matanya waspada."
 
     hide santo with dissolve
-    show erin kasual_netral at erin_default:
+    show erin kasual_netral:
         xalign 1.25
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     erin "Dia pergi begitu saja... mencurigakan."
 
     "Sekar melihat ke arah pria itu yang kabur"
 
-    show sekar kasual_teriak
+    show sekar kasual_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Aku kejar dulu orang itu, siapa tahu dia bawa barang terlarang.\""
 
     hide sekar with moveoutright
 
-    show erin at erin_default:
+    show erin:
         xalign 0.7
-    show santo kasual_netral at santo_default:
+        zoom erin_default.zoom
+        yalign erin_default.yalign
+    show santo kasual_netral:
         xalign 1.35
+        zoom santo_default.zoom
     with moveinright
 
     "Aisyah melirik ke arah Santo dan Erin, lalu matanya tertuju ke Erin. Dia sempat terdiam sejenak, seperti baru sadar sesuatu."
 
-    show aisyah casual_sedih with dissolve
+    show aisyah casual_sedih with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Terima kasih ya… dan… eh, maaf banget sudah merepotkan Santo dan Ern—\""
 
     "Dia berhenti sebentar, ekspresinya sedikit bingung, matanya menatap Erin seolah baru sadar tidak mengenalnya."
@@ -192,50 +250,68 @@ label arc_character_day1_scene2_afterchoice1:
 
     erin "\"Bener kan?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"I-iya... bener.\""
 
     "Tapi kemudian… Aisyah menatapku tajam, lagi. Kali ini, tatapan itu terasa lebih menusuk."
 
-    show aisyah casual_kesal
+    show aisyah casual_kesal:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Bener?!\"" with vpunch
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh... aku cuma bercanda tadi..\""
 
     raden "\"...Lagipula, itu reverse psychology biar dia bingung!\""
 
-    show raden kasual_canggung
-    show aisyah casual_menghela_napas with dissolve
+    show raden kasual_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_menghela_napas with dissolve:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     pause 0.3
 
     "Aisyah mendengus, lalu menghela napas panjang."
 
-    show aisyah casual_senyum with dissolve
+    show aisyah casual_senyum with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Iya-iya, terima kasih, Raden,\""
 
     "katanya setengah hati, dengan nada yang jelas-jelas tidak percaya."
 
     hide aisyah with moveoutleft
 
-    show raden at raden_default:
+    show raden:
         xalign -0.5
-    show erin at erin_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show erin:
         xalign 0.5
-    show santo at santo_default:
+        zoom erin_default.zoom
+        yalign erin_default.yalign
+    show santo:
         xalign 1.2
+        zoom santo_default.zoom
     with moveinright
 
     "Dia lalu berbalik dan berjalan mendahului kami, meninggalkan aku yang hanya bisa menggaruk kepala dengan senyum canggung."
 
     "Santo menepuk pundakku pelan."
 
-    show santo kasual_senyum
+    show santo kasual_senyum:
 
+        zoom santo_default.zoom
     santo "\"Bercanda itu liat kondisi juga, Den.\""
 
     jump arc_character_day1_scene3
@@ -243,12 +319,16 @@ label arc_character_day1_scene2_afterchoice1:
     return
 
 label arc_character_day1_scene2_afterchoice2:
-    show aisyah at aisyah_default:
+    show aisyah:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with moveinleft
 
-    show raden kasual_canggung at raden_default:
+    show raden kasual_canggung:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "\"Tenang, kita bicarakan baik-baik dulu,\""
@@ -259,20 +339,28 @@ label arc_character_day1_scene2_afterchoice2:
 
     raden "\"dan untuk Mas nya, rokok memang nggak salah tapi dilarang di lingkungan kampus, apalagi membuangnya sembarangan.\""
 
-    show aisyah casual_serius with dissolve
+    show aisyah casual_serius with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Aisyah memandangku dengan raut wajah yang lebih tenang."
 
     "Sementara itu, sepertinya Mas Perokok tadi belum sepenuhnya ikhlas—terlihat dari wajahnya sepertinya ia malah marah."
 
     anon "\"Hah?! Lu itu maba kan? Enak kali lu ngatur-ngatur gua!\""
 
-    show raden at raden_default:
+    show raden:
         xalign -0.5
-    show aisyah at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah:
         xalign 0.5
-    show sekar kasual_tegas at sekar_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show sekar kasual_tegas:
         xalign 1.2
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with moveinright
 
     "Belum sempat aku berpikir bagaimana menebus kesalahanku, tiba-tiba Santo muncul diikuti Sekar, seorang anggota BEM yang dikenal tegas."
@@ -283,14 +371,21 @@ label arc_character_day1_scene2_afterchoice2:
 
     "Sebelum ada yang sempat menjelaskan, pria bebal tadi, yang masih berdiri santai di dekat semak-semak, mendadak gugup. Tanpa banyak bicara, dia kabur begitu saja, meninggalkan kami dalam kebingungan."
 
-    show raden at raden_default:
+    show raden:
         xalign -0.7
-    show aisyah at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah:
         xalign 0.2
-    show sekar at sekar_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show sekar:
         xalign 0.75
-    show santo kasual_bicara at santo_default:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show santo kasual_bicara:
         xalign 1.3
+        zoom santo_default.zoom
     with moveinright
 
     santo "\"Ya ampun, kok lari sih?\""
@@ -298,48 +393,65 @@ label arc_character_day1_scene2_afterchoice2:
     "Erin mendekat, masih tenang namun sorot matanya waspada."
 
     hide santo with dissolve
-    show erin kasual_netral at erin_default:
+    show erin kasual_netral:
         xalign 1.25
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     erin "\"Dia pergi begitu saja… mencurigakan.\""
 
     "Sekar melihat ke arah pria itu yang kabur"
 
-    show sekar kasual_teriak
+    show sekar kasual_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Aku kejar dulu orang itu, siapa tahu dia bawa barang terlarang.\""
 
     hide sekar with moveoutright
 
-    show erin at erin_default:
+    show erin:
         xalign 0.7
-    show santo kasual_netral at santo_default:
+        zoom erin_default.zoom
+        yalign erin_default.yalign
+    show santo kasual_netral:
         xalign 1.35
+        zoom santo_default.zoom
     with moveinright
 
     "Tapi yang terpenting, setidaknya sudah tidak ada keributan lagi untuk sekarang."
 
-    show raden kasual_serius with dissolve
+    show raden kasual_serius with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aisyah lain kali hati-hati ya..., walaupun kamu benar bukan berarti kamu selalu bisa langsung konfrontasi orangnya langsung seperti tadi,\""
 
-    show aisyah casual_sedih with dissolve
+    show aisyah casual_sedih with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"... Oke,\""
 
     "Aisyah mengangguk pelan, dengan wajah sedikit menahan malu."
 
-    show aisyah casual_gugup
-    show raden kasual_canggung
+    show aisyah casual_gugup:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show raden kasual_canggung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     aisyah "\"—Sebenarnya aku mau bilang kalau agak kaget kamu tiba-tiba ngomong gitu, soalnya agak cringe kalau kamu yang ngomong.\""
 
     "Aisyah melirik ke arah Santo dan Erin, lalu matanya tertuju ke Erin. Dia sempat terdiam sejenak, seperti baru sadar sesuatu."
 
-    show aisyah casual_senyum with dissolve
+    show aisyah casual_senyum with dissolve:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Terima kasih ya… dan… eh, maaf banget sudah merepotkan Santo dan Ern—\"" 
 
     "Dia berhenti sebentar, ekspresinya sedikit bingung, matanya menatap Erin seolah baru sadar tidak mengenalnya."
@@ -352,14 +464,17 @@ label arc_character_day1_scene2_afterchoice2:
 
     erin "\"Bener kan?\""
 
-    show raden kasual_hehe with dissolve
+    show raden kasual_hehe with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"I-iya... bener.\""
 
     "Santo hanya mengangguk santai, seolah semua ini bukan hal besar baginya."
 
-    show santo kasual_bicara
+    show santo kasual_bicara:
 
+        zoom santo_default.zoom
     santo "Udah beres, yuk lanjut ngantin."
 
     jump arc_character_day1_scene3

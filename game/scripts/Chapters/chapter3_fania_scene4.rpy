@@ -14,9 +14,13 @@ label chapter3_fania_scene4:
     play music campus fadein 1.0
     #raden santo netral
     show raden kasual_biasa:
-        zoom 2.0 xalign -0.2 yalign 0.05
+        zoom raden_default.zoom
+        xalign -0.2
+        yalign raden_default.yalign
     show santo kemeja_biasa:
-        zoom 1.35 xalign -3.5 yalign 0.08
+        zoom santo_default.zoom
+        xalign -3.5
+        yalign 0.08
     with dissolve
 
     "Aku dan Santo melihat Aisyah dan Fania di perpustakaan."
@@ -31,8 +35,10 @@ label chapter3_fania_scene4:
 
             santo "\"Kayaknya mereka kena sesuatu deh, gimana hampiri bentar yuk?\""
 
-            show raden kasual_bingung
+            show raden kasual_bingung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Lah? Tumben, tapi gak lah, lagian mereka juga sibuk.\""
 
             "Hanya melihat dari kejauhan, aku bisa melihat Fania dan Aisyah begitu bersemangat dengan jumlah buku yang mereka baca."
@@ -69,14 +75,21 @@ label chapter3_fania_scene4_afterchoice1:
 
     show raden:
         xalign -0.75
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo:
         xalign 1.2
+        zoom santo_default.zoom
     with moveinright
 
     show aisyah kemeja_gugup:
-        zoom 1.6 xalign 0.9 yalign -0.3
+        zoom aisyah_default.zoom
+        xalign 0.9
+        yalign aisyah_default.yalign
     show fania casual_dingin:
-        zoom 1.35 xalign 1.9 yalign 0.03
+        zoom fania_default.zoom
+        xalign 1.9
+        yalign fania_default.yalign
     with dissolve
 
     if (chapter3_fania_scene4_choice1_2_choosen == True):
@@ -91,8 +104,10 @@ label chapter3_fania_scene4_afterchoice1:
 
     "Aku mendekat pada Aisyah dan berbisik padanya."
 
-    show raden kasual_serius
+    show raden kasual_serius:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aisyah, ini Fania yang ngambil semua bukunya?\""
 
     $ renpy.show("aisyah kemeja_gugup", zorder=1)
@@ -102,10 +117,14 @@ label chapter3_fania_scene4_afterchoice1:
     "Jawabannya itu membuatku dan Santo mau tidak mau melongo dengan jumlahnya."
 
     #raden kaet
-    show raden kasual_kaget
+    show raden kasual_kaget:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hah? Tugas? Banyak banget, departemenku aja belum pernah ada yang kayak gini di kelas satu. Kecuali…\""
 
-    show raden kasual_serius
+    show raden kasual_serius:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku memandang buku-buku yang dibaca Fania. Teknik multitasking yang luar biasa."
 
     voice "audio/vo/aisyah/chapter3/chapter3_6_kayaknya.ogg"
@@ -113,7 +132,9 @@ label chapter3_fania_scene4_afterchoice1:
 
     "Aisyah menjawab dengan khawatir. Dan aku setuju pada Aisyah."
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     menu:
         "Fania, ini kamu ngerjain tugas kelompok sendiri?":
             raden "\"Fania, ini kamu ngerjain tugas kelompok sendiri?\""
@@ -137,7 +158,9 @@ label chapter3_fania_scene4_afterchoice2:
     play music intense fadein 1.0
     #fania kesal
 
-    show raden kasual_serius
+    show raden kasual_serius:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     $ renpy.show("fania casual_kesal", zorder=1) 
     voice "audio/vo/fania/chapter3/chapter3_14_kalo_kalian.ogg"
     fania "\"Kalau kalian punya waktu buat diskusi, minimal jangan ganggu orang ngerjain tugas.\""
@@ -169,7 +192,8 @@ label chapter3_fania_scene4_afterchoice2:
             $ renpy.show("santo kemeja_bicara", zorder=2) 
             santo "\"Jadi kamu mau bantuin Fania sekarang? tugas kita gimana?\""
 
-            show santo kemeja_biasa
+            show santo kemeja_biasa:
+                zoom santo_default.zoom
             "Santo bertanya, saat dia mulai duduk di kursi yang tersisa."#di sini sih santo baru duduk
 
             raden "\"Tugas kita kan gak sesusah itu, lagian, mana ada orang yang bisa nyelesain tugas sesuai tenggat waktu?\""
@@ -178,37 +202,49 @@ label chapter3_fania_scene4_afterchoice2:
 
             santo "\"Seriusan?\""
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Duariusan.\""
 
-            show aisyah kemeja_senyum
+            show aisyah kemeja_senyum:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             "Aisyah terkekeh kecil dan Fania hanya menunjukkan emot batu pada candaanku."
 
             jump chapter3_fania_scene4_afterchoice3
 
         "Tidak ikut membantu":
-            show fania casual_dingin
+            show fania casual_dingin:
 
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             "Aku hanya diam melihat dan membiarkan Aisyah membantu Fania."
 
             santo "\"Jadi kamu gak punya niat bantu? Biasanya bantuin,\""
 
             #raden cangung
-            show raden kasual_canggung
+            show raden kasual_canggung:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Tapi kita punya tugas sendiri, gak mungkinlah kita jadi kena hukuman,\""
 
             santo "\"Tapi kalau diperkirakan, kita bisa nyelesain tugas Fania duluan dan kita masih punya waktu banyak untuk deadline kita. Fania, aku bakalan bantu.\""
 
-            show raden kasual_bingung
+            show raden kasual_bingung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Balasan Santo membuatku bingung pada sifatnya hari ini yang tiba-tiba unjuk gigi pada orang lain, padahal, biasanya dia hanya akan melihat dari samping."
 
             "Melihat mereka semua, sayang sekali jika aku tidak membantu. Pada akhirnya, aku tidak bisa menahan diri dan mengikuti arus."
 
             stop music fadeout 2.0
 
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Oke deh, aku bakalan bantu juga!\""
 
             play music dramatic fadein 1.0
@@ -222,7 +258,9 @@ label chapter3_fania_scene4_afterchoice3:
     voice "audio/vo/fania/chapter3/chapter3_16_kenapa_kalian.ogg"
     fania "\"Kenapa kalian pada bantu, padahal aku gak minta?\""
 
-    show aisyah kemeja_senyum
+    show aisyah kemeja_senyum:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Aisyah menatap Fania dengan senyuman, tetapi ada ketegasan dalam nada suaranya."
 
     $ renpy.show("aisyah kemeja_senyum", zorder=3)
@@ -239,18 +277,26 @@ label chapter3_fania_scene4_afterchoice3:
     $ renpy.show("fania casual_menghelanapas", zorder=3)
     pause 0.3
     voice "audio/vo/fania/chapter3/chapter3_17_menghela.ogg"
-    show fania casual_menghelanapas_ada_asap with dissolve
+    show fania casual_menghelanapas_ada_asap with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     pause 0.3
-    show fania casual_menghelanapas with dissolve
+    show fania casual_menghelanapas with dissolve:
     
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     fania "\"haahhh…\""
 
     #fania senyum
-    show fania casual_senyum_normal_biasa
+    show fania casual_senyum_normal_biasa:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     voice "audio/vo/fania/chapter3/chapter3_18_makasih.ogg"
     fania "\"Makasih, Aisyah, Santo, Raden.\""
 
-    show fania casual_dingin
+    show fania casual_dingin:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     voice "audio/vo/fania/chapter3/chapter3_19_sebenarnya.ogg"
     fania "\"Sebenarnya, aku ada masalah sama anggota kelompokku…\""
 
@@ -267,19 +313,27 @@ label chapter3_fania_scene4_afterchoice3:
         "Beri saran kepada Fania":
             #Backsound sedikit dramatis
             #spesial momentt
-            show raden kasual_biasa
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Aku paham.\""
 
             "Aku mengangguk dengan tenang tanpa mengalihkan mataku dari buku yang ku baca. Perhatian ketiga temanku tertuju ke arahku ketika aku berhenti membaca dan memandang Fania."
 
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Aku ngerti kenapa kamu susah percaya sama orang lain. Itu wajar kok, apalagi kalau ada alasannya. Tapi, gak ada salahnya coba kasih kesempatan sekali lagi, kan?\""
 
             "Perasaan kepercayaan yang telah dikhianati ketika masa PKKMB dan cekcok yang dimulai dari perbedaan cara mengerjakan tugas, membuat Fania tidak lagi berniat memberikan kepercayaan yang dalam kepada orang lain."
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             #fania sedih
-            show fania casual_sedih with dissolve
+            show fania casual_sedih with dissolve:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             voice "audio/vo/fania/chapter3/chapter3_21_nggak_segampang_itu.ogg"
             fania "\"Gak segampang itu Den.\""
 
@@ -298,13 +352,17 @@ label chapter3_fania_scene4_afterchoice3:
 
             "Santo hanya bisa mengerutkan keningnya, membuatku memahami bahwa ada masalah yang cukup serius di antara Fania, Santo, dan kelompok PKKMB mereka."
 
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Fania, sekarang kamu lihat kami bertiga.\""
 
             raden "\"Apakah kamu pikir kita kesini buat main-main?\""
 
             #fania gugup
-            show fania casual_dingin
+            show fania casual_dingin:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             voice "audio/vo/fania/chapter3/chapter3_24_nggak_lah.ogg"
             fania "\"Enggaklah, jelas-jelas kalian kesini buat belajar.\""
 
@@ -312,12 +370,18 @@ label chapter3_fania_scene4_afterchoice3:
 
             raden "\"Fania, manusia itu rumit. Kamu kira Santo ngerjain tugasnya di sini karena rajin? Bukan, dia malah gabung biar cepet kelar. Malas mikirin tugas sendiri, gitu.\""
 
-            show raden kasual_biasa
-            show santo kemeja_bicara
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show santo kemeja_bicara:
+                zoom santo_default.zoom
             santo "\"Kamu juga sama aja sih,\""
 
-            show santo kemeja_biasa
-            show raden kasual_tersenyum
+            show santo kemeja_biasa:
+                zoom santo_default.zoom
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Waspada itu nggak salah, tapi jangan sampai bikin kamu jadi close-minded, Fania.\""
 
             raden "\"Menyaring orang itu sih oke, tapi coba deh kasih mereka kesempatan. Siapa tahu mereka punya warna-warni yang bisa ngisi hidup kamu. Hidup ini kan soal saling kenal dan saling terima, kan?\""
@@ -328,7 +392,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             stop music fadeout 2.0
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Aku berhenti, mengakhiri pidato bijak ku dan memandang Fania."
 
             #Backsound sedikit romantis
@@ -337,14 +403,18 @@ label chapter3_fania_scene4_afterchoice3:
 
             play music romantic fadein 1.0
 
-            show fania casual_senyum_ceria
+            show fania casual_senyum_ceria:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             "Tawa halusnya terdengar seperti lonceng yang dihembuskan oleh angin lembut, berpadu dengan senyum yang memancarkan kehangatan seperti siraman mentari pagi."
 
             "Aku terdiam sesaat, terpaku pada wajahnya yang terlihat begitu bersinar."
 
             "Aku mengagumi itu. Mungkin lebih dari sekadar kekaguman biasa."
 
-            show raden kasual_bingung
+            show raden kasual_bingung:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Lah, kenapa ketawa?\""
 
             "Apa yang salah?"
@@ -353,7 +423,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             raden "\"Kalian sialan, orang bicara malah diketawain.\""
 
-            show fania casual_senyum_normal_biasa
+            show fania casual_senyum_normal_biasa:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             voice "audio/vo/fania/chapter3/chapter3_25_oklah.ogg"
             fania "\"Ok lah, Den.\""
 
@@ -365,10 +437,14 @@ label chapter3_fania_scene4_afterchoice3:
             voice "audio/vo/fania/chapter3/chapter3_26_akan_kulakukan.ogg"
             fania "\"Akan ku lakuin sesuai saranmu. Rasanya gak mungkin deh mengabaikan temanku yang udah berkorban untuk mengatakan semua itu.\""
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Kalau begitu, ayo lakuin sekarang!\""
 
-            show fania casual_terkejut
+            show fania casual_terkejut:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             voice "audio/vo/fania/chapter3/chapter3_27_sekarang.ogg"
             fania "\"Sekarang?\""
 
@@ -376,7 +452,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             raden "\"Karena sejatinya, ini adalah tugas kelompok, bukan tugas individu, jadi, akan lebih baik dan maksimal kalau kalian sendiri yang ngerjain, kan? Dan, kalau bukan sekarang, kapan lagi?\""
 
-            show fania casual_dingin
+            show fania casual_dingin:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
             voice "audio/vo/fania/chapter3/chapter3_28_iya_sih.ogg"
             fania "\"Iya sih..\""
 
@@ -411,7 +489,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             #fania tersenyum
             show fania casual_senyum_normal_biasa:
-                zoom 1.15 xalign 0.5 yalign -0.02
+                zoom fania_default.zoom
+                xalign 0.5
+                yalign fania_default.yalign
             voice "audio/vo/fania/chapter3/chapter3_30_kami_udah_baikkan.ogg"
             fania "\"Kami udah baikan.\""
 
@@ -452,7 +532,9 @@ label chapter3_fania_scene4_afterchoice3:
             jump chapter4_sekar_scene1
 
         "Buat Fania mengandalkan kita":
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Kalau begitu, kamu tinggal andalin aja kita sebagai temanmu!\""
 
             $ renpy.show("aisyah kemeja_senyum", zorder=4)

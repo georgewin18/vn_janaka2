@@ -3,23 +3,33 @@ label arc_character_day2_scene8:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.4
-    show aisyah casual_senyum at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum:
         xalign 0.6
-    show erin kasual_netral at erin_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show erin kasual_netral:
         xalign 1.2
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     erin "\"Maaf, aku pergi duluan ya.\""
 
-    show aisyah casual_senyum at aisyah_default:
+    show aisyah casual_senyum:
         xalign 0.6 xzoom -1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Aku dan Aisyah langsung menoleh ke arahnya. Nada bicaranya terdengar terlalu singkat. Tatapan matanya menghindar. Tangannya tampak sedikit gemetar saat menggenggam tali tas."
 
     raden "\"Erin? Kamu yakin? Kita bisa bareng pulang, atau—\""
 
     erin "\"Nggak usah. Kakakku udah aku chat tadi. Dia sebentar lagi sampai. Lagian... aku juga cuma mau istirahat.\""
 
-    show aisyah casual_bingung at aisyah_default
+    show aisyah casual_bingung:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Kamu nggak apa-apa, kan? Tadi kamu sempet gemetar...\""
 
     "Erin terlihat seperti memaksakan senyum pada Aisyah"
@@ -30,22 +40,28 @@ label arc_character_day2_scene8:
 
     "Erin berjalan menghilang."
 
-    show erin kasual_netral at erin_default:
+    show erin kasual_netral:
         xalign 1.2 xzoom -1.0
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     hide erin kasual_netral with moveoutright
 
     raden "\"...Erin...?\""
 
     show aisyah casual_senyum:
         xalign 0.6 xzoom 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Aisyah menatapku, tapi tak berkata apa-apa. Kami berdua membiarkan Erin pergi tanpa tanya lebih jauh."
 
     #Suasana agak romantis
 
     "Suasana jadi hening. Angin malam menyapa pelan. Aku menoleh ke arah Aisyah yang kini berdiri diam, memegangi pundaknya sendiri."
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kamu masih sakit?\""
     
     "Aisyah menggeleng pelan. Lalu, ia tersenyum, meskipun jelas ada lelah dalam matanya. Tapi bukan cuma karena luka fisik."

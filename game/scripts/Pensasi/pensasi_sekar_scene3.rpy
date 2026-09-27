@@ -6,23 +6,33 @@ init:
 label pensasi_sekar_scene3:
     scene bg kelas_d4 with dissolve
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show sekar kasual_biasa at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kasual_biasa:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
-    show sekar kasual_bingung
+    show sekar kasual_bingung:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pensasi/pensasi_3_1_kira_kira.ogg"
     sekar "\"Kira-kira enaknya mau menjelajahi booth dimana nih den?\""
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hmm.. Nggak kepikiran booth mana yang mau ku coba\""
 
     voice "audio/vo/sekar/pensasi/pensasi_3_2_menurutmu.ogg"
     sekar "\"Menurutmu gimana den? Ada yang menarik nggak?\""
     
-    show raden kasual_ceria
+    show raden kasual_ceria:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Di depan gedung pasca kudengar ada kendaraan yang bisa coba sih kak, kesana yuk\""
 
     #depan pasca
@@ -30,33 +40,47 @@ label pensasi_sekar_scene3:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show sekar kasual_biasa at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kasual_biasa:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
     "Di depan gedung berdiri sebuah booth kecil dengan kendaraan kecil menyerupai motor roda tiga. Cat nya berwarna merah mengkiap, seperti baru."
 
-    show sekar kasual_bingung
+    show sekar kasual_bingung:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pensasi/pensasi_3_3_itu.ogg"
     sekar "\"Itu kendaraan yang kamu maksud den?\""
 
-    show sekar kasual_biasa
-    show raden kasual_tersenyum
+    show sekar kasual_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya kak\""
     
     raden "\"Btw, mau naik itu kak?\""
 
-    show sekar kasual_ceria
+    show sekar kasual_ceria:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pensasi/pensasi_3_4_ayo.ogg"
     sekar "\"Ayo, tapi aku yang bonceng ya?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh?\""
 
     voice "audio/vo/sekar/pensasi/pensasi_3_5_dah_ayo.ogg"
@@ -130,33 +154,45 @@ label pensasi_sekar_scene3:
         truecenter
 
     show raden kasual_pusing:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
     show sekar kasual_senyum_lebar:
-        zoom 1.15 xalign 1.0 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.0
+        yalign sekar_default.yalign
     with dissolve
 
     sekar "\"Gimana den? Kubenceng rasanya nyaman kan?\""
 
     raden "\"kebalikannya kak\""
 
-    show sekar kasual_ceria
+    show sekar kasual_ceria:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pensasi/pensasi_3_9_maaf.ogg"
     sekar "\"Maaf-maaf\""
 
-    show raden kasual_menghela_napas with dissolve
+    show raden kasual_menghela_napas with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Lain kali jangan kayak gitu lagi kak\""
 
     raden "\"Rasanya jadi kayak jantungku mau copot\""
 
-    show sekar kasual_bicara
+    show sekar kasual_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pensasi/pensasi_3_10_oiya.ogg"
     sekar "\"Oh iya den, aku ada pertanyaan nih\""
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Apa tuh kak?\""
 
     voice "audio/vo/sekar/pensasi/pensasi_3_11_ada.ogg"
@@ -164,15 +200,21 @@ label pensasi_sekar_scene3:
 
     menu:
         "Nggak ada alasan tertentu, cuma pengen aja":
-            show raden kasual_tersenyum
-            show sekar kasual_biasa
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show sekar kasual_biasa:
 
+                zoom sekar_default.zoom
+                yalign sekar_default.yalign
             raden "\"Nggak ada alasan tertentu sih kak, cuma pengen aja\""
 
             raden "\"Kita nggak tau apa yang akan tejadi di masa depan\""
 
-            show raden kasual_ceria
+            show raden kasual_ceria:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Jadi, aku ingin memaksimalkan hidupku dengan berbuat baik\""
 
             "Kak Sekar terdiam. Ia menatapku dalam, seperti mencari sesuati di balik kata-kataku"
@@ -180,8 +222,10 @@ label pensasi_sekar_scene3:
             voice "audio/vo/sekar/pensasi/pensasi_3_1_1_hmm.ogg"
             sekar "\"hmm begitu den\""
 
-            show raden kasual_biasa
+            show raden kasual_biasa:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Emangnya kenapa tanya itu kak?\""
 
             "Sekar tersenyum kecil, lalu memalingkan wajah, seolah ingin menyembunyikan ekspresi yang sulit kuartikan."
@@ -190,14 +234,22 @@ label pensasi_sekar_scene3:
             sekar "\"Cuma pengen tanya saja\""
 
         "Karena pahlawan H*mm*l akan melakukannya":
-            show raden kasual_serius
-            show sekar kasual_biasa
+            show raden kasual_serius:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show sekar kasual_biasa:
 
+                zoom sekar_default.zoom
+                yalign sekar_default.yalign
             raden "\"Tentu saja, alasannya karena pahlawan {i}H*mm*l{/i} pasti melakukannya\""
         
-            show raden kasual_biasa
-            show sekar kasual_tertawa_lepas
+            show raden kasual_biasa:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show sekar kasual_tertawa_lepas:
 
+                zoom sekar_default.zoom
+                yalign sekar_default.yalign
             voice "audio/vo/sekar/pensasi/pensasi_3_2_1_tertawa.ogg"
             sekar "\"Hahahahaha\""
 
@@ -205,30 +257,42 @@ label pensasi_sekar_scene3:
 
             "Melihat tawa kak Sekar seperti ini, membuat diriku terasa meleleh. Tawanya yang manis membuat diriku tak sadarkan diri sejenak."
 
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Selucu itu kah kak?\""
 
-            show sekar kasual_ceria
+            show sekar kasual_ceria:
 
+                zoom sekar_default.zoom
+                yalign sekar_default.yalign
             voice "audio/vo/sekar/pensasi/pensasi_3_2_2_gak_ekspek.ogg"
             sekar "\"Nggak expect aja\""
         
         "Kepo nih ye":
-            show raden kasual_hehe
+            show raden kasual_hehe:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Ciee, kepo nih kak?\""
 
-            show sekar kasual_marah_dikit
+            show sekar kasual_marah_dikit:
 
+                zoom sekar_default.zoom
+                yalign sekar_default.yalign
             sekar "\"Dih, orang nanya doang\""
 
-            show raden kasual_gugup
+            show raden kasual_gugup:
             
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Canda doang kak, jangan marah\""
 
-            show sekar kasual_merengut
+            show sekar kasual_merengut:
 
+                zoom sekar_default.zoom
+                yalign sekar_default.yalign
             sekar "\"...\""
 
     jump pensasi_sekar_ending

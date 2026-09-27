@@ -7,21 +7,29 @@ label prolog_day4_scene3:
         truecenter
     
     #show raden & sekar
-    show raden kemeja_biasa at raden_default:
+    show raden kemeja_biasa:
         xalign -0.2
-    show sekar jas_biasa at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar jas_biasa:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
     raden "\"Kak, aku bisa lanjut sendiri ke expo,\""
 
-    show sekar jas_teriak
+    show sekar jas_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_12_tidak_boleh.ogg"
     sekar "Tidak boleh, aku harus ikut mengantar. Kalau nanti ada apa-apa di tengah jalan, aku yang bertanggung jawab."
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Kami berjalan pelan menuju area UKM Expo, tetapi pikiranku terus mengingat momen tadi."
 
     "Selama PKKMB, aku selalu melihat Kak Sekar sebagai sosok yang sempurna, tegas, cekatan, dan tanpa cela."
@@ -36,26 +44,36 @@ label prolog_day4_scene3:
 
     raden "\"Kak, UKM Expo ini sebenarnya ngapain aja sih?\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_13_disana_semua_ukm.ogg"
     sekar "\"Di sana, semua UKM bakal pamerin kegiatan mereka. Intinya buat ngenalin diri dan ngajak kalian para mahasiswa baru untuk bergabung.\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Kak Sekar sendiri ikut UKM apa?\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_14_aku_e2c.ogg"
     sekar "\"Aku di {b}E2C{/b}\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"E2C..? itu... UKM apa, Kak?\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_15_eepis.ogg"
     sekar "\"EEPIS English Community atau E2C merupakan UKM Bahasa Inggris.\""
     
@@ -65,44 +83,62 @@ label prolog_day4_scene3:
     voice sustain
     sekar "\"Nah, Kalau pengen improve skill Bahasa Inggris, itu tempatnya.\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Wah, keren juga kak. Jadi Kaka sering ikut lomba gitu?\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_16_lumayan.ogg"
     sekar "\"Lumayan. Aku dulu pernah ikut lomba debat sama speech contest. Belum sampai menang tingkat internasional sih, tapi beberapa kali menang tingkat nasional.\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Kakak hebat banget, bisa ikut lomba kayak gitu. Pasti susah ya, Kak?\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_17_seru_kok.ogg"
     sekar "\"Malah seru kok. Bisa ketemu orang baru, diskusi, bahkan jalan-jalan keluar kota.\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Kayaknya E2C menarik juga, ya.\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_18_tertarik_gabung.ogg"
     sekar "\"Tertarik gabung?\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Gak tahu, kak. Tapi saya pengen cari UKM yang bisa bikin saya berkembang juga. Jadi mungkin nanti mampu ke stan E2C.\""
 
-    show sekar jas_bicara
+    show sekar jas_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_19_boleh_banget.ogg"
     sekar "\"Boleh banget. Tapi jangan asal pilih UKM, ya. Cari yang benar-benar sesuai sama minat kamu. Jangan cuma ikut-ikutan\""
 
-    show sekar jas_biasa
+    show sekar jas_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Iya, Kak. Makasih sarannya.\""
 
     hide sekar with dissolve

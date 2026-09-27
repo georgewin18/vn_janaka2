@@ -5,8 +5,10 @@ label prolog_day4_scene1:
 
     #suasana netral
 
-    show raden kemeja_biasa2 at raden_default:
+    show raden kemeja_biasa2:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Kali ini aku bangun benar-benar pagi, bersiap-siap, dan berangkat ke kampus untuk menjalani hari terakhir kegiatan PKKMB"
@@ -28,8 +30,10 @@ label prolog_day4_scene1:
     #raden almet
     hide raden with dissolve
 
-    show raden jas_biasa at raden_default:
+    show raden jas_biasa:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Aku dengan bangga mengenakannya, dengan ini aku sudah resmi menjadi mahasiswa PENS. Dan dengan itu sang Rektor meninggalkan lapangan dengan rombongan senat akademik."

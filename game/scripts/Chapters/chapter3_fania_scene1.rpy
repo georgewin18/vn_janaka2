@@ -18,7 +18,9 @@ label chapter3_fania_scene1:
     "\"Jadi apa ada yang punya pendapat? Kalau ada pertanyaan, boleh dibicarakan. Terutama Fania, soalnya kami berdua juga sudah lumayan kenal sejak SMA.\""
 
     show fania casual_dingin with dissolve:
-        zoom 1.15 xalign 0.5 yalign -0.02
+        zoom fania_default.zoom
+        xalign 0.5
+        yalign fania_default.yalign
 
     voice "audio/vo/fania/chapter3/chapter3_1_ok.ogg"
     fania "\"Oke\""

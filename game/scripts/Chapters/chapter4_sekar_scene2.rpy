@@ -7,7 +7,9 @@ label chapter4_sekar_scene2:
         truecenter
 
     show raden kasual_biasa2 with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     play music campus fadein 1.0
 
@@ -17,29 +19,41 @@ label chapter4_sekar_scene2:
         #show santo
         show raden:
             xalign 0.0
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         show santo kemeja_bicara:
-            zoom 1.15 yalign 0.08 xalign 2.7
+            zoom santo_default.zoom
+            yalign 0.08
+            xalign 2.7
         with moveinright
 
         santo "\"Kok bisa gitu sampe telat den\""
 
-        show raden kasual_kesal
+        show raden kasual_kesal:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Ih diem deh! Suka banget ngetawain penderitaan temen sendiri!\""
 
         raden "\"Tadi padahal udah bangun loh! Cuman tadi mau tidur lagi bentar malah kebablasan...\""
 
         santo "\"Salahmu sendiri, udah tau bentar lagi mau kuliah malah tidur lagi\""
 
-        show raden kasual_menghela_napas
+        show raden kasual_menghela_napas:
 
+            zoom raden_default.zoom
+            yalign raden_default.yalign
         raden "\"Dah lah, ga akan kulakuin lagi...\""
     
     #show santo
     show raden:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo kemeja_bicara:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom santo_default.zoom
+        yalign 0.08
+        xalign 2.7
     with moveinright
 
     santo "\"Habis ini kamu mau ngapain den?\""
@@ -60,7 +74,9 @@ label chapter4_sekar_scene2:
         truecenter
     
     show raden kasual_biasa2 with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "\"Hmmm, beli Ayam Malay enak nih. Tapi yang ngantri banyak banget\""
 
@@ -78,18 +94,27 @@ label chapter4_sekar_scene2:
 
     show raden with moveinright:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo kemeja_biasa with dissolve:
-        zoom 1.15 xalign 2.7 yalign 0.08
+        zoom santo_default.zoom
+        xalign 2.7
+        yalign 0.08
 
     "Kami basa-basi seperti biasanya, sampai di tengah-tengah ada Kak Sekar yang mendatangi kami."
 
     #show sekar
     show raden:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo:
         xalign 0.8
+        zoom santo_default.zoom
     show sekar kemeja_bicara:
-        zoom 1.15 xalign 1.1 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 1.1
+        yalign sekar_default.yalign
     with moveinright
 
     voice "audio/vo/sekar/chapter4/chapter4_1_3_halo.ogg"
@@ -116,8 +141,10 @@ label chapter4_sekar_scene2:
 
     "Setelah itu keheningan menyelimuti pembicaraan"
 
-    show sekar kemeja_biasa
+    show sekar kemeja_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "{i}Enaknya ngomongin apa ya...{/i}"
 
     menu:
@@ -130,59 +157,75 @@ label chapter4_sekar_scene2:
     return
 
 label chapter4_sekar_scene2_choice2_1:
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Nasib tugasmu gimana to? Dah banyak yang selesai?\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Masih setengah sih, nggak mau menumpuk banyak tugas. Kalau terlalu numpuk bakal sangat merepotkan\""
 
-    show raden kasual_capek
+    show raden kasual_capek:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Rajin banget, tugasku masih numpuk banyak nih...\""
 
     santo "\"Lah, nggak kamu kerjakan den?\""
 
     raden "\"Niatnya sih pengen, aku juga sebenarnya nggak mau tugas terlalu numpuk. Tapi, rasa malas ini terlalu luar biasa...\""
 
-    show sekar kemeja_bingung
+    show sekar kemeja_bingung:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_2_1_kenapa.ogg"
     sekar "\"Kenapa nggak kamu kerjakan aja den?\""
 
     raden "\"Ugghh, terlalu malas kak...\""
 
-    show sekar kemeja_teriak
+    show sekar kemeja_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_2_2_kalo_ditunda.ogg"
     sekar "\"Kalo ditunda terus nanti kamu semakin malas loh\""
 
     raden "\"Iya sih kak. Tapi hari ini aku lagi malas banget, jadi besok aja\""
 
-    show sekar kemeja_ragu
+    show sekar kemeja_ragu:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Melihat sifatku yang terlalu malas, kak Sekar tidak tau lagi harus berkata apa, jadi dia mempertanyakan alasan dia duduk di sini"
 
     jump chapter4_sekar_scene3
 
 label chapter4_sekar_scene2_choice2_2:
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kalian nonton anime kah?\""
 
     "Santo dan Kak Sekar serentak mengangguk"
 
     raden "\"Kalian ada genre anime favorit nggak?\""
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Kalo aku sih Mecha\""
 
     raden "\"Kelas! sama To, aku juga suka Mecha\""
 
-    show sekar kemeja_bicara
+    show sekar kemeja_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/chapter4/chapter4_2_3_kalau_aku.ogg"
     sekar "\"Kalau aku sukanya Slice of Life, animenya bikin hati adem. Jadi enak ditontonnya\""
 

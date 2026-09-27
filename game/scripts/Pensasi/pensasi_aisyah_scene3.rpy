@@ -1,8 +1,12 @@
 label pensasi_aisyah_scene3:
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show aisyah casual_senyum at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
     "Kami menghentikan obrolan canggung itu dan kembali fokus ke panggung."
@@ -23,12 +27,16 @@ label pensasi_aisyah_scene3:
 
             "Setiap tim memiliki caranya masing-masing untuk memamerkan produk mereka, mulai dari demo langsung hingga animasi canggih di layar."
 
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Wow, mereka serius banget, ya,\""
 
-            show aisyah casual_senyum2
+            show aisyah casual_senyum2:
             
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "\"iya,\""
 
             scene black with dissolve:
@@ -40,38 +48,52 @@ label pensasi_aisyah_scene3:
                 size (config.screen_width, config.screen_height)
                 truecenter
 
-            show raden kasual_biasa at raden_default:
+            show raden kasual_biasa:
                 xalign -0.2
-            show aisyah casual_senyum at aisyah_default:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show aisyah casual_senyum:
                 xalign 1.0
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             with dissolve
             
             "Hingga akhirnya sesi istirahat dimulai. Aisyah menoleh ke arahku."
 
             if (pensasi_aisyah_scene2_choice2_1_choosen == True):
-                show aisyah casual_serius
+                show aisyah casual_serius:
+                    zoom aisyah_default.zoom
+                    yalign aisyah_default.yalign
                 aisyah "\"Ayok, Ishoma dulu, lalu lanjut jalan\""
 
-                show raden kasual_canggung
+                show raden kasual_canggung:
 
+                    zoom raden_default.zoom
+                    yalign raden_default.yalign
                 raden "\"Eh ya?\""
 
                 "Perasaanku saja, atau memang Aisyah sedang kesal denganku?"
 
             else:
-                show aisyah casual_senyum2
+                show aisyah casual_senyum2:
+                    zoom aisyah_default.zoom
+                    yalign aisyah_default.yalign
                 aisyah "\"Kamu beneran memperhatikan ya!\""
 
                 aisyah "\"Sekarang ayo ishoma dulu, lalu lanjut jalan\""
 
-                show raden kasual_tersenyum
+                show raden kasual_tersenyum:
+                    zoom raden_default.zoom
+                    yalign raden_default.yalign
                 raden "\"Oke!\""
 
         "Bersantai":
             "Aku menghela napas dan menyandarkan punggungku ke kursi, mencoba bersantai sedikit."
 
-            show raden kasual_menghela_napas with dissolve
+            show raden kasual_menghela_napas with dissolve:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Haahh.. Nyaman juga,\""
 
             "Aku menutup mata sejenak. Namun, kenyamanan itu malah membawaku ke arah yang tak terduga."
@@ -80,48 +102,64 @@ label pensasi_aisyah_scene3:
 
             "Sebelum aku sadar, kelopak mataku mulai terasa berat, dan tak butuh waktu lama hingga aku tertidur di tengah keramaian aula."
 
-            show aisyah casual_kesal
+            show aisyah casual_kesal:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             hide black with dissolve
 
             aisyah "\"-den! Bangun Raden!\""
 
             "Seseorang menggoyangkan tubuhku."
 
-            show raden kasual_gugup
+            show raden kasual_gugup:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Huh? Aku ketiduran..?\""
 
             aisyah "\"Tidur mulu..\"" with vpunch
 
-            show raden kasual_canggung
+            show raden kasual_canggung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Maaf.. gak sengaja\""
 
             if (pensasi_aisyah_scene2_choice2_1_choosen == True):
-                show aisyah casual_senyum
+                show aisyah casual_senyum:
 
+                    zoom aisyah_default.zoom
+                    yalign aisyah_default.yalign
                 aisyah "\"Haha nggak apa..\""
 
                 aisyah "\"Makasih..\""
 
-                show raden kasual_gugup
+                show raden kasual_gugup:
                 
+                    zoom raden_default.zoom
+                    yalign raden_default.yalign
                 raden "\"Huh?\""
 
                 "Apakah barusan Aisyah malah senang?"
 
-                show aisyah casual_senyum2
+                show aisyah casual_senyum2:
 
+                    zoom aisyah_default.zoom
+                    yalign aisyah_default.yalign
                 aisyah "\"Sekarang ayo ishoma dulu, lalu lanjut jalan\""
             
             else:
-                show aisyah casual_serius
+                show aisyah casual_serius:
 
+                    zoom aisyah_default.zoom
+                    yalign aisyah_default.yalign
                 aisyah "\"Yaudah, Ishoma dulu, lalu lanjut jalan\""
 
-                show raden kasual_gugup
+                show raden kasual_gugup:
 
+                    zoom raden_default.zoom
+                    yalign raden_default.yalign
                 raden "\"Eh ya?\""
 
                 "Perasaanku saja, atau memang Aisyah sedang kesal denganku?"

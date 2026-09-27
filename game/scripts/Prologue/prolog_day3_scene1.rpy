@@ -10,14 +10,18 @@ label prolog_day3_scene1:
     play music raden_bgm fadein 1.0
 
     show raden kemeja_panik with dissolve:
-        zoom 2.0 xalign 0.45 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.45
+        yalign raden_default.yalign
 
     "Hufh.. huh"
 
     "Dengan terengah-engah, sampailah aku di antrian registrasi. Ada beberapa orang yang sama sepertiku, meskipun beberapa dari mereka terlihat sangatlah santai. Tiba-tiba firasat buruk memasuki tubuhku, aku pun mencoba mengecek barang bawaan ku, dan tentu saja…"
     
-    show raden kemeja_gugup
+    show raden kemeja_gugup:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Mana topiku..?\""
 
     "Setibanya di tempat registrasi, panik langsung menyelimuti tubuhku. Aku melakukan registrasi seperti biasa, bersyukur para panitia hanya memberikan pita hitam tanpa memberikan sanksi yang berat."

@@ -25,16 +25,22 @@ label arc_character_day1_scene1:
 
     hide screen block_mouse
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "\"Nggak nyangka udah jam segini\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kayaknya kemarin niatnya tidur bentar dah...\""
 
-    show raden kasual_penasaran
+    show raden kasual_penasaran:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Udah bangun gini enaknya ngapain ya? Matkul juga masih lama jam 8.\""
 
     menu:
@@ -46,10 +52,14 @@ label arc_character_day1_scene1:
     return
 
 label arc_character_day1_scene1_afterchoice1:
-    show raden kasual_hehe
+    show raden kasual_hehe:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Sekali-kali gapapa lah jadi mahasigma yang rajin.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Sip, dah siap berangkat nih...\""
 
     scene black with dissolve:
@@ -63,55 +73,79 @@ label arc_character_day1_scene1_afterchoice1:
 
     "Dalam perjalanan menuju kampus Aku tidak sengaja bertemu dengan seseorang yang terlihat mendorong motornya yang mogok."
 
-    show raden kasual_bingung at raden_default:
+    show raden kasual_bingung:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "{i}Itu kayaknya ada yang butuh di stut in deh, bantu nggak ya{/i}"
 
     "Aku mendekati orang tersebut, rambutnya hijau nyentrik. Sangat jarang, aku sendiri hanya tahu satu orang yang memiliki rambut warna hijau."
 
-    show raden at raden_default:
+    show raden:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with moveinright
 
-    show sekar kasual_ragu at sekar_default:
+    show sekar kasual_ragu:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
-    show raden kasual_kaget
+    show raden kasual_kaget:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Lah, itu kak sekar?\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kak Sekar?\""
 
-    show sekar kasual_bingung
+    show sekar kasual_bingung:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"?\""
 
     raden "\"Motornya mau ku stut in, Kak?\""
 
-    show sekar kasual_ceria
+    show sekar kasual_ceria:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Eh, Raden? Kebetulan banget, iya nih. Tiba-tiba saja motorku mati di tengah jalan. Untung ketemu, Stut in sampai di bengkel terdekat ya, den\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya kak, apa Kak Sekar butuh tumpangan sekalian ke kampus? Daripada nunggu lama di bengkel.\""
 
-    show sekar kasual_bicara
+    show sekar kasual_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Boleh tuh, den. Aku juga bakal ada meeting habis ini. Untung ketemu kamu, kalo nggak, bakal terlambat aku...\""
 
-    show sekar kasual_biasa
-    show raden kasual_tersenyum
+    show sekar kasual_biasa:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya kak, aku juga kebetulan ada kelas pagi. Kalau nggak ada, pasti nggak ketemu\""
 
-    show sekar kasual_ceria
+    show sekar kasual_ceria:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Hahaha, iya\""
 
     "Sambil mendorong motor, kami sedikit berbincang mengenai kebetulan ini, meskipun topik kadang berpindah-pindah tapi pembicaraan tersebut terus berjalan sampai kita sampai di kampus."
@@ -125,52 +159,74 @@ label arc_character_day1_scene1_afterchoice1:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show sekar kasual_bicara at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kasual_bicara:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
     sekar "\"Sudah sampai, makasih ya den.\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Sama-sama kak.\""
 
-    show raden kasual_biasa
-    show sekar kasual_biasa
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar kasual_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Aku tersenyum kecil menjawab perkataan Kak Sekar. Sampai ketika, aku merasakan tatapan aneh dari belakangku. Aku sontak menoleh ke arah tatapan tersebut."
 
-    show raden kasual_canggung with dissolve
+    show raden kasual_canggung with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Melihat diriku yang menoleh secara tiba-tiba, Kak Sekar ikutan menoleh menuju arah mukaku menghadap. Ketika Sekar menoleh, tatapan orang itu langsung menjadi normal."
     
     "Aku tidak tahu, apakah tatapan yang sebelumnya hanya ada dalam pikiranku saja. Karena saat ini, Orang yang dihadapanku memiliki wajah yang sangat murah hati."
 
-    show sekar kasual_bicara
+    show sekar kasual_bicara:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Eh, Abdi. Baru datang juga?. Ayo cepat, ditungguin yang lain nanti.\""
 
-    show sekar kasual_ceria
+    show sekar kasual_ceria:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Btw, Makasih ya den atas boncengannya.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Sama-sama Kak Sekar.\""
 
     hide sekar with moveoutright
-    show raden kasual_canggung with dissolve
+    show raden kasual_canggung with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Sebelum benar-benar pergi, Orang yang bernama abdi itu berjalan sembari menatap ke arahku. Bagaikan orang yang melihat serangga yang mengganggu harinya. Sebelum, akhirnya dia benar-benar pergi."
 
     "Tanpa menunda lagi, aku berjalan menuju kelasku."
 
     scene bg kelas_d4 with dissolve
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Setibanya aku di kelas, masih banyak kursi yang kosong, kurasa inilah faedah nya datang ke kelas lebih awal. Tak lama kemudian Santo datang dan duduk di sebelahku, begitu juga Dosen."
@@ -179,30 +235,39 @@ label arc_character_day1_scene1_afterchoice1:
 
     "Setelah menjelaskan materi, dia memberi kami tugas berkelompok, masing-masing kelompok tiga orang, Saat aku hendak mencari satu orang lagi-"
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.5
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 0.45
-    show erin kasual_netral at erin_default:
+        zoom santo_default.zoom
+    show erin kasual_netral:
         xalign 1.1
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     erin "\"Kalian sudah ada kelompok?\""
 
     "Seorang gadis di kelas kami yang aku belum tau namanya, menggeser kursinya mendekati meja ku dan Santo."
 
-    show santo kasual_bicara
+    show santo kasual_bicara:
 
+        zoom santo_default.zoom
     santo "\"Belum. Mau bareng?\""
 
-    show santo kasual_netral
+    show santo kasual_netral:
 
+        zoom santo_default.zoom
     "Gadis itu tersenyum lembut, dan mengangguk pelan"
 
     erin "\"Kalau boleh..\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oh, boleh kok. Aku Raden, salam kenal ya.\""
 
     erin "\"Erin. Makasih ya.\""
@@ -217,8 +282,10 @@ label arc_character_day1_scene1_afterchoice1:
     return
 
 label arc_character_day1_scene1_afterchoice2:
-    show raden kasual_menghela_napas with dissolve
+    show raden kasual_menghela_napas with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Tidur pun sedap nih..\""
 
     "Karena di luar masih gerimis, Aku memutuskan untuk tidur lagi, di kasur yang empuk, lembut, dan hangat."
@@ -234,18 +301,24 @@ label arc_character_day1_scene1_afterchoice2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_menghela_napas at raden_default:
+    show raden kasual_menghela_napas:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "\"Aakkhh, enak banget tidurnya\""
 
-    show raden kasual_canggung with dissolve
+    show raden kasual_canggung with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hmm?\""
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"?????, Weladalah. udah {size=+10}jam 8.30{/size}, terlambat ni aku!!\"" with vpunch
 
     "Bermodal cuci muka, Aku langsung berangkat pergi menuju ke kampus."
@@ -254,22 +327,30 @@ label arc_character_day1_scene1_afterchoice2:
 
     "Aku mengetuk pintu"
 
-    show raden kasual_gugup at raden_default:
+    show raden kasual_gugup:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     raden "\"Assalamualaikum pak. Permisi\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     dosen "\"Siapa yang menyuruhmu masuk?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh maaf pak, karena tidak ada jawaban. Saya kira diperbolehkan masuk\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     dosen "\"Lain kali, jika saya masih belum memberi instruksi masuk ruangan. Jangan masuk ruangan\""
 
     raden "\"Iya pak, maaf\""
@@ -282,65 +363,85 @@ label arc_character_day1_scene1_afterchoice2:
 
     "Saat aku menoleh sekitar, aku melihat Santo melambaikan tangan nya padaku. Aku segera mendekatinya dan duduk di kursi kosong dekatnya."
 
-    show raden kasual_capek at raden_default:
+    show raden kasual_capek:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with moveinright
 
-    show santo kasual_senyum_lebar at santo_default:
+    show santo kasual_senyum_lebar:
         xalign 1.0
+        zoom santo_default.zoom
     with dissolve
 
     santo "\"Yo, pahlawan kesiangan. Udah disambut meriah sama Pak Dosen, ya?\""
 
-    show raden kasual_menghela_napas with dissolve
+    show raden kasual_menghela_napas with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Gimana ya... salah timing. Kukira kalau disapa pakai salam langsung dibolehin masuk.\""
 
-    show santo kasual_senyum
+    show santo kasual_senyum:
 
+        zoom santo_default.zoom
     santo "\"Ya nggak gitu juga, Den. Tapi keren sih, kamu buka pintu kayak adegan film thriller.\""
 
-    show raden at raden_default:
+    show raden:
         xalign -0.5
-    show santo at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo:
         xalign 0.45
+        zoom santo_default.zoom
     with moveinright
 
-    show erin kasual_netral at erin_default:
+    show erin kasual_netral:
         xalign 1.1
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     erin "\"Kamu Raden, ya?\""
 
-    show raden kasual_gugup with dissolve
+    show raden kasual_gugup with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya, aku… eh, iya, betul.\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Gadis itu tersenyum sopan, lalu membuka buku catatan kecilnya"
 
     erin "\"Aku Erin,. Tadi Pak Dosen jelasin tugas yang harus dikerjakan kelompok tiga orang.\""
 
     erin "\"Mau sekelompok?, bareng Santo juga\""
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oh, gitu ya? boleh deh makasih... maaf banget aku tadi telat jadi nggak dengar penjelasannya.\""
 
     erin "\"Gak apa-apa. Kita belum bahas kok tadi\""
 
-    show santo kasual_senyum_lebar at santo_default:
+    show santo kasual_senyum_lebar:
         xalign 0.45
         linear 0.3 xalign 0.35
         linear 0.3 xalign 0.45
 
+        zoom santo_default.zoom
     "Santo menyenggol bahu Raden sedikit, dengan senyum jail nya."
 
     santo "\"Tuh kan, telat-telat dapet kelompok cakep. Rejeki anak soleh.\""
 
-    show raden kasual_kesal
+    show raden kasual_kesal:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oy, nggak gitu juga!\""
 
     "Erin hanya tertawa kecil, lalu menatap ke depan dengan tenang"

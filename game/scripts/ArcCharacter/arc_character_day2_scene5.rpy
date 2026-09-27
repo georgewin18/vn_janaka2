@@ -6,10 +6,13 @@ label arc_character_day2_scene5:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 1.0
+        zoom santo_default.zoom
     with dissolve
 
     "Raden dan Santo berjalan berdampingan, map laporan dipegang di tangan Raden."
@@ -18,7 +21,9 @@ label arc_character_day2_scene5:
 
     "Dan di ujung lorong itu—Tampak satu sosok berdiri menyandar di dinding, dengan postur kuat dan ekspresi tajam. sikapnya tegas seperti biasa."
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh… bukannya itu…\""
 
     santo "\"Kak Tessa…\""
@@ -33,7 +38,9 @@ label arc_character_day2_scene5:
 
     "Tessa pun mulai mendekat"
 
-    show raden kasual_panik
+    show raden kasual_panik:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"oiii, Santo gimana niii!\""
 
     "kemudian aku melihat kesamping dan seketika santo langsung kabur tanpa pemberitahuan "
@@ -52,7 +59,9 @@ label arc_character_day2_scene5:
             
             "Aku menelan ludah, mencoba mengatur kata-kata yang mau keluar dari mulutku."
 
-            show raden kasual_gugup
+            show raden kasual_gugup:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Huhhh...\""
 
             tessa "\"kenapa, hah?\"" #kembali serak
@@ -68,21 +77,29 @@ label arc_character_day2_scene5:
                 truecenter
             "Setelah kabur dari dari tessa yang ada di kantin, aku pun menarik napas dan menenangkan diriku."
 
-            show raden kasual_gugup at raden_default:
+            show raden kasual_gugup:
                 xalign 0.5
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Tunggu? kenapa aku lari\""
 
             "Dengan ekspresi kesal yang bercampur dengan bingung, setelah beberapa saat berjalan aku pun terkejut melihat tessa yang tiba-tiba lewat di depannya, aku terkejut."
 
-            show raden kasual_panik
+            show raden kasual_panik:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"AAAAAAAAAAAAAA\"" with vpunch
 
-            show raden kasual_panik at raden_default:
+            show raden kasual_panik:
                 xalign 0.0
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             with moveinleft
 
-            show tessa kasual_netral at tessa_default:
+            show tessa kasual_netral:
                 xalign 0.8
+                zoom tessa_default.zoom
+                yalign tessa_default.yalign
             tessa "\"Apaan?\""
 
             raden "\"Kukira hantu.\""

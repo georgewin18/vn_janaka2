@@ -10,8 +10,10 @@ label prolog_day4_scene2:
 
     play music raden_bgm fadein 1.0
 
-    show raden kemeja_biasa at raden_default:
+    show raden kemeja_biasa:
         xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with dissolve
 
     "Setelah prosesi pengukuhan selesai, panitia memberi instruksi agar semua sekelompok berbaris dua banjar. Aku segera mencari posisi bersama kelompokku."
@@ -28,8 +30,10 @@ label prolog_day4_scene2:
 
     "{i}Bruk!{/i}" with vpunch
 
-    show aisyah kemeja_terkejut at aisyah_default:
+    show aisyah kemeja_terkejut:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
     play music intense fadein 1.0
@@ -37,20 +41,30 @@ label prolog_day4_scene2:
     voice "audio/vo/aisyah/prolog4/prolog4_1_den_kamu_gapapa.ogg"
     aisyah "\"Den! kamu gapapa?!\""
 
-    show raden kemeja_gugup at raden_default:
+    show raden kemeja_gugup:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with moveinbottom
 
-    show aisyah kemeja_serius
+    show aisyah kemeja_serius:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     voice "audio/vo/aisyah/prolog4/prolog4_2_aduh_gimana_sih.ogg"
     aisyah "\"Aduh, gimana sih jalannya?\""
 
-    show raden at raden_default:
+    show raden:
         xalign -0.45
-    show aisyah at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah:
         xalign 0.5
-    show sekar jas_khawatir at sekar_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show sekar jas_khawatir:
         xalign 1.15
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with moveinright
 
     voice "audio/vo/sekar/prolog4/prolog4_1_raden_kamu.ogg"
@@ -71,16 +85,22 @@ label prolog_day4_scene2:
     voice "audio/vo/aisyah/prolog4/prolog4_3_tapi_kak.ogg"
     aisyah "Tapi kak, Raden gimana?"
 
-    show sekar jas_tegas
+    show sekar jas_tegas:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/prolog4/prolog4_4_tenang.ogg"
     sekar "\"Tenang, ku pastikan dia baik-baik saja\""
 
     hide aisyah with dissolve
-    show raden at raden_default:
+    show raden:
         xalign -0.2
-    show sekar at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with moveinright
 
     "Akhirnya kelompok kami melanjutkan perjalanan, sementara aku tetap duduk di pinggi halan bersama Kak Sekar."
@@ -135,10 +155,14 @@ label prolog_day4_scene2_choice1:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kemeja_biasa at raden_default:
+    show raden kemeja_biasa:
         xalign -0.2
-    show sekar jas_gugup at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar jas_gugup:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
     voice "audio/vo/sekar/prolog4/prolog4_7_maaf_ya_lama.ogg"
@@ -172,21 +196,31 @@ label prolog_day4_scene2_choice2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kemeja_biasa at raden_default:
+    show raden kemeja_biasa:
         xalign -0.2
-    show sekar jas_gugup at sekar_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar jas_gugup:
         xalign 1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     with dissolve
 
     voice "audio/vo/sekar/prolog4/prolog4_10_iya_maaf_ya.ogg"
     sekar "\"Iya... maaf ya, Raden. Padahal... Aku ini LO yang harusnya membantu kalian, tapi malah begini...\""
 
 label prolog_day4_scene2_after_choice:
-    show raden kemeja_tersenyum
+    show raden kemeja_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Gak masalah, Kak. Justru aku baru tahu Kakak ini manusia juga, ternyata bisa gugup,\""
 
-    show raden kemeja_biasa
-    show sekar jas_ceria with dissolve
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show sekar jas_ceria with dissolve:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Kak Sekar tersenyum anggun, senyumnya terasa hangat, memancarkan kharisma yang membuatku terdiam sejenak dalam kekaguman."
 
     "Lalu dia tertawa kecil, dan wajahnya mulai kembali ke ekspresi tenang."

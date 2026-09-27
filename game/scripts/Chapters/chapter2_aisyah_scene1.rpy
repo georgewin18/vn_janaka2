@@ -22,7 +22,9 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kasual_panik with dissolve:
-        zoom 2.0 xalign 0.5 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
     
     raden "\"Waduh telat nih bisa-bisa aku!\""
 
@@ -31,7 +33,9 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kemeja_capek with dissolve:
-        zoom 2.0 xalign 0.5 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     raden "\"Kenapa kelasnya harus jauh sekali sih hari ini!?\""
 
@@ -57,25 +61,33 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kemeja_pusing with dissolve:
-        zoom 2.0 xalign 0.5 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     show raden with moveinleft:
         xalign 0.0
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Sebuah benturan menghentikan langkahku. Aku oleng ke belakang, dan saat itu juga terdengar suara benda jatuh berserakan di lantai."
     
     raden "\"Aduh!\""
     
     #raden malu
 
-    show raden kemeja_canggung with dissolve
+    show raden kemeja_canggung with dissolve:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Seruku spontan. Aku melihat ke arah orang yang kutabrak. Wajahku langsung memanas."
     
     raden "\"Aisyah?!\""
     
     show aisyah kemeja_penasaran with dissolve:
-        zoom 0.34 xalign 0.9 yalign -1.0
+        zoom aisyah_default.zoom
+        xalign 0.9
+        yalign aisyah_default.yalign
     
     "Dia terduduk di lantai dengan ekspresi kaget dan kesal, sementara buku-bukunya berserakan di sekelilingnya. Aku berdiri mematung, bingung harus apa."
 
@@ -83,8 +95,10 @@ label chapter2_aisyah_scene1:
     
     #raden panik
 
-    show raden kemeja_gugup with dissolve
+    show raden kemeja_gugup with dissolve:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh, maaf, maaf banget! Aku nggak sengaja. Aku buru-buru soalnya…\""
     
     "Aku melirik ke barang-barangnya yang berantakan di lantai."
@@ -103,8 +117,10 @@ label chapter2_aisyah_scene1:
             
             #aisyah netral
             
-            show aisyah kemeja_bicara
+            show aisyah kemeja_bicara:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             "Dia menghela napas panjang, menahan kekesalannya."
 
             raden "\"Ini, semoga nggak ada yang rusak.\""
@@ -128,6 +144,8 @@ label chapter2_aisyah_scene1:
             show raden with moveinright:
                 xalign 0.5
             
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             #bg kelas d4
             scene bg kelas_d4 with dissolve:
                 size (config.screen_width, config.screen_height)
@@ -135,7 +153,9 @@ label chapter2_aisyah_scene1:
             
             #raden gugup
             show raden kemeja_gugup with dissolve:
-                zoom 2.0 xalign 0.5 yalign 0.05
+                zoom raden_default.zoom
+                xalign 0.5
+                yalign raden_default.yalign
             
             "Sesampainya di kelas, Dosen sudah datang dan mengajar, aku di suruh menunggu di luar sebentar, sampai akhirnya setelah diperbolehkan masuk kelas, aku di tegur dan tidak boleh sampai mengulangi nya lagi."
 
@@ -153,19 +173,27 @@ label chapter2_aisyah_scene1:
             show raden with moveinright:
                 xalign 0.5
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             scene bg kelas_d4 with dissolve:
                 size (config.screen_width, config.screen_height)
                 truecenter
             
             show raden kemeja_biasa2 with dissolve:
-                zoom 2.0 xalign 0.5 yalign 0.05
+                zoom raden_default.zoom
+                xalign 0.5
+                yalign raden_default.yalign
             
             "Untung nya sesampai di kelas, dosen nya juga baru datang. Aku menghela nafas lega."
 
-            show raden kemeja_menghela_napas with dissolve
+            show raden kemeja_menghela_napas with dissolve:
 
-            show raden kemeja_menghela_napas_asap with dissolve
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show raden kemeja_menghela_napas_asap with dissolve:
             
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Selamat…"
             
     scene black with dissolve:
@@ -178,10 +206,14 @@ label chapter2_aisyah_scene1:
         truecenter
 
     show raden kemeja_biasa with dissolve:
-        zoom 2.0 xalign 0.0 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
 
     show santo kemeja_biasa with dissolve:
-        zoom 1.35 xalign -5.0 yalign 0.08
+        zoom santo_default.zoom
+        xalign -5.0
+        yalign 0.08
 
     raden "\"Akhirnya waktu istirahat juga.\""
 
@@ -206,7 +238,9 @@ label chapter2_aisyah_scene1:
     "Akhirnya aku mendekati Aisyah, yang baru saja memesan makanan."
 
     show aisyah kemeja_bicara with dissolve:
-        zoom 0.34 xalign 0.9 yalign -1.0
+        zoom aisyah_default.zoom
+        xalign 0.9
+        yalign aisyah_default.yalign
 
     raden "\"Aisyah...\""
 

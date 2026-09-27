@@ -10,16 +10,22 @@ label chapter5_tessa_scene4:
         truecenter
 
     show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
     show santo kemeja_biasa:
-        zoom 1.15 yalign 0.08 xalign 2.7
+        zoom santo_default.zoom
+        yalign 0.08
+        xalign 2.7
     with dissolve
     
     "Kami berdua mulai menonton anime bersama. Di tengah-tengah adegan yang seru, tiba-tiba seseorang memanggil-"
 
     stop music fadeout 2.0
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_1_woi.ogg"
     anon "\"WOI, KALIAN!\"" with vpunch
 
@@ -32,11 +38,16 @@ label chapter5_tessa_scene4:
     santo "\"Moga aja bukan kita\""
 
     show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 1.1
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
+        xalign 1.1
     show raden:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show santo:
         xalign 1.0
+        zoom santo_default.zoom
     with moveinright
 
     #show tessa
@@ -46,8 +57,10 @@ label chapter5_tessa_scene4:
 
     #hide santo
     hide santo with MoveTransition(0.2, leave=outleft)
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     menu:
         "Pingsan aja lah":
             "Aku pura-pura pingsan di tempat."
@@ -70,8 +83,12 @@ label chapter5_tessa_scene4:
 label chapter5_tessa_scene4_choice4_2:
     show raden:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show tessa:
         xalign 0.95
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with moveinright
 
     "Aku pun mulai menyiapkan mental dengan menarik napas kecil walau masih kaget dan takut, saat Tessa mendekat, tubuhku gemetar hebat."
@@ -85,26 +102,34 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Huhh...\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_2_2_kenapa.ogg"
     tessa "\"Kenapa hah?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ngg-nggak ada... mohon maaf,\""
 
     raden "\"Aku nggak ngapa-ngapain. Tolong jangan ganggu aku kak...\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
     voice "audio/vo/tessa/chapter5/chapter5_2_3_ganggu_kamu.ogg"
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"E.. enggak tau\""
 
     play music tessa_bgm fadein 1.0
@@ -118,8 +143,10 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Tapi kali ini... suara kakak beneran bikin aku merinding, seriusan\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_2_5_beda_gimana.ogg"
     tessa "\"Beda gimana?\""
 
@@ -151,8 +178,10 @@ label chapter5_tessa_scene4_choice4_2:
 
     pause 1.0
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Dipikir-pikir Kak Tessa keren sih... tapi... juga menakutkan...\""
 
     voice "audio/vo/tessa/chapter5/chapter5_2_12_tapi.ogg"
@@ -161,15 +190,19 @@ label chapter5_tessa_scene4_choice4_2:
     voice "audio/vo/tessa/chapter5/chapter5_2_13_suaraku.ogg"
     tessa "\"Suaraku memang jadi lebih keras soalnya tenggorokanku lagi sakit.\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Btw makasih ya kak, udah bantu kita waktu itu\""
 
     voice "audio/vo/tessa/chapter5/chapter5_2_14_sama_sama.ogg"
     tessa "\"Iya, sama-sama\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Mendengar jawaban Tessa, aku pun tenang tapi agak bingung kemudian hanya menganggukkan kepala, kemudian aku pun pamit ingin pulang, dan akhirnya kami berjalan ke parkiran bersama."
 
     #bg parkiran
@@ -178,9 +211,13 @@ label chapter5_tessa_scene4_choice4_2:
         truecenter
 
     show raden kasual_biasa:
-        zoom 0.48 xalign 0.0 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
     show tessa normal:
-        zoom 0.39 yalign -0.25 xalign 0.95
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
+        xalign 0.95
     with dissolve
 
     raden "\"Kenapa nggak pulang sama temenmu Kak?\""
@@ -207,7 +244,9 @@ label chapter5_tessa_scene4_choice4_3:
         truecenter
 
     show raden kasual_capek with dissolve:
-        zoom 0.48 xalign 0.5 yalign 0.1
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
 
     "Setelah kabur dari Tessa yang ada di kantin, aku pun menarik napas dan menenangkan diri."
 
@@ -217,19 +256,27 @@ label chapter5_tessa_scene4_choice4_3:
 
     show raden with moveinright:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show tessa normal with dissolve:
-        zoom 0.39 yalign -0.25 xalign 0.95
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
+        xalign 0.95
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     #show tessa
     raden "\"AAAAAAAAAA\"" with vpunch
 
     voice "audio/vo/tessa/chapter5/chapter5_3_1_apaan.ogg"
     tessa "\"Apaan?\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kukira hantu...\""
 
     voice "audio/vo/tessa/chapter5/chapter5_3_2_sembarangan.ogg"
@@ -246,8 +293,10 @@ label chapter5_tessa_scene4_choice4_3:
 
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_2_3_ganggu_kamu.ogg"
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
@@ -295,8 +344,10 @@ label chapter5_tessa_scene4_choice4_3:
 
     pause 1.0
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Dipikir-pikir Kak Tessa keren sih... tapi... juga menakutkan...\""
 
     voice "audio/vo/tessa/chapter5/chapter5_2_12_tapi.ogg"
@@ -327,8 +378,10 @@ label chapter5_tessa_scene4_choice4_3:
 
 label chapter5_tessa_scene4_choice4_2_1:
     stop music fadeout 2.0
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ka-Kak Tessa, b.. ba.. bagaimana, kalau at.. atau mau tidak kita jadi teman..?\""
 
     "Di jalan yang sunyi dan di bawah tiang lampu jalan yang bersinar, Kak Tessa yang mendengar ucapanku tersenyum dan mulai tertawa bahagia."
@@ -338,8 +391,10 @@ label chapter5_tessa_scene4_choice4_2_1:
     voice "audio/vo/tessa/chapter5/chapter5_2_1_1_hahaha.ogg"
     tessa "\"hahahahahahaha, ku kira ada apa ternyata cuma itu, hahahahaha\""
 
-    show raden kasual_kesal
+    show raden kasual_kesal:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oiii, kenapa jadi ketawa sih\""
 
     voice "audio/vo/tessa/chapter5/chapter5_2_1_2_kau_itu_loh.ogg"
@@ -348,8 +403,10 @@ label chapter5_tessa_scene4_choice4_2_1:
     voice "audio/vo/tessa/chapter5/chapter5_2_1_3_bisa_bisanya.ogg"
     tessa "\"bisa-bisanya ngomong gitu.\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"ma...mau bagaimana lagi, a..aku gugup tau...\""
 
     "Dengan malui, aku mengucapkan kata-kataku sambil mencuri pandang ke arah Tessa. Wajahnya yang biasanya terlihat menakutkan, kiri penuh senyuman, membuatku lupa akan sikapnya sebelumnya. Saat tertawa, keimutannya benar-benar memukau."
@@ -371,21 +428,27 @@ label chapter5_tessa_scene4_choice4_2_1:
     return 
 
 label chapter5_tessa_scene4_choice4_2_1_1:
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Bener kok, cuman terkejut melihat kakak yang...\""
 
     raden "\"...lumayan imut\""
 
     "Tessa terkejut dan wajahnya langsung memerah seperti tomat."
 
-    show raden kasual_panik
+    show raden kasual_panik:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "{i}Kenapa kalimat barusan keluar dari mulutku?! Astaga, habislah aku! Wahai bumi dan langit, tolong lindungi aku yang sudah pasrah ini!{/i}"
 
     "Saat sudah mempersiapkan jiwa dan raga untuk dihantam, ternyata Tesas hanya melewatiku begitu saja tanpa berkata apa-apa. Aku yang berdiri di tempatm bengong sesaat."
 
-    show raden kasual_penasaran
+    show raden kasual_penasaran:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "{i}Lho? Kok dia nggak marah?{/i}"
 
     "Aku mulai berjalan perlahan di belakangnya, berusaha tetap tenang, sambil memikirkan nasibku dan arti dari responnya barusan."
@@ -407,8 +470,10 @@ label chapter5_tessa_scene4_choice4_2_1_2:
     voice "audio/vo/tessa/chapter5/chapter5_2_1_2_2_dasar_aneh.ogg"
     tessa "\"Dasar aneh,\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku yang melihat itu merasa lega, tapi sekaligus bingung."
 
     raden "{i}Astaga, aku hampir ketahuan. Tapi... Kok dia gampang percaya ya? Atau jangan-jangan dia tahu aku bohong?{/i}"

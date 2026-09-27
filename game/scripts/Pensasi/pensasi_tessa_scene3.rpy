@@ -1,34 +1,46 @@
 label pensasi_tessa_scene3:
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Dia menatapku sebentar, lalu merogoh kantongnya dan mengeluarkan sebuah kaleng minuman dingin."
 
     dio "\"Nih\""
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku menatap minuman itu dengan bingung."
 
-    show raden kasual_gugup with dissolve
+    show raden kasual_gugup with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh? Buat aku kak?\""
 
     dio "\"Ya buat siapa lagi?!\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     dio "\"Gua udah denger dari Tessa, tadi lo juga udah kerja keras. Anggap aja bonus.\""
 
     "Aku ragu-ragu sebelum akhirnya menerimanya. Saat kaleng dingin itu menyentuh tanganku, aku bisa merasakan betapa segarnya setelah bekerja keras seharian."
 
-    show raden kasual_biasa with dissolve
+    show raden kasual_biasa with dissolve:
     
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Makasih kak\""
 
     "Aku hendak membuka minumannya ketika Kak Dio tiba-tiba berdehem kecil."
 
-    show raden kasual_biasa2
+    show raden kasual_biasa2:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     dio "\"Eh, soal yang masalah rokok dulu itu...\""
 
     dio "\"Ya... gue tau gue rada nyebelin waktu itu,\""
@@ -41,11 +53,15 @@ label pensasi_tessa_scene3:
 
     dio "\"Bagus,\""
 
-    show raden at raden_default:
+    show raden:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with moveinright
-    show tessa kasual_netral at tessa_default:
+    show tessa kasual_netral:
         xalign 1.0
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with dissolve
 
     "Saat itu, aku melirik ke arah Kak Tessa yang duduk tak jauh dari kami. Dia tidak ikut campur, hanya duduk sambil tersenyum tipis, memandangi interaksi kami dengan ekspresi puas."
@@ -61,24 +77,32 @@ label pensasi_tessa_scene3:
     return
 
 label pensasi_tessa_scene3_choice3_1:
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Fyuhh... kalau gitu aku balik ya kak\""
 
-    show tessa kasual_senyum
+    show tessa kasual_senyum:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_3_1_1_terima_kasih.ogg"
     tessa "\"Terima kasih ya udah bantu\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aman kak, udah biasa teman menolong teman\""
 
     voice "audio/vo/tessa/pensasi/pensasi_3_1_2_oke.ogg"
     tessa "\"Oke, hati-hati ya\""
 
-    show raden kasual_ceria
+    show raden kasual_ceria:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oke, makasih, bye\""
 
     voice "audio/vo/tessa/pensasi/pensasi_3_1_3_bye.ogg"
@@ -93,41 +117,63 @@ label pensasi_tessa_scene3_choice3_1:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show aisyah casual_kesal at aisyah_default:
+    show aisyah casual_kesal:
         xalign 1.0
-    show fania casual_bingung at fania_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show fania casual_bingung:
         xalign -0.2
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     with dissolve
 
     "Aku melihat Aisyah dan Fania sedang berdebat di salah satu booth."
 
     "Suasana di antara mereka tegang. Mereka hanya berdiri diam beberapa detik, dan menatap satui sama lain, sampai akhirnya Aisyah menghela nafas dan memecah keheningan"
 
-    show fania casual_dingin
-    show aisyah casual_serius
+    show fania casual_dingin:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
+    show aisyah casual_serius:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Udahlah jangan terlalu dibawa serius.. nanti juga tahu mana yang terbaik\""
 
-    show fania casual_menghelanapas with dissolve
+    show fania casual_menghelanapas with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     pause 0.3
-    show fania casual_menghelanapas_ada_asap with dissolve
+    show fania casual_menghelanapas_ada_asap with dissolve:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     pause 0.3
-    show fania casual_menghelanapas with dissolve
+    show fania casual_menghelanapas with dissolve:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     "Fania hanya mengela nafas kecil, memilih mengalihkan pandangannya ke booth lain."
 
-    show raden kasual_canggung at raden_default:
+    show raden kasual_canggung:
         xalign -0.5
-    show aisyah at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah:
         xalign 1.4
-    show fania at fania_default:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show fania:
         xalign 0.6
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     with moveinleft
 
     "Aku mendekati mereka dengan hati-hati, mencoba membaca situasi yang sedang berlangsung. Wajah Aisyah tampak tegang meski ia sudah berusaha menutupinya dengan senyumannya yang dipaksakan."
 
-    show fania casual_dingin with dissolve
+    show fania casual_dingin with dissolve:
 
+        zoom fania_default.zoom
+        yalign fania_default.yalign
     "Fania di sisi lain, terlihat santai seperti biasa, tapi caranya menghindari kontak mata dengan Aisyah menunjukkan ada sesuatu yang menganjal di pikirannya."
 
     raden "\"Eh, kalian nggak apa-apa kan?\""
@@ -148,33 +194,45 @@ label pensasi_tessa_scene3_choice3_1:
     return
 
 label pensasi_tessa_scene3_choice3_2:
-    show tessa kasual_senyum2
+    show tessa kasual_senyum2:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_3_2_1_terima_kasih.ogg"
     tessa "\"Makasih ya udah bantu\""
 
-    show raden kasual_ceria
+    show raden kasual_ceria:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aman kak, aku suka menolong kok\""
     
     voice "audio/vo/tessa/pensasi/pensasi_3_2_2_begitu.ogg"
     tessa "\"Begitu ya, bukan karena pernah kabur dulu\""
 
-    show raden kasual_capek
+    show raden kasual_capek:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Katanya jangan dibahas lagi..\""
 
-    show tessa kasual_senyum
+    show tessa kasual_senyum:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_3_2_3_hehehe.ogg"
     tessa "\"Hehehehe\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"kak Tessa, ikut liat-liat booth yang lain yuk\""
 
-    show tessa kasual_netral
+    show tessa kasual_netral:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_3_2_4_hmm.ogg"
     tessa "\"hmmm...\""
 
@@ -193,8 +251,12 @@ label pensasi_tessa_scene3_choice3_2:
 
     dio "\"Atau lebih tepatnya... Lo mau ngedate sama bocah ini?\""
 
-    show raden kasual_panik
-    show tessa kasual_kesal
+    show raden kasual_panik:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show tessa kasual_kesal:
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     with dissolve 
     
     "Aku langsung tersedak udara" with vpunch
@@ -210,13 +272,17 @@ label pensasi_tessa_scene3_choice3_2:
 
     dio "\"Hahahaha, yaudah, yaudah. Canda doang, jangan serius amat.\""
 
-    show tessa kasual_netral
+    show tessa kasual_netral:
 
+        zoom tessa_default.zoom
+        yalign tessa_default.yalign
     voice "audio/vo/tessa/pensasi/pensasi_3_2_7_yaudah.ogg"
     tessa "\"Yaudah, ayo jalan\""
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oke kak\""
 
     "Saat kami mulai melangkah pergi, aku sempat melirik ke arah Kak Dio yang hanya menyeringai kecil sambil melambaikan tangannya"

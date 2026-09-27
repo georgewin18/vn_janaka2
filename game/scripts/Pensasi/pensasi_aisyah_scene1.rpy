@@ -5,24 +5,36 @@ label pensasi_aisyah_scene1:
 
     play music campus fadein 1.0
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show aisyah casual_senyum at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Ramai juga ternyata\""
 
-    show aisyah casual_senyum2
+    show aisyah casual_senyum2:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     voice "audio/vo/aisyah/pensasi/pensasi_1_iyalah.ogg"
     aisyah "\"Iyalah..\""
 
-    show raden kasual_biasa
-    show aisyah casual_senyum
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "Di panggung, para mahasiswa sudah mulai mempresentasikan perangkat canggih yang mereka kembangkan."
 
     "Suara riuh rendah diskusi penonton bercampur dengan penjelasan para pembicara di panggung."
@@ -33,33 +45,45 @@ label pensasi_aisyah_scene1:
 
     menu:
         "Duduk di depan":
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Di depan aja gimana?\""
 
-            show aisyah casual_bingung
+            show aisyah casual_bingung:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             voice "audio/vo/aisyah/pensasi/pensasi_1_1_1_hmm.ogg"
             aisyah "\"Hhmm...?\""
 
-            show raden kasual_bingung
+            show raden kasual_bingung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Kenapa?\""
 
-            show aisyah casual_senyum4
+            show aisyah casual_senyum4:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             voice "audio/vo/aisyah/pensasi/pensasi_1_1_2_padahal.ogg"
             aisyah "\"Padahal tadi kayak terpaksa..  tapi nggak apa-apa.\""
 
             "Aku terdiam, sedikit bingung dengan maksudnya. Namun, kami akhirnya melangkah ke depan, memilih kursi yang tersisa."
 
         "Duduk di belakang":
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Di belakang aja\""
 
-            show aisyah casual_serius
+            show aisyah casual_serius:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             voice "audio/vo/aisyah/pensasi/pensasi_1_2_1_ehh.ogg"
             aisyah "\"Eeehh..?\""
 
@@ -67,15 +91,19 @@ label pensasi_aisyah_scene1:
 
             aisyah "\"Kok di belakang?!\""
 
-            show raden kasual_biasa2
+            show raden kasual_biasa2:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Ngapain juga di depan emangnya?\""
 
             voice "audio/vo/aisyah/pensasi/pensasi_1_2_2_di_depan_aja.ogg"
             aisyah "\"Di depan aja\""
 
-            show raden kasual_menghela_napas with dissolve
+            show raden kasual_menghela_napas with dissolve:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Aku terdiam sesaat,menatap Aisyah yang tampak sangat yakin. Akhirnya aku mengalah."
 
             raden "\"Iya-iya\""

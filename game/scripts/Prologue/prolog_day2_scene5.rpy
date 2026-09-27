@@ -7,60 +7,90 @@ label prolog_day2_scene5:
     play music santo_bgm fadein 1.0
 
     show raden kemeja_biasa:
-        zoom 2.0 xalign -0.2 yalign 0.05
+        zoom raden_default.zoom
+        xalign -0.2
+        yalign raden_default.yalign
     show santo kemeja_netral:
-        zoom 1.47 xalign 1.0
+        zoom santo_default.zoom
+        xalign 1.0
     with dissolve
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
+        zoom santo_default.zoom
     santo "\"Den\""
 
-    show santo kemeja_netral
-    show raden kemeja_tersenyum
+    show santo kemeja_netral:
+        zoom santo_default.zoom
+    show raden kemeja_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Santo?! Kamu belum pulang\""
 
-    show raden kemeja_biasa 
-    show santo kemeja_bicara
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Bentar lagi mau pulang, capek deh, pengen segera rebahan, tapi besok masih masuk pagi lagi\""
 
     #Raden senyumm
-    show santo kemeja_netral
-    show raden kemeja_tersenyum
+    show santo kemeja_netral:
+        zoom santo_default.zoom
+    show raden kemeja_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Santo, kupikir kamu tipe orang yang mageran.\""
 
-    show raden kemeja_biasa 
-    show santo kemeja_senyum
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_senyum:
 
+        zoom santo_default.zoom
     santo "\"Hm? Kamu gak salah kok.\""
 
-    show raden kemeja_tersenyum
+    show raden kemeja_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Loh, tapi kok hari ini kelihatannya kamu kayak serius dan niat banget gitu ngerjain tugas PKKMB ini?\""
 
-    show raden kemeja_biasa
-    show santo kemeja_netral
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_netral:
 
+        zoom santo_default.zoom
     "Santo tidak merespon, dan menengok ke arah Fania yang siluetnya masih terlihat dari kejauhan. Lalu kembali menengok pada ku sambil menggaruk bagian belakang leher nya."
 
-    show santo kemeja_bicara
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Ya… kalau tiba-tiba kelompok ku disuruh ngulang PKKMB kan lebih malesin.\""
 
-    show santo kemeja_netral
-    show raden kemeja_tersenyum
+    show santo kemeja_netral:
+        zoom santo_default.zoom
+    show raden kemeja_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Loh, emang nya bisa?\""
 
-    show raden kemeja_biasa 
-    show santo kemeja_bicara
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kemeja_bicara:
 
+        zoom santo_default.zoom
     santo "\"Siapa tahu, Jaga-jaga aja, Duluan ya.\""
 
-    show raden kemeja_biasa
+    show raden kemeja_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     scene black with dissolve:
         size (config.screen_width, config.screen_height)
         truecenter

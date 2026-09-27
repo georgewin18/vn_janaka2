@@ -1,15 +1,22 @@
 label arc_character_day2_scene3:
     scene bg perpus_pasca
     #Backsound Suasana Netral di kampus
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.8
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 0.8
-    show fania casual_dingin at fania_default:
+        zoom santo_default.zoom
+    show fania casual_dingin:
         xalign 2.0
-    show aisyah casual_gugup at aisyah_default:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
+    show aisyah casual_gugup:
         xalign 0.15
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     "…"
     "…"
     #Suara keyboard
@@ -24,8 +31,10 @@ label arc_character_day2_scene3:
 
     "Jawabannya itu membuatku dan Santo mau tidak mau melongo dengan jumlahnya."
 
-    show raden kasual_kaget
+    show raden kasual_kaget:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hah? Tugas? Banyak banget, departemenku aja belum pernah ada yang kayak gini di kelas satu. Kecuali…\""
 
     "Aku memandang buku-buku yang dibaca Fania. Teknik multitasking yang luar biasa."
@@ -42,7 +51,9 @@ label arc_character_day2_scene3:
 
     menu:
         "Ikut bantu Fania":
-            show raden kasual_tersenyum
+            show raden kasual_tersenyum:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Kalau begitu, aku juga bakalan bantu, Fan. Tapi aku mau kamu kasih tau kita nanti kenapa kamu ngerjain tugasmu sendirian.\""
 
             fania "\"Tapi aku gak minta bantuan.\""
@@ -64,13 +75,17 @@ label arc_character_day2_scene3:
 
             santo "\"Tapi kalau diperkirakan, kita bisa nyelesain tugas Fania duluan dan kita masih punya waktu banyak untuk deadline kita. Fania, aku bakalan bantu.\""
 
-            show raden kasual_bingung
+            show raden kasual_bingung:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Balasan Santo membuatku bingung pada sifatnya hari ini yang tiba-tiba unjuk gigi pada orang lain, padahal, biasanya dia hanya akan melihat dari samping."
 
             "Melihat mereka semua, sayang sekali jika aku tidak membantu. Pada akhirnya, aku tidak bisa menahan diri dan mengikuti arus."
 
-            show raden kasual_netral
+            show raden kasual_netral:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Oke deh, aku bakalan bantu juga!\""
             jump arc_character_day2_scene4
 

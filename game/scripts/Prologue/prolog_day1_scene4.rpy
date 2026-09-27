@@ -5,16 +5,20 @@ label prolog_day1_scene4:
 
     "Adzan telah terdengar. Waktu ISHOMA telah dimulai. LO Region ku ada 2, yang pertama laki-laki bernama kak Ryan, dan yang satunya perempuan bernama kak Sekar. Dia mulai memanggil anggota region untuk berkumpul"
 
-    show sekar jas_teriak at sekar_default:
+    show sekar jas_teriak:
         xalign 0.5
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     play music sekar_bgm fadein 1.0
 
     voice "audio/vo/sekar/pkkmb1_ayo_baris.ogg"
     sekar "\"Aldebaran! Ayo berbaris dua banjar.\""
 
-    show sekar jas_tegas
+    show sekar jas_tegas:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Sebagai mahasiswa yang baik, tentu saja aku langsung mengikuti arahannya."
 
     "Kak Sekar langsung menyuruh kami untuk berhitung dari banjar kiri terlebih dahulu. Jika ada yang kurang, Kak Sekar akan menyuruh kami untuk mengulang hitungan dari awal."
@@ -29,22 +33,30 @@ label prolog_day1_scene4:
 
     raden "{i}Akhirnya sampai juga di masjid, jika aku disuruh lebih lama menunggu di dalam tangga darurat pasti sudah pingsan aku{/i}"
 
-    show sekar jas_teriak
+    show sekar jas_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pkkmb2_berhenti.ogg"
     sekar "\"Aldebaran berhenti terlebih dahulu! Mari berhitung dimulai dari banjar sebelah kiri saya!\""
 
-    show sekar jas_tegas
+    show sekar jas_tegas:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Kukira tidak akan ada masalah yang terjadi. Sayangnya, perkiraanku salah, ketika perhitungan selesai, ada dua anggota region yang menghilang. Terlihat muka kak Sekar menjadi sedikit lebih kesal."
 
-    show sekar jas_teriak
+    show sekar jas_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pkkmb3_berhitung_lagi.ogg"
     sekar "\"Ayo berhitung sekali lagi!\""
 
-    show sekar jas_tegas
+    show sekar jas_tegas:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     "Tentu saja, kita memulai perhitungan sekali-lagi, dengan harapan kalau perhitungan kami yang sebelumnya salah."
 
     "Tapi, masalah tidak bisa dihindari, hasil perhitungan masih sama. Hal ini membuat kita menunda waktu ISHOMA."
@@ -53,8 +65,10 @@ label prolog_day1_scene4:
 
     Region "\"Maaf kak, di atas tadi kami tiba-tiba kebelet kencing.\""
 
-    show sekar jas_teriak
+    show sekar jas_teriak:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     voice "audio/vo/sekar/pkkmb4_kan_sudah_kubilang.ogg"
     sekar "\"Kan sudah kubilang untuk ke toilet terlebih dahulu ketika di ruangan tadi.\""
 

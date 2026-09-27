@@ -15,34 +15,52 @@ label pensasi_aisyah_scene4:
 
     "Waktu sudah menunjukkan sekitar pukul satu siang ketika kami melangkah keluar dari masjid. Udara siang yang panas langsung menyambut, membuat bayangan kami tampak jelas di jalanan kampus."
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.2
-    show aisyah casual_senyum at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum:
         xalign 1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
     aisyah "\"Sekarang mau kemana?\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kalau begitu ke booth robotik gimana?\""
 
-    show raden kasual_biasa
-    show aisyah casual_senyum2
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_senyum2:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Boleh sih, tapi bukannya kamu udah di lantai 1 tadi?\""
 
-    show aisyah casual_senyum
-    show raden kasual_tersenyum
+    show aisyah casual_senyum:
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Tadi kan rame, belum sempat eksplor banget di sana.\""
 
-    show aisyah casual_senyum3
+    show aisyah casual_senyum3:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Yaudah, ayok!\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     stop music fadeout 2.0
 
     "Dia langsung berjalan cepat melewatiku, wajahnya berbinar-binar. Antusiasmenya terasa menular, membuatku ikut mempercepat langkah agar tidak tertinggal."

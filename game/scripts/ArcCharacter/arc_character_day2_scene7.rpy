@@ -8,24 +8,34 @@ label arc_character_day2_scene7:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"…\""
 
-    show sekar kasual_biasa at sekar_default:
+    show sekar kasual_biasa:
         xalign 1.0
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Belum pulang den?\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Bentar lagi kak.\""
 
-    show sekar kasual_senyum
+    show sekar kasual_senyum:
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Jangan pulang terlalu malam loh. Kesehatan perlu dijaga.\""
 
-    show sekar kasual_senyum at sekar_default with moveinleft:
+    show sekar kasual_senyum with moveinleft:
         xalign 0.8
     
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Btw makasih ya Den, sudah datang ke acara ini.\""
 
     raden "\". . . \""
@@ -38,17 +48,23 @@ label arc_character_day2_scene7:
 
     sekar "\"Boleh tanya sebentar nggak?\""
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Tanya apa kak?\""
 
-    show sekar kasual_biasa
+    show sekar kasual_biasa:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Kenapa kamu kuliah? Apalagi di PENS? Ada alasan khusus?\""
 
     raden "\"…\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aku sih…\""
 
     raden "\"Nggak ada alasan spesial sih kak. Aku cuman ingin menjadi pribadi mapan.. dan juga, kurasa berkuliah adalah kesempatan yang tidak didapatkan semua orang\""
@@ -73,17 +89,23 @@ label arc_character_day2_scene7:
 
     raden "\"Aku pikir, kalau aku mau berhasil, ini adalah tempat yang tepat.\""
 
-    show sekar kasual_tegas #serius
+    show sekar kasual_tegas: #serius
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"…\""
 
-    show sekar kasual_senyum
+    show sekar kasual_senyum:
 
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     raden "\"Kalau Kakak sendiri?\""
 
     raden "\"Kenapa kuliah di PENS?\""
     
-    show sekar kasual_gugup #Sekar menunduk
+    show sekar kasual_gugup: #Sekar menunduk
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     sekar "\"Aku ya, hmm....\""
 
     sekar "\"Kalau mau jawaban. Jawabku pasti akan sama seperti jawabanmu. Mendapat koneksi lah, menjadi mandiri, menjadi terdorong untuk improve karena masuk ke kampus ternama lah, dan lainnya\""
@@ -94,12 +116,16 @@ label arc_character_day2_scene7:
 
     "Sekar tampak terdiam, bak mencari jawaban di sela dedaunan."
 
-    show raden kasual_panik
+    show raden kasual_panik:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Nggak usah dijawab juga nggak papa, kak. Disimpan saja topiknya buat besok.\""
 
     sekar "\"Eh, maaf den. Padahal aku duluan yang mulai, malah aku juga yang nutup.\""
 
-    show raden kasual_tersenyum #senyum garing
+    show raden kasual_tersenyum: #senyum garing
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Nggak papa, Kak. Akunya juga sih, malah tanya ngelantur kayak gitu.\""
 
     "Setelah perbincangan antara aku dan Kak Sekar selesai. Kak Sekar dipanggil oleh temannya."
@@ -112,19 +138,23 @@ label arc_character_day2_scene7:
 
     raden "\"Iya kak.\""
 
-    show sekar kasual_biasa at sekar_default:
+    show sekar kasual_biasa:
         xzoom -1.0
+        zoom sekar_default.zoom
+        yalign sekar_default.yalign
     hide sekar kasual_biasa with moveoutright
 
     "Setelah Kak Sekar pergi ke arah temannya, Santo tiba-tiba datang dari belakang."
 
-    show santo kasual_netral at santo_default:
+    show santo kasual_netral:
         xalign 1.0 xzoom -1.0
+        zoom santo_default.zoom
     with moveinleft
 
-    show santo kasual_netral at santo_default:
+    show santo kasual_netral:
         xalign 1.0 xzoom 1.0
 
+        zoom santo_default.zoom
     santo "\"Bicarain apa tadi den.\""
 
     raden "\"Nggak apa-apa to.\""
@@ -147,15 +177,19 @@ label arc_character_day2_scene7:
         size (config.screen_width, config.screen_height)
         truecenter
     
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign 0.0
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hmmm, Aisyah?\""
 
     #HP telfon dengan Aisyah
 
     aisyah "\"Raden..., boleh minta tolong, kamu bisa bela diri 'kan? Di sini, di daerah XXXXX, ada begal—\""
 
-    show raden kasual_kaget
+    show raden kasual_kaget:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Apa? Begal?\""
 
     aisyah "\"Iya, tadi aku..\""
@@ -166,7 +200,9 @@ label arc_character_day2_scene7:
 
     "Aku mengencangkan cengkeraman pada ponselku."
 
-    show raden kasual_serius
+    show raden kasual_serius:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Share loc, aku datang.\""
 
     #HP telfon dengan Aisyah selesai
@@ -190,10 +226,14 @@ label arc_character_day2_scene7:
 
     "Tanpa berpikir panjang, aku segera menginjak rem dan berhenti. Langsung turun dari motor, aku berlari menghampiri Aisyah untuk membantu."
 
-    show raden kasual_serius at raden_default:
+    show raden kasual_serius:
         xalign -0.4
-    show aisyah casual_serius at aisyah_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show aisyah casual_serius:
         xalign 0.6
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with dissolve
 
     raden "\"Aisyah!\""
@@ -208,21 +248,27 @@ label arc_character_day2_scene7:
 
     "Erin bangkit, wajahnya pucat, tangannya sedikit gemetar, tapi dia tetap tersenyum tipis. Matanya melirik singkat ke bekas arah begal lari, lalu ke arah kami."
 
-    show erin kasual_netral at erin_default:
+    show erin kasual_netral:
         xalign 1.2
     
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     erin "\"Terima kasih… kalian cepat sekali.\""
 
     "Sekilas kayak biasa aja, tapi aku ngerasa… entah kenapa nadanya terlalu datar buat orang habis hampir dibegal. Sepertinya dia cuma sok kuat."
 
-    show raden kasual_bingung 
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Hati-hati, Rin… sendirian di tempat sepi kayak gini bahaya.\""
 
     "Aisyah melangkah mendekat, sikapnya tegas."
 
-    show aisyah casual_serius at aisyah_default:
+    show aisyah casual_serius:
         xalign 0.6 xzoom -1.0
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Kamu luka? Mereka nyakitin kamu?\""
 
     "Erin geleng pelan, senyumnya tetap sopan, tangannya merapikan anak rambut yang berantakan."
@@ -233,15 +279,19 @@ label arc_character_day2_scene7:
 
     "Saat Aisyah mendekat ke Erin, Mataku tertuju pada bahunya. Ada goresan kecil yang tampak mengeluarkan darah tipis."
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Aisyah, kamu nggak apa-apa?\""
 
     "Aisyah melirik ke pundaknya lalu mendengus kecil."
 
-    show aisyah casual_gugup at aisyah_default:
+    show aisyah casual_gugup:
         xzoom 1.0#canggung
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     aisyah "\"Ah, ini cuma lecet kok, nggak serius,\""
 
     raden "\"Yakin nggak perlu diobati? Kita bisa ke klinik, lho.\""
@@ -252,46 +302,62 @@ label arc_character_day2_scene7:
 
     menu:
         "Seharusnya jangan gegabah dan tunggu aku saja":
-            show raden kasual_serius
+            show raden kasual_serius:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             "Aku menatap Aisyah yang berdiri di depanku dengan wajah keras kepala. Jujur, aku tidak tahu harus bagaimana lagi."
 
             raden "\"Aisyah, Apa yang kamu pikirin sampai mencoba melawan mereka sendirian?!\""
 
             "Dia menggelengkan kepala ringan, dan tersenyum tipis padaku."
 
-            show aisyah casual_senyum #netral
+            show aisyah casual_senyum: #netral
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "\"Engga kok, aku percaya kamu pasti datang buat bantu.\""
 
             "Aku terkejut dengan kepercayaan nya, tapi aku tau dia tetap salah."
 
             raden "\"Tapi kan kamu bisa nunggu aku sampai dulu!\""
 
-            show aisyah casual_gugup
+            show aisyah casual_gugup:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "\"Aku… mana mungkin aku bisa diam, Den. Mereka…\""
 
             "Aisyah menghindari tatapan ku, aku melihat dia mengepalkan tangannya, ragu untuk melanjutkan."
 
             "Lalu akhirnya dia berdiri dan menatapku dengan tegas."
 
-            show aisyah casual_serius
+            show aisyah casual_serius:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             aisyah "\"mereka hampir menyakiti Erin!. Aku gak mungkin cuma diam dan liat itu terjadi..\""
 
-            show raden kasual_sedih
+            show raden kasual_sedih:
 
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"kamu harus lebih peduli sama dirimu sendiri. Gimana kalau aku tidak datang tepat waktu— aku…\""
 
             jump arc_character_day2_scene8
         "Tolong, jangan ceroboh lagi!":
-            show raden kasual_serius
+            show raden kasual_serius:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"Aisyah, yang kamu lakukan tadi sangat ceroboh!\""
 
-            show raden kasual_sedih
+            show raden kasual_sedih:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
             raden "\"...Kalau aku tidak datang tepat waktu—tidak tahu, Aku khawatir ama kamu!!\""
 
-            show aisyah casual_terkejut
+            show aisyah casual_terkejut:
 
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             "Aisyah sesaat terkejut dengan ucapanku. Aku tahu, perempuan seperti dia sebenarnya sadar akan kesalahannya ini."
 
             jump arc_character_day2_scene8

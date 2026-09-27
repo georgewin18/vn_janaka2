@@ -6,10 +6,14 @@ label chapter2_aisyah_scene2:
         truecenter
 
     show raden kemeja_biasa with dissolve:
-        zoom 2.0 xalign 0.0 yalign 0.05
+        zoom raden_default.zoom
+        xalign 0.0
+        yalign raden_default.yalign
 
     show aisyah kemeja_bicara with dissolve:
-        zoom 0.34 xalign 0.9 yalign -1.0
+        zoom aisyah_default.zoom
+        xalign 0.9
+        yalign aisyah_default.yalign
 
     "Mendadak perhatian Aisyah beralih pada sesuatu—yang mungkin dibelakangku."
 
@@ -18,8 +22,12 @@ label chapter2_aisyah_scene2:
     show aisyah kemeja_penasaran with moveinleft:
         xalign 0.1
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     show raden kemeja_biasa at flip with dissolve:
-        zoom 2.0 xalign 1.0 yalign 0.05
+        zoom raden_default.zoom
+        xalign 1.0
+        yalign raden_default.yalign
 
     #Aisyah serius
 
@@ -90,12 +98,20 @@ label chapter2_aisyah_scene2:
 
     show raden at flip:
         xalign 1.5
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     show aisyah:
         xalign 0.8
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     show santo kemeja_biasa at flip:
-        zoom 1.35 xalign 8.0 yalign 0.08
+        zoom santo_default.zoom
+        xalign 8.0
+        yalign 0.08
     show sekar kemeja_tegas at flip:
-        zoom 1.25 xalign 0.2 yalign 0.05
+        zoom sekar_default.zoom
+        xalign 0.2
+        yalign sekar_default.yalign
     with moveinleft
 
     #Santo muncul netral

@@ -3,7 +3,9 @@ label chapter5_tessa_good_ending:
 
     raden "{i}apa aku akan dihantam?!{/i}"
 
-    show raden kasual_panik
+    show raden kasual_panik:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     stop music fadeout 2.0
 
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_1_AAA.ogg"
@@ -14,8 +16,10 @@ label chapter5_tessa_good_ending:
     "Tubuhku dia goyangkan ke kiri dan ke kanan tanpa henti"
 
     play music tessa_bgm fadein 1.0
-    show raden kasual_pusing
+    show raden kasual_pusing:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"K..kk..kak, a..aa..ada apa, jangan digoyangkan terus mabuk a..aku jadinya\""
 
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_2_tidak_ada.ogg"
@@ -27,15 +31,19 @@ label chapter5_tessa_good_ending:
 
     "Dia akhirnya berhenti menggoyangkan tubuhku, membiarkan aku menarik napas lega. Dengan hati hati, aku menatap ke depan, mencoba mencari tahu apa yang membuatnya panik."
 
-    show raden kasual_menghela_napas with dissolve
+    show raden kasual_menghela_napas with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Sepertinya nggak ada apa-apa deh,\""
 
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_3_huft.ogg"
     tessa "\"Hhhuffttt-\""
 
-    show raden kasual_serius
+    show raden kasual_serius:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Tunggu...\""
 
     raden "\"Itu ada kucing. Sepertinya dia lagi ngejar tik-\""
@@ -45,8 +53,10 @@ label chapter5_tessa_good_ending:
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_4_HIKK.ogg"
     tessa "\"HIIIIKKKK-\"" with hpunch
 
-    show raden kasual_pusing
+    show raden kasual_pusing:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"m...bak, s..top, m..abuk, a..kuuu\"" with hpunch
 
     "Setelah beberapa saat, Tessa akhirnya berhenti. Dia melepaskan bajuku dan berdiri tegak sambil menarik napas panjang untuk menenangkan diri." 
@@ -60,8 +70,10 @@ label chapter5_tessa_good_ending:
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_5_kau_gak_apa.ogg"
     tessa "\"Kau gak apa??\""
 
-    show raden kasual_menghela_napas with dissolve
+    show raden kasual_menghela_napas with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Iya\""
 
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_6_baguslah.ogg"
@@ -70,18 +82,24 @@ label chapter5_tessa_good_ending:
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_7_ngomong_ngomong.ogg"
     tessa "\"Ngomong-ngomong... dasar wibu\""
 
-    show raden kasual_penasaran
+    show raden kasual_penasaran:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Huh?!\""
 
-    show raden kasual_tersenyum with dissolve
+    show raden kasual_tersenyum with dissolve:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Eh... hehehehe,\""
 
     voice "audio/vo/tessa/chapter5/chapter5_good_ending_8_dasar_wibu.ogg"
     tessa "\"Dasar wibu,\""
 
-    show raden kasual_kesal
+    show raden kasual_kesal:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     stop music fadeout 2.0
 
     raden "\"Aku nggak sewibu itu, woii!\""
@@ -93,8 +111,10 @@ label chapter5_tessa_good_ending:
 
     "Tapi kali ini, aku memperhatikan rona merah di pipinya yang tak biasa dia sembunyikan."
 
-    show raden kasual_bingung
+    show raden kasual_bingung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_special_1_hmm.ogg"
     tessa "\"Hmmmm...\""
 
@@ -105,12 +125,16 @@ label chapter5_tessa_good_ending:
 
     "Aku langsung menoleh, terkejut dengan pengakuannya"
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oh... jadi mbak takut tikus?\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_special_3_diam.ogg"
     tessa "\"Diam!\""
 
@@ -134,8 +158,10 @@ label chapter5_tessa_good_ending:
 
     tessa "\"..imut\""
 
-    show raden kasual_gugup
+    show raden kasual_gugup:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Huh?! I-itu... i-itu cuma...\""
 
     voice "audio/vo/tessa/chapter5/chapter5_special_8_jangan_bilang.ogg"
@@ -149,14 +175,18 @@ label chapter5_tessa_good_ending:
 
     "Dia berusaha menjaga ekspresi datarnya, tapi rona merah di wajahnya justru semakin kentara. Aku hanya bisa menatapnya, setengah bingung, setengah terhibur."
 
-    show raden kasual_canggung
+    show raden kasual_canggung:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Baiklah, deal,\""
 
     "Kami melanjutkan perjalanan menuju tempat parkir. Meski malam itu dingin, suasana di antara kami terasa jauh lebih ringan."
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     "Aku tersenyum kecil, sadar ada sisi lain dari Tessa yang baru saja aku lihat."
 
     stop music fadeout 2.0
@@ -175,14 +205,18 @@ label chapter5_tessa_neutral_ending:
 
     raden "\"waduh cepetnya\""
 
-    show raden kasual_tersenyum
+    show raden kasual_tersenyum:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Kak, saya pamit dulu ya\""
     
     tessa "\"Oke\""
 
-    show raden kasual_ceria
+    show raden kasual_ceria:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oh iya, sebelum itu aku mau bilang lega rasanya tahu bahwa Kak Tessa ternyata tidak semenakutkan itu\""
 
     tessa "\"huhh??\""

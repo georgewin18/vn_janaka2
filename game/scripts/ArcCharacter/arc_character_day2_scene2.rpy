@@ -3,12 +3,17 @@ label arc_character_day2_scene2:
 
     #SFX: Suara AC pelan, halaman buku dibalik.SFX: Suara AC pelan, halaman buku dibalik.
 
-    show raden kasual_biasa at raden_default:
+    show raden kasual_biasa:
         xalign -0.5
-    show santo kasual_netral at santo_default:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show santo kasual_netral:
         xalign 1.2
-    show erin kasual_netral at erin_default:
+        zoom santo_default.zoom
+    show erin kasual_netral:
         xalign 0.5
+        zoom erin_default.zoom
+        yalign erin_default.yalign
     with dissolve
 
     "Begitu kelas selesai, aku, Santo dan Erin langsung menuju perpustakaan, duduk di satu meja panjang. Kertas berserakan di depan mereka, pena beberapa kali ditekan, dan buku referensi terbuka lebar."
@@ -21,13 +26,16 @@ label arc_character_day2_scene2:
 
     "Akhirnya, suara Raden memecah hening."
 
-    show raden kasual_menghela_napas
+    show raden kasual_menghela_napas:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Oke… garis bawah terakhir… titik. Selesai.\""
 
     #Santo menghela nafas
-    show santo kasual_netral
+    show santo kasual_netral:
 
+        zoom santo_default.zoom
     santo "\"Alhamdulillah. Tangan gue serasa kaku.\""
 
     #santo netral
@@ -36,8 +44,10 @@ label arc_character_day2_scene2:
 
     erin "\"Ini salinan lengkapnya. Satu rangkap buat dikumpulin. Satu lagi cadangan.\""
 
-    show raden kasual_biasa
+    show raden kasual_biasa:
 
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     raden "\"Rapi banget, Rin. Ini mah bukan laporan, ini karya seni.\""
 
     erin "\"Jangan dilipet-lipet di tas kamu, ya.\""
@@ -58,12 +68,15 @@ label arc_character_day2_scene2:
 
     hide erin kasual_netral with dissolve
 
-    show raden at raden_default:
+    show raden:
         xalign -0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
     with moveinright
 
-    show santo at santo_default:
+    show santo:
         xalign 1.0
+        zoom santo_default.zoom
     with moveinleft
 
     "Erin melangkah pergi, meninggalkan ku dan Santo yang kini hanya berdua di meja."
@@ -119,15 +132,22 @@ label arc_character_day2_scene2:
     menu:
         "Kenapa Aisyah ada disana?":
             raden "\"Kalian lagi ngapain sih?\""
-            show raden kasual_biasa at raden_default:
+            show raden kasual_biasa:
                 xalign -0.8
-            show santo kasual_netral at santo_default:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show santo kasual_netral:
                 xalign 0.8
+                zoom santo_default.zoom
             with moveinleft
-            show fania casual_dingin at fania_default:
+            show fania casual_dingin:
                 xalign 2.0
-            show aisyah casual_gugup at aisyah_default:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
+            show aisyah casual_gugup:
                 xalign 0.15
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             with dissolve
 
             "Tapi melihat ekspresi Fania yang berubah mengkerut kesal, sepertinya itu adalah sebuah kesalahan untuk menghampiri mereka."
@@ -135,15 +155,22 @@ label arc_character_day2_scene2:
             jump arc_character_day2_scene3
         "Tuju Meja Fania":
             raden "\"Lagi ngapain fan?\""
-            show raden kasual_biasa at raden_default:
+            show raden kasual_biasa:
                 xalign -0.8
-            show santo kasual_netral at santo_default:
+                zoom raden_default.zoom
+                yalign raden_default.yalign
+            show santo kasual_netral:
                 xalign 0.8
+                zoom santo_default.zoom
             with moveinleft
-            show fania casual_dingin at fania_default:
+            show fania casual_dingin:
                 xalign 2.0
-            show aisyah casual_gugup at aisyah_default:
+                zoom fania_default.zoom
+                yalign fania_default.yalign
+            show aisyah casual_gugup:
                 xalign 0.15
+                zoom aisyah_default.zoom
+                yalign aisyah_default.yalign
             with dissolve
 
             "Tapi melihat ekspresi Fania yang berubah mengkerut kesal, sepertinya itu adalah sebuah kesalahan untuk menghampiri mereka."

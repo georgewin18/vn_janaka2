@@ -21,33 +21,13 @@ define abdi = Character("Abdi")
 define dio = Character("Dio")
 define erin = Character("Erin")
 
-transform raden_default:
-    zoom 1.8
-    yalign -0.2
-
-transform aisyah_default:
-    zoom 1.5
-    yalign 0.1
-
-transform fania_default:
-    zoom 2.35
-    yalign 0.03
-
-transform sekar_default:
-    zoom 3.5
-    yalign -0.1
-
-transform tessa_default:
-    zoom 1.25
-    yalign -0.1
-
-transform santo_default:
-    zoom 1.37
-
-transform erin_default:
-    zoom 2.35
-    yalign 0.6
-
+define raden_default = Transform(zoom=1.8, yalign=-0.2)
+define aisyah_default = Transform(zoom=1.5, yalign=0.1)
+define fania_default = Transform(zoom=3.5, yalign=0.03)
+define sekar_default = Transform(zoom=3.5, yalign=-0.1)
+define tessa_default = Transform(zoom=1.25, yalign=-0.1)
+define santo_default = Transform(zoom=1.37)
+define erin_default = Transform(zoom=2.35, yalign=0.6)
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 
 define audio.raden_bgm = "audio/bgm/raden.ogg"

@@ -7,13 +7,17 @@ label chapter3_fania_scene3:
     #bgm netral in kampus
     #fania dingin
     show fania casual_dingin with dissolve:
-        zoom 1.15 xalign 0.0 yalign -0.02 
+        zoom fania_default.zoom
+        xalign 0.0
+        yalign fania_default.yalign
 
     "Aisyah masuk ke perpustakaan dan melihat tiga buah buku yang sama-sama dibuka dengan laptop Fania yang juga membuka tiga buah artikel jurnal."
 
     show aisyah kemeja_gugup with dissolve:
-        xalign 0.9 yalign -0.7
+        xalign 0.9
+        yalign aisyah_default.yalign
 
+        zoom aisyah_default.zoom
     voice "audio/vo/aisyah/chapter3/chapter3_1_fa.ogg"
     aisyah "\"Fa- hmm, mendingan jangan deh.\""
 
@@ -21,6 +25,8 @@ label chapter3_fania_scene3:
 
     show aisyah:
         xalign 0.7
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     with moveinright
     
     "Aisyah mendekati Fania dan membuat Fania menyadarinya."
@@ -38,8 +44,10 @@ label chapter3_fania_scene3:
 
     "Aisyah menatap Fania dengan kebingungan dan tidak yakin. "
 
-    show aisyah kemeja_bingung
+    show aisyah kemeja_bingung:
 
+        zoom aisyah_default.zoom
+        yalign aisyah_default.yalign
     voice "audio/vo/aisyah/chapter3/chapter3_3_tugas.ogg"
     aisyah "\"Tugas?\""
 
