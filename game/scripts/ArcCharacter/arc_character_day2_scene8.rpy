@@ -1,5 +1,5 @@
 label arc_character_day2_scene8:
-    scene bg jalan_gang:
+    scene bg jalan_gang with dissolve:
         size (config.screen_width, config.screen_height)
         truecenter
 

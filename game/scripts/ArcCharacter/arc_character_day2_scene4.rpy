@@ -17,7 +17,9 @@ transform normal_camera:
 
 label arc_character_day2_scene4:
     camera at normal_camera
-    scene bg perpus_pasca
+    scene bg perpus_pasca with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         xalign -0.8

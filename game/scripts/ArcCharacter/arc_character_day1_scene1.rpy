@@ -221,7 +221,9 @@ label arc_character_day1_scene1_afterchoice1:
 
     "Tanpa menunda lagi, aku berjalan menuju kelasku."
 
-    scene bg kelas_d4 with dissolve
+    scene bg kelas_d4 with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         xalign 0.45
@@ -323,7 +325,9 @@ label arc_character_day1_scene1_afterchoice2:
 
     "Bermodal cuci muka, Aku langsung berangkat pergi menuju ke kampus."
 
-    scene bg kelas_d4 with dissolve
+    scene bg kelas_d4 with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Aku mengetuk pintu"
 

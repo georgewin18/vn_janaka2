@@ -4,7 +4,9 @@ init:
         linear 3.0 xalign 0.7
 
 label pensasi_sekar_scene3:
-    scene bg kelas_d4 with dissolve
+    scene bg kelas_d4 with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden kasual_biasa:
         xalign -0.2

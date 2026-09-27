@@ -10,7 +10,9 @@ label pensasi_canon:
     #kelas d4
     #suasana netral in campus
     
-    scene bg kelas_d4 with dissolve
+    scene bg kelas_d4 with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     play music campus fadein 1.0
 
@@ -270,7 +272,9 @@ label pensasi_canon_afterchoice1:
     "{i}Sebaiknya aku juga segera pergi. Aisyah dan Fania sedang menungguku di perpustakaan.{i}"
 
     #Perpustakaan
-    scene bg perpus_pasca with dissolve
+    scene bg perpus_pasca with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     #suara scan ktm
 

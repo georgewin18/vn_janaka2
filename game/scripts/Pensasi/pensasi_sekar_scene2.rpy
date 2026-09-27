@@ -1,6 +1,8 @@
 label pensasi_sekar_scene2:
     #kelas D4
-    scene bg kelas_d4 with dissolve
+    scene bg kelas_d4 with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden jas_biasa:
         xalign -0.2
@@ -175,7 +177,9 @@ label pensasi_sekar_scene2:
     fania "\"Iya sih, nggak expect, tiba-tiba saja jadi MC tu anak\""
 
     #kelas D4
-    scene bg kelas_d4 with dissolve
+    scene bg kelas_d4 with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     show raden jas_biasa:
         xalign -0.2

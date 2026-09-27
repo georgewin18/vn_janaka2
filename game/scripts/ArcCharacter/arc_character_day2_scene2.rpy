@@ -1,5 +1,7 @@
 label arc_character_day2_scene2:
-    scene bg perpus_pasca with dissolve
+    scene bg perpus_pasca with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     #SFX: Suara AC pelan, halaman buku dibalik.SFX: Suara AC pelan, halaman buku dibalik.
 

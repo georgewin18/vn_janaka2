@@ -1,5 +1,7 @@
 label arc_character_day2_scene3:
-    scene bg perpus_pasca
+    scene bg perpus_pasca with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
     #Backsound Suasana Netral di kampus
     show raden kasual_biasa:
         xalign -0.8

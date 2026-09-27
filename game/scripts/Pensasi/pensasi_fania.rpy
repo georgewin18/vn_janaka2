@@ -302,7 +302,7 @@ label pensasi_fania_choice_gokart:
 
 label pensasi_fania_afterchoice2:
 
-    scene bg depan_perpus_d3:
+    scene bg depan_perpus_d3 with dissolve:
         size (config.screen_width, config.screen_height)
         truecenter
 

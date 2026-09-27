@@ -27,7 +27,9 @@ label chapter2_aisyah_bad_ending:
 
     aisyah "\"Yaudah deh..\""
 
-    scene bg perjalanan_pulang with dissolve
+    scene bg perjalanan_pulang with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Di perjalanan, kami tak bertukar kata kecuali Aisyah yang menjelaskan arah pulang. Selain itu, hanya suara mesin motor dan angin malam yang menemani. Bahkan, sampai aku menurunkannya di depan gang, Aisyah hanya menganggukkan kepala sebelum berjalan pergi."
     
@@ -103,7 +105,9 @@ label chapter2_aisyah_good_ending:
 
     #Transisi putih
 
-    scene bg perjalanan_pulang with dissolve
+    scene bg perjalanan_pulang with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
 
     "Saat Aisyah naik ke motorku dan duduk di belakang, aku menyalakan mesin dan mulai melaju perlahan. Jalanan malam yang sepi terasa lebih hangat dengan kehadirannya di belakangku."
 

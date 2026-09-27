@@ -198,7 +198,7 @@ label prolog_day3_scene2:
     voice "audio/vo/aisyah/prolog3/prolog3_5_den_bangun.ogg"
     aisyah "\"Den, bangun den!\""
     
-    scene bg auditorium:
+    scene bg auditorium with dissolve:
         size (config.screen_width, config.screen_height)
         truecenter
     with dissolve
