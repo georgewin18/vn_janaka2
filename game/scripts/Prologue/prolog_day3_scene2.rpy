@@ -21,7 +21,7 @@ label prolog_day3_scene2:
     
     #ekspresi aisyah normal tidak ada
     show aisyah kemeja_senyum1 with dissolve:
-        zoom 0.4 xalign 1.0 yalign 0.1
+        zoom 1.6 xalign 1.0 yalign 0.1
 
     "Memasuki Auditorium, aku melihat kursi di sebelah Aisyah masih kosong, dan pergi duduk sebelahnya."
     

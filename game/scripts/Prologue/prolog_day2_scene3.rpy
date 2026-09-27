@@ -22,7 +22,7 @@ label prolog_day2_scene3:
     show santo kemeja_netral:
         zoom 0.37 xalign 0.45
     show aisyah kemeja_bingung:
-        zoom 0.4 xalign 1.2 yalign 0.1
+        zoom 1.6 xalign 1.2 yalign 0.1
     with dissolve
 
     aisyah "\"Yang lain gak ada?\""#Aku bertanya.

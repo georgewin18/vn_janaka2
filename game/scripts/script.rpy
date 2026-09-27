@@ -22,11 +22,11 @@ define dio = Character("Dio")
 define erin = Character("Erin")
 
 transform raden_default:
-    zoom 2.0
-    yalign 0.05
+    zoom 1.8
+    yalign -0.2
 
 transform aisyah_default:
-    zoom 2.0
+    zoom 1.5
     yalign 0.1
 
 transform fania_default:
@@ -34,15 +34,15 @@ transform fania_default:
     yalign 0.03
 
 transform sekar_default:
-    zoom 2.25
-    yalign 0.05
+    zoom 3.5
+    yalign -0.1
 
 transform tessa_default:
     zoom 2.35
     yalign -0.1
 
 transform santo_default:
-    zoom 2.37
+    zoom 1.37
 
 transform erin_default:
     zoom 2.35
@@ -67,7 +67,7 @@ screen block_mouse:
     key "mouseup_3" action Hide("none")
     key "mouseup_1" action Hide("none")
 
-default debug_mode = False
+default debug_mode = True
 
 label splashscreen:
     scene blank with Pause(1):

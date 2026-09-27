@@ -33,7 +33,7 @@ label prolog_day4_scene4_choice1_1:
     play music aisyah_bgm fadein 1.0
 
     show aisyah kemeja_senyum1:
-        zoom 0.4 xalign 1.0 yalign 0.1
+        zoom 1.6 xalign 1.0 yalign 0.1
     show raden:
         xalign -0.2
     with moveinright 
@@ -318,7 +318,7 @@ label prolog_day4_scene4_choice2:
 label prolog_day4_scene4_choice2_1:
     #show aisyah
     show aisyah kemeja_senyum1:
-        zoom 0.4 xalign 1.0 yalign 0.1
+        zoom 1.6 xalign 1.0 yalign 0.1
     show raden:
         xalign -0.2
     with moveinright 

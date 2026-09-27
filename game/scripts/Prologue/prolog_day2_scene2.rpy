@@ -180,7 +180,7 @@ label prolog_day2_scene2_after_choice1:
     with moveinleft
     #aisyah muncul senyum
     show aisyah kemeja_senyum4 with dissolve:
-        zoom 0.4 xalign 1.2 yalign 0.1
+        zoom 1.6 xalign 1.2 yalign 0.1
 
     voice "audio/vo/aisyah/prolog2/prolog2_3_aku_juga_ikut.ogg"
     aisyah "\"Aku juga ikut bantu!\""

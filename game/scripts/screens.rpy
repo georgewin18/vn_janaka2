@@ -455,7 +455,7 @@ screen main_menu():
     add "images/cover.png":
         xysize (config.screen_width, config.screen_height)
         fit "cover"
-        zoom 0.55
+        zoom 0.65
         ypos 250
 
     ## This empty frame darkens the main menu.

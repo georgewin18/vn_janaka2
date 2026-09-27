@@ -74,7 +74,7 @@ label chapter3_fania_scene4_afterchoice1:
     with moveinright
 
     show aisyah kemeja_gugup:
-        zoom 0.4 xalign 0.9 yalign -0.3
+        zoom 1.6 xalign 0.9 yalign -0.3
     show fania casual_dingin:
         zoom 1.35 xalign 1.9 yalign 0.03
     with dissolve

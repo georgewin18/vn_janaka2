@@ -37,7 +37,7 @@ label prolog_day1_scene2:
     with moveinleft
 
     show aisyah kemeja_kesal at Transform(matrixcolor=(silhouette)):
-        zoom 0.4 xalign 1.0 yalign 0.1
+        zoom 1.6 xalign 1.0 yalign 0.1
     with dissolve
 
     "Aku menoleh ke belakang dan melihat seorang perempuan berkerudung." 
