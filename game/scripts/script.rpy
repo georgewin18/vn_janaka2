@@ -38,7 +38,7 @@ transform sekar_default:
     yalign -0.1
 
 transform tessa_default:
-    zoom 2.35
+    zoom 1.25
     yalign -0.1
 
 transform santo_default:

@@ -34,8 +34,8 @@ label prolog_day3_scene3:
     show raden with moveinleft:
         xalign -0.2
     
-    show tessa jas_serius with dissolve:
-        zoom 0.35 xalign 1.0 yalign -0.1
+    show tessa jas_serius  at tessa_default with dissolve:
+        xalign 1.0 yalign -0.1
     
     show raden kemeja_tersenyum
     
@@ -95,7 +95,7 @@ label prolog_day3_scene3:
                 xalign -0.2
             
             show tessa jas_serius with dissolve:
-                zoom 0.35 xalign 1.0 yalign -0.1
+                xalign 1.0 yalign -0.1
             
             show raden kemeja_gugup with dissolve
 

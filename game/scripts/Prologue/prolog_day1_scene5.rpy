@@ -29,7 +29,7 @@ label prolog_day1_scene5:
         #         zoom 0.48 xalign 0.0 yalign 0.1
 
         # show aisyah kemeja_bicara with dissolve:
-        #         zoom 0.35 xalign 0.85 yalign -0.7
+        #         xalign 0.85 yalign -0.7
 
         play music aisyah_bgm fadein 1.0
 

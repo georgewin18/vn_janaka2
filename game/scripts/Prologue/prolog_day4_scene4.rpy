@@ -183,7 +183,7 @@ label prolog_day4_scene4_choice1_1:
     show raden with moveinright:
         xalign -0.2
     show tessa jas_netral with dissolve:
-        zoom 0.35 xalign 1.0 yalign -0.1
+        xalign 1.0 yalign -0.1
 
     stop music fadeout 2.0
     play music tessa_bgm fadein 1.0
@@ -469,7 +469,7 @@ label prolog_day4_scene4_choice2_3:
     show raden with moveinright:
         xalign -0.2
     show tessa jas_netral with dissolve:
-        zoom 0.35 xalign 1.0 yalign -0.1
+        xalign 1.0 yalign -0.1
 
     stop music fadeout 2.0
     play music tessa_bgm fadein 1.0

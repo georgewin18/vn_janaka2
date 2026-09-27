@@ -12,7 +12,7 @@ label chapter3_fania_scene3:
     "Aisyah masuk ke perpustakaan dan melihat tiga buah buku yang sama-sama dibuka dengan laptop Fania yang juga membuka tiga buah artikel jurnal."
 
     show aisyah kemeja_gugup with dissolve:
-        zoom 0.35 xalign 0.9 yalign -0.7
+        xalign 0.9 yalign -0.7
 
     voice "audio/vo/aisyah/chapter3/chapter3_1_fa.ogg"
     aisyah "\"Fa- hmm, mendingan jangan deh.\""
