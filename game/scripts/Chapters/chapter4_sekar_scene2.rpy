@@ -24,7 +24,7 @@ label chapter4_sekar_scene2:
         show santo kemeja_bicara:
             zoom santo_default.zoom
             yalign 0.08
-            xalign 2.7
+            xalign 1.0
         with moveinright
 
         santo "\"Kok bisa gitu sampe telat den\""
@@ -53,7 +53,7 @@ label chapter4_sekar_scene2:
     show santo kemeja_bicara:
         zoom santo_default.zoom
         yalign 0.08
-        xalign 2.7
+        xalign 1.0
     with moveinright
 
     santo "\"Habis ini kamu mau ngapain den?\""
@@ -98,7 +98,7 @@ label chapter4_sekar_scene2:
         yalign raden_default.yalign
     show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
-        xalign 2.7
+        xalign 1.0
         yalign 0.08
 
     "Kami basa-basi seperti biasanya, sampai di tengah-tengah ada Kak Sekar yang mendatangi kami."

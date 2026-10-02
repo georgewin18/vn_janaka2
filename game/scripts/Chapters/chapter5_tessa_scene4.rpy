@@ -16,7 +16,7 @@ label chapter5_tessa_scene4:
     show santo kemeja_netral:
         zoom santo_default.zoom
         yalign 0.08
-        xalign 2.7
+        xalign 1.0
     with dissolve
     
     "Kami berdua mulai menonton anime bersama. Di tengah-tengah adegan yang seru, tiba-tiba seseorang memanggil-"

@@ -11,7 +11,7 @@ label chapter5_tessa_scene2:
     show santo kemeja_netral:
         zoom santo_default.zoom
         yalign 0.08
-        xalign 2.7
+        xalign 1.0
     with dissolve
 
     "Matkul pada sore hari yang aku ikuti pun akhirnya selesai dan hari udah mau malem."

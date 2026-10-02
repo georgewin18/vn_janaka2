@@ -271,7 +271,7 @@ label chapter4_sekar_scene1_choice1_1_1:
         yalign raden_default.yalign
     show santo kemeja_bicara with MoveTransition(0.2, enter=fromright):
         zoom santo_default.zoom
-        xalign 2.7
+        xalign 1.0
         yalign 0.08
 
     show raden kasual_panik:

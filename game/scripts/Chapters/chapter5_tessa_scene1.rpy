@@ -82,7 +82,7 @@ label chapter5_tessa_scene1_choice1_1:
     show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
         yalign 0.08
-        xalign 2.7
+        xalign 1.0
 
     raden "\"Begini kan bagus, hehehe\""
 
@@ -149,7 +149,7 @@ label chapter5_tessa_scene1_choice1_2:
     show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
         yalign 0.08
-        xalign 2.7
+        xalign 1.0
     show raden kasual_hehe:
 
         zoom raden_default.zoom

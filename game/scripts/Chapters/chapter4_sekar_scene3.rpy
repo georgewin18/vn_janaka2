@@ -454,7 +454,7 @@ label chapter4_sekar_scene2_choice3_2:
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:
-        xalign 2.7
+        xalign 1.0
         zoom santo_default.zoom
     with moveinleft
 
@@ -545,7 +545,7 @@ label chapter4_sekar_scene2_choice3_2:
     show santo kemeja_netral:
         zoom santo_default.zoom
         yalign 0.08
-        xalign 2.7
+        xalign 1.0
     with moveinleft
 
     "Sesampainya di perpustakaan pasca kami langsung melakukan scan, dan langsung mencari tempat duduk."
@@ -659,7 +659,7 @@ label chapter4_sekar_scene2_choice3_3:
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:
-        xalign 2.7
+        xalign 1.0
         zoom santo_default.zoom
     with moveinleft
 
