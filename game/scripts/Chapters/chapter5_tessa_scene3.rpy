@@ -4,7 +4,7 @@ label chapter5_tessa_scene3:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa2:
+    show raden kemeja_biasa2:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
@@ -20,7 +20,7 @@ label chapter5_tessa_scene3:
 
     raden "\"hmm, nonton anime yuk\""
 
-    show raden kasual_tersenyum:
+    show raden kemeja_tersenyum:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -28,7 +28,7 @@ label chapter5_tessa_scene3:
 
     "Waktu Santo mencari anime, aku melihat ada orang yang tidak membuang sampah makanannya dan hanya diletakkan di atas meja."
 
-    show raden kasual_biasa:
+    show raden kemeja_biasa:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -36,7 +36,7 @@ label chapter5_tessa_scene3:
 
     santo "\"hmm? Siapa?\""
 
-    show raden kasual_tersenyum:
+    show raden kemeja_tersenyum:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -44,7 +44,7 @@ label chapter5_tessa_scene3:
 
     santo "\"oh, kenapa?\""
 
-    show raden kasual_biasa:
+    show raden kemeja_biasa:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -65,7 +65,7 @@ label chapter5_tessa_scene3_choice3_1:
 
     santo "\"Berkat akulah itu, nasib baik aku datang bawa bantuan\""
 
-    show raden kasual_tersenyum:
+    show raden kemeja_tersenyum:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -80,7 +80,7 @@ label chapter5_tessa_scene3_choice3_2:
 
     santo "\"Lah iya, kok dia nggak keliatan ya?\""
 
-    show raden kasual_hehe:
+    show raden kemeja_hehe:
 
         zoom raden_default.zoom
         yalign raden_default.yalign

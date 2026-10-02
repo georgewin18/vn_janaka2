@@ -9,7 +9,7 @@ label chapter5_tessa_scene4:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa:
+    show raden kemeja_biasa:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
@@ -22,7 +22,7 @@ label chapter5_tessa_scene4:
     "Kami berdua mulai menonton anime bersama. Di tengah-tengah adegan yang seru, tiba-tiba seseorang memanggil-"
 
     stop music fadeout 2.0
-    show raden kasual_canggung:
+    show raden kemeja_canggung:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -57,7 +57,7 @@ label chapter5_tessa_scene4:
 
     #hide santo
     hide santo with MoveTransition(0.2, leave=outleft)
-    show raden kasual_gugup:
+    show raden kemeja_gugup:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -102,14 +102,14 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Huhh...\""
 
-    show raden kasual_canggung:
+    show raden kemeja_canggung:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
     voice "audio/vo/tessa/chapter5/chapter5_2_2_kenapa.ogg"
     tessa "\"Kenapa hah?\""
 
-    show raden kasual_gugup:
+    show raden kemeja_gugup:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -117,7 +117,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Aku nggak ngapa-ngapain. Tolong jangan ganggu aku kak...\""
 
-    show raden kasual_canggung:
+    show raden kemeja_canggung:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -126,7 +126,7 @@ label chapter5_tessa_scene4_choice4_2:
     voice "audio/vo/tessa/chapter5/chapter5_2_3_ganggu_kamu.ogg"
     tessa "\"Ganggu kamu? Ngapain aku ganggu kamu?\""
 
-    show raden kasual_gugup:
+    show raden kemeja_gugup:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -143,7 +143,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     raden "\"Tapi kali ini... suara kakak beneran bikin aku merinding, seriusan\""
 
-    show raden kasual_canggung:
+    show raden kemeja_canggung:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -178,7 +178,7 @@ label chapter5_tessa_scene4_choice4_2:
 
     pause 1.0
 
-    show raden kasual_biasa2:
+    show raden kemeja_biasa2:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -190,7 +190,7 @@ label chapter5_tessa_scene4_choice4_2:
     voice "audio/vo/tessa/chapter5/chapter5_2_13_suaraku.ogg"
     tessa "\"Suaraku memang jadi lebih keras soalnya tenggorokanku lagi sakit.\""
 
-    show raden kasual_tersenyum:
+    show raden kemeja_tersenyum:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -199,7 +199,7 @@ label chapter5_tessa_scene4_choice4_2:
     voice "audio/vo/tessa/chapter5/chapter5_2_14_sama_sama.ogg"
     tessa "\"Iya, sama-sama\""
 
-    show raden kasual_biasa:
+    show raden kemeja_biasa:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -210,7 +210,7 @@ label chapter5_tessa_scene4_choice4_2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_biasa:
+    show raden kemeja_biasa:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
@@ -243,7 +243,7 @@ label chapter5_tessa_scene4_choice4_3:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_capek with dissolve:
+    show raden kemeja_capek with dissolve:
         zoom raden_default.zoom
         xalign 0.5
         yalign raden_default.yalign
@@ -263,7 +263,7 @@ label chapter5_tessa_scene4_choice4_3:
         yalign tessa_default.yalign
         xalign 0.95
 
-    show raden kasual_panik:
+    show raden kemeja_panik:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -273,7 +273,7 @@ label chapter5_tessa_scene4_choice4_3:
     voice "audio/vo/tessa/chapter5/chapter5_3_1_apaan.ogg"
     tessa "\"Apaan?\""
 
-    show raden kasual_gugup:
+    show raden kemeja_gugup:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -293,7 +293,7 @@ label chapter5_tessa_scene4_choice4_3:
 
     "Tessa mengerutkan kening, lalu terdiam sejenak, tampak bingung dengan apa yang baru saja aku katakan."
 
-    show raden kasual_canggung:
+    show raden kemeja_canggung:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -344,7 +344,7 @@ label chapter5_tessa_scene4_choice4_3:
 
     pause 1.0
 
-    show raden kasual_biasa2:
+    show raden kemeja_biasa2:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -378,7 +378,7 @@ label chapter5_tessa_scene4_choice4_3:
 
 label chapter5_tessa_scene4_choice4_2_1:
     stop music fadeout 2.0
-    show raden kasual_gugup:
+    show raden kemeja_gugup:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -391,7 +391,7 @@ label chapter5_tessa_scene4_choice4_2_1:
     voice "audio/vo/tessa/chapter5/chapter5_2_1_1_hahaha.ogg"
     tessa "\"hahahahahahaha, ku kira ada apa ternyata cuma itu, hahahahaha\""
 
-    show raden kasual_kesal:
+    show raden kemeja_kesal:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -403,7 +403,7 @@ label chapter5_tessa_scene4_choice4_2_1:
     voice "audio/vo/tessa/chapter5/chapter5_2_1_3_bisa_bisanya.ogg"
     tessa "\"bisa-bisanya ngomong gitu.\""
 
-    show raden kasual_gugup:
+    show raden kemeja_gugup:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -428,7 +428,7 @@ label chapter5_tessa_scene4_choice4_2_1:
     return 
 
 label chapter5_tessa_scene4_choice4_2_1_1:
-    show raden kasual_biasa2:
+    show raden kemeja_biasa2:
         zoom raden_default.zoom
         yalign raden_default.yalign
     raden "\"Bener kok, cuman terkejut melihat kakak yang...\""
@@ -437,7 +437,7 @@ label chapter5_tessa_scene4_choice4_2_1_1:
 
     "Tessa terkejut dan wajahnya langsung memerah seperti tomat."
 
-    show raden kasual_panik:
+    show raden kemeja_panik:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -445,7 +445,7 @@ label chapter5_tessa_scene4_choice4_2_1_1:
 
     "Saat sudah mempersiapkan jiwa dan raga untuk dihantam, ternyata Tesas hanya melewatiku begitu saja tanpa berkata apa-apa. Aku yang berdiri di tempatm bengong sesaat."
 
-    show raden kasual_penasaran:
+    show raden kemeja_penasaran:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -470,7 +470,7 @@ label chapter5_tessa_scene4_choice4_2_1_2:
     voice "audio/vo/tessa/chapter5/chapter5_2_1_2_2_dasar_aneh.ogg"
     tessa "\"Dasar aneh,\""
 
-    show raden kasual_canggung:
+    show raden kemeja_canggung:
 
         zoom raden_default.zoom
         yalign raden_default.yalign

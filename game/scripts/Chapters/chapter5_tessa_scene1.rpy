@@ -43,6 +43,11 @@ label chapter5_tessa_scene1_choice1_1:
 
     raden "\"wah bentar lagi matkul, siap-siap dulu aja\""
 
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        xalign 0.5
+        yalign raden_default.yalign
+
     "Aku segera mengganti pakaian, merapikan diri, dan menyiapkan peralatan tulis. Saat sedang sibuk, notifikasi dari grup kelas muncul."
 
     "Pesannya meminta siapa saja yang belum hadir untuk segera datang, dan terlihat nama Raden dan Santo disebut dalam grup."
@@ -72,7 +77,7 @@ label chapter5_tessa_scene1_choice1_1:
 
     play music campus fadein 1.0
 
-    show raden kasual_biasa with moveinleft:
+    show raden kemeja_biasa with moveinleft:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
@@ -99,7 +104,7 @@ label chapter5_tessa_scene1_choice1_2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_menghela_napas with moveinbottom:
+    show raden kemeja_menghela_napas with moveinbottom:
         zoom raden_default.zoom
         xalign 0.5
         yalign raden_default.yalign
@@ -139,7 +144,7 @@ label chapter5_tessa_scene1_choice1_2:
         size (config.screen_width, config.screen_height)
         truecenter
 
-    show raden kasual_capek with moveinleft:
+    show raden kemeja_capek with moveinleft:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
@@ -150,7 +155,7 @@ label chapter5_tessa_scene1_choice1_2:
         zoom santo_default.zoom
         yalign 0.08
         xalign 1.0
-    show raden kasual_hehe:
+    show raden kemeja_hehe:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
@@ -172,7 +177,7 @@ label chapter5_tessa_scene1_choice1_2:
 
     santo "\"Oi, jangan langsung pergi!\""
 
-    show raden kasual_panik:
+    show raden kemeja_panik:
 
         zoom raden_default.zoom
         yalign raden_default.yalign

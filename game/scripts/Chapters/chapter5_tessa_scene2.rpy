@@ -4,7 +4,7 @@ label chapter5_tessa_scene2:
         size (config.screen_width, config.screen_height)
         truecenter
     
-    show raden kasual_biasa2:
+    show raden kemeja_biasa2:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
@@ -46,7 +46,7 @@ label chapter5_tessa_scene2_choice2_2:
 
     santo "\"lima?\""
 
-    show raden kasual_kaget:
+    show raden kemeja_kaget:
 
         zoom raden_default.zoom
         yalign raden_default.yalign
