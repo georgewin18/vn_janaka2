@@ -402,7 +402,7 @@ label arc_character_day1_scene4:
         xalign 0.25
         zoom santo_default.zoom
     show raden kasual_biasa:
-        xalign -0.75
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     with moveinleft
@@ -459,7 +459,7 @@ label arc_character_day1_scene4:
         zoom aisyah_default.zoom
         yalign aisyah_default.yalign
     show raden kasual_biasa:
-        xalign -0.75
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     with dissolve

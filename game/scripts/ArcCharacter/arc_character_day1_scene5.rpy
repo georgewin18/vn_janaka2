@@ -127,7 +127,7 @@ label arc_character_day1_scene5:
         zoom aisyah_default.zoom
         yalign aisyah_default.yalign
     show raden kasual_canggung:
-        xalign -0.75
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     with dissolve

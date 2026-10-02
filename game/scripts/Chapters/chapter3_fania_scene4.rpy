@@ -74,7 +74,7 @@ label chapter3_fania_scene4:
 label chapter3_fania_scene4_afterchoice1:
 
     show raden:
-        xalign -0.75
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:

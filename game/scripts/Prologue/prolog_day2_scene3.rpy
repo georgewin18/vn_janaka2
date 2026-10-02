@@ -61,7 +61,7 @@ label prolog_day2_scene3:
 
     #Fania muncul dingin
     show raden:
-        xalign -0.75
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:

@@ -184,7 +184,7 @@ label arc_character_day1_scene2_afterchoice1:
     "Sebelum ada yang sempat menjelaskan, pria bebal tadi, yang masih berdiri santai di dekat semak-semak, mendadak gugup. Tanpa banyak bicara, dia kabur begitu saja, meninggalkan kami dalam kebingungan."
 
     show raden:
-        xalign -0.7
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     show aisyah:
@@ -372,7 +372,7 @@ label arc_character_day1_scene2_afterchoice2:
     "Sebelum ada yang sempat menjelaskan, pria bebal tadi, yang masih berdiri santai di dekat semak-semak, mendadak gugup. Tanpa banyak bicara, dia kabur begitu saja, meninggalkan kami dalam kebingungan."
 
     show raden:
-        xalign -0.7
+        xalign -0.45
         zoom raden_default.zoom
         yalign raden_default.yalign
     show aisyah:
