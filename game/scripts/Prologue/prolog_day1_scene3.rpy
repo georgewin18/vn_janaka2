@@ -148,7 +148,7 @@ label scene4_after_choice:
 
     # "Tiba-tiba wajah agak kesal terlihat dari si panitia tersebut. Kemudian dia berkata."
 
-    # show tessa normal with dissolve:
+    # show tessa kemeja_serius with dissolve:
     #     zoom 0.27 xalign 0.5 yalign 1.5
 
     # lo2 "Apa?" # (Tessa marah)

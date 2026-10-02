@@ -37,7 +37,7 @@ label chapter5_tessa_scene4:
 
     santo "\"Moga aja bukan kita\""
 
-    show tessa normal:
+    show tessa kemeja_serius:
         zoom tessa_default.zoom
         yalign tessa_default.yalign
         xalign 1.1
@@ -46,7 +46,7 @@ label chapter5_tessa_scene4:
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:
-        xalign 1.0
+        xalign 0.5
         zoom santo_default.zoom
     with moveinright
 
@@ -214,7 +214,7 @@ label chapter5_tessa_scene4_choice4_2:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
-    show tessa normal:
+    show tessa kemeja_serius:
         zoom tessa_default.zoom
         yalign tessa_default.yalign
         xalign 0.95
@@ -258,7 +258,7 @@ label chapter5_tessa_scene4_choice4_3:
         xalign 0.0
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show tessa normal with dissolve:
+    show tessa kemeja_serius with dissolve:
         zoom tessa_default.zoom
         yalign tessa_default.yalign
         xalign 0.95

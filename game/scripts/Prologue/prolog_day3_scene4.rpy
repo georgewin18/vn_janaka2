@@ -20,7 +20,7 @@ label prolog_day3_scene4:
     # show raden kemeja_biasa at flip with dissolve:
     #     zoom 0.48 xalign 1.0 yalign 0.1
     
-    # show tessa normal at flip with dissolve:
+    # show tessa kemeja_serius at flip with dissolve:
     #     zoom 0.39 xalign 0.0 yalign -0.25
     
     # show raden kemeja_kaget
