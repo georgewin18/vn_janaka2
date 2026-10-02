@@ -17,7 +17,7 @@ label chapter3_fania_scene4:
         zoom raden_default.zoom
         xalign -0.2
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
         xalign -3.5
         yalign 0.08
@@ -192,7 +192,7 @@ label chapter3_fania_scene4_afterchoice2:
             $ renpy.show("santo kemeja_bicara", zorder=2) 
             santo "\"Jadi kamu mau bantuin Fania sekarang? tugas kita gimana?\""
 
-            show santo kemeja_biasa:
+            show santo kemeja_netral:
                 zoom santo_default.zoom
             "Santo bertanya, saat dia mulai duduk di kursi yang tersisa."#di sini sih santo baru duduk
 
@@ -340,7 +340,7 @@ label chapter3_fania_scene4_afterchoice3:
             voice "audio/vo/fania/chapter3/chapter3_22_santo.ogg"
             fania "\"Santo, Kamu inget satu orang yang dari DTMK di kelompok kita selain aku?\""
 
-            $ renpy.show("santo kemeja_biasa", zorder=3)
+            $ renpy.show("santo kemeja_netral", zorder=3)
             santo "\"Iya.\""
 
             voice "audio/vo/fania/chapter3/chapter3_23_sifatnya.ogg"
@@ -377,7 +377,7 @@ label chapter3_fania_scene4_afterchoice3:
                 zoom santo_default.zoom
             santo "\"Kamu juga sama aja sih,\""
 
-            show santo kemeja_biasa:
+            show santo kemeja_netral:
                 zoom santo_default.zoom
             show raden kasual_tersenyum:
                 zoom raden_default.zoom

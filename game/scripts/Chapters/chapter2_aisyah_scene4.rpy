@@ -14,7 +14,7 @@ label chapter2_aisyah_scene4:
         xalign 0.5
         yalign raden_default.yalign
     
-    show santo kemeja_biasa at flip:
+    show santo kemeja_netral at flip:
         zoom santo_default.zoom
         xalign 8.7
         yalign 0.08
@@ -97,7 +97,7 @@ label chapter2_aisyah_scene4:
         xalign 1.3
         yalign raden_default.yalign
     
-    show santo kemeja_biasa at flip:
+    show santo kemeja_netral at flip:
         zoom santo_default.zoom
         xalign 8.0
         yalign 0.08

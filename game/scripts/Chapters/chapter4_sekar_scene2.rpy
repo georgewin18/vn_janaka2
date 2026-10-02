@@ -96,7 +96,7 @@ label chapter4_sekar_scene2:
         xalign 0.0
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show santo kemeja_biasa with dissolve:
+    show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
         xalign 2.7
         yalign 0.08

@@ -79,7 +79,7 @@ label chapter5_tessa_scene1_choice1_1:
 
     "Ketika aku sampai di depan kampus dan keluar parkiran, aku melihat Santo yang tampak sedikti ogah-ogahan. Aku menghampirinya dan menyapanya dengan senyum lebar."
 
-    show santo kemeja_biasa with dissolve:
+    show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
         yalign 0.08
         xalign 2.7
@@ -146,7 +146,7 @@ label chapter5_tessa_scene1_choice1_2:
 
     "Ketika aku sampai di depan kampus dan keluar parkiran, aku melihat Santo yang tampak sedikit ogah-ogahan. Aku menghampirinya dan menyapanya"
 
-    show santo kemeja_biasa with dissolve:
+    show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
         yalign 0.08
         xalign 2.7

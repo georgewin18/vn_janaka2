@@ -2,7 +2,7 @@ label chapter4_sekar_scene3:
     show raden kasual_biasa:
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show sekar kemeja_biasa:
 
@@ -67,7 +67,7 @@ label chapter4_sekar_scene2_choice3_1:
     show raden kasual_biasa:
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show sekar kemeja_bicara:
 
@@ -82,7 +82,7 @@ label chapter4_sekar_scene2_choice3_1:
     show raden kasual_tersenyum:
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
 
         zoom santo_default.zoom
     raden "\"Siap kak\""
@@ -429,7 +429,7 @@ label chapter4_sekar_scene2_choice3_2:
     show sekar kemeja_bicara:
         zoom sekar_default.zoom
         yalign sekar_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show raden kasual_biasa:
     
@@ -468,7 +468,7 @@ label chapter4_sekar_scene2_choice3_2:
         zoom santo_default.zoom
     santo "\"Apa den?\""
 
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show raden kasual_tersenyum:
 
@@ -484,7 +484,7 @@ label chapter4_sekar_scene2_choice3_2:
         yalign raden_default.yalign
     santo "\"Tumben ngajak, biasanya dijawab lagi malas\""
 
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show raden kasual_tersenyum:
 
@@ -500,7 +500,7 @@ label chapter4_sekar_scene2_choice3_2:
         yalign raden_default.yalign
     santo "\"Yasudah sih gapapa\""
 
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show raden kasual_tersenyum:
 
@@ -516,7 +516,7 @@ label chapter4_sekar_scene2_choice3_2:
         yalign raden_default.yalign
     santo "\"Terserah sih, perpus pasca aja kali\""
 
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show raden kasual_tersenyum:
 
@@ -542,7 +542,7 @@ label chapter4_sekar_scene2_choice3_2:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
         yalign 0.08
         xalign 2.7
@@ -567,7 +567,7 @@ label chapter4_sekar_scene2_choice3_2:
     show raden kasual_tersenyum:
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
 
         zoom santo_default.zoom
     raden "\"Iya sih\""
@@ -583,7 +583,7 @@ label chapter4_sekar_scene2_choice3_2:
     show raden kasual_ceria:
         zoom raden_default.zoom
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
 
         zoom santo_default.zoom
     raden "\"Hampir semua sih...\""
@@ -605,7 +605,7 @@ label chapter4_sekar_scene2_choice3_2:
         zoom santo_default.zoom
     santo "\"Bilang dong\""
 
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
 
         zoom santo_default.zoom
     "Dengan bantuan Santo, tugasku akhirnya selesai juga. Setelah mengerjakan tugas, kami bingung mau ngapain"
@@ -634,7 +634,7 @@ label chapter4_sekar_scene2_choice3_3:
     show sekar jas_bicara:
         zoom sekar_default.zoom
         yalign sekar_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
     show raden biasa:
 

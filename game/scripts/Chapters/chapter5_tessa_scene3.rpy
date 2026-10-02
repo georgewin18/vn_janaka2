@@ -8,7 +8,7 @@ label chapter5_tessa_scene3:
         zoom raden_default.zoom
         xalign 0.0
         yalign raden_default.yalign
-    show santo kemeja_biasa:
+    show santo kemeja_netral:
         zoom santo_default.zoom
         yalign 0.08
         xalign 2.7

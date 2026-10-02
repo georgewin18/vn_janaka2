@@ -210,7 +210,7 @@ label chapter2_aisyah_scene1:
         xalign 0.0
         yalign raden_default.yalign
 
-    show santo kemeja_biasa with dissolve:
+    show santo kemeja_netral with dissolve:
         zoom santo_default.zoom
         xalign -5.0
         yalign 0.08
