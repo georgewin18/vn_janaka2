@@ -1,6 +1,8 @@
 label prolog_day1_scene4:
     show bg auditorium:
-            zoom 0.5 
+        size (config.screen_width, config.screen_height)
+        truecenter
+        # zoom 0.5 
     with dissolve
 
     "Adzan telah terdengar. Waktu ISHOMA telah dimulai. LO Region ku ada 2, yang pertama laki-laki bernama kak Ryan, dan yang satunya perempuan bernama kak Sekar. Dia mulai memanggil anggota region untuk berkumpul"
@@ -28,7 +30,9 @@ label prolog_day1_scene4:
     #"Ketika kita turun, entah kenapa kita menggunakan tangga darurat dan bukan tangga biasa. Kurasa, hal ini tidak perlu dipertanyakan. Jadi aku hanya diam mengikuti arahan Kak Sekar."
 
     show bg masjid:
-            zoom 0.5 
+        size (config.screen_width, config.screen_height)
+        truecenter
+        # zoom 0.5 
     with dissolve
 
     raden "{i}Akhirnya sampai juga di masjid, jika aku disuruh lebih lama menunggu di dalam tangga darurat pasti sudah pingsan aku{/i}"

@@ -19,7 +19,7 @@ label chapter3_fania_scene4:
         yalign raden_default.yalign
     show santo kemeja_netral:
         zoom santo_default.zoom
-        xalign -3.5
+        xalign 1.0
         yalign 0.08
     with dissolve
 
@@ -78,7 +78,7 @@ label chapter3_fania_scene4_afterchoice1:
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:
-        xalign 1.2
+        xalign 0.2
         zoom santo_default.zoom
     with moveinright
 
@@ -88,7 +88,7 @@ label chapter3_fania_scene4_afterchoice1:
         yalign aisyah_default.yalign
     show fania casual_dingin:
         zoom fania_default.zoom
-        xalign 1.9
+        xalign 1.5
         yalign fania_default.yalign
     with dissolve
 
@@ -207,7 +207,7 @@ label chapter3_fania_scene4_afterchoice2:
                 yalign raden_default.yalign
             raden "\"Duariusan.\""
 
-            show aisyah kemeja_senyum:
+            show aisyah kemeja_senyum1:
 
                 zoom aisyah_default.zoom
                 yalign aisyah_default.yalign
@@ -258,12 +258,12 @@ label chapter3_fania_scene4_afterchoice3:
     voice "audio/vo/fania/chapter3/chapter3_16_kenapa_kalian.ogg"
     fania "\"Kenapa kalian pada bantu, padahal aku gak minta?\""
 
-    show aisyah kemeja_senyum:
+    show aisyah kemeja_senyum1:
         zoom aisyah_default.zoom
         yalign aisyah_default.yalign
     "Aisyah menatap Fania dengan senyuman, tetapi ada ketegasan dalam nada suaranya."
 
-    $ renpy.show("aisyah kemeja_senyum", zorder=3)
+    $ renpy.show("aisyah kemeja_senyum1", zorder=3)
     voice "audio/vo/aisyah/chapter3/chapter3_8_karena.ogg"
     aisyah "\"Karena kami gak mungkin diam aja lihat kamu kerja kayak gini, Fan. Kita teman kan?\""
 
@@ -505,7 +505,9 @@ label chapter3_fania_scene4_afterchoice3:
 
             #kelasd4
             show bg lap_futsal with dissolve:
-                zoom 0.5
+                size (config.screen_width, config.screen_height)
+                truecenter
+                # zoom 0.5
             #Backsound Netral suasana kampus
             play music campus fadein 1.0
 
@@ -537,19 +539,19 @@ label chapter3_fania_scene4_afterchoice3:
                 yalign raden_default.yalign
             raden "\"Kalau begitu, kamu tinggal andalin aja kita sebagai temanmu!\""
 
-            $ renpy.show("aisyah kemeja_senyum", zorder=4)
+            $ renpy.show("aisyah kemeja_senyum1", zorder=4)
             voice "audio/vo/aisyah/chapter3/chapter3_9_fania.ogg"
             aisyah "\"Fania, gimana kalau kamu coba bicara sama teman-teman kelompokmu dan mencoba berbaikan. Pada akhirnya, semua orang punya kekurangan, dan kuyakin mereka juga punya\""
 
             voice "audio/vo/aisyah/chapter3/chapter3_10_dan.ogg"
-            aisyah '\"Dan kalau mereka tidak menghasilkan apapun, kamu tetap bisa laporkan ke dosen untuk evaluasi lanjutan!\"'
+            aisyah "Dan kalau mereka tidak menghasilkan apapun, kamu tetap bisa laporkan ke dosen untuk evaluasi lanjutan!"
 
             #fania tersenyum
             $ renpy.show("fania casual_senyum_normal_biasa", zorder=4)
             voice "audio/vo/fania/chapter3/chapter3_31_makasih_aisyah.ogg"
             fania "\"Makasih, Aisyah. Aku bakalan coba hubungi mereka nanti setelah ini selesai.\""
 
-            $ renpy.show("aisyah kemeja_senyum", zorder=4)
+            $ renpy.show("aisyah kemeja_senyum1", zorder=4)
             voice "audio/vo/aisyah/chapter3/chapter3_11_baguslah.ogg"
             aisyah "\"Baguslah kalau begitu.\""
 

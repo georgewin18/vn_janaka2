@@ -44,7 +44,7 @@ label chapter2_aisyah_good_ending:
     #Special moment
     #suasana agak romantis
 
-    show aisyah kemeja_senyum:
+    show aisyah kemeja_senyum1:
         zoom aisyah_default.zoom
         yalign aisyah_default.yalign
     show raden kemeja_biasa2:

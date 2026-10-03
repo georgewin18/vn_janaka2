@@ -73,7 +73,7 @@ label prolog_day2_scene3:
         yalign aisyah_default.yalign
     show fania kemeja_dingin:
         zoom fania_default.zoom
-        xalign 1.9
+        xalign 1.5
         yalign fania_default.yalign
     with moveinright
 

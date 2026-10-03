@@ -26,7 +26,7 @@ define aisyah_default = Transform(zoom=1.5, yalign=0.1)
 define fania_default = Transform(zoom=1.2, yalign=0.03)
 define sekar_default = Transform(zoom=1.0, yalign=-0.1)
 define tessa_default = Transform(zoom=1.25, yalign=-0.1)
-define santo_default = Transform(zoom=1.37)
+define santo_default = Transform(zoom=1.37, yalign=0.0)
 define erin_default = Transform(zoom=1.35, yalign=0.6)
 define silhouette = Matrix([0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0])
 

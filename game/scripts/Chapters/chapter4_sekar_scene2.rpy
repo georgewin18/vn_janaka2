@@ -109,7 +109,7 @@ label chapter4_sekar_scene2:
         zoom raden_default.zoom
         yalign raden_default.yalign
     show santo:
-        xalign 0.8
+        xalign 0.5
         zoom santo_default.zoom
     show sekar kemeja_bicara:
         zoom sekar_default.zoom

@@ -1,104 +1,106 @@
 label prolog_day1_scene6:
-        show bg lap_futsal:
-                zoom 0.5 
-        with dissolve
+    show bg lap_futsal:
+        size (config.screen_width, config.screen_height)
+        truecenter
+        # zoom 0.5
+    with dissolve
 
-        "Waktu terasa berlalu begitu cepat. Hari pertama PKKMB sudah hampir selesai. Setelah Auditorium, para mahasiswa baru diminta menuju Lapangan Basket."
+    "Waktu terasa berlalu begitu cepat. Hari pertama PKKMB sudah hampir selesai. Setelah Auditorium, para mahasiswa baru diminta menuju Lapangan Basket."
 
-        "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
+    "Di sana, kami menerima tugas yang harus segera dikumpulkan sebelum akhirnya diperbolehkan pulang."
 
-        show raden kemeja_biasa2:
-                xalign -0.2
-                zoom raden_default.zoom
-                yalign raden_default.yalign
-        show fania kemeja_senyum_normal at Transform(matrixcolor=(silhouette)):
-                zoom fania_default.zoom
-                xalign 1.4
-                yalign fania_default.yalign
-        with dissolve
+    show raden kemeja_biasa2:
+        xalign - 0.2
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show fania kemeja_senyum_normal at Transform(matrixcolor=(silhouette)):
+        zoom fania_default.zoom
+        xalign 1.4
+        yalign fania_default.yalign
+    with dissolve
 
-        play music fania_bgm fadein 1.0
+    play music fania_bgm fadein 1.0
 
-        voice "audio/vo/fania/pkkmb1_akhirnya_selesai.ogg"
-        anon "Ahhh, akhirnya selesai juga!"
+    voice "audio/vo/fania/pkkmb1_akhirnya_selesai.ogg"
+    anon "Ahhh, akhirnya selesai juga!"
 
-        raden "Iya, capek banget."
+    raden "Iya, capek banget."
 
-        hide fania with dissolve
+    hide fania with dissolve
 
-        show fania kemeja_senyum_normal:
-                xalign 1.4
-                zoom fania_default.zoom
-                yalign fania_default.yalign
-        with dissolve
-        
-        voice "audio/vo/fania/pkkmb2_duh.ogg"
-        anon "Duh.. Bikin kaget aja."
+    show fania kemeja_senyum_normal:
+        xalign 1.4
+        zoom fania_default.zoom
+        yalign fania_default.yalign
+    with dissolve
 
-        show raden kemeja_tersenyum:
+    voice "audio/vo/fania/pkkmb2_duh.ogg"
+    anon "Duh.. Bikin kaget aja."
 
-            zoom raden_default.zoom
-            yalign raden_default.yalign
-        raden "Hahaha, maaf ya."
+    show raden kemeja_tersenyum:
 
-        show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    raden "Hahaha, maaf ya."
 
-            zoom raden_default.zoom
-            yalign raden_default.yalign
-        raden "Jadi ini rasanya kuliah, ya? Beda banget sama SMA. Orang-orangnya random banget."
+    show raden kemeja_biasa:
 
-        voice "audio/vo/fania/pkkmb3_kalau_lihat_senior.ogg"
-        anon "Apalagi kalau lihat senior-senior tadi. Ada yang kayak serius banget, ada yang santai, ada juga yang humoris. Tapi seru sih."
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    raden "Jadi ini rasanya kuliah, ya? Beda banget sama SMA. Orang-orangnya random banget."
 
-        raden "Seru, sih. Tapi capeknya nggak bohong."
+    voice "audio/vo/fania/pkkmb3_kalau_lihat_senior.ogg"
+    anon "Apalagi kalau lihat senior-senior tadi. Ada yang kayak serius banget, ada yang santai, ada juga yang humoris. Tapi seru sih."
 
-        show fania kemeja_senyum_ceria:
+    raden "Seru, sih. Tapi capeknya nggak bohong."
 
-            zoom fania_default.zoom
-            yalign fania_default.yalign
-        voice "audio/vo/fania/pkkmb4_yang_penting_sekarang.ogg"
-        anon "Haha, Yang penting sekarang waktunya pulang, mandi, terus rebahan."
+    show fania kemeja_senyum_ceria:
 
-        show raden kemeja_hehe:
+        zoom fania_default.zoom
+        yalign fania_default.yalign
+    voice "audio/vo/fania/pkkmb4_yang_penting_sekarang.ogg"
+    anon "Haha, Yang penting sekarang waktunya pulang, mandi, terus rebahan."
 
-            zoom raden_default.zoom
-            yalign raden_default.yalign
-        raden "Fix, setuju banget. Tapi besok kayaknya bakal tambah ribet deh, lihat dari list tugas yang tadi dikasih."
+    show raden kemeja_hehe:
 
-        show raden kemeja_biasa:
-            zoom raden_default.zoom
-            yalign raden_default.yalign
-        show fania kemeja_senyum_normal:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    raden "Fix, setuju banget. Tapi besok kayaknya bakal tambah ribet deh, lihat dari list tugas yang tadi dikasih."
 
-            zoom fania_default.zoom
-            yalign fania_default.yalign
-        voice "audio/vo/fania/pkkmb5_iya_tugasnya_lumayan.ogg"
-        anon "Iya, tugasnya... lumayan.. Tapi ya sudahlah, namanya juga PKKMB."
+    show raden kemeja_biasa:
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    show fania kemeja_senyum_normal:
 
-        voice "audio/vo/fania/pkkmb6_ohiya_kumpul.ogg"
-        anon "Oh iya.. kumpul kelompok dulu- Duluan ya!"
+        zoom fania_default.zoom
+        yalign fania_default.yalign
+    voice "audio/vo/fania/pkkmb5_iya_tugasnya_lumayan.ogg"
+    anon "Iya, tugasnya... lumayan.. Tapi ya sudahlah, namanya juga PKKMB."
 
-        hide fania with dissolve
+    voice "audio/vo/fania/pkkmb6_ohiya_kumpul.ogg"
+    anon "Oh iya.. kumpul kelompok dulu- Duluan ya!"
 
-        show raden:
-                xalign 0.45
-                zoom raden_default.zoom
-                yalign raden_default.yalign
-        with moveinleft
+    hide fania with dissolve
 
-        "Perempuan itu pergi begitu saja tanpa memberi kesempatan untuk sekadar berkenalan."
+    show raden:
+        xalign 0.45
+        zoom raden_default.zoom
+        yalign raden_default.yalign
+    with moveinleft
 
-        raden "Yasudahlah.. aku juga harus segera kumpul lalu pulang."
+    "Perempuan itu pergi begitu saja tanpa memberi kesempatan untuk sekadar berkenalan."
 
-        scene black with dissolve:
-            size (config.screen_width, config.screen_height)
-            truecenter
-        with Pause(0.3)
+    raden "Yasudahlah.. aku juga harus segera kumpul lalu pulang."
 
-        centered "Setelah beberapa menit berdiskusi dengan kelompok tentang tugas, aku pulang dengan rasa lelah."
+    scene black with dissolve:
+        size (config.screen_width, config.screen_height)
+        truecenter
+    with Pause(0.3)
 
-        stop music fadeout 2.0
+    centered "Setelah beberapa menit berdiskusi dengan kelompok tentang tugas, aku pulang dengan rasa lelah."
 
-        jump prolog_day2_scene1
+    stop music fadeout 2.0
 
-        return
+    jump prolog_day2_scene1
+
+    return
