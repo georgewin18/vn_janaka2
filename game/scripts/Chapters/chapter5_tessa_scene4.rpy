@@ -93,7 +93,11 @@ label chapter5_tessa_scene4_choice4_2:
 
     "Aku pun mulai menyiapkan mental dengan menarik napas kecil walau masih kaget dan takut, saat Tessa mendekat, tubuhku gemetar hebat."
 
+    show tessa kemeja_nafas
+
     "Wajahnya yang serius berubah ketika dia menghela napas"
+
+    show tessa kemeja_serius
     
     voice "audio/vo/tessa/chapter5/chapter5_2_1_malah_kabur.ogg"
     tessa "\"Haahh.. malah kabur orangnya\""

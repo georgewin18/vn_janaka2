@@ -24,7 +24,7 @@ label chapter2_aisyah_scene4:
         xalign 0.2
         yalign aisyah_default.yalign
 
-    show tessa normal: #kesal
+    show tessa kemeja_kesal: #kesal
         zoom tessa_default.zoom
         xalign 1.2
         yalign tessa_default.yalign
