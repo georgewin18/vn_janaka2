@@ -92,7 +92,10 @@ label prolog2_scene4_after_choice1:
     play music romantic fadein 1.0
 
     show fania_prolog at pan_up:
-        zoom 1.5 xalign 0.45
+        # size (config.screen_width, config.screen_height)
+        # truecenter 
+        # zoom 1.5 
+        xalign 0.45
     with dissolve
     
     pause 4.0

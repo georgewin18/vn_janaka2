@@ -41,6 +41,8 @@ label prolog_day1_scene5:
                 truecenter
 
         show aisyah_prolog at pan_up:
+                size (config.screen_width, config.screen_height)
+                truecenter 
                 xalign 0.25
         with dissolve
 

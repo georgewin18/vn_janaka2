@@ -848,6 +848,11 @@ screen preferences():
                         textbutton _("Window") action Preference("display", "window")
                         textbutton _("Fullscreen") action Preference("display", "fullscreen")
 
+                        vbox:
+                            style_prefix "check"
+                            label _("Debug Mode")
+                            textbutton _("Toggle") action ToggleField(persistent, "debug_mode")
+
                 vbox:
                     style_prefix "check"
                     label _("Skip")

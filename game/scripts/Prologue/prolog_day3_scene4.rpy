@@ -30,7 +30,8 @@ label prolog_day3_scene4:
         truecenter
 
     show tessa_prolog at pan_left:
-        zoom 1.5 yalign 0.3
+        # zoom 1.5 
+        yalign 0.3
     with dissolve
 
     pause 3.0
