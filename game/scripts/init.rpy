@@ -43,7 +43,7 @@ define audio.intense = "audio/bgm/intense.ogg"
 define audio.romantic = "audio/bgm/romantic.ogg"
 define audio.romantic2 = "audio/bgm/romantic2.ogg"
 
-image tessa_prolog:
-    "../images/special_moment/tessa_prolog.png"
-    xysize (1.0, 1.0) 
-    xanchor 0.5 yanchor 0.5 xpos 0.5 ypos 0.5
+# image tessa_prolog:
+#     "../images/special_moment/tessa_prolog.png"
+#     xysize (1.0, 1.0) 
+#     xanchor 0.5 yanchor 0.5 xpos 0.5 ypos 0.5
